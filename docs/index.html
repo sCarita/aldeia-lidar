@@ -1,0 +1,230 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>LiDAR · Beneath the canopy</title>
+<style>
+:root {
+  color-scheme: dark;
+  --bg: #0d1117;
+  --surface: #151b23;
+  --border: #30363d;
+  --fg: #e6edf3;
+  --muted: #9198a1;
+  --link: #58a6ff;
+  --mono: ui-monospace, SFMono-Regular, Consolas, monospace;
+}
+* { box-sizing: border-box }
+body { margin: 0; background: var(--bg); color: var(--fg); font: 16px/1.55 -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif }
+a { color: var(--link); text-decoration: none }
+a:hover { text-decoration: underline }
+:focus-visible { outline: 2px solid var(--link); outline-offset: 3px }
+header { background: #010409; border-bottom: 1px solid var(--border); padding: 15px clamp(16px,4vw,64px); display: flex; align-items: center; gap: 12px; font-size: 14px }
+.mark { display: grid; place-items: center; background: var(--fg); width: 32px; height: 32px; border-radius: 50%; color: var(--bg); font: bold 28px/1 var(--mono) }
+header a { color: var(--fg) }
+.slash { color: var(--muted); margin: 0 5px }
+.layout { max-width: 1320px; padding: 32px clamp(16px,3vw,44px); margin: auto; display: grid; grid-template-columns: minmax(0,1fr) 210px; gap: 32px; align-items: start }
+main { min-width: 0; border: 1px solid var(--border); border-radius: 7px; overflow: hidden }
+.filebar,.bar,.controls { background: var(--surface); display: flex; align-items: center; gap: 12px; padding: 12px 16px }
+.filebar,.bar { border-bottom: 1px solid var(--border) }
+.filebar { font-size: 14px; font-weight: 600 }
+.filebar span { color: var(--muted); font-family: var(--mono) }
+article.document { padding: clamp(18px,3vw,40px) }
+h1,h2,h3,p,figure { margin: 0 }
+h1,h2 { font-weight: 600; line-height: 1.25; letter-spacing: -.025em; padding-bottom: .28em; border-bottom: 1px solid var(--border); margin-bottom: 16px }
+h1 { font-size: clamp(30px,3.4vw,46px) }
+h2 { font-size: 26px }
+h3 { font-size: 18px; margin: 6px 0 }
+.hero { margin-bottom: 24px }
+.hero p,.copy,.steps p { color: #c9d1d9 }
+.viewer,.slice { border: 1px solid var(--border); border-radius: 6px; overflow: hidden }
+.mono,.axis,.step-label,output { font: 12px/1.5 var(--mono) }
+.bar,.controls { justify-content: space-between; flex-wrap: wrap }
+.bar span,.axis,figcaption,footer { color: var(--muted) }
+.bar .dot { color: #3fb950 }
+.stage { position: relative; background: radial-gradient(ellipse at 50% 72%,#16232b,#090e14 75%) }
+.stage canvas { width: 100%; height: clamp(250px,28vw,385px); display: block }
+.axis { position: absolute; left: 14px; bottom: 10px }
+.controls { border-top: 1px solid var(--border) }
+.modes { display: inline-flex; border: 1px solid #484f58; border-radius: 6px; overflow: hidden }
+button { font: inherit; font-size: 13px; background: #212830; color: var(--fg); border: 0; cursor: pointer; padding: 6px 10px }
+button + button { border-left: 1px solid #484f58 }
+button:hover { background: #30363d }
+button[aria-pressed=true] { background: #234466; color: #cae8ff; box-shadow: inset 0 -2px var(--link) }
+button:focus-visible { outline-offset: -3px }
+label { display: flex; gap: 8px; align-items: center; font-size: 13px }
+input { width: 86px; accent-color: var(--link) }
+output { min-width: 4ch }
+figcaption,footer { font-size: 13px; margin-top: 10px }
+.section { margin-top: 38px }
+.steps { display: grid; gap: 16px }
+.steps article { border-left: 2px solid var(--border); padding-left: 16px }
+.step-label { color: #79c0ff }
+.slice { width: 100%; height: 170px; display: block; margin: 16px 0; background: #090e14 }
+footer { border-top: 1px solid var(--border); padding-top: 16px; margin-top: 28px }
+aside { font-size: 14px }
+aside h2 { font-size: 16px; padding: 4px 0 13px; letter-spacing: 0 }
+aside nav { display: grid; gap: 12px }
+aside nav a { color: #c9d1d9 }
+aside nav a::before { content: "#"; color: var(--muted); margin-right: 9px }
+@media(max-width:850px) { .layout { grid-template-columns: 1fr; gap: 18px } aside { grid-row: 1 } aside nav { display:flex; flex-wrap:wrap; gap: 6px 16px } aside h2 { display:none } }
+@media(max-width:520px) { .layout { padding: 14px 10px } .controls,.bar { padding: 10px } article.document { padding: 16px } }
+</style>
+<header><span class="mark" aria-hidden="true">≋</span><a href="https://github.com/sCarita/aldeia-lidar">sCarita <span class="slash">/</span> <strong>aldeia-lidar</strong></a></header>
+<div class="layout"><main><div class="filebar"><span aria-hidden="true">&lt;/&gt;</span> index.html</div><article class="document"><section class="hero"><h1>Beneath the canopy</h1><p>Airborne LiDAR maps a forest from its highest branches to the soil below. Explore the echoes that turn a strip of woodland into a three-dimensional map.</p></section>
+<figure id="scan"><div class="viewer"><div class="bar mono"><strong>Forest scan</strong><span><span class="dot">●</span> Simulated point cloud</span></div><div class="stage"><canvas id="scene" role="img" aria-label="Oblique point cloud of a wooded ridge. A luminous sweep marks the selected cross-section."></canvas><span class="axis mono">↗ X &nbsp; ↖ Y &nbsp; ↑ Z</span></div><div class="controls"><div class="modes" aria-label="Visible returns"><button aria-pressed="true" data-mode="all">All returns</button><button aria-pressed="false" data-mode="trees">Canopy</button><button aria-pressed="false" data-mode="land">Ground</button></div><label>Scan position <input id="pos" type="range" min="0" max="100" value="56"><output id="value">56%</output></label></div></div><figcaption>Oblique view · Switch return layers to reveal the contours under the trees.</figcaption></figure>
+<section class="section" id="drone-section">
+<h2>Collecting a map from a moving drone</h2>
+<p class="copy">The drone flies parallel strips while its scanner sweeps sideways. Each sweep measures a new row of the landscape. Overlapping strips help cover the area and align the measurements.</p>
+<figure style="margin-top:20px"><div class="viewer">
+<div class="bar mono"><strong>Drone survey</strong><span>Illustrative flight · slowed down</span></div>
+<div class="stage"><canvas id="flight" role="img" aria-label="Animated oblique view of a drone flying three overlapping survey strips, with a laser fan beneath it and collected points appearing behind it."></canvas></div>
+<div class="controls"><button id="flight-toggle" type="button">Pause survey</button><label>Flight progress <input id="flight-progress" type="range" min="0" max="1000" value="0"><output id="flight-value">0%</output></label></div>
+</div><figcaption>Blue fan · scan swath &nbsp; Green points · vegetation returns &nbsp; Amber points · ground returns</figcaption></figure>
+<p class="copy" style="margin-top:16px">For every echo, the system combines laser distance and beam direction with the drone’s synchronized GNSS position and inertial orientation. Processing corrects the trajectory and aligns the strips into one point cloud. Ground classification then identifies likely soil returns.</p>
+<p class="copy" style="margin-top:12px">The animation shows a simplified survey over the same simulated forest. Real pulses and echoes travel much faster, and canopy gaps determine which pulses reach the soil.</p>
+</section>
+<section class="section" id="principle"><h2>From light to landscape</h2><div class="steps"><article><b class="step-label">EMIT</b><h3>Send a short pulse</h3><p>A scanner on an aircraft sweeps laser pulses across its flight path. Each pulse illuminates a small patch of the landscape.</p></article><article><b class="step-label">RECEIVE</b><h3>Time the echoes</h3><p>Leaves, branches and soil scatter light back. Distance equals light speed times round-trip travel time, divided by two. A 1 μs round trip puts the reflecting surface about 150 m away.</p></article><article><b class="step-label">LOCATE</b><h3>Place each return</h3><p>Combine the distance with the beam direction and the aircraft’s position and orientation. Each echo becomes a point in three dimensions. Millions together describe a surface.</p></article></div></section>
+<section class="section" id="profile-section"><h2>Read the forest in profile</h2><p class="copy">Some light finds gaps between leaves and reaches the soil. In this slice, green points trace vegetation and amber points follow the ground. Move the scan position above to sample another part of the ridge.</p><canvas id="profile" class="slice" role="img" aria-label="Side view of the selected strip showing vegetation above the ground profile"></canvas><p class="copy">Ground classification uses the shape of nearby terrain to identify likely soil returns. Interpolating between those points produces a bare-earth model. Where few pulses reach the ground, the surface is more uncertain.</p></section>
+<footer class="mono">Field example · <a href="https://pietromiotti.com/latest/maya-site/">Mapping a Maya site beneath forest cover ↗</a></footer></article></main><aside><h2>In this guide</h2><nav aria-label="In this guide"><a href="#scan">Forest scan</a><a href="#drone-section">Drone collection</a><a href="#principle">Time of flight</a><a href="#profile-section">Forest profile</a></nav></aside></div>
+<script>
+const scene=document.querySelector('#scene'),profile=document.querySelector('#profile'),slider=document.querySelector('#pos');
+let mode='all',seed=809;function rand(){seed=(Math.imul(seed,1664525)+1013904223)>>>0;return seed/4294967296}
+function ground(x,y){return .07+.18*Math.exp(-((x-.55)**2/.17+(y-.61)**2/.08))+.025*Math.sin(x*11+y*3)+.012*Math.sin(y*18-x*4)}
+const points=[];function point(x,y,z,tree,c){points.push({x,y,z,tree,c})}
+for(let i=0;i<38000;i++){let x=rand(),y=rand(),z=ground(x,y),v=Math.floor(65+rand()*55+z*160);point(x,y,z,false,'rgb('+v+','+(v+7)+','+Math.floor(v*.55)+')')}
+for(let i=0;i<390;i++){let x=rand(),y=rand(),z=ground(x,y),h=.035+rand()*.15;if(Math.abs(y-.3-.1*Math.sin(x*6))<.08)continue;
+for(let j=0;j<150;j++){let t=rand(),a=rand()*Math.PI*2,r=(1-t)*h*.25*Math.sqrt(rand())*(.8+.2*Math.cos(t*28)),v=Math.floor(48+105*t+rand()*50+23*Math.cos(a));point(x+r*Math.cos(a),y+r*Math.sin(a),z+t*h,true,'rgb('+Math.floor(v*.64)+','+v+','+Math.floor(v*.58)+')')}}
+points.sort((a,b)=>a.x+a.y-b.x-b.y);
+function setup(c){let w=c.clientWidth,h=c.clientHeight,d=Math.min(devicePixelRatio,2);c.width=Math.round(w*d);c.height=Math.round(h*d);let ctx=c.getContext('2d');ctx.scale(d,d);return {ctx,w,h}}
+function draw(){let s=+slider.value/100;document.querySelector('#value').value=slider.value+'%';let {ctx,w,h}=setup(scene),k=Math.min(w*.68,h*1.02),v=k*.40;
+function project(x,y,z){return [w/2+(x-y)*k*.59,h*.67+(x+y-1)*v*.54-z*k*.90]}
+function line(a,b,color){ctx.strokeStyle=color;ctx.beginPath();ctx.moveTo(...a);ctx.lineTo(...b);ctx.stroke()}
+for(let i=0;i<=20;i++){let t=i/20;line(project(t,0,0),project(t,1,0),'#263b2e');line(project(0,t,0),project(1,t,0),'#263b2e')}
+let slice=setup(profile);for(const p of points){let near=Math.abs(p.x-s)<.014;if(near){slice.ctx.fillStyle=p.tree?p.c:'#e2bc75';slice.ctx.fillRect(10+p.y*(slice.w-20),slice.h-12-p.z*slice.h*2.03,1.9,1.9)}
+if((mode==='land'&&p.tree)||(mode==='trees'&&!p.tree))continue;let [x,y]=project(p.x,p.y,p.z);ctx.fillStyle=near?'#cbff86':p.c;ctx.fillRect(x,y,Math.max(1,k*.0023),Math.max(1,k*.0023))}
+let corners=[[s,0,0],[s,0,.40],[s,1,.40],[s,1,0]].map(p=>project(...p));ctx.fillStyle='#bdff7020';ctx.beginPath();corners.forEach(([x,y],i)=>i?ctx.lineTo(x,y):ctx.moveTo(x,y));ctx.closePath();ctx.fill();line(corners[1],corners[2],'#bffa8a');line(corners[2],corners[3],'#8da871')}
+let frame;function schedule(){cancelAnimationFrame(frame);frame=requestAnimationFrame(draw)}slider.oninput=schedule;document.querySelectorAll('[data-mode]').forEach(b=>b.onclick=()=>{mode=b.dataset.mode;document.querySelectorAll('[data-mode]').forEach(x=>x.setAttribute('aria-pressed',x===b));schedule()});window.addEventListener('resize',schedule);draw()
+
+// The flight view uses the same simulated points as the terrain viewer.
+const flightCanvas = document.querySelector('#flight');
+const flightProgress = document.querySelector('#flight-progress');
+const flightValue = document.querySelector('#flight-value');
+const flightToggle = document.querySelector('#flight-toggle');
+const motionPreference = window.matchMedia('(prefers-reduced-motion: reduce)');
+let flightPlaying = !motionPreference.matches;
+let flightTime = 0;
+let previousFlightTime = null;
+const flightDuration = 24000;
+const laneCenters = [0.18, 0.50, 0.82];
+const surveyPoints = points.filter((point, index) => index % 7 === 0);
+
+function drawFlight() {
+  const {ctx, w, h} = setup(flightCanvas);
+  const scale = Math.min(w * 0.66, h * 0.85);
+  const progress = Number(flightProgress.value) / 1000;
+  const lane = Math.min(2, Math.floor(progress * 3));
+  const fraction = progress === 1 ? 1 : progress * 3 - lane;
+  const droneX = lane % 2 ? 1 - fraction : fraction;
+  const droneY = laneCenters[lane];
+  function project(x, y, z) {
+    return [w / 2 + (x - y) * scale * 0.70,
+      h * 0.73 + (x + y - 1) * scale * 0.25 - z * scale];
+  }
+  function path(vertices, color, fill = false) {
+    ctx.beginPath();
+    vertices.forEach((vertex, index) => {
+      const [x, y] = project(...vertex);
+      if (index === 0) ctx.moveTo(x, y);
+      else ctx.lineTo(x, y);
+    });
+    if (fill) {
+      ctx.closePath();
+      ctx.fillStyle = color;
+      ctx.fill();
+    } else {
+      ctx.strokeStyle = color;
+      ctx.stroke();
+    }
+  }
+  for (let i = 0; i <= 20; i++) {
+    path([[i / 20, 0, 0], [i / 20, 1, 0]], '#243342');
+    path([[0, i / 20, 0], [1, i / 20, 0]], '#243342');
+  }
+  // Adjacent swaths overlap slightly at their edges.
+  for (const point of surveyPoints) {
+    const collected = laneCenters.some((center, index) =>
+      Math.abs(point.y - center) <= 0.18 &&
+      (index < lane || (index === lane &&
+        (lane % 2 ? point.x >= droneX : point.x <= droneX))));
+    if (!collected) continue;
+    const [x, y] = project(point.x, point.y, point.z);
+    ctx.fillStyle = point.tree ? point.c : '#cda96d';
+    ctx.fillRect(x, y, 1.7, 1.7);
+  }
+  laneCenters.forEach(center => path([[0, center, 0.66], [1, center, 0.66]], '#344a60'));
+  const drone = [droneX, droneY, 0.66];
+  const lowY = Math.max(0, droneY - 0.18);
+  const highY = Math.min(1, droneY + 0.18);
+  path([drone, [droneX, lowY, ground(droneX, lowY)],
+    [droneX, highY, ground(droneX, highY)]], '#58a6ff25', true);
+  const beamY = lowY + (highY - lowY) *
+    (0.5 + 0.5 * Math.sin(progress * Math.PI * 180));
+  const hit = [droneX, beamY, ground(droneX, beamY)];
+  path([drone, hit], '#79c0ff');
+  const [hitX, hitY] = project(...hit);
+  ctx.fillStyle = '#cae8ff';
+  ctx.fillRect(hitX - 2, hitY - 2, 4, 4);
+  const [x, y] = project(...drone);
+  ctx.lineWidth = 2;
+  ctx.strokeStyle = '#e6edf3';
+  ctx.beginPath();
+  ctx.moveTo(x - 13, y - 7); ctx.lineTo(x + 13, y + 7);
+  ctx.moveTo(x - 13, y + 7); ctx.lineTo(x + 13, y - 7);
+  ctx.stroke();
+  for (const [dx, dy] of [[-13,-7],[13,7],[-13,7],[13,-7]]) {
+    ctx.beginPath(); ctx.ellipse(x + dx, y + dy, 7, 3, 0, 0, Math.PI * 2); ctx.stroke();
+  }
+  ctx.fillStyle = '#58a6ff';
+  ctx.fillRect(x - 4, y - 4, 8, 8);
+  flightValue.value = Math.round(progress * 100) + '%';
+}
+
+function animateFlight(timestamp) {
+  if (!flightPlaying) return;
+  if (previousFlightTime !== null) flightTime += Math.min(timestamp - previousFlightTime, 100);
+  previousFlightTime = timestamp;
+  flightProgress.value = Math.min(1000, flightTime / flightDuration * 1000);
+  drawFlight();
+  if (flightTime >= flightDuration) {
+    flightPlaying = false;
+    flightToggle.textContent = 'Replay survey';
+    return;
+  }
+  requestAnimationFrame(animateFlight);
+}
+flightToggle.onclick = () => {
+  flightPlaying = !flightPlaying;
+  previousFlightTime = null;
+  if (flightPlaying) {
+    if (flightTime >= flightDuration) flightTime = 0;
+    requestAnimationFrame(animateFlight);
+  }
+  flightToggle.textContent = flightPlaying ? 'Pause survey' : 'Play survey';
+};
+flightProgress.oninput = () => {
+  flightTime = Number(flightProgress.value) / 1000 * flightDuration;
+  previousFlightTime = null;
+  drawFlight();
+};
+window.addEventListener('resize', drawFlight);
+document.addEventListener('visibilitychange', () => { previousFlightTime = null; });
+motionPreference.addEventListener('change', event => {
+  if (event.matches) {
+    flightPlaying = false;
+    flightToggle.textContent = 'Play survey';
+  }
+});
+flightToggle.textContent = flightPlaying ? 'Pause survey' : 'Play survey';
+drawFlight();
+if (flightPlaying) requestAnimationFrame(animateFlight);
+</script></html>
