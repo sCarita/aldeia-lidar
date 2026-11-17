@@ -1,0 +1,86 @@
+{
+  "fingerprint": "01e3d2c1254a16d614a2d5346b9cb63e94bc899340f4835055de0fd8938d616b",
+  "boundsWithHalo": [
+    31313,
+    -39493,
+    31577,
+    -39229
+  ],
+  "patches": [
+    {
+      "id": "parish-r031-c030",
+      "boundsEPSG3763": [
+        31345,
+        -39461,
+        31545,
+        -39261
+      ],
+      "parishAreaSquareMetres": 2823.147,
+      "stats": {
+        "validCells": 11291,
+        "measuredCells": 10758,
+        "interpolatedCells": 533,
+        "noDataCells": 148709,
+        "groundReturns": 29946,
+        "elevationMinMetres": 232.63,
+        "elevationMaxMetres": 244.28,
+        "localReliefClippedCells": 0,
+        "slopeClippedCells": 4
+      },
+      "images": {
+        "hillshade-045": "patches/parish-r031-c030/hillshade-045.png",
+        "hillshade-135": "patches/parish-r031-c030/hillshade-135.png",
+        "hillshade-225": "patches/parish-r031-c030/hillshade-225.png",
+        "hillshade-315": "patches/parish-r031-c030/hillshade-315.png",
+        "elevation": "patches/parish-r031-c030/elevation.png",
+        "slope": "patches/parish-r031-c030/slope.png",
+        "local-relief": "patches/parish-r031-c030/local-relief.png",
+        "support": "patches/parish-r031-c030/support.png"
+      },
+      "terrain": "patches/parish-r031-c030/terrain.tif",
+      "thumbnail": "thumbnails/parish-r031-c030.jpg",
+      "inventoryPointCns": [],
+      "block": "b03-02"
+    }
+  ],
+  "sizes": {
+    "patches/parish-r031-c030/hillshade-045.png": 10867,
+    "patches/parish-r031-c030/support.png": 1243,
+    "patches/parish-r031-c030/elevation.png": 5303,
+    "patches/parish-r031-c030/hillshade-135.png": 9757,
+    "patches/parish-r031-c030/hillshade-225.png": 11167,
+    "patches/parish-r031-c030/hillshade-315.pgw": 32,
+    "patches/parish-r031-c030/terrain.tif": 26582,
+    "patches/parish-r031-c030/local-relief.png": 19502,
+    "patches/parish-r031-c030/slope.pgw": 32,
+    "patches/parish-r031-c030/hillshade-045.pgw": 32,
+    "patches/parish-r031-c030/support.pgw": 32,
+    "patches/parish-r031-c030/elevation.pgw": 32,
+    "patches/parish-r031-c030/hillshade-135.pgw": 32,
+    "patches/parish-r031-c030/hillshade-225.pgw": 32,
+    "patches/parish-r031-c030/hillshade-315.png": 9803,
+    "patches/parish-r031-c030/slope.png": 28027,
+    "patches/parish-r031-c030/local-relief.pgw": 32,
+    "thumbnails/parish-r031-c030.jpg": 1617
+  },
+  "hashes": {
+    "patches/parish-r031-c030/hillshade-045.png": "b873730ddf7095a071e9c5608ff0ac4c84c59825537390e9ccd8ee5f1b4e5b34",
+    "patches/parish-r031-c030/support.png": "edc76c5ee1f38e07ac017206248675afc6d3324b77d40e3b3a5737c5d9218772",
+    "patches/parish-r031-c030/elevation.png": "e50b737589b3264077d479027a2f710fff8df05da228042e408b60141adaef25",
+    "patches/parish-r031-c030/hillshade-135.png": "f8796dfe650e8c2ddbf6f254b8616e8a62d088e0cc75235cf5d3a4833ef17a27",
+    "patches/parish-r031-c030/hillshade-225.png": "723ec748a389ea3a84d705b00d932232ce724941ba7b670ec5ee0ac4d578a0a1",
+    "patches/parish-r031-c030/hillshade-315.pgw": "6441bc4571f29663f3da979fe28c23ca62abeeddb1651d91cf4042f464ff3988",
+    "patches/parish-r031-c030/terrain.tif": "78d75acbc7dead28ff77f5cf65a4b34c73f5f900bcd98d4692c9e20ace0744a9",
+    "patches/parish-r031-c030/local-relief.png": "e5e33158d4fa74b5de26f2b97bfb77199208f1f9ac471b95775ad76496fe9f31",
+    "patches/parish-r031-c030/slope.pgw": "6441bc4571f29663f3da979fe28c23ca62abeeddb1651d91cf4042f464ff3988",
+    "patches/parish-r031-c030/hillshade-045.pgw": "6441bc4571f29663f3da979fe28c23ca62abeeddb1651d91cf4042f464ff3988",
+    "patches/parish-r031-c030/support.pgw": "6441bc4571f29663f3da979fe28c23ca62abeeddb1651d91cf4042f464ff3988",
+    "patches/parish-r031-c030/elevation.pgw": "6441bc4571f29663f3da979fe28c23ca62abeeddb1651d91cf4042f464ff3988",
+    "patches/parish-r031-c030/hillshade-135.pgw": "6441bc4571f29663f3da979fe28c23ca62abeeddb1651d91cf4042f464ff3988",
+    "patches/parish-r031-c030/hillshade-225.pgw": "6441bc4571f29663f3da979fe28c23ca62abeeddb1651d91cf4042f464ff3988",
+    "patches/parish-r031-c030/hillshade-315.png": "d69dacefbc8b72e65513785bb7696d2f8d6f6b027eaee4607324c2375567daa5",
+    "patches/parish-r031-c030/slope.png": "cab1ef2ed2379026409c7ef69428b7e2d11177fe328b294b1173bf6dafc25050",
+    "patches/parish-r031-c030/local-relief.pgw": "6441bc4571f29663f3da979fe28c23ca62abeeddb1651d91cf4042f464ff3988",
+    "thumbnails/parish-r031-c030.jpg": "a478f5c1da8725ad8a6036d57561b16df019a6a85310d7ae066054d4a2cecacf"
+  }
+}

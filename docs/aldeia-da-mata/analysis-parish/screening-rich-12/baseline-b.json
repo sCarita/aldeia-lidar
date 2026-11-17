@@ -1,0 +1,110 @@
+{
+  "cases": [
+    {
+      "case": "R05",
+      "imagesInspected": [
+        "hillshade-045",
+        "hillshade-135",
+        "hillshade-315",
+        "local-relief",
+        "support"
+      ],
+      "visibleGeometry": "Several irregular knobby highs occupy the upper half, including a compact cluster near the upper right. A faint curved line follows the far right edge; the lower half is comparatively smooth.",
+      "alternatives": "The knobs resemble exposed bedrock or scattered boulders. The curved line could be a track or field edge. Patchy interpolation around the highs can sharpen their apparent outlines.",
+      "supportLimits": "The prominent high cluster contains many interpolated cells, so its internal shape is uncertain. Hillshade and local relief describe the same terrain model, not independent observations.",
+      "followUp": "low",
+      "candidates": [
+        {
+          "feature": "Irregular high cluster",
+          "pixelCentre": [
+            300,
+            157
+          ],
+          "pixelBox": [
+            244,
+            112,
+            348,
+            229
+          ],
+          "confidence": "low",
+          "nextCheck": "Inspect original ground returns and wider context to distinguish bedrock from any arranged structure.",
+          "evidenceLayers": [
+            "hillshade-045",
+            "hillshade-135",
+            "hillshade-315",
+            "local-relief",
+            "support"
+          ]
+        }
+      ]
+    },
+    {
+      "case": "R06",
+      "imagesInspected": [
+        "hillshade-045",
+        "hillshade-135",
+        "hillshade-315",
+        "local-relief",
+        "support"
+      ],
+      "visibleGeometry": "A narrow, branching north\u2013south incision crosses the patch, with uneven sides and a dark gap near its lower end. Broad rounded slopes descend toward it from both sides. A faint east\u2013west break joins it near mid-height.",
+      "alternatives": "Likely a drainage or erosion channel, possibly modified by a path, ditch or field boundary. Angular texture along its margins may be model interpolation rather than built edges.",
+      "supportLimits": "Much of the channel follows amber interpolated cells, and the lower dark gap is missing data. Its cross-section and small edge details need original returns.",
+      "followUp": "none",
+      "candidates": []
+    },
+    {
+      "case": "R07",
+      "imagesInspected": [
+        "hillshade-045",
+        "hillshade-135",
+        "hillshade-315",
+        "local-relief",
+        "support"
+      ],
+      "visibleGeometry": "The central area is smooth, with broad shallow undulations and a faint branching low trending toward the lower left. Small isolated bumps lie near the upper edge and a rougher patch enters at the bottom. No coherent enclosure or platform is apparent.",
+      "alternatives": "Shallow natural swales, minor rock or vegetation effects, and a change in surface roughness could explain the marks. The upper bumps may be rocks or residual surface objects.",
+      "supportLimits": "Most central cells are measured, but the small edge highs include some interpolated cells. Subtle relief is near the visual scale of the model derivatives.",
+      "followUp": "none",
+      "candidates": []
+    },
+    {
+      "case": "R08",
+      "imagesInspected": [
+        "hillshade-045",
+        "hillshade-135",
+        "hillshade-315",
+        "local-relief",
+        "support"
+      ],
+      "visibleGeometry": "An irregular, roughly east\u2013west break crosses the lower middle, separating rough upper ground from smoother sloping ground below. A narrow spur projects southward near the centre; several faint diagonal swales feed toward the break.",
+      "alternatives": "The break may be a natural slope edge or drainage margin, with local erosion and rock exposure. A field edge is also possible. Its jagged appearance partly follows interpolated terrain cells.",
+      "supportLimits": "Amber interpolation is concentrated along the break and around several small upper highs. The precise edge profile cannot be trusted without checking original returns and broader topography.",
+      "followUp": "low",
+      "candidates": [
+        {
+          "feature": "Irregular slope-edge line",
+          "pixelCentre": [
+            193,
+            250
+          ],
+          "pixelBox": [
+            70,
+            226,
+            320,
+            289
+          ],
+          "confidence": "low",
+          "nextCheck": "Examine original ground returns and wider context for a continuous constructed bank versus a natural slope or drainage edge.",
+          "evidenceLayers": [
+            "hillshade-045",
+            "hillshade-135",
+            "hillshade-315",
+            "local-relief",
+            "support"
+          ]
+        }
+      ]
+    }
+  ]
+}

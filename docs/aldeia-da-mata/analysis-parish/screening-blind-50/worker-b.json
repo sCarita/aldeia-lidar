@@ -1,0 +1,370 @@
+{
+  "cases": [
+    {
+      "case": "B018",
+      "imagesInspected": [
+        "hillshade-045.png",
+        "hillshade-135.png",
+        "hillshade-315.png",
+        "local-relief.png",
+        "support.png"
+      ],
+      "visibleGeometry": "Broad, softly curving low ground through the centre and southwest, with scattered small pits or bumps. No crisp enclosed or rectilinear form is apparent.",
+      "alternatives": "Natural drainage or slope variation; scattered vegetation or ground-classification artefacts.",
+      "supportLimits": "Mostly measured cells; small scattered interpolated clusters coincide with some rough spots. Broad shape is measured but subtle.",
+      "followUp": "low",
+      "candidates": []
+    },
+    {
+      "case": "B019",
+      "imagesInspected": [
+        "hillshade-045.png",
+        "hillshade-135.png",
+        "hillshade-315.png",
+        "local-relief.png",
+        "support.png"
+      ],
+      "visibleGeometry": "Two narrow parallel lines run roughly north to south at x80-170; a curved spur meets them near the centre. A small isolated rounded depression or mound lies west of the lines near x80,y158.",
+      "alternatives": "Vehicle tracks or field access; the isolated spot could be a tree throw, rock, or surface disturbance.",
+      "supportLimits": "Linework is mainly over measured cells. The isolated spot has nearby interpolation and needs raw return checks.",
+      "followUp": "low",
+      "candidates": [
+        {
+          "feature": "Small isolated rounded spot",
+          "pixelCentre": [
+            80,
+            157
+          ],
+          "pixelBox": [
+            68,
+            145,
+            92,
+            170
+          ],
+          "confidence": "low",
+          "nextCheck": "Inspect raw ground returns and neighbouring terrain for persistence."
+        }
+      ]
+    },
+    {
+      "case": "B020",
+      "imagesInspected": [
+        "hillshade-045.png",
+        "hillshade-135.png",
+        "hillshade-315.png",
+        "local-relief.png",
+        "support.png"
+      ],
+      "visibleGeometry": "Curving paired track crosses from southwest toward northeast, with a branch eastward. Dense parallel furrow-like texture covers most of the square. Rough raised and hollow patches occur near the south centre.",
+      "alternatives": "Agricultural furrows and access tracks; southern roughness may be erosion, extraction, vegetation gaps, or interpolation.",
+      "supportLimits": "Measured cells dominate, but many small interpolated patches scatter across the textured area; larger southern roughness has weaker support.",
+      "followUp": "none",
+      "candidates": []
+    },
+    {
+      "case": "B021",
+      "imagesInspected": [
+        "hillshade-045.png",
+        "hillshade-135.png",
+        "hillshade-315.png",
+        "local-relief.png",
+        "support.png"
+      ],
+      "visibleGeometry": "Regular closely spaced curved ridges cover almost the whole square. A broad diagonal lane or boundary separates fields in the northwest to northeast direction.",
+      "alternatives": "Cultivation furrows, terracing, or ploughing patterns with a farm track or field boundary.",
+      "supportLimits": "Mostly measured terrain; intermittent interpolation follows some ridges, especially left and upper portions, but the regular pattern is pervasive.",
+      "followUp": "none",
+      "candidates": []
+    },
+    {
+      "case": "B022",
+      "imagesInspected": [
+        "hillshade-045.png",
+        "hillshade-135.png",
+        "hillshade-315.png",
+        "local-relief.png",
+        "support.png"
+      ],
+      "visibleGeometry": "A diagonal track or boundary crosses the north half. Near x300,y190 is a narrow north-south cluster of sharp parallel ridges, pits and blocks at a field edge. An isolated rounded rise lies further southeast.",
+      "alternatives": "Modern excavation, piled material, wall or drainage works; sharp ridges may include classification artefacts.",
+      "supportLimits": "The central irregular cluster straddles numerous interpolated cells and a narrow low-support strip, limiting shape interpretation. Northwest corner has missing cells.",
+      "followUp": "low",
+      "candidates": [
+        {
+          "feature": "Irregular parallel ridges and pits at field edge",
+          "pixelCentre": [
+            307,
+            192
+          ],
+          "pixelBox": [
+            278,
+            125,
+            340,
+            261
+          ],
+          "confidence": "low",
+          "nextCheck": "Check original ground returns, aerial context, and neighbouring patches."
+        }
+      ]
+    },
+    {
+      "case": "B023",
+      "imagesInspected": [
+        "hillshade-045.png",
+        "hillshade-135.png",
+        "hillshade-315.png",
+        "local-relief.png",
+        "support.png"
+      ],
+      "visibleGeometry": "Only a narrow southern wedge contains terrain. It has regular parallel ridges and a small cluster of sharp bumps near x154,y350. The rest is outside the supported image area.",
+      "alternatives": "Agricultural ridges; the small cluster could be stones, vegetation remnants, or model artefacts.",
+      "supportLimits": "Most of the square is missing. The visible wedge is mainly measured but contains interpolation around the small cluster.",
+      "followUp": "none",
+      "candidates": []
+    },
+    {
+      "case": "B024",
+      "imagesInspected": [
+        "hillshade-045.png",
+        "hillshade-135.png",
+        "hillshade-315.png",
+        "local-relief.png",
+        "support.png"
+      ],
+      "visibleGeometry": "A southwest triangular wedge of terrain shows regular curved parallel ridges. Its outer diagonal edge is rough, while most of the square has no terrain coverage.",
+      "alternatives": "Cultivation furrows and edge effects from clipping or ground classification.",
+      "supportLimits": "Most pixels are missing. The visible wedge is measured overall, but interpolated streaks follow ridges and the boundary.",
+      "followUp": "none",
+      "candidates": []
+    },
+    {
+      "case": "B025",
+      "imagesInspected": [
+        "hillshade-045.png",
+        "hillshade-135.png",
+        "hillshade-315.png",
+        "local-relief.png",
+        "support.png"
+      ],
+      "visibleGeometry": "Straight and curving banks or cuts divide the visible area. A short parallel-sided hollow lies in the northwest interior (about x130,y150). A roughly circular hollow appears at x330,y322. Diagonal track crosses lower centre.",
+      "alternatives": "Field boundaries, drainage or extraction cuts, farm pond, or modern groundworks; some sharp edges may be processing effects.",
+      "supportLimits": "Measured cells cover most visible ground, but numerous interpolated clusters trace central disturbed areas and circular hollow. Southwest corner is outside coverage.",
+      "followUp": "medium",
+      "candidates": [
+        {
+          "feature": "Parallel-sided hollow",
+          "pixelCentre": [
+            135,
+            146
+          ],
+          "pixelBox": [
+            107,
+            79,
+            164,
+            205
+          ],
+          "confidence": "low",
+          "nextCheck": "Check source returns and wider landform context."
+        },
+        {
+          "feature": "Circular hollow",
+          "pixelCentre": [
+            328,
+            320
+          ],
+          "pixelBox": [
+            300,
+            292,
+            358,
+            344
+          ],
+          "confidence": "low",
+          "nextCheck": "Check raw returns and current surface context for pond or excavation."
+        }
+      ]
+    },
+    {
+      "case": "B026",
+      "imagesInspected": [
+        "hillshade-045.png",
+        "hillshade-135.png",
+        "hillshade-315.png",
+        "local-relief.png",
+        "support.png"
+      ],
+      "visibleGeometry": "Irregular low mound and hollow cluster spans centre and southeast, with several discrete bright knobs and a faint curving rim. A small rectangular, straight-sided depression lies at the left edge near x75,y103. A diagonal track crosses lower half.",
+      "alternatives": "Rock outcrops, erosion, farm disturbance, small extraction pits, or recent structures; the left rectangle may be a modern enclosure or tank.",
+      "supportLimits": "Most terrain is measured. Interpolation clusters occur on the southern knobs and near the left missing strip; central broad form has stronger support.",
+      "followUp": "medium",
+      "candidates": [
+        {
+          "feature": "Irregular mound and hollow cluster",
+          "pixelCentre": [
+            219,
+            182
+          ],
+          "pixelBox": [
+            145,
+            47,
+            319,
+            281
+          ],
+          "confidence": "low",
+          "nextCheck": "Inspect raw returns, broader slope and overlapping views to separate natural roughness from shaped ground."
+        }
+      ]
+    },
+    {
+      "case": "B027",
+      "imagesInspected": [
+        "hillshade-045.png",
+        "hillshade-135.png",
+        "hillshade-315.png",
+        "local-relief.png",
+        "support.png"
+      ],
+      "visibleGeometry": "Patchy rough ground with many small knobs and hollows. A faint diagonal linear corridor runs from left-centre to lower centre. No coherent enclosure or platform stands out across lighting directions.",
+      "alternatives": "Rocky ground, vegetation or classification artefacts, erosion, and a track or field line.",
+      "supportLimits": "Numerous small interpolated cells occur throughout, often on the sharper knobs; subtle local shapes require raw-point verification.",
+      "followUp": "none",
+      "candidates": []
+    },
+    {
+      "case": "B028",
+      "imagesInspected": [
+        "hillshade-045.png",
+        "hillshade-135.png",
+        "hillshade-315.png",
+        "local-relief.png",
+        "support.png"
+      ],
+      "visibleGeometry": "Straight track or boundary spans the north edge. Several irregular elevated clusters lie near x160,y65 and in the southwest, with isolated small mounds across centre. A faint curved line runs along the east.",
+      "alternatives": "Piled rock or soil, vegetation remnants, small modern earthworks; east line may be a track or cultivation mark.",
+      "supportLimits": "Mostly measured, but interpolation concentrates on the sharper clusters and northern line, reducing confidence in their exact outlines.",
+      "followUp": "low",
+      "candidates": [
+        {
+          "feature": "Compact ridged mound cluster near north edge",
+          "pixelCentre": [
+            162,
+            69
+          ],
+          "pixelBox": [
+            125,
+            35,
+            194,
+            105
+          ],
+          "confidence": "low",
+          "nextCheck": "Check raw returns and aerial context for piles or disturbance."
+        }
+      ]
+    },
+    {
+      "case": "B029",
+      "imagesInspected": [
+        "hillshade-045.png",
+        "hillshade-135.png",
+        "hillshade-315.png",
+        "local-relief.png",
+        "support.png"
+      ],
+      "visibleGeometry": "An irregular supported area ends at a curving east boundary. Scattered discrete knobs and shallow hollows occur throughout; a small rectangular-looking rough cluster near x110,y200 lacks a continuous enclosing line.",
+      "alternatives": "Rock or vegetation remnants, land clearance, small extraction, and edge or classification effects.",
+      "supportLimits": "Main area is measured, but small interpolation clusters are widespread and coincide with many knobs. Outside the east boundary is missing.",
+      "followUp": "none",
+      "candidates": []
+    },
+    {
+      "case": "B030",
+      "imagesInspected": [
+        "hillshade-045.png",
+        "hillshade-135.png",
+        "hillshade-315.png",
+        "local-relief.png",
+        "support.png"
+      ],
+      "visibleGeometry": "Mostly smooth terrain with broad, subtle curving relief through centre and southwest. A few isolated bumps occur near edges, especially northeast. No defined linear arrangement or enclosure is visible.",
+      "alternatives": "Natural slope and drainage, scattered rock or vegetation remnants.",
+      "supportLimits": "Central broad relief is well measured. Small interpolated clusters lie mainly around edge bumps; fine features there are less reliable.",
+      "followUp": "none",
+      "candidates": []
+    },
+    {
+      "case": "B031",
+      "imagesInspected": [
+        "hillshade-045.png",
+        "hillshade-135.png",
+        "hillshade-315.png",
+        "local-relief.png",
+        "support.png"
+      ],
+      "visibleGeometry": "Several branching shallow channels or gullies converge toward the east. A short straight ridge or cut lies near x285,y112, but merges into the broader slope; southern area is rough with scattered pits.",
+      "alternatives": "Natural drainage and erosion, field boundary, agricultural modification, or processing artefacts in rough ground.",
+      "supportLimits": "Dense interpolated cells occur across the central and southern rough areas and east channels; broad drainage is visible but small edge shapes are uncertain.",
+      "followUp": "none",
+      "candidates": []
+    },
+    {
+      "case": "B032",
+      "imagesInspected": [
+        "hillshade-045.png",
+        "hillshade-135.png",
+        "hillshade-315.png",
+        "local-relief.png",
+        "support.png"
+      ],
+      "visibleGeometry": "A conspicuous angular, steep-sided raised block lies at x335,y142. A shallow linear break crosses the centre west-east; surrounding terrain is rough and irregular with a few small bumps.",
+      "alternatives": "Rock outcrop or boulder, piled material, modern structure, or misclassified above-ground object. Centre line may be track or drainage.",
+      "supportLimits": "Angular block appears mainly measured, but nearby edge and centre line contain interpolation. Surrounding roughness has many small interpolated cells.",
+      "followUp": "low",
+      "candidates": [
+        {
+          "feature": "Angular raised block",
+          "pixelCentre": [
+            336,
+            141
+          ],
+          "pixelBox": [
+            305,
+            111,
+            366,
+            175
+          ],
+          "confidence": "low",
+          "nextCheck": "Check raw returns and aerial image for rock or modern object."
+        }
+      ]
+    },
+    {
+      "case": "B033",
+      "imagesInspected": [
+        "hillshade-045.png",
+        "hillshade-135.png",
+        "hillshade-315.png",
+        "local-relief.png",
+        "support.png"
+      ],
+      "visibleGeometry": "Only a narrow eastern wedge has terrain. Regular parallel ridges fill it; a curving boundary or track crosses near y190 and another straight diagonal line crosses southeast.",
+      "alternatives": "Cultivation furrows and field tracks or boundaries; edge relief may reflect clipping.",
+      "supportLimits": "Most of the square is missing. Interpolation is scattered across the visible strip and concentrated along its curving boundary.",
+      "followUp": "none",
+      "candidates": []
+    },
+    {
+      "case": "B034",
+      "imagesInspected": [
+        "hillshade-045.png",
+        "hillshade-135.png",
+        "hillshade-315.png",
+        "local-relief.png",
+        "support.png"
+      ],
+      "visibleGeometry": "A narrow sinuous north-south gully or cut runs through the centre, with rough raised edges. Faint east-west lines cross the flatter west side; small scattered bumps lie east.",
+      "alternatives": "Natural drainage or erosion, field drainage ditch, track cut, or model disturbance near vegetation.",
+      "supportLimits": "The gully has many interpolated cells along both edges; its broad course is visible, but small adjacent forms are poorly supported.",
+      "followUp": "none",
+      "candidates": []
+    }
+  ]
+}

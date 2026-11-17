@@ -1,0 +1,2518 @@
+[
+  {
+    "review": {
+      "case": "B001",
+      "imagesInspected": [
+        "hillshade-045.png",
+        "hillshade-135.png",
+        "hillshade-315.png",
+        "local-relief.png",
+        "support.png"
+      ],
+      "visibleGeometry": "Broad undulating bands cross the square. A narrow north-south incised line runs near the east edge, with small breaks and rough patches near its upper half.",
+      "alternatives": "Drainage or track erosion; irregular roughness may be vegetation or ground-model artefacts.",
+      "supportLimits": "Mostly measured, with interpolation concentrated along the line and scattered rough patches; its sharpest breaks are uncertain.",
+      "followUp": "low",
+      "candidates": [],
+      "worker": "a"
+    },
+    "evaluator": {
+      "case": "B001",
+      "patchId": "parish-r014-c062",
+      "boundsEPSG3763": [
+        34545,
+        -37761,
+        34745,
+        -37561
+      ],
+      "stratum": "high_support",
+      "referencePointCrop": false,
+      "references": [],
+      "supportStats": {
+        "validCells": 159994,
+        "measuredCells": 152082,
+        "interpolatedCells": 7912,
+        "noDataCells": 6,
+        "groundReturns": 516545,
+        "elevationMinMetres": 250.93,
+        "elevationMaxMetres": 266.74,
+        "localReliefClippedCells": 0,
+        "slopeClippedCells": 10
+      }
+    }
+  },
+  {
+    "review": {
+      "case": "B002",
+      "imagesInspected": [
+        "hillshade-045.png",
+        "hillshade-135.png",
+        "hillshade-315.png",
+        "local-relief.png",
+        "support.png"
+      ],
+      "visibleGeometry": "Closely spaced curved parallel ridges occupy the northwest corner, bounded by a diagonal linear break. The remaining ground is smooth with a few small rough spots.",
+      "alternatives": "Cultivation or terracing beside a track or field boundary; small spots may be vegetation effects.",
+      "supportLimits": "The diagonal break has substantial interpolation, so its detailed profile is uncertain; most open ground is measured.",
+      "followUp": "low",
+      "candidates": [],
+      "worker": "a"
+    },
+    "evaluator": {
+      "case": "B002",
+      "patchId": "parish-r014-c050",
+      "boundsEPSG3763": [
+        33345,
+        -37761,
+        33545,
+        -37561
+      ],
+      "stratum": "high_support",
+      "referencePointCrop": false,
+      "references": [],
+      "supportStats": {
+        "validCells": 160000,
+        "measuredCells": 154070,
+        "interpolatedCells": 5930,
+        "noDataCells": 0,
+        "groundReturns": 426020,
+        "elevationMinMetres": 261.62,
+        "elevationMaxMetres": 268.25,
+        "localReliefClippedCells": 0,
+        "slopeClippedCells": 1
+      }
+    }
+  },
+  {
+    "review": {
+      "case": "B003",
+      "imagesInspected": [
+        "hillshade-045.png",
+        "hillshade-135.png",
+        "hillshade-315.png",
+        "local-relief.png",
+        "support.png"
+      ],
+      "visibleGeometry": "Two narrow lines meet near the northwest quadrant; one runs north-south and one trends northeast. Numerous isolated small rough circular patches occur across otherwise gently rolling ground.",
+      "alternatives": "Field boundaries, drainage or tracks; circular patches may mark vegetation or surface disturbance.",
+      "supportLimits": "The lines and many spots coincide with interpolation, limiting confidence in their shape. Most intervening ground is measured.",
+      "followUp": "low",
+      "candidates": [],
+      "worker": "a"
+    },
+    "evaluator": {
+      "case": "B003",
+      "patchId": "parish-r052-c088",
+      "boundsEPSG3763": [
+        37145,
+        -41561,
+        37345,
+        -41361
+      ],
+      "stratum": "reference_point_crop",
+      "referencePointCrop": true,
+      "references": [
+        {
+          "cns": 39925,
+          "name": "Clara Domingas",
+          "type": "Anta/D\u00f3lmen",
+          "pixelXY": [
+            312.00479999929667,
+            334.2925999984145
+          ],
+          "url": "https://arqueologia.patrimoniocultural.pt/index.php?sid=sitios&subsid=3623847"
+        }
+      ],
+      "supportStats": {
+        "validCells": 160000,
+        "measuredCells": 147439,
+        "interpolatedCells": 12561,
+        "noDataCells": 0,
+        "groundReturns": 489421,
+        "elevationMinMetres": 233.63,
+        "elevationMaxMetres": 250.63,
+        "localReliefClippedCells": 0,
+        "slopeClippedCells": 99
+      }
+    }
+  },
+  {
+    "review": {
+      "case": "B004",
+      "imagesInspected": [
+        "hillshade-045.png",
+        "hillshade-135.png",
+        "hillshade-315.png",
+        "local-relief.png",
+        "support.png"
+      ],
+      "visibleGeometry": "Two near-parallel east-west linear breaks bound a broad strip. Regular fine ridges cover ground north and south; a small isolated bump lies on the northern line near x310,y100.",
+      "alternatives": "Field divisions, cultivation, tracks and a tree or rock bump.",
+      "supportLimits": "Interpolation follows both breaks and occurs at the bump, reducing profile certainty; broad fields are largely measured.",
+      "followUp": "low",
+      "candidates": [],
+      "worker": "a"
+    },
+    "evaluator": {
+      "case": "B004",
+      "patchId": "parish-r022-c083",
+      "boundsEPSG3763": [
+        36645,
+        -38561,
+        36845,
+        -38361
+      ],
+      "stratum": "reference_point_crop",
+      "referencePointCrop": true,
+      "references": [
+        {
+          "cns": 1064,
+          "name": "Lage do Ouro",
+          "type": "Necr\u00f3pole",
+          "pixelXY": [
+            158.10999999940395,
+            196.93820000067353
+          ],
+          "url": "https://arqueologia.patrimoniocultural.pt/index.php?sid=sitios&subsid=47577"
+        }
+      ],
+      "supportStats": {
+        "validCells": 160000,
+        "measuredCells": 153437,
+        "interpolatedCells": 6563,
+        "noDataCells": 0,
+        "groundReturns": 1112900,
+        "elevationMinMetres": 270.17,
+        "elevationMaxMetres": 278.82,
+        "localReliefClippedCells": 1,
+        "slopeClippedCells": 45
+      }
+    }
+  },
+  {
+    "review": {
+      "case": "B005",
+      "imagesInspected": [
+        "hillshade-045.png",
+        "hillshade-135.png",
+        "hillshade-315.png",
+        "local-relief.png",
+        "support.png"
+      ],
+      "visibleGeometry": "Broken rough elevated forms occupy the northwest. One compact, roughly rectangular high patch around x110-175,y95-175 stands out. A large irregular missing area cuts through the southwest, and terrain drops toward the southeast.",
+      "alternatives": "Exposed rock, erosion, vegetation or ground-model artefacts could explain the rough patch.",
+      "supportLimits": "Large missing area and broad interpolated margins; the compact patch mixes measured and interpolated cells, so its outline is unreliable.",
+      "followUp": "medium",
+      "candidates": [
+        {
+          "feature": "Compact roughly rectangular raised rough patch",
+          "pixelCentre": [
+            140,
+            130
+          ],
+          "pixelBox": [
+            100,
+            90,
+            180,
+            180
+          ],
+          "confidence": "low",
+          "nextCheck": "Inspect raw ground returns and nearby imagery for rock, vegetation and model gaps."
+        }
+      ],
+      "worker": "a"
+    },
+    "evaluator": {
+      "case": "B005",
+      "patchId": "parish-r029-c104",
+      "boundsEPSG3763": [
+        38745,
+        -39261,
+        38945,
+        -39061
+      ],
+      "stratum": "intermediate_support",
+      "referencePointCrop": false,
+      "references": [],
+      "supportStats": {
+        "validCells": 114075,
+        "measuredCells": 86634,
+        "interpolatedCells": 27441,
+        "noDataCells": 45925,
+        "groundReturns": 241039,
+        "elevationMinMetres": 262.22,
+        "elevationMaxMetres": 278.69,
+        "localReliefClippedCells": 832,
+        "slopeClippedCells": 1700
+      }
+    }
+  },
+  {
+    "review": {
+      "case": "B006",
+      "imagesInspected": [
+        "hillshade-045.png",
+        "hillshade-135.png",
+        "hillshade-315.png",
+        "local-relief.png",
+        "support.png"
+      ],
+      "visibleGeometry": "Dense, curved parallel ridges sweep across the upper and right ground. A few irregular bumps and breaks lie near the lower centre; no isolated coherent enclosure or platform is clear.",
+      "alternatives": "Cultivation or terracing on slopes, with rock or vegetation affecting the lower bumps.",
+      "supportLimits": "Most terrain is measured; a band of interpolation overlaps the lower bumps, limiting their form.",
+      "followUp": "low",
+      "candidates": [],
+      "worker": "a"
+    },
+    "evaluator": {
+      "case": "B006",
+      "patchId": "parish-r024-c031",
+      "boundsEPSG3763": [
+        31445,
+        -38761,
+        31645,
+        -38561
+      ],
+      "stratum": "high_support",
+      "referencePointCrop": false,
+      "references": [],
+      "supportStats": {
+        "validCells": 159997,
+        "measuredCells": 148523,
+        "interpolatedCells": 11474,
+        "noDataCells": 3,
+        "groundReturns": 619536,
+        "elevationMinMetres": 237.61,
+        "elevationMaxMetres": 251.76,
+        "localReliefClippedCells": 0,
+        "slopeClippedCells": 40
+      }
+    }
+  },
+  {
+    "review": {
+      "case": "B007",
+      "imagesInspected": [
+        "hillshade-045.png",
+        "hillshade-135.png",
+        "hillshade-315.png",
+        "local-relief.png",
+        "support.png"
+      ],
+      "visibleGeometry": "Nearly uniform fine parallel ridges cover the square, crossed by subtle broader undulations and a faint linear change near the west side. No distinct localized form stands out.",
+      "alternatives": "Regular cultivation furrows and a field boundary or access line.",
+      "supportLimits": "Measured cells dominate but fine interpolation is widespread; low-amplitude details are weak.",
+      "followUp": "none",
+      "candidates": [],
+      "worker": "a"
+    },
+    "evaluator": {
+      "case": "B007",
+      "patchId": "parish-r008-c032",
+      "boundsEPSG3763": [
+        31545,
+        -37161,
+        31745,
+        -36961
+      ],
+      "stratum": "high_support",
+      "referencePointCrop": false,
+      "references": [],
+      "supportStats": {
+        "validCells": 160000,
+        "measuredCells": 140519,
+        "interpolatedCells": 19481,
+        "noDataCells": 0,
+        "groundReturns": 363492,
+        "elevationMinMetres": 245.89,
+        "elevationMaxMetres": 254.02,
+        "localReliefClippedCells": 0,
+        "slopeClippedCells": 0
+      }
+    }
+  },
+  {
+    "review": {
+      "case": "B008",
+      "imagesInspected": [
+        "hillshade-045.png",
+        "hillshade-135.png",
+        "hillshade-315.png",
+        "local-relief.png",
+        "support.png"
+      ],
+      "visibleGeometry": "Broad subdued slope with scattered small circular rough spots. A faint roughly horizontal line crosses the lower part, ending among rough irregular patches. No clear enclosed or stepped form.",
+      "alternatives": "Field boundary or track, vegetation or rocks at the spots, and slope erosion.",
+      "supportLimits": "Circular spots and lower rough band contain many interpolated cells; central ground is mostly measured.",
+      "followUp": "low",
+      "candidates": [],
+      "worker": "a"
+    },
+    "evaluator": {
+      "case": "B008",
+      "patchId": "parish-r052-c089",
+      "boundsEPSG3763": [
+        37245,
+        -41561,
+        37445,
+        -41361
+      ],
+      "stratum": "reference_point_crop",
+      "referencePointCrop": true,
+      "references": [
+        {
+          "cns": 39925,
+          "name": "Clara Domingas",
+          "type": "Anta/D\u00f3lmen",
+          "pixelXY": [
+            112.00479999929667,
+            334.2925999984145
+          ],
+          "url": "https://arqueologia.patrimoniocultural.pt/index.php?sid=sitios&subsid=3623847"
+        }
+      ],
+      "supportStats": {
+        "validCells": 160000,
+        "measuredCells": 143813,
+        "interpolatedCells": 16187,
+        "noDataCells": 0,
+        "groundReturns": 391872,
+        "elevationMinMetres": 237.79,
+        "elevationMaxMetres": 253.9,
+        "localReliefClippedCells": 0,
+        "slopeClippedCells": 84
+      }
+    }
+  },
+  {
+    "review": {
+      "case": "B009",
+      "imagesInspected": [
+        "hillshade-045.png",
+        "hillshade-135.png",
+        "hillshade-315.png",
+        "local-relief.png",
+        "support.png"
+      ],
+      "visibleGeometry": "A large smooth oval hollow with a pronounced rim is clipped by the northeast edge. Thin straight or branching lines cross the centre and southwest; rough vertical gullies lie to the northwest. Southern edge is outside the model.",
+      "alternatives": "The oval could be an engineered pond or excavation; lines may be tracks, drains or field divisions.",
+      "supportLimits": "Most central terrain is measured. Interpolation follows rough gullies and the model boundary; the oval is clipped by the image edge.",
+      "followUp": "low",
+      "candidates": [],
+      "worker": "a"
+    },
+    "evaluator": {
+      "case": "B009",
+      "patchId": "parish-r045-c059",
+      "boundsEPSG3763": [
+        34245,
+        -40861,
+        34445,
+        -40661
+      ],
+      "stratum": "intermediate_support",
+      "referencePointCrop": false,
+      "references": [],
+      "supportStats": {
+        "validCells": 130535,
+        "measuredCells": 121140,
+        "interpolatedCells": 9395,
+        "noDataCells": 29465,
+        "groundReturns": 323747,
+        "elevationMinMetres": 220.64,
+        "elevationMaxMetres": 234.73,
+        "localReliefClippedCells": 0,
+        "slopeClippedCells": 229
+      }
+    }
+  },
+  {
+    "review": {
+      "case": "B010",
+      "imagesInspected": [
+        "hillshade-045.png",
+        "hillshade-135.png",
+        "hillshade-315.png",
+        "local-relief.png",
+        "support.png"
+      ],
+      "visibleGeometry": "A broad diagonal route bends toward the southeast and meets a narrower branch. A separate curving low linear bank or ditch runs from west toward the junction. Small isolated bump lies in the southwest.",
+      "alternatives": "Road or track intersection with field boundary or drainage line; the bump could be a rock or vegetation remnant.",
+      "supportLimits": "Lines are mainly measured but interpolation follows the curving line; rough patches near the junction contain mixed support.",
+      "followUp": "low",
+      "candidates": [],
+      "worker": "a"
+    },
+    "evaluator": {
+      "case": "B010",
+      "patchId": "parish-r023-c098",
+      "boundsEPSG3763": [
+        38145,
+        -38661,
+        38345,
+        -38461
+      ],
+      "stratum": "high_support",
+      "referencePointCrop": false,
+      "references": [],
+      "supportStats": {
+        "validCells": 160000,
+        "measuredCells": 145453,
+        "interpolatedCells": 14547,
+        "noDataCells": 0,
+        "groundReturns": 539215,
+        "elevationMinMetres": 287.09,
+        "elevationMaxMetres": 296.99,
+        "localReliefClippedCells": 0,
+        "slopeClippedCells": 1
+      }
+    }
+  },
+  {
+    "review": {
+      "case": "B011",
+      "imagesInspected": [
+        "hillshade-045.png",
+        "hillshade-135.png",
+        "hillshade-315.png",
+        "local-relief.png",
+        "support.png"
+      ],
+      "visibleGeometry": "Several compact raised, block-like forms cluster across the southern half, including an elongated north-south form at x120-170,y260-350 and an east-west chain at x255-395,y190-230. A curving shallow line runs between them.",
+      "alternatives": "Exposed bedrock, rubble, modern structures or clearance piles; the line may be a track.",
+      "supportLimits": "The forms are mostly on measured ground with small scattered interpolation; imagery alone cannot distinguish natural rock from constructed material.",
+      "followUp": "high",
+      "candidates": [
+        {
+          "feature": "Elongated block-like raised form",
+          "pixelCentre": [
+            145,
+            298
+          ],
+          "pixelBox": [
+            112,
+            255,
+            180,
+            352
+          ],
+          "confidence": "medium",
+          "nextCheck": "Inspect raw ground returns and aerial imagery for rock or standing structures."
+        },
+        {
+          "feature": "East-west chain of block-like relief",
+          "pixelCentre": [
+            325,
+            207
+          ],
+          "pixelBox": [
+            253,
+            177,
+            399,
+            236
+          ],
+          "confidence": "medium",
+          "nextCheck": "Inspect raw returns and aerial imagery; check whether forms are connected or separate."
+        }
+      ],
+      "worker": "a"
+    },
+    "evaluator": {
+      "case": "B011",
+      "patchId": "parish-r016-c078",
+      "boundsEPSG3763": [
+        36145,
+        -37961,
+        36345,
+        -37761
+      ],
+      "stratum": "high_support",
+      "referencePointCrop": false,
+      "references": [],
+      "supportStats": {
+        "validCells": 160000,
+        "measuredCells": 155570,
+        "interpolatedCells": 4430,
+        "noDataCells": 0,
+        "groundReturns": 852299,
+        "elevationMinMetres": 262.84,
+        "elevationMaxMetres": 275.18,
+        "localReliefClippedCells": 80,
+        "slopeClippedCells": 967
+      }
+    }
+  },
+  {
+    "review": {
+      "case": "B012",
+      "imagesInspected": [
+        "hillshade-045.png",
+        "hillshade-135.png",
+        "hillshade-315.png",
+        "local-relief.png",
+        "support.png"
+      ],
+      "visibleGeometry": "Dense continuous curved parallel ridges fill nearly the entire square. A narrow disturbed strip appears at the far east edge; no distinct isolated geometry emerges.",
+      "alternatives": "Cultivation or terracing and an edge track or boundary.",
+      "supportLimits": "Most cells are measured with fine scattered interpolation; the east-edge disturbance has more mixed support.",
+      "followUp": "none",
+      "candidates": [],
+      "worker": "a"
+    },
+    "evaluator": {
+      "case": "B012",
+      "patchId": "parish-r070-c095",
+      "boundsEPSG3763": [
+        37845,
+        -43361,
+        38045,
+        -43161
+      ],
+      "stratum": "high_support",
+      "referencePointCrop": false,
+      "references": [],
+      "supportStats": {
+        "validCells": 160000,
+        "measuredCells": 152500,
+        "interpolatedCells": 7500,
+        "noDataCells": 0,
+        "groundReturns": 609032,
+        "elevationMinMetres": 199.22,
+        "elevationMaxMetres": 214.0,
+        "localReliefClippedCells": 3,
+        "slopeClippedCells": 18
+      }
+    }
+  },
+  {
+    "review": {
+      "case": "B013",
+      "imagesInspected": [
+        "hillshade-045.png",
+        "hillshade-135.png",
+        "hillshade-315.png",
+        "local-relief.png",
+        "support.png"
+      ],
+      "visibleGeometry": "A straight diagonal raised route spans the upper edge. South of it lie irregular high patches, including a clipped rectangular-looking block on the west edge and rounded knobs near x110,y110. A large area outside the model truncates the east.",
+      "alternatives": "Road works, exposed bedrock, clearance piles or surviving structures; smooth southern ridges resemble cultivation.",
+      "supportLimits": "Mixed measured and interpolated cells cover rough patches. The west form and eastern terrain are clipped, preventing full outlines.",
+      "followUp": "medium",
+      "candidates": [
+        {
+          "feature": "Clipped rectangular-looking high block",
+          "pixelCentre": [
+            25,
+            175
+          ],
+          "pixelBox": [
+            0,
+            125,
+            60,
+            225
+          ],
+          "confidence": "low",
+          "nextCheck": "Inspect adjacent terrain, raw returns and aerial imagery for rock or structures."
+        }
+      ],
+      "worker": "a"
+    },
+    "evaluator": {
+      "case": "B013",
+      "patchId": "parish-r074-c097",
+      "boundsEPSG3763": [
+        38045,
+        -43761,
+        38245,
+        -43561
+      ],
+      "stratum": "intermediate_support",
+      "referencePointCrop": false,
+      "references": [],
+      "supportStats": {
+        "validCells": 123934,
+        "measuredCells": 96909,
+        "interpolatedCells": 27025,
+        "noDataCells": 36066,
+        "groundReturns": 265160,
+        "elevationMinMetres": 176.73,
+        "elevationMaxMetres": 204.19,
+        "localReliefClippedCells": 20611,
+        "slopeClippedCells": 6622
+      }
+    }
+  },
+  {
+    "review": {
+      "case": "B014",
+      "imagesInspected": [
+        "hillshade-045.png",
+        "hillshade-135.png",
+        "hillshade-315.png",
+        "local-relief.png",
+        "support.png"
+      ],
+      "visibleGeometry": "A broad smooth central surface is flanked by rough incised margins. In the southeast, a sharply bounded triangular or trapezoidal raised form stands apart from smaller knobs.",
+      "alternatives": "Large rock outcrop or boulder, modern embankment or structure; margin lines could be drainage or tracks.",
+      "supportLimits": "The prominent form is mainly measured, but its adjacent margin and rough edges include interpolation. Shape alone does not establish origin.",
+      "followUp": "medium",
+      "candidates": [
+        {
+          "feature": "Angular isolated raised form",
+          "pixelCentre": [
+            335,
+            340
+          ],
+          "pixelBox": [
+            302,
+            308,
+            369,
+            376
+          ],
+          "confidence": "medium",
+          "nextCheck": "Check raw point returns and aerial imagery to distinguish rock from constructed or modern material."
+        }
+      ],
+      "worker": "a"
+    },
+    "evaluator": {
+      "case": "B014",
+      "patchId": "parish-r029-c040",
+      "boundsEPSG3763": [
+        32345,
+        -39261,
+        32545,
+        -39061
+      ],
+      "stratum": "reference_point_crop",
+      "referencePointCrop": true,
+      "references": [
+        {
+          "cns": 8491,
+          "name": "Coito da Ola",
+          "type": "Vest\u00edgios Diversos",
+          "pixelXY": [
+            150.2269999999553,
+            236.9814000017941
+          ],
+          "url": "https://arqueologia.patrimoniocultural.pt/index.php?sid=sitios&subsid=53266"
+        }
+      ],
+      "supportStats": {
+        "validCells": 160000,
+        "measuredCells": 137845,
+        "interpolatedCells": 22155,
+        "noDataCells": 0,
+        "groundReturns": 376455,
+        "elevationMinMetres": 229.44,
+        "elevationMaxMetres": 247.04,
+        "localReliefClippedCells": 953,
+        "slopeClippedCells": 871
+      }
+    }
+  },
+  {
+    "review": {
+      "case": "B015",
+      "imagesInspected": [
+        "hillshade-045.png",
+        "hillshade-135.png",
+        "hillshade-315.png",
+        "local-relief.png",
+        "support.png"
+      ],
+      "visibleGeometry": "A gently curving boundary separates rough upper ground from smoother lower ground. Scattered small bumps and a short thin line occur south of it; no coherent localized feature is evident.",
+      "alternatives": "Slope break, field margin, erosion and vegetation or rock patches.",
+      "supportLimits": "Interpolation is concentrated along the boundary and at most bumps; smooth lower ground is mostly measured.",
+      "followUp": "low",
+      "candidates": [],
+      "worker": "a"
+    },
+    "evaluator": {
+      "case": "B015",
+      "patchId": "parish-r053-c089",
+      "boundsEPSG3763": [
+        37245,
+        -41661,
+        37445,
+        -41461
+      ],
+      "stratum": "reference_point_crop",
+      "referencePointCrop": true,
+      "references": [
+        {
+          "cns": 39925,
+          "name": "Clara Domingas",
+          "type": "Anta/D\u00f3lmen",
+          "pixelXY": [
+            112.00479999929667,
+            134.29259999841452
+          ],
+          "url": "https://arqueologia.patrimoniocultural.pt/index.php?sid=sitios&subsid=3623847"
+        }
+      ],
+      "supportStats": {
+        "validCells": 160000,
+        "measuredCells": 148573,
+        "interpolatedCells": 11427,
+        "noDataCells": 0,
+        "groundReturns": 412571,
+        "elevationMinMetres": 238.4,
+        "elevationMaxMetres": 253.4,
+        "localReliefClippedCells": 0,
+        "slopeClippedCells": 26
+      }
+    }
+  },
+  {
+    "review": {
+      "case": "B016",
+      "imagesInspected": [
+        "hillshade-045.png",
+        "hillshade-135.png",
+        "hillshade-315.png",
+        "local-relief.png",
+        "support.png"
+      ],
+      "visibleGeometry": "Regular narrow ridges run across most of the square and change orientation around a subtle curved middle line. A straight diagonal strip lies near the west edge. No compact feature stands out.",
+      "alternatives": "Cultivation patterns separated by a field margin and access strip.",
+      "supportLimits": "Measured terrain predominates with scattered fine interpolation; subtle crossing marks are low contrast.",
+      "followUp": "none",
+      "candidates": [],
+      "worker": "a"
+    },
+    "evaluator": {
+      "case": "B016",
+      "patchId": "parish-r012-c035",
+      "boundsEPSG3763": [
+        31845,
+        -37561,
+        32045,
+        -37361
+      ],
+      "stratum": "high_support",
+      "referencePointCrop": false,
+      "references": [],
+      "supportStats": {
+        "validCells": 160000,
+        "measuredCells": 148232,
+        "interpolatedCells": 11768,
+        "noDataCells": 0,
+        "groundReturns": 399817,
+        "elevationMinMetres": 246.15,
+        "elevationMaxMetres": 255.14,
+        "localReliefClippedCells": 0,
+        "slopeClippedCells": 0
+      }
+    }
+  },
+  {
+    "review": {
+      "case": "B017",
+      "imagesInspected": [
+        "hillshade-045.png",
+        "hillshade-135.png",
+        "hillshade-315.png",
+        "local-relief.png",
+        "support.png"
+      ],
+      "visibleGeometry": "Several angular enclosures or levelled plots occur in the northern half, separated by a straight east-west route. A large rectangular plot with dense parallel ridges fills the south centre; more parallel rows lie at the east edge.",
+      "alternatives": "Active fields, orchard rows, property boundaries and modern building or yard remains may account for the geometry.",
+      "supportLimits": "Most plot interiors are measured; northern edges and the route have substantial mixed interpolation. One tiny missing patch lies west.",
+      "followUp": "medium",
+      "candidates": [
+        {
+          "feature": "Angular bounded plot with internal rectilinear relief",
+          "pixelCentre": [
+            242,
+            57
+          ],
+          "pixelBox": [
+            170,
+            17,
+            307,
+            100
+          ],
+          "confidence": "low",
+          "nextCheck": "Compare raw returns and aerial imagery to identify current field or building features."
+        }
+      ],
+      "worker": "a"
+    },
+    "evaluator": {
+      "case": "B017",
+      "patchId": "parish-r019-c004",
+      "boundsEPSG3763": [
+        28745,
+        -38261,
+        28945,
+        -38061
+      ],
+      "stratum": "high_support",
+      "referencePointCrop": false,
+      "references": [],
+      "supportStats": {
+        "validCells": 159841,
+        "measuredCells": 143481,
+        "interpolatedCells": 16360,
+        "noDataCells": 159,
+        "groundReturns": 416988,
+        "elevationMinMetres": 221.13,
+        "elevationMaxMetres": 233.53,
+        "localReliefClippedCells": 0,
+        "slopeClippedCells": 285
+      }
+    }
+  },
+  {
+    "review": {
+      "case": "B018",
+      "imagesInspected": [
+        "hillshade-045.png",
+        "hillshade-135.png",
+        "hillshade-315.png",
+        "local-relief.png",
+        "support.png"
+      ],
+      "visibleGeometry": "Broad, softly curving low ground through the centre and southwest, with scattered small pits or bumps. No crisp enclosed or rectilinear form is apparent.",
+      "alternatives": "Natural drainage or slope variation; scattered vegetation or ground-classification artefacts.",
+      "supportLimits": "Mostly measured cells; small scattered interpolated clusters coincide with some rough spots. Broad shape is measured but subtle.",
+      "followUp": "low",
+      "candidates": [],
+      "worker": "b"
+    },
+    "evaluator": {
+      "case": "B018",
+      "patchId": "parish-r037-c102",
+      "boundsEPSG3763": [
+        38545,
+        -40061,
+        38745,
+        -39861
+      ],
+      "stratum": "high_support",
+      "referencePointCrop": false,
+      "references": [],
+      "supportStats": {
+        "validCells": 160000,
+        "measuredCells": 155648,
+        "interpolatedCells": 4352,
+        "noDataCells": 0,
+        "groundReturns": 868136,
+        "elevationMinMetres": 264.09,
+        "elevationMaxMetres": 276.74,
+        "localReliefClippedCells": 0,
+        "slopeClippedCells": 0
+      }
+    }
+  },
+  {
+    "review": {
+      "case": "B019",
+      "imagesInspected": [
+        "hillshade-045.png",
+        "hillshade-135.png",
+        "hillshade-315.png",
+        "local-relief.png",
+        "support.png"
+      ],
+      "visibleGeometry": "Two narrow parallel lines run roughly north to south at x80-170; a curved spur meets them near the centre. A small isolated rounded depression or mound lies west of the lines near x80,y158.",
+      "alternatives": "Vehicle tracks or field access; the isolated spot could be a tree throw, rock, or surface disturbance.",
+      "supportLimits": "Linework is mainly over measured cells. The isolated spot has nearby interpolation and needs raw return checks.",
+      "followUp": "low",
+      "candidates": [
+        {
+          "feature": "Small isolated rounded spot",
+          "pixelCentre": [
+            80,
+            157
+          ],
+          "pixelBox": [
+            68,
+            145,
+            92,
+            170
+          ],
+          "confidence": "low",
+          "nextCheck": "Inspect raw ground returns and neighbouring terrain for persistence."
+        }
+      ],
+      "worker": "b"
+    },
+    "evaluator": {
+      "case": "B019",
+      "patchId": "parish-r074-c084",
+      "boundsEPSG3763": [
+        36745,
+        -43761,
+        36945,
+        -43561
+      ],
+      "stratum": "high_support",
+      "referencePointCrop": false,
+      "references": [],
+      "supportStats": {
+        "validCells": 160000,
+        "measuredCells": 156557,
+        "interpolatedCells": 3443,
+        "noDataCells": 0,
+        "groundReturns": 455862,
+        "elevationMinMetres": 209.62,
+        "elevationMaxMetres": 217.22,
+        "localReliefClippedCells": 0,
+        "slopeClippedCells": 0
+      }
+    }
+  },
+  {
+    "review": {
+      "case": "B020",
+      "imagesInspected": [
+        "hillshade-045.png",
+        "hillshade-135.png",
+        "hillshade-315.png",
+        "local-relief.png",
+        "support.png"
+      ],
+      "visibleGeometry": "Curving paired track crosses from southwest toward northeast, with a branch eastward. Dense parallel furrow-like texture covers most of the square. Rough raised and hollow patches occur near the south centre.",
+      "alternatives": "Agricultural furrows and access tracks; southern roughness may be erosion, extraction, vegetation gaps, or interpolation.",
+      "supportLimits": "Measured cells dominate, but many small interpolated patches scatter across the textured area; larger southern roughness has weaker support.",
+      "followUp": "none",
+      "candidates": [],
+      "worker": "b"
+    },
+    "evaluator": {
+      "case": "B020",
+      "patchId": "parish-r027-c083",
+      "boundsEPSG3763": [
+        36645,
+        -39061,
+        36845,
+        -38861
+      ],
+      "stratum": "high_support",
+      "referencePointCrop": false,
+      "references": [],
+      "supportStats": {
+        "validCells": 160000,
+        "measuredCells": 147956,
+        "interpolatedCells": 12044,
+        "noDataCells": 0,
+        "groundReturns": 817574,
+        "elevationMinMetres": 252.84,
+        "elevationMaxMetres": 266.88,
+        "localReliefClippedCells": 231,
+        "slopeClippedCells": 288
+      }
+    }
+  },
+  {
+    "review": {
+      "case": "B021",
+      "imagesInspected": [
+        "hillshade-045.png",
+        "hillshade-135.png",
+        "hillshade-315.png",
+        "local-relief.png",
+        "support.png"
+      ],
+      "visibleGeometry": "Regular closely spaced curved ridges cover almost the whole square. A broad diagonal lane or boundary separates fields in the northwest to northeast direction.",
+      "alternatives": "Cultivation furrows, terracing, or ploughing patterns with a farm track or field boundary.",
+      "supportLimits": "Mostly measured terrain; intermittent interpolation follows some ridges, especially left and upper portions, but the regular pattern is pervasive.",
+      "followUp": "none",
+      "candidates": [],
+      "worker": "b"
+    },
+    "evaluator": {
+      "case": "B021",
+      "patchId": "parish-r067-c093",
+      "boundsEPSG3763": [
+        37645,
+        -43061,
+        37845,
+        -42861
+      ],
+      "stratum": "high_support",
+      "referencePointCrop": false,
+      "references": [],
+      "supportStats": {
+        "validCells": 160000,
+        "measuredCells": 151570,
+        "interpolatedCells": 8430,
+        "noDataCells": 0,
+        "groundReturns": 479234,
+        "elevationMinMetres": 201.39,
+        "elevationMaxMetres": 214.66,
+        "localReliefClippedCells": 0,
+        "slopeClippedCells": 0
+      }
+    }
+  },
+  {
+    "review": {
+      "case": "B022",
+      "imagesInspected": [
+        "hillshade-045.png",
+        "hillshade-135.png",
+        "hillshade-315.png",
+        "local-relief.png",
+        "support.png"
+      ],
+      "visibleGeometry": "A diagonal track or boundary crosses the north half. Near x300,y190 is a narrow north-south cluster of sharp parallel ridges, pits and blocks at a field edge. An isolated rounded rise lies further southeast.",
+      "alternatives": "Modern excavation, piled material, wall or drainage works; sharp ridges may include classification artefacts.",
+      "supportLimits": "The central irregular cluster straddles numerous interpolated cells and a narrow low-support strip, limiting shape interpretation. Northwest corner has missing cells.",
+      "followUp": "low",
+      "candidates": [
+        {
+          "feature": "Irregular parallel ridges and pits at field edge",
+          "pixelCentre": [
+            307,
+            192
+          ],
+          "pixelBox": [
+            278,
+            125,
+            340,
+            261
+          ],
+          "confidence": "low",
+          "nextCheck": "Check original ground returns, aerial context, and neighbouring patches."
+        }
+      ],
+      "worker": "b"
+    },
+    "evaluator": {
+      "case": "B022",
+      "patchId": "parish-r077-c087",
+      "boundsEPSG3763": [
+        37045,
+        -44061,
+        37245,
+        -43861
+      ],
+      "stratum": "high_support",
+      "referencePointCrop": false,
+      "references": [],
+      "supportStats": {
+        "validCells": 159334,
+        "measuredCells": 151752,
+        "interpolatedCells": 7582,
+        "noDataCells": 666,
+        "groundReturns": 422188,
+        "elevationMinMetres": 195.18,
+        "elevationMaxMetres": 209.34,
+        "localReliefClippedCells": 531,
+        "slopeClippedCells": 954
+      }
+    }
+  },
+  {
+    "review": {
+      "case": "B023",
+      "imagesInspected": [
+        "hillshade-045.png",
+        "hillshade-135.png",
+        "hillshade-315.png",
+        "local-relief.png",
+        "support.png"
+      ],
+      "visibleGeometry": "Only a narrow southern wedge contains terrain. It has regular parallel ridges and a small cluster of sharp bumps near x154,y350. The rest is outside the supported image area.",
+      "alternatives": "Agricultural ridges; the small cluster could be stones, vegetation remnants, or model artefacts.",
+      "supportLimits": "Most of the square is missing. The visible wedge is mainly measured but contains interpolation around the small cluster.",
+      "followUp": "none",
+      "candidates": [],
+      "worker": "b"
+    },
+    "evaluator": {
+      "case": "B023",
+      "patchId": "parish-r011-c077",
+      "boundsEPSG3763": [
+        36045,
+        -37461,
+        36245,
+        -37261
+      ],
+      "stratum": "boundary_support",
+      "referencePointCrop": false,
+      "references": [],
+      "supportStats": {
+        "validCells": 29473,
+        "measuredCells": 28265,
+        "interpolatedCells": 1208,
+        "noDataCells": 130527,
+        "groundReturns": 142211,
+        "elevationMinMetres": 273.29,
+        "elevationMaxMetres": 280.03,
+        "localReliefClippedCells": 0,
+        "slopeClippedCells": 75
+      }
+    }
+  },
+  {
+    "review": {
+      "case": "B024",
+      "imagesInspected": [
+        "hillshade-045.png",
+        "hillshade-135.png",
+        "hillshade-315.png",
+        "local-relief.png",
+        "support.png"
+      ],
+      "visibleGeometry": "A southwest triangular wedge of terrain shows regular curved parallel ridges. Its outer diagonal edge is rough, while most of the square has no terrain coverage.",
+      "alternatives": "Cultivation furrows and edge effects from clipping or ground classification.",
+      "supportLimits": "Most pixels are missing. The visible wedge is measured overall, but interpolated streaks follow ridges and the boundary.",
+      "followUp": "none",
+      "candidates": [],
+      "worker": "b"
+    },
+    "evaluator": {
+      "case": "B024",
+      "patchId": "parish-r010-c048",
+      "boundsEPSG3763": [
+        33145,
+        -37361,
+        33345,
+        -37161
+      ],
+      "stratum": "boundary_support",
+      "referencePointCrop": false,
+      "references": [],
+      "supportStats": {
+        "validCells": 35176,
+        "measuredCells": 33120,
+        "interpolatedCells": 2056,
+        "noDataCells": 124824,
+        "groundReturns": 97690,
+        "elevationMinMetres": 255.05,
+        "elevationMaxMetres": 258.42,
+        "localReliefClippedCells": 0,
+        "slopeClippedCells": 0
+      }
+    }
+  },
+  {
+    "review": {
+      "case": "B025",
+      "imagesInspected": [
+        "hillshade-045.png",
+        "hillshade-135.png",
+        "hillshade-315.png",
+        "local-relief.png",
+        "support.png"
+      ],
+      "visibleGeometry": "Straight and curving banks or cuts divide the visible area. A short parallel-sided hollow lies in the northwest interior (about x130,y150). A roughly circular hollow appears at x330,y322. Diagonal track crosses lower centre.",
+      "alternatives": "Field boundaries, drainage or extraction cuts, farm pond, or modern groundworks; some sharp edges may be processing effects.",
+      "supportLimits": "Measured cells cover most visible ground, but numerous interpolated clusters trace central disturbed areas and circular hollow. Southwest corner is outside coverage.",
+      "followUp": "medium",
+      "candidates": [
+        {
+          "feature": "Parallel-sided hollow",
+          "pixelCentre": [
+            135,
+            146
+          ],
+          "pixelBox": [
+            107,
+            79,
+            164,
+            205
+          ],
+          "confidence": "low",
+          "nextCheck": "Check source returns and wider landform context."
+        },
+        {
+          "feature": "Circular hollow",
+          "pixelCentre": [
+            328,
+            320
+          ],
+          "pixelBox": [
+            300,
+            292,
+            358,
+            344
+          ],
+          "confidence": "low",
+          "nextCheck": "Check raw returns and current surface context for pond or excavation."
+        }
+      ],
+      "worker": "b"
+    },
+    "evaluator": {
+      "case": "B025",
+      "patchId": "parish-r049-c064",
+      "boundsEPSG3763": [
+        34745,
+        -41261,
+        34945,
+        -41061
+      ],
+      "stratum": "intermediate_support",
+      "referencePointCrop": false,
+      "references": [],
+      "supportStats": {
+        "validCells": 140998,
+        "measuredCells": 122613,
+        "interpolatedCells": 18385,
+        "noDataCells": 19002,
+        "groundReturns": 325255,
+        "elevationMinMetres": 215.58,
+        "elevationMaxMetres": 233.7,
+        "localReliefClippedCells": 23,
+        "slopeClippedCells": 483
+      }
+    }
+  },
+  {
+    "review": {
+      "case": "B026",
+      "imagesInspected": [
+        "hillshade-045.png",
+        "hillshade-135.png",
+        "hillshade-315.png",
+        "local-relief.png",
+        "support.png"
+      ],
+      "visibleGeometry": "Irregular low mound and hollow cluster spans centre and southeast, with several discrete bright knobs and a faint curving rim. A small rectangular, straight-sided depression lies at the left edge near x75,y103. A diagonal track crosses lower half.",
+      "alternatives": "Rock outcrops, erosion, farm disturbance, small extraction pits, or recent structures; the left rectangle may be a modern enclosure or tank.",
+      "supportLimits": "Most terrain is measured. Interpolation clusters occur on the southern knobs and near the left missing strip; central broad form has stronger support.",
+      "followUp": "medium",
+      "candidates": [
+        {
+          "feature": "Irregular mound and hollow cluster",
+          "pixelCentre": [
+            219,
+            182
+          ],
+          "pixelBox": [
+            145,
+            47,
+            319,
+            281
+          ],
+          "confidence": "low",
+          "nextCheck": "Inspect raw returns, broader slope and overlapping views to separate natural roughness from shaped ground."
+        }
+      ],
+      "worker": "b"
+    },
+    "evaluator": {
+      "case": "B026",
+      "patchId": "parish-r047-c094",
+      "boundsEPSG3763": [
+        37745,
+        -41061,
+        37945,
+        -40861
+      ],
+      "stratum": "high_support",
+      "referencePointCrop": false,
+      "references": [],
+      "supportStats": {
+        "validCells": 158376,
+        "measuredCells": 154038,
+        "interpolatedCells": 4338,
+        "noDataCells": 1624,
+        "groundReturns": 836164,
+        "elevationMinMetres": 256.82,
+        "elevationMaxMetres": 274.76,
+        "localReliefClippedCells": 270,
+        "slopeClippedCells": 516
+      }
+    }
+  },
+  {
+    "review": {
+      "case": "B027",
+      "imagesInspected": [
+        "hillshade-045.png",
+        "hillshade-135.png",
+        "hillshade-315.png",
+        "local-relief.png",
+        "support.png"
+      ],
+      "visibleGeometry": "Patchy rough ground with many small knobs and hollows. A faint diagonal linear corridor runs from left-centre to lower centre. No coherent enclosure or platform stands out across lighting directions.",
+      "alternatives": "Rocky ground, vegetation or classification artefacts, erosion, and a track or field line.",
+      "supportLimits": "Numerous small interpolated cells occur throughout, often on the sharper knobs; subtle local shapes require raw-point verification.",
+      "followUp": "none",
+      "candidates": [],
+      "worker": "b"
+    },
+    "evaluator": {
+      "case": "B027",
+      "patchId": "parish-r023-c072",
+      "boundsEPSG3763": [
+        35545,
+        -38661,
+        35745,
+        -38461
+      ],
+      "stratum": "high_support",
+      "referencePointCrop": false,
+      "references": [],
+      "supportStats": {
+        "validCells": 160000,
+        "measuredCells": 133369,
+        "interpolatedCells": 26631,
+        "noDataCells": 0,
+        "groundReturns": 343466,
+        "elevationMinMetres": 241.54,
+        "elevationMaxMetres": 260.19,
+        "localReliefClippedCells": 873,
+        "slopeClippedCells": 986
+      }
+    }
+  },
+  {
+    "review": {
+      "case": "B028",
+      "imagesInspected": [
+        "hillshade-045.png",
+        "hillshade-135.png",
+        "hillshade-315.png",
+        "local-relief.png",
+        "support.png"
+      ],
+      "visibleGeometry": "Straight track or boundary spans the north edge. Several irregular elevated clusters lie near x160,y65 and in the southwest, with isolated small mounds across centre. A faint curved line runs along the east.",
+      "alternatives": "Piled rock or soil, vegetation remnants, small modern earthworks; east line may be a track or cultivation mark.",
+      "supportLimits": "Mostly measured, but interpolation concentrates on the sharper clusters and northern line, reducing confidence in their exact outlines.",
+      "followUp": "low",
+      "candidates": [
+        {
+          "feature": "Compact ridged mound cluster near north edge",
+          "pixelCentre": [
+            162,
+            69
+          ],
+          "pixelBox": [
+            125,
+            35,
+            194,
+            105
+          ],
+          "confidence": "low",
+          "nextCheck": "Check raw returns and aerial context for piles or disturbance."
+        }
+      ],
+      "worker": "b"
+    },
+    "evaluator": {
+      "case": "B028",
+      "patchId": "parish-r041-c079",
+      "boundsEPSG3763": [
+        36245,
+        -40461,
+        36445,
+        -40261
+      ],
+      "stratum": "high_support",
+      "referencePointCrop": false,
+      "references": [],
+      "supportStats": {
+        "validCells": 160000,
+        "measuredCells": 151910,
+        "interpolatedCells": 8090,
+        "noDataCells": 0,
+        "groundReturns": 462589,
+        "elevationMinMetres": 264.42,
+        "elevationMaxMetres": 274.77,
+        "localReliefClippedCells": 476,
+        "slopeClippedCells": 706
+      }
+    }
+  },
+  {
+    "review": {
+      "case": "B029",
+      "imagesInspected": [
+        "hillshade-045.png",
+        "hillshade-135.png",
+        "hillshade-315.png",
+        "local-relief.png",
+        "support.png"
+      ],
+      "visibleGeometry": "An irregular supported area ends at a curving east boundary. Scattered discrete knobs and shallow hollows occur throughout; a small rectangular-looking rough cluster near x110,y200 lacks a continuous enclosing line.",
+      "alternatives": "Rock or vegetation remnants, land clearance, small extraction, and edge or classification effects.",
+      "supportLimits": "Main area is measured, but small interpolation clusters are widespread and coincide with many knobs. Outside the east boundary is missing.",
+      "followUp": "none",
+      "candidates": [],
+      "worker": "b"
+    },
+    "evaluator": {
+      "case": "B029",
+      "patchId": "parish-r044-c102",
+      "boundsEPSG3763": [
+        38545,
+        -40761,
+        38745,
+        -40561
+      ],
+      "stratum": "intermediate_support",
+      "referencePointCrop": false,
+      "references": [],
+      "supportStats": {
+        "validCells": 126537,
+        "measuredCells": 119056,
+        "interpolatedCells": 7481,
+        "noDataCells": 33463,
+        "groundReturns": 615459,
+        "elevationMinMetres": 244.44,
+        "elevationMaxMetres": 264.44,
+        "localReliefClippedCells": 337,
+        "slopeClippedCells": 1304
+      }
+    }
+  },
+  {
+    "review": {
+      "case": "B030",
+      "imagesInspected": [
+        "hillshade-045.png",
+        "hillshade-135.png",
+        "hillshade-315.png",
+        "local-relief.png",
+        "support.png"
+      ],
+      "visibleGeometry": "Mostly smooth terrain with broad, subtle curving relief through centre and southwest. A few isolated bumps occur near edges, especially northeast. No defined linear arrangement or enclosure is visible.",
+      "alternatives": "Natural slope and drainage, scattered rock or vegetation remnants.",
+      "supportLimits": "Central broad relief is well measured. Small interpolated clusters lie mainly around edge bumps; fine features there are less reliable.",
+      "followUp": "none",
+      "candidates": [],
+      "worker": "b"
+    },
+    "evaluator": {
+      "case": "B030",
+      "patchId": "parish-r045-c079",
+      "boundsEPSG3763": [
+        36245,
+        -40861,
+        36445,
+        -40661
+      ],
+      "stratum": "reference_point_crop",
+      "referencePointCrop": true,
+      "references": [
+        {
+          "cns": 761,
+          "name": "Anta da Aldeia da Mata/ Tapad\u00e3o 1/Couto dos Pucarinhos",
+          "type": "Anta/D\u00f3lmen",
+          "pixelXY": [
+            338.0813999995589,
+            67.65419999882579
+          ],
+          "url": "https://arqueologia.patrimoniocultural.pt/index.php?sid=sitios&subsid=54036"
+        },
+        {
+          "cns": 12478,
+          "name": "Tapad\u00e3o 2",
+          "type": "Anta/D\u00f3lmen",
+          "pixelXY": [
+            310.70099999941885,
+            276.1992000006139
+          ],
+          "url": "https://arqueologia.patrimoniocultural.pt/index.php?sid=sitios&subsid=55561"
+        }
+      ],
+      "supportStats": {
+        "validCells": 160000,
+        "measuredCells": 157885,
+        "interpolatedCells": 2115,
+        "noDataCells": 0,
+        "groundReturns": 502930,
+        "elevationMinMetres": 260.56,
+        "elevationMaxMetres": 273.83,
+        "localReliefClippedCells": 252,
+        "slopeClippedCells": 174
+      }
+    }
+  },
+  {
+    "review": {
+      "case": "B031",
+      "imagesInspected": [
+        "hillshade-045.png",
+        "hillshade-135.png",
+        "hillshade-315.png",
+        "local-relief.png",
+        "support.png"
+      ],
+      "visibleGeometry": "Several branching shallow channels or gullies converge toward the east. A short straight ridge or cut lies near x285,y112, but merges into the broader slope; southern area is rough with scattered pits.",
+      "alternatives": "Natural drainage and erosion, field boundary, agricultural modification, or processing artefacts in rough ground.",
+      "supportLimits": "Dense interpolated cells occur across the central and southern rough areas and east channels; broad drainage is visible but small edge shapes are uncertain.",
+      "followUp": "none",
+      "candidates": [],
+      "worker": "b"
+    },
+    "evaluator": {
+      "case": "B031",
+      "patchId": "parish-r081-c093",
+      "boundsEPSG3763": [
+        37645,
+        -44461,
+        37845,
+        -44261
+      ],
+      "stratum": "high_support",
+      "referencePointCrop": false,
+      "references": [],
+      "supportStats": {
+        "validCells": 160000,
+        "measuredCells": 144035,
+        "interpolatedCells": 15965,
+        "noDataCells": 0,
+        "groundReturns": 422647,
+        "elevationMinMetres": 177.96,
+        "elevationMaxMetres": 204.51,
+        "localReliefClippedCells": 113,
+        "slopeClippedCells": 363
+      }
+    }
+  },
+  {
+    "review": {
+      "case": "B032",
+      "imagesInspected": [
+        "hillshade-045.png",
+        "hillshade-135.png",
+        "hillshade-315.png",
+        "local-relief.png",
+        "support.png"
+      ],
+      "visibleGeometry": "A conspicuous angular, steep-sided raised block lies at x335,y142. A shallow linear break crosses the centre west-east; surrounding terrain is rough and irregular with a few small bumps.",
+      "alternatives": "Rock outcrop or boulder, piled material, modern structure, or misclassified above-ground object. Centre line may be track or drainage.",
+      "supportLimits": "Angular block appears mainly measured, but nearby edge and centre line contain interpolation. Surrounding roughness has many small interpolated cells.",
+      "followUp": "low",
+      "candidates": [
+        {
+          "feature": "Angular raised block",
+          "pixelCentre": [
+            336,
+            141
+          ],
+          "pixelBox": [
+            305,
+            111,
+            366,
+            175
+          ],
+          "confidence": "low",
+          "nextCheck": "Check raw returns and aerial image for rock or modern object."
+        }
+      ],
+      "worker": "b"
+    },
+    "evaluator": {
+      "case": "B032",
+      "patchId": "parish-r030-c040",
+      "boundsEPSG3763": [
+        32345,
+        -39361,
+        32545,
+        -39161
+      ],
+      "stratum": "reference_point_crop",
+      "referencePointCrop": true,
+      "references": [
+        {
+          "cns": 8491,
+          "name": "Coito da Ola",
+          "type": "Vest\u00edgios Diversos",
+          "pixelXY": [
+            150.2269999999553,
+            36.9814000017941
+          ],
+          "url": "https://arqueologia.patrimoniocultural.pt/index.php?sid=sitios&subsid=53266"
+        }
+      ],
+      "supportStats": {
+        "validCells": 159873,
+        "measuredCells": 133464,
+        "interpolatedCells": 26409,
+        "noDataCells": 127,
+        "groundReturns": 360926,
+        "elevationMinMetres": 227.09,
+        "elevationMaxMetres": 244.25,
+        "localReliefClippedCells": 953,
+        "slopeClippedCells": 1010
+      }
+    }
+  },
+  {
+    "review": {
+      "case": "B033",
+      "imagesInspected": [
+        "hillshade-045.png",
+        "hillshade-135.png",
+        "hillshade-315.png",
+        "local-relief.png",
+        "support.png"
+      ],
+      "visibleGeometry": "Only a narrow eastern wedge has terrain. Regular parallel ridges fill it; a curving boundary or track crosses near y190 and another straight diagonal line crosses southeast.",
+      "alternatives": "Cultivation furrows and field tracks or boundaries; edge relief may reflect clipping.",
+      "supportLimits": "Most of the square is missing. Interpolation is scattered across the visible strip and concentrated along its curving boundary.",
+      "followUp": "none",
+      "candidates": [],
+      "worker": "b"
+    },
+    "evaluator": {
+      "case": "B033",
+      "patchId": "parish-r022-c023",
+      "boundsEPSG3763": [
+        30645,
+        -38561,
+        30845,
+        -38361
+      ],
+      "stratum": "boundary_support",
+      "referencePointCrop": false,
+      "references": [],
+      "supportStats": {
+        "validCells": 53511,
+        "measuredCells": 48006,
+        "interpolatedCells": 5505,
+        "noDataCells": 106489,
+        "groundReturns": 131959,
+        "elevationMinMetres": 229.01,
+        "elevationMaxMetres": 237.46,
+        "localReliefClippedCells": 0,
+        "slopeClippedCells": 0
+      }
+    }
+  },
+  {
+    "review": {
+      "case": "B034",
+      "imagesInspected": [
+        "hillshade-045.png",
+        "hillshade-135.png",
+        "hillshade-315.png",
+        "local-relief.png",
+        "support.png"
+      ],
+      "visibleGeometry": "A narrow sinuous north-south gully or cut runs through the centre, with rough raised edges. Faint east-west lines cross the flatter west side; small scattered bumps lie east.",
+      "alternatives": "Natural drainage or erosion, field drainage ditch, track cut, or model disturbance near vegetation.",
+      "supportLimits": "The gully has many interpolated cells along both edges; its broad course is visible, but small adjacent forms are poorly supported.",
+      "followUp": "none",
+      "candidates": [],
+      "worker": "b"
+    },
+    "evaluator": {
+      "case": "B034",
+      "patchId": "parish-r079-c090",
+      "boundsEPSG3763": [
+        37345,
+        -44261,
+        37545,
+        -44061
+      ],
+      "stratum": "high_support",
+      "referencePointCrop": false,
+      "references": [],
+      "supportStats": {
+        "validCells": 160000,
+        "measuredCells": 147121,
+        "interpolatedCells": 12879,
+        "noDataCells": 0,
+        "groundReturns": 689559,
+        "elevationMinMetres": 182.08,
+        "elevationMaxMetres": 201.65,
+        "localReliefClippedCells": 517,
+        "slopeClippedCells": 905
+      }
+    }
+  },
+  {
+    "review": {
+      "case": "B035",
+      "imagesInspected": [
+        "hillshade-045.png",
+        "hillshade-135.png",
+        "hillshade-315.png",
+        "local-relief.png",
+        "support.png"
+      ],
+      "visibleGeometry": "Several small rounded highs occur across a gently sloping surface; a larger irregular oval high near the lower centre has adjacent branching rough texture. A faint diagonal band crosses the scene.",
+      "alternatives": "Rock outcrops, residual boulders, erosion, vegetation-related ground classification, or a track could explain these forms.",
+      "supportLimits": "The oval and rough branching area include conspicuous interpolated cells; boundaries are less reliable there. Most surrounding surface is measured.",
+      "followUp": "low",
+      "candidates": [
+        {
+          "feature": "Irregular oval high with adjacent branching texture",
+          "pixelCentre": [
+            176,
+            273
+          ],
+          "pixelBox": [
+            133,
+            246,
+            204,
+            303
+          ],
+          "confidence": "low",
+          "nextCheck": "Compare raw ground returns and nearby imagery to separate rock or erosion from modeled form."
+        }
+      ],
+      "worker": "c"
+    },
+    "evaluator": {
+      "case": "B035",
+      "patchId": "parish-r059-c093",
+      "boundsEPSG3763": [
+        37645,
+        -42261,
+        37845,
+        -42061
+      ],
+      "stratum": "high_support",
+      "referencePointCrop": false,
+      "references": [],
+      "supportStats": {
+        "validCells": 159992,
+        "measuredCells": 141516,
+        "interpolatedCells": 18476,
+        "noDataCells": 8,
+        "groundReturns": 398712,
+        "elevationMinMetres": 213.72,
+        "elevationMaxMetres": 242.18,
+        "localReliefClippedCells": 45,
+        "slopeClippedCells": 609
+      }
+    }
+  },
+  {
+    "review": {
+      "case": "B036",
+      "imagesInspected": [
+        "hillshade-045.png",
+        "hillshade-135.png",
+        "hillshade-315.png",
+        "local-relief.png",
+        "support.png"
+      ],
+      "visibleGeometry": "Dense, nearly horizontal parallel ridges cover most of the square. A small isolated rounded high appears near the upper right; a sharper curving edge borders the lower right.",
+      "alternatives": "Regular ridges suggest cultivation or land management. The isolated high could be a boulder, vegetation artifact, or spoil; the edge may be a field or track boundary.",
+      "supportLimits": "Mostly measured cells, with sparse interpolation, including scattered cells around the lower irregular area. The small high is principally measured.",
+      "followUp": "low",
+      "candidates": [
+        {
+          "feature": "Small isolated rounded high",
+          "pixelCentre": [
+            282,
+            105
+          ],
+          "pixelBox": [
+            267,
+            91,
+            298,
+            122
+          ],
+          "confidence": "low",
+          "nextCheck": "Inspect raw returns and aerial context for a boulder or modern object."
+        }
+      ],
+      "worker": "c"
+    },
+    "evaluator": {
+      "case": "B036",
+      "patchId": "parish-r017-c083",
+      "boundsEPSG3763": [
+        36645,
+        -38061,
+        36845,
+        -37861
+      ],
+      "stratum": "high_support",
+      "referencePointCrop": false,
+      "references": [],
+      "supportStats": {
+        "validCells": 160000,
+        "measuredCells": 155717,
+        "interpolatedCells": 4283,
+        "noDataCells": 0,
+        "groundReturns": 768186,
+        "elevationMinMetres": 270.33,
+        "elevationMaxMetres": 282.73,
+        "localReliefClippedCells": 9,
+        "slopeClippedCells": 34
+      }
+    }
+  },
+  {
+    "review": {
+      "case": "B037",
+      "imagesInspected": [
+        "hillshade-045.png",
+        "hillshade-135.png",
+        "hillshade-315.png",
+        "local-relief.png",
+        "support.png"
+      ],
+      "visibleGeometry": "Three long, roughly north-south, slightly wavering linear breaks cross a mostly smooth surface. A few small isolated bumps occur, without a clear grouped arrangement.",
+      "alternatives": "Field boundaries, drainage, tracks, or erosion fit the lineaments. Small bumps may be rocks or vegetation-related artifacts.",
+      "supportLimits": "Lines coincide partly with narrow interpolated strips; the surrounding terrain is largely measured. Their exact profiles need raw-return checks.",
+      "followUp": "none",
+      "candidates": [],
+      "worker": "c"
+    },
+    "evaluator": {
+      "case": "B037",
+      "patchId": "parish-r021-c056",
+      "boundsEPSG3763": [
+        33945,
+        -38461,
+        34145,
+        -38261
+      ],
+      "stratum": "high_support",
+      "referencePointCrop": false,
+      "references": [],
+      "supportStats": {
+        "validCells": 160000,
+        "measuredCells": 151093,
+        "interpolatedCells": 8907,
+        "noDataCells": 0,
+        "groundReturns": 506114,
+        "elevationMinMetres": 253.29,
+        "elevationMaxMetres": 264.82,
+        "localReliefClippedCells": 44,
+        "slopeClippedCells": 135
+      }
+    }
+  },
+  {
+    "review": {
+      "case": "B038",
+      "imagesInspected": [
+        "hillshade-045.png",
+        "hillshade-135.png",
+        "hillshade-315.png",
+        "local-relief.png",
+        "support.png"
+      ],
+      "visibleGeometry": "Curving linear edges outline a broad smooth area. Near the upper-left centre is a cluster of short irregular ridges and hollows, including a small squared-looking bend. Other isolated rough patches occur farther right.",
+      "alternatives": "The cluster may be rock, erosion, vegetation/classification gaps, or disturbed ground; the broader lines may be tracks or field boundaries.",
+      "supportLimits": "The central cluster has many interpolated cells, especially along the apparent bends, so its geometry is uncertain. The surrounding smoother ground is mostly measured.",
+      "followUp": "low",
+      "candidates": [
+        {
+          "feature": "Cluster of short ridges and hollows",
+          "pixelCentre": [
+            149,
+            168
+          ],
+          "pixelBox": [
+            102,
+            94,
+            203,
+            229
+          ],
+          "confidence": "low",
+          "nextCheck": "Inspect raw ground returns and independent aerial imagery before interpreting the apparent bends."
+        }
+      ],
+      "worker": "c"
+    },
+    "evaluator": {
+      "case": "B038",
+      "patchId": "parish-r045-c088",
+      "boundsEPSG3763": [
+        37145,
+        -40861,
+        37345,
+        -40661
+      ],
+      "stratum": "high_support",
+      "referencePointCrop": false,
+      "references": [],
+      "supportStats": {
+        "validCells": 160000,
+        "measuredCells": 151664,
+        "interpolatedCells": 8336,
+        "noDataCells": 0,
+        "groundReturns": 714454,
+        "elevationMinMetres": 256.76,
+        "elevationMaxMetres": 272.47,
+        "localReliefClippedCells": 128,
+        "slopeClippedCells": 138
+      }
+    }
+  },
+  {
+    "review": {
+      "case": "B039",
+      "imagesInspected": [
+        "hillshade-045.png",
+        "hillshade-135.png",
+        "hillshade-315.png",
+        "local-relief.png",
+        "support.png"
+      ],
+      "visibleGeometry": "Fine parallel ridges span nearly the entire square, crossed by a broad sinuous low swale from lower left toward upper right. A curved edge lies near the bottom.",
+      "alternatives": "Cultivation texture and natural drainage or erosion explain the visible pattern; the bottom edge may be a track or field margin.",
+      "supportLimits": "Measured cells dominate, but scattered interpolation is widespread. Fine ridge detail may be sensitive to processing and should not be treated as a precise profile.",
+      "followUp": "none",
+      "candidates": [],
+      "worker": "c"
+    },
+    "evaluator": {
+      "case": "B039",
+      "patchId": "parish-r010-c026",
+      "boundsEPSG3763": [
+        30945,
+        -37361,
+        31145,
+        -37161
+      ],
+      "stratum": "high_support",
+      "referencePointCrop": false,
+      "references": [],
+      "supportStats": {
+        "validCells": 160000,
+        "measuredCells": 138527,
+        "interpolatedCells": 21473,
+        "noDataCells": 0,
+        "groundReturns": 341322,
+        "elevationMinMetres": 237.17000000000002,
+        "elevationMaxMetres": 247.85,
+        "localReliefClippedCells": 0,
+        "slopeClippedCells": 1
+      }
+    }
+  },
+  {
+    "review": {
+      "case": "B040",
+      "imagesInspected": [
+        "hillshade-045.png",
+        "hillshade-135.png",
+        "hillshade-315.png",
+        "local-relief.png",
+        "support.png"
+      ],
+      "visibleGeometry": "Mostly smooth ground contains an isolated rounded high near the upper left, several smaller points along a faint north-south line near the centre, and a textured field corner at upper right.",
+      "alternatives": "The high may be a boulder, tree-related artifact, or spoil. The central line and field corner suggest tracks or cultivation boundaries.",
+      "supportLimits": "Ground is overwhelmingly measured; only sparse interpolation around the field corner and edges. The isolated high is well supported in the model, though its origin is unknown.",
+      "followUp": "low",
+      "candidates": [
+        {
+          "feature": "Isolated rounded high",
+          "pixelCentre": [
+            78,
+            111
+          ],
+          "pixelBox": [
+            62,
+            93,
+            96,
+            130
+          ],
+          "confidence": "low",
+          "nextCheck": "Inspect raw returns and aerial imagery to identify surface material or vegetation."
+        }
+      ],
+      "worker": "c"
+    },
+    "evaluator": {
+      "case": "B040",
+      "patchId": "parish-r012-c071",
+      "boundsEPSG3763": [
+        35445,
+        -37561,
+        35645,
+        -37361
+      ],
+      "stratum": "high_support",
+      "referencePointCrop": false,
+      "references": [],
+      "supportStats": {
+        "validCells": 160000,
+        "measuredCells": 158305,
+        "interpolatedCells": 1695,
+        "noDataCells": 0,
+        "groundReturns": 1222768,
+        "elevationMinMetres": 260.59,
+        "elevationMaxMetres": 271.3,
+        "localReliefClippedCells": 0,
+        "slopeClippedCells": 5
+      }
+    }
+  },
+  {
+    "review": {
+      "case": "B041",
+      "imagesInspected": [
+        "hillshade-045.png",
+        "hillshade-135.png",
+        "hillshade-315.png",
+        "local-relief.png",
+        "support.png"
+      ],
+      "visibleGeometry": "Broad smooth undulations cross the central and right area. Closely spaced curving parallel ridges occupy the left edge beside a straight north-south margin. A narrow irregular spike appears near the lower right centre.",
+      "alternatives": "Contour cultivation or terracing likely explains the left ridges. The broad forms resemble natural drainage and slope variation; the spike may be vegetation or classification noise.",
+      "supportLimits": "Most cells are measured, with localized interpolation around the spike and scattered patches. Its sharp profile is unreliable.",
+      "followUp": "none",
+      "candidates": [],
+      "worker": "c"
+    },
+    "evaluator": {
+      "case": "B041",
+      "patchId": "parish-r031-c035",
+      "boundsEPSG3763": [
+        31845,
+        -39461,
+        32045,
+        -39261
+      ],
+      "stratum": "high_support",
+      "referencePointCrop": false,
+      "references": [],
+      "supportStats": {
+        "validCells": 160000,
+        "measuredCells": 151710,
+        "interpolatedCells": 8290,
+        "noDataCells": 0,
+        "groundReturns": 440731,
+        "elevationMinMetres": 236.22,
+        "elevationMaxMetres": 250.55,
+        "localReliefClippedCells": 0,
+        "slopeClippedCells": 58
+      }
+    }
+  },
+  {
+    "review": {
+      "case": "B042",
+      "imagesInspected": [
+        "hillshade-045.png",
+        "hillshade-135.png",
+        "hillshade-315.png",
+        "local-relief.png",
+        "support.png"
+      ],
+      "visibleGeometry": "Only the left and lower-left part contains terrain. A steep curved boundary meets a broad dark area; narrow parallel breaks and rough patches run along that margin. A small irregular cluster of bumps lies just left of it.",
+      "alternatives": "The edge and nearby roughness may be a data or mask boundary, erosion, rocks, or classification effects. There is no clear isolated arrangement away from it.",
+      "supportLimits": "A large portion is missing. Interpolation is concentrated near the edge and rough patches; apparent edge geometry should not be interpreted as a ground feature.",
+      "followUp": "none",
+      "candidates": [],
+      "worker": "c"
+    },
+    "evaluator": {
+      "case": "B042",
+      "patchId": "parish-r060-c098",
+      "boundsEPSG3763": [
+        38145,
+        -42361,
+        38345,
+        -42161
+      ],
+      "stratum": "boundary_support",
+      "referencePointCrop": false,
+      "references": [],
+      "supportStats": {
+        "validCells": 60874,
+        "measuredCells": 44994,
+        "interpolatedCells": 15880,
+        "noDataCells": 99126,
+        "groundReturns": 182639,
+        "elevationMinMetres": 201.07,
+        "elevationMaxMetres": 214.43,
+        "localReliefClippedCells": 38,
+        "slopeClippedCells": 1247
+      }
+    }
+  },
+  {
+    "review": {
+      "case": "B043",
+      "imagesInspected": [
+        "hillshade-045.png",
+        "hillshade-135.png",
+        "hillshade-315.png",
+        "local-relief.png",
+        "support.png"
+      ],
+      "visibleGeometry": "A faint sinuous line runs roughly north-south through otherwise smooth ground. Several isolated bumps align near its upper half. A small rectangular raised outline with an uneven interior appears near the bottom centre.",
+      "alternatives": "The bumps may be rocks or vegetation artifacts; the line may be a track or drainage. The rectangle could be a recent structure, enclosure, or ground-model artifact.",
+      "supportLimits": "Most ground is measured. The rectangle contains a concentrated interpolated patch, limiting confidence in its interior and edges.",
+      "followUp": "low",
+      "candidates": [
+        {
+          "feature": "Small rectangular outline",
+          "pixelCentre": [
+            201,
+            363
+          ],
+          "pixelBox": [
+            176,
+            344,
+            230,
+            386
+          ],
+          "confidence": "low",
+          "nextCheck": "Inspect raw returns and aerial imagery for a recent structure or classification gap."
+        }
+      ],
+      "worker": "c"
+    },
+    "evaluator": {
+      "case": "B043",
+      "patchId": "parish-r017-c050",
+      "boundsEPSG3763": [
+        33345,
+        -38061,
+        33545,
+        -37861
+      ],
+      "stratum": "high_support",
+      "referencePointCrop": false,
+      "references": [],
+      "supportStats": {
+        "validCells": 160000,
+        "measuredCells": 157314,
+        "interpolatedCells": 2686,
+        "noDataCells": 0,
+        "groundReturns": 556204,
+        "elevationMinMetres": 258.79,
+        "elevationMaxMetres": 265.6,
+        "localReliefClippedCells": 0,
+        "slopeClippedCells": 51
+      }
+    }
+  },
+  {
+    "review": {
+      "case": "B044",
+      "imagesInspected": [
+        "hillshade-045.png",
+        "hillshade-135.png",
+        "hillshade-315.png",
+        "local-relief.png",
+        "support.png"
+      ],
+      "visibleGeometry": "Regular diagonal parallel ridges cover the square. A prominent curved linear bank or cut runs from lower left toward the top, and another broad parallel edge lies near the lower right.",
+      "alternatives": "Cultivation rows and field or track boundaries explain the regular texture and lines. No localized discrete form stands out.",
+      "supportLimits": "Nearly all cells are measured; small interpolation flecks occur along the main line and elsewhere. Ridge profiles are still model-derived.",
+      "followUp": "none",
+      "candidates": [],
+      "worker": "c"
+    },
+    "evaluator": {
+      "case": "B044",
+      "patchId": "parish-r018-c086",
+      "boundsEPSG3763": [
+        36945,
+        -38161,
+        37145,
+        -37961
+      ],
+      "stratum": "high_support",
+      "referencePointCrop": false,
+      "references": [],
+      "supportStats": {
+        "validCells": 160000,
+        "measuredCells": 158361,
+        "interpolatedCells": 1639,
+        "noDataCells": 0,
+        "groundReturns": 1057882,
+        "elevationMinMetres": 274.21,
+        "elevationMaxMetres": 283.19,
+        "localReliefClippedCells": 0,
+        "slopeClippedCells": 0
+      }
+    }
+  },
+  {
+    "review": {
+      "case": "B045",
+      "imagesInspected": [
+        "hillshade-045.png",
+        "hillshade-135.png",
+        "hillshade-315.png",
+        "local-relief.png",
+        "support.png"
+      ],
+      "visibleGeometry": "Interlocking broad highs and narrow sinuous lows create an irregular dissected surface. A comparatively smooth tongue-shaped area extends from the centre toward the lower right, edged by shallow curved breaks.",
+      "alternatives": "Natural drainage and erosion, rock exposures, tracks, or field edges could form the breaks. The smooth tongue may reflect different land use or ground classification.",
+      "supportLimits": "Scattered interpolation is dense on rough highs and along some linear breaks. The apparent tongue edge partly follows interpolated bands, so continuity is uncertain.",
+      "followUp": "low",
+      "candidates": [
+        {
+          "feature": "Smooth tongue with curved marginal break",
+          "pixelCentre": [
+            289,
+            265
+          ],
+          "pixelBox": [
+            180,
+            163,
+            400,
+            358
+          ],
+          "confidence": "low",
+          "nextCheck": "Check raw returns across the edge and independent imagery for drainage or field use."
+        }
+      ],
+      "worker": "c"
+    },
+    "evaluator": {
+      "case": "B045",
+      "patchId": "parish-r036-c068",
+      "boundsEPSG3763": [
+        35145,
+        -39961,
+        35345,
+        -39761
+      ],
+      "stratum": "high_support",
+      "referencePointCrop": false,
+      "references": [],
+      "supportStats": {
+        "validCells": 160000,
+        "measuredCells": 134651,
+        "interpolatedCells": 25349,
+        "noDataCells": 0,
+        "groundReturns": 362729,
+        "elevationMinMetres": 229.31,
+        "elevationMaxMetres": 249.75,
+        "localReliefClippedCells": 370,
+        "slopeClippedCells": 1263
+      }
+    }
+  },
+  {
+    "review": {
+      "case": "B046",
+      "imagesInspected": [
+        "hillshade-045.png",
+        "hillshade-135.png",
+        "hillshade-315.png",
+        "local-relief.png",
+        "support.png"
+      ],
+      "visibleGeometry": "Long nearly north-south narrow breaks divide three strips with contrasting surface texture. The middle strip is rougher; the right strip is smoother with faint parallel lines. No compact coherent feature is apparent.",
+      "alternatives": "Field boundaries, cultivation, tracks, drainage, or vegetation coverage could explain the striping and texture change.",
+      "supportLimits": "The strongest breaks coincide with narrow interpolated bands; most strip interiors are measured. Exact bank or ditch profiles are uncertain.",
+      "followUp": "none",
+      "candidates": [],
+      "worker": "c"
+    },
+    "evaluator": {
+      "case": "B046",
+      "patchId": "parish-r035-c076",
+      "boundsEPSG3763": [
+        35945,
+        -39861,
+        36145,
+        -39661
+      ],
+      "stratum": "high_support",
+      "referencePointCrop": false,
+      "references": [],
+      "supportStats": {
+        "validCells": 160000,
+        "measuredCells": 149123,
+        "interpolatedCells": 10877,
+        "noDataCells": 0,
+        "groundReturns": 647056,
+        "elevationMinMetres": 256.51,
+        "elevationMaxMetres": 268.43,
+        "localReliefClippedCells": 0,
+        "slopeClippedCells": 112
+      }
+    }
+  },
+  {
+    "review": {
+      "case": "B047",
+      "imagesInspected": [
+        "hillshade-045.png",
+        "hillshade-135.png",
+        "hillshade-315.png",
+        "local-relief.png",
+        "support.png"
+      ],
+      "visibleGeometry": "A compact cluster of sharply irregular highs and clefts lies left of centre, with a smaller isolated bump below it. A faint curved line passes immediately to its right across otherwise smooth terrain.",
+      "alternatives": "Exposed rock, boulders, rubble, vegetation-related classification, or recent disturbance could explain the cluster; the line may be a track.",
+      "supportLimits": "The cluster coincides with substantial interpolation, while the surrounding plain is measured. Individual high shapes and clefts cannot be trusted without raw returns.",
+      "followUp": "low",
+      "candidates": [
+        {
+          "feature": "Compact irregular high cluster",
+          "pixelCentre": [
+            101,
+            159
+          ],
+          "pixelBox": [
+            40,
+            108,
+            151,
+            224
+          ],
+          "confidence": "low",
+          "nextCheck": "Check raw ground returns and aerial imagery for rock or recent disturbance."
+        }
+      ],
+      "worker": "c"
+    },
+    "evaluator": {
+      "case": "B047",
+      "patchId": "parish-r044-c080",
+      "boundsEPSG3763": [
+        36345,
+        -40761,
+        36545,
+        -40561
+      ],
+      "stratum": "reference_point_crop",
+      "referencePointCrop": true,
+      "references": [
+        {
+          "cns": 761,
+          "name": "Anta da Aldeia da Mata/ Tapad\u00e3o 1/Couto dos Pucarinhos",
+          "type": "Anta/D\u00f3lmen",
+          "pixelXY": [
+            138.08139999955893,
+            267.6541999988258
+          ],
+          "url": "https://arqueologia.patrimoniocultural.pt/index.php?sid=sitios&subsid=54036"
+        }
+      ],
+      "supportStats": {
+        "validCells": 160000,
+        "measuredCells": 157688,
+        "interpolatedCells": 2312,
+        "noDataCells": 0,
+        "groundReturns": 505744,
+        "elevationMinMetres": 263.74,
+        "elevationMaxMetres": 275.87,
+        "localReliefClippedCells": 724,
+        "slopeClippedCells": 864
+      }
+    }
+  },
+  {
+    "review": {
+      "case": "B048",
+      "imagesInspected": [
+        "hillshade-045.png",
+        "hillshade-135.png",
+        "hillshade-315.png",
+        "local-relief.png",
+        "support.png"
+      ],
+      "visibleGeometry": "Several narrow linear cuts converge in a V-like junction near the lower centre. Fine parallel ridges cover the intervening ground, with broader shallow swales on the right.",
+      "alternatives": "Tracks, field drains, erosion channels, and cultivation could produce the convergence and regular texture.",
+      "supportLimits": "Measured cells dominate, though many isolated interpolated cells are scattered throughout. The narrow cuts are visible across lighting directions but require raw profiles to characterize.",
+      "followUp": "none",
+      "candidates": [],
+      "worker": "c"
+    },
+    "evaluator": {
+      "case": "B048",
+      "patchId": "parish-r006-c022",
+      "boundsEPSG3763": [
+        30545,
+        -36961,
+        30745,
+        -36761
+      ],
+      "stratum": "high_support",
+      "referencePointCrop": false,
+      "references": [],
+      "supportStats": {
+        "validCells": 160000,
+        "measuredCells": 146578,
+        "interpolatedCells": 13422,
+        "noDataCells": 0,
+        "groundReturns": 505331,
+        "elevationMinMetres": 234.78,
+        "elevationMaxMetres": 245.12,
+        "localReliefClippedCells": 0,
+        "slopeClippedCells": 0
+      }
+    }
+  },
+  {
+    "review": {
+      "case": "B049",
+      "imagesInspected": [
+        "hillshade-045.png",
+        "hillshade-135.png",
+        "hillshade-315.png",
+        "local-relief.png",
+        "support.png"
+      ],
+      "visibleGeometry": "A smooth central swath is bordered by a diagonal break on the left. Scattered isolated rounded highs and rough patches occur mainly on the right; several roughly align near the lower right but form no clear enclosure.",
+      "alternatives": "Natural boulders or outcrops, vegetation/classification effects, and a track or erosion margin can explain the visible forms.",
+      "supportLimits": "Central ground is mostly measured. The left break follows an interpolated strip, while some rough patches have additional interpolation; its exact shape is uncertain.",
+      "followUp": "none",
+      "candidates": [],
+      "worker": "c"
+    },
+    "evaluator": {
+      "case": "B049",
+      "patchId": "parish-r038-c091",
+      "boundsEPSG3763": [
+        37445,
+        -40161,
+        37645,
+        -39961
+      ],
+      "stratum": "high_support",
+      "referencePointCrop": false,
+      "references": [],
+      "supportStats": {
+        "validCells": 160000,
+        "measuredCells": 153692,
+        "interpolatedCells": 6308,
+        "noDataCells": 0,
+        "groundReturns": 1029730,
+        "elevationMinMetres": 259.28,
+        "elevationMaxMetres": 273.93,
+        "localReliefClippedCells": 228,
+        "slopeClippedCells": 667
+      }
+    }
+  },
+  {
+    "review": {
+      "case": "B050",
+      "imagesInspected": [
+        "hillshade-045.png",
+        "hillshade-135.png",
+        "hillshade-315.png",
+        "local-relief.png",
+        "support.png"
+      ],
+      "visibleGeometry": "A broad smooth surface with shallow swales occupies the available terrain. The lower-left diagonal and upper-left irregular margins abut missing areas. Small rough patches and faint parallel lines occur near the right edge.",
+      "alternatives": "Natural slope and drainage, cultivation, and vegetation/classification artifacts explain the subtle texture; the straight diagonal margin is a data boundary.",
+      "supportLimits": "Large black areas are missing terrain. Several rough patches coincide with interpolated clusters; no localized form is reliable enough for a candidate.",
+      "followUp": "none",
+      "candidates": [],
+      "worker": "c"
+    },
+    "evaluator": {
+      "case": "B050",
+      "patchId": "parish-r060-c070",
+      "boundsEPSG3763": [
+        35345,
+        -42361,
+        35545,
+        -42161
+      ],
+      "stratum": "intermediate_support",
+      "referencePointCrop": false,
+      "references": [],
+      "supportStats": {
+        "validCells": 116759,
+        "measuredCells": 108771,
+        "interpolatedCells": 7988,
+        "noDataCells": 43241,
+        "groundReturns": 341089,
+        "elevationMinMetres": 213.06,
+        "elevationMaxMetres": 224.56,
+        "localReliefClippedCells": 0,
+        "slopeClippedCells": 0
+      }
+    }
+  }
+]

@@ -1,0 +1,92 @@
+{
+  "cases": [
+    {
+      "case": "R09",
+      "imagesInspected": [
+        "hillshade-045",
+        "hillshade-135",
+        "hillshade-315",
+        "local-relief",
+        "support",
+        "hillshade-225",
+        "slope",
+        "sky-view-factor",
+        "terrain-context",
+        "aerial-patch",
+        "aerial-context",
+        "point-classes"
+      ],
+      "visibleGeometry": "An irregular cluster of sharp, angular raised forms lies west of a curving track, with a few detached bumps nearby. The cluster coincides with exposed grey rock in the photograph. Similar outcrops occur around the context area.",
+      "alternatives": "Natural bedrock, boulders and erosion explain the irregular edges and repeated nearby forms; the linear trace is a present track.",
+      "supportLimits": "The model is mostly measured, with interpolated pockets inside the rough cluster. Fine edges there need original-return checks. Photographs and terrain have different dates.",
+      "followUp": "none",
+      "candidates": []
+    },
+    {
+      "case": "R10",
+      "imagesInspected": [
+        "hillshade-045",
+        "hillshade-135",
+        "hillshade-315",
+        "local-relief",
+        "support",
+        "hillshade-225",
+        "slope",
+        "sky-view-factor",
+        "terrain-context",
+        "aerial-patch",
+        "aerial-context",
+        "point-classes"
+      ],
+      "visibleGeometry": "A curving break between rougher northern ground and a smoother southern slope crosses the patch. A narrow track follows part of this break. Small irregular bumps and shallow channels occur among trees to the north; scattered bumps also lie south. No coherent closed or rectilinear form is clear.",
+      "alternatives": "Natural slope transition, drainage, bedrock and tree-associated ground disturbance; the photograph shows a track along the break.",
+      "supportLimits": "Many small patches around trees and rough ground are interpolated. The break is mostly measured but its fine texture is uncertain; derivative layers reflect the same terrain model.",
+      "followUp": "none",
+      "candidates": []
+    },
+    {
+      "case": "R11",
+      "imagesInspected": [
+        "hillshade-045",
+        "hillshade-135",
+        "hillshade-315",
+        "local-relief",
+        "support",
+        "hillshade-225",
+        "slope",
+        "sky-view-factor",
+        "terrain-context",
+        "aerial-patch",
+        "aerial-context",
+        "point-classes"
+      ],
+      "visibleGeometry": "Dense, evenly spaced curved ridges fill the western field; other parallel ridges occupy the upper and lower fields. Straight parcel boundaries meet a broad east-west track near the middle, with a small sharp bump at the junction. The photograph shows cultivated parcels and tree rows aligned with these traces.",
+      "alternatives": "Agricultural furrows, field banks, track grading, fence or tree-line disturbance explain the repeated ridges and junction bump.",
+      "supportLimits": "Most field surfaces are measured. Narrow boundary and vegetation strips contain interpolation, so their smallest apparent edges are less secure. The aerial image reflects a later season.",
+      "followUp": "none",
+      "candidates": []
+    },
+    {
+      "case": "R12",
+      "imagesInspected": [
+        "hillshade-045",
+        "hillshade-135",
+        "hillshade-315",
+        "local-relief",
+        "support",
+        "hillshade-225",
+        "slope",
+        "sky-view-factor",
+        "terrain-context",
+        "aerial-patch",
+        "aerial-context",
+        "point-classes"
+      ],
+      "visibleGeometry": "Two roughly east-west boundaries frame a broad, textured strip with scattered low bumps. Regular parallel cultivation ridges lie above and below. One compact raised knob sits near the upper boundary at about [310,100], where the photograph shows exposed rock beside a track.",
+      "alternatives": "Field banks, track edges, cultivation, trees and natural rocks explain the visible forms. The knob has a direct exposed-rock counterpart.",
+      "supportLimits": "The broad surfaces are mostly measured, but the boundary strips and scattered patches include interpolation. Their fine texture should not be treated as separate evidence from the model derivatives.",
+      "followUp": "none",
+      "candidates": []
+    }
+  ]
+}

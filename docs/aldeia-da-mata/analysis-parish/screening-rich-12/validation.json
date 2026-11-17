@@ -1,0 +1,24 @@
+{
+  "passed": true,
+  "pairedCases": 12,
+  "rawWorkerFiles": 6,
+  "reportedImageInspections": 204,
+  "checks": [
+    "exact case assignments and complete layer lists",
+    "annotation boxes/centres and evidence layer bounds",
+    "six frozen raw-output SHA-256 hashes",
+    "precommitted evaluator key SHA-256",
+    "204 anonymous input/package hashes",
+    "source-file hashes",
+    "PNG metadata chunks exclude text/geolocation",
+    "sky-view flat/wall/missing cases",
+    "gallery inline JavaScript syntax",
+    "browser loaded paired results and switched R04/aerial-patch with reference/candidate overlays",
+    "git diff --check"
+  ],
+  "notEstablished": [
+    "Archaeological identity or visible feature boundaries",
+    "Statistical detection accuracy or false-positive rate",
+    "Exact tokens or per-model cost"
+  ]
+}

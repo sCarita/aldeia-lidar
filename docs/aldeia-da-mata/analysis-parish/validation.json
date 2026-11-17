@@ -1,0 +1,20 @@
+{
+  "passed": true,
+  "patches": 4172,
+  "contextTiles": 685,
+  "checksums": 77969,
+  "contextStats": {
+    "groundReturns": 504411342,
+    "measuredCells": 135558738,
+    "interpolatedCells": 12996992,
+    "validCells": 148555730
+  },
+  "checks": [
+    "Exact source/model cell and return counts",
+    "Terrain and support semantics",
+    "GeoTIFF CRS/NoData/world files",
+    "Every adjacent overlap in eight layers",
+    "All artifact hashes",
+    "Complete review sheet"
+  ]
+}

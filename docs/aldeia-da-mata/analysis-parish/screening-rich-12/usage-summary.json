@@ -1,0 +1,31 @@
+{
+  "before": {
+    "time": "2026-11-16T23:12:51.228Z",
+    "ordinaryUsageAllowed": true,
+    "rateLimitsByLimitId": {
+      "codex": {
+        "limitId": "codex",
+        "limitName": null,
+        "normalModelSlug": null,
+        "primary": {
+          "usedPercent": 57,
+          "windowDurationMins": 10080,
+          "resetsAt": 1794926671
+        },
+        "secondary": null,
+        "credits": {
+          "hasCredits": false,
+          "unlimited": false,
+          "balance": "0"
+        },
+        "individualLimit": null,
+        "spendControlReached": false,
+        "planType": "prolite",
+        "rateLimitReachedType": null
+      }
+    }
+  },
+  "after": {"time":"2026-11-16T23:17:57.430Z","ordinaryUsageAllowed":true,"rateLimitsByLimitId":{"codex":{"limitId":"codex","limitName":null,"normalModelSlug":null,"primary":{"usedPercent":57,"windowDurationMins":10080,"resetsAt":1794926671},"secondary":null,"credits":{"hasCredits":false,"unlimited":false,"balance":"0"},"individualLimit":null,"spendControlReached":false,"planType":"prolite","rateLimitReachedType":null}}},
+  "finalReportCheck": {"time":"2026-11-16T23:20:57.773Z","rateLimitsByLimitId":{"codex":{"limitId":"codex","limitName":null,"normalModelSlug":null,"primary":{"usedPercent":57,"windowDurationMins":10080,"resetsAt":1794926671},"secondary":null,"credits":{"hasCredits":false,"unlimited":false,"balance":"0"},"individualLimit":null,"spendControlReached":false,"planType":"prolite","rateLimitReachedType":null}}},
+  "note": "Shared account meter stayed at 57% used (43% remaining), including the final report check. Readings are rounded and may lag; no exact per-model or token cost can be inferred. Includes preparation, coordinator and any other activity. No reset or purchase used."
+}

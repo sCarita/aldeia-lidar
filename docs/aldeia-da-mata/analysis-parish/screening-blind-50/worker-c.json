@@ -1,0 +1,356 @@
+{
+  "cases": [
+    {
+      "case": "B035",
+      "imagesInspected": [
+        "hillshade-045.png",
+        "hillshade-135.png",
+        "hillshade-315.png",
+        "local-relief.png",
+        "support.png"
+      ],
+      "visibleGeometry": "Several small rounded highs occur across a gently sloping surface; a larger irregular oval high near the lower centre has adjacent branching rough texture. A faint diagonal band crosses the scene.",
+      "alternatives": "Rock outcrops, residual boulders, erosion, vegetation-related ground classification, or a track could explain these forms.",
+      "supportLimits": "The oval and rough branching area include conspicuous interpolated cells; boundaries are less reliable there. Most surrounding surface is measured.",
+      "followUp": "low",
+      "candidates": [
+        {
+          "feature": "Irregular oval high with adjacent branching texture",
+          "pixelCentre": [
+            176,
+            273
+          ],
+          "pixelBox": [
+            133,
+            246,
+            204,
+            303
+          ],
+          "confidence": "low",
+          "nextCheck": "Compare raw ground returns and nearby imagery to separate rock or erosion from modeled form."
+        }
+      ]
+    },
+    {
+      "case": "B036",
+      "imagesInspected": [
+        "hillshade-045.png",
+        "hillshade-135.png",
+        "hillshade-315.png",
+        "local-relief.png",
+        "support.png"
+      ],
+      "visibleGeometry": "Dense, nearly horizontal parallel ridges cover most of the square. A small isolated rounded high appears near the upper right; a sharper curving edge borders the lower right.",
+      "alternatives": "Regular ridges suggest cultivation or land management. The isolated high could be a boulder, vegetation artifact, or spoil; the edge may be a field or track boundary.",
+      "supportLimits": "Mostly measured cells, with sparse interpolation, including scattered cells around the lower irregular area. The small high is principally measured.",
+      "followUp": "low",
+      "candidates": [
+        {
+          "feature": "Small isolated rounded high",
+          "pixelCentre": [
+            282,
+            105
+          ],
+          "pixelBox": [
+            267,
+            91,
+            298,
+            122
+          ],
+          "confidence": "low",
+          "nextCheck": "Inspect raw returns and aerial context for a boulder or modern object."
+        }
+      ]
+    },
+    {
+      "case": "B037",
+      "imagesInspected": [
+        "hillshade-045.png",
+        "hillshade-135.png",
+        "hillshade-315.png",
+        "local-relief.png",
+        "support.png"
+      ],
+      "visibleGeometry": "Three long, roughly north-south, slightly wavering linear breaks cross a mostly smooth surface. A few small isolated bumps occur, without a clear grouped arrangement.",
+      "alternatives": "Field boundaries, drainage, tracks, or erosion fit the lineaments. Small bumps may be rocks or vegetation-related artifacts.",
+      "supportLimits": "Lines coincide partly with narrow interpolated strips; the surrounding terrain is largely measured. Their exact profiles need raw-return checks.",
+      "followUp": "none",
+      "candidates": []
+    },
+    {
+      "case": "B038",
+      "imagesInspected": [
+        "hillshade-045.png",
+        "hillshade-135.png",
+        "hillshade-315.png",
+        "local-relief.png",
+        "support.png"
+      ],
+      "visibleGeometry": "Curving linear edges outline a broad smooth area. Near the upper-left centre is a cluster of short irregular ridges and hollows, including a small squared-looking bend. Other isolated rough patches occur farther right.",
+      "alternatives": "The cluster may be rock, erosion, vegetation/classification gaps, or disturbed ground; the broader lines may be tracks or field boundaries.",
+      "supportLimits": "The central cluster has many interpolated cells, especially along the apparent bends, so its geometry is uncertain. The surrounding smoother ground is mostly measured.",
+      "followUp": "low",
+      "candidates": [
+        {
+          "feature": "Cluster of short ridges and hollows",
+          "pixelCentre": [
+            149,
+            168
+          ],
+          "pixelBox": [
+            102,
+            94,
+            203,
+            229
+          ],
+          "confidence": "low",
+          "nextCheck": "Inspect raw ground returns and independent aerial imagery before interpreting the apparent bends."
+        }
+      ]
+    },
+    {
+      "case": "B039",
+      "imagesInspected": [
+        "hillshade-045.png",
+        "hillshade-135.png",
+        "hillshade-315.png",
+        "local-relief.png",
+        "support.png"
+      ],
+      "visibleGeometry": "Fine parallel ridges span nearly the entire square, crossed by a broad sinuous low swale from lower left toward upper right. A curved edge lies near the bottom.",
+      "alternatives": "Cultivation texture and natural drainage or erosion explain the visible pattern; the bottom edge may be a track or field margin.",
+      "supportLimits": "Measured cells dominate, but scattered interpolation is widespread. Fine ridge detail may be sensitive to processing and should not be treated as a precise profile.",
+      "followUp": "none",
+      "candidates": []
+    },
+    {
+      "case": "B040",
+      "imagesInspected": [
+        "hillshade-045.png",
+        "hillshade-135.png",
+        "hillshade-315.png",
+        "local-relief.png",
+        "support.png"
+      ],
+      "visibleGeometry": "Mostly smooth ground contains an isolated rounded high near the upper left, several smaller points along a faint north-south line near the centre, and a textured field corner at upper right.",
+      "alternatives": "The high may be a boulder, tree-related artifact, or spoil. The central line and field corner suggest tracks or cultivation boundaries.",
+      "supportLimits": "Ground is overwhelmingly measured; only sparse interpolation around the field corner and edges. The isolated high is well supported in the model, though its origin is unknown.",
+      "followUp": "low",
+      "candidates": [
+        {
+          "feature": "Isolated rounded high",
+          "pixelCentre": [
+            78,
+            111
+          ],
+          "pixelBox": [
+            62,
+            93,
+            96,
+            130
+          ],
+          "confidence": "low",
+          "nextCheck": "Inspect raw returns and aerial imagery to identify surface material or vegetation."
+        }
+      ]
+    },
+    {
+      "case": "B041",
+      "imagesInspected": [
+        "hillshade-045.png",
+        "hillshade-135.png",
+        "hillshade-315.png",
+        "local-relief.png",
+        "support.png"
+      ],
+      "visibleGeometry": "Broad smooth undulations cross the central and right area. Closely spaced curving parallel ridges occupy the left edge beside a straight north-south margin. A narrow irregular spike appears near the lower right centre.",
+      "alternatives": "Contour cultivation or terracing likely explains the left ridges. The broad forms resemble natural drainage and slope variation; the spike may be vegetation or classification noise.",
+      "supportLimits": "Most cells are measured, with localized interpolation around the spike and scattered patches. Its sharp profile is unreliable.",
+      "followUp": "none",
+      "candidates": []
+    },
+    {
+      "case": "B042",
+      "imagesInspected": [
+        "hillshade-045.png",
+        "hillshade-135.png",
+        "hillshade-315.png",
+        "local-relief.png",
+        "support.png"
+      ],
+      "visibleGeometry": "Only the left and lower-left part contains terrain. A steep curved boundary meets a broad dark area; narrow parallel breaks and rough patches run along that margin. A small irregular cluster of bumps lies just left of it.",
+      "alternatives": "The edge and nearby roughness may be a data or mask boundary, erosion, rocks, or classification effects. There is no clear isolated arrangement away from it.",
+      "supportLimits": "A large portion is missing. Interpolation is concentrated near the edge and rough patches; apparent edge geometry should not be interpreted as a ground feature.",
+      "followUp": "none",
+      "candidates": []
+    },
+    {
+      "case": "B043",
+      "imagesInspected": [
+        "hillshade-045.png",
+        "hillshade-135.png",
+        "hillshade-315.png",
+        "local-relief.png",
+        "support.png"
+      ],
+      "visibleGeometry": "A faint sinuous line runs roughly north-south through otherwise smooth ground. Several isolated bumps align near its upper half. A small rectangular raised outline with an uneven interior appears near the bottom centre.",
+      "alternatives": "The bumps may be rocks or vegetation artifacts; the line may be a track or drainage. The rectangle could be a recent structure, enclosure, or ground-model artifact.",
+      "supportLimits": "Most ground is measured. The rectangle contains a concentrated interpolated patch, limiting confidence in its interior and edges.",
+      "followUp": "low",
+      "candidates": [
+        {
+          "feature": "Small rectangular outline",
+          "pixelCentre": [
+            201,
+            363
+          ],
+          "pixelBox": [
+            176,
+            344,
+            230,
+            386
+          ],
+          "confidence": "low",
+          "nextCheck": "Inspect raw returns and aerial imagery for a recent structure or classification gap."
+        }
+      ]
+    },
+    {
+      "case": "B044",
+      "imagesInspected": [
+        "hillshade-045.png",
+        "hillshade-135.png",
+        "hillshade-315.png",
+        "local-relief.png",
+        "support.png"
+      ],
+      "visibleGeometry": "Regular diagonal parallel ridges cover the square. A prominent curved linear bank or cut runs from lower left toward the top, and another broad parallel edge lies near the lower right.",
+      "alternatives": "Cultivation rows and field or track boundaries explain the regular texture and lines. No localized discrete form stands out.",
+      "supportLimits": "Nearly all cells are measured; small interpolation flecks occur along the main line and elsewhere. Ridge profiles are still model-derived.",
+      "followUp": "none",
+      "candidates": []
+    },
+    {
+      "case": "B045",
+      "imagesInspected": [
+        "hillshade-045.png",
+        "hillshade-135.png",
+        "hillshade-315.png",
+        "local-relief.png",
+        "support.png"
+      ],
+      "visibleGeometry": "Interlocking broad highs and narrow sinuous lows create an irregular dissected surface. A comparatively smooth tongue-shaped area extends from the centre toward the lower right, edged by shallow curved breaks.",
+      "alternatives": "Natural drainage and erosion, rock exposures, tracks, or field edges could form the breaks. The smooth tongue may reflect different land use or ground classification.",
+      "supportLimits": "Scattered interpolation is dense on rough highs and along some linear breaks. The apparent tongue edge partly follows interpolated bands, so continuity is uncertain.",
+      "followUp": "low",
+      "candidates": [
+        {
+          "feature": "Smooth tongue with curved marginal break",
+          "pixelCentre": [
+            289,
+            265
+          ],
+          "pixelBox": [
+            180,
+            163,
+            400,
+            358
+          ],
+          "confidence": "low",
+          "nextCheck": "Check raw returns across the edge and independent imagery for drainage or field use."
+        }
+      ]
+    },
+    {
+      "case": "B046",
+      "imagesInspected": [
+        "hillshade-045.png",
+        "hillshade-135.png",
+        "hillshade-315.png",
+        "local-relief.png",
+        "support.png"
+      ],
+      "visibleGeometry": "Long nearly north-south narrow breaks divide three strips with contrasting surface texture. The middle strip is rougher; the right strip is smoother with faint parallel lines. No compact coherent feature is apparent.",
+      "alternatives": "Field boundaries, cultivation, tracks, drainage, or vegetation coverage could explain the striping and texture change.",
+      "supportLimits": "The strongest breaks coincide with narrow interpolated bands; most strip interiors are measured. Exact bank or ditch profiles are uncertain.",
+      "followUp": "none",
+      "candidates": []
+    },
+    {
+      "case": "B047",
+      "imagesInspected": [
+        "hillshade-045.png",
+        "hillshade-135.png",
+        "hillshade-315.png",
+        "local-relief.png",
+        "support.png"
+      ],
+      "visibleGeometry": "A compact cluster of sharply irregular highs and clefts lies left of centre, with a smaller isolated bump below it. A faint curved line passes immediately to its right across otherwise smooth terrain.",
+      "alternatives": "Exposed rock, boulders, rubble, vegetation-related classification, or recent disturbance could explain the cluster; the line may be a track.",
+      "supportLimits": "The cluster coincides with substantial interpolation, while the surrounding plain is measured. Individual high shapes and clefts cannot be trusted without raw returns.",
+      "followUp": "low",
+      "candidates": [
+        {
+          "feature": "Compact irregular high cluster",
+          "pixelCentre": [
+            101,
+            159
+          ],
+          "pixelBox": [
+            40,
+            108,
+            151,
+            224
+          ],
+          "confidence": "low",
+          "nextCheck": "Check raw ground returns and aerial imagery for rock or recent disturbance."
+        }
+      ]
+    },
+    {
+      "case": "B048",
+      "imagesInspected": [
+        "hillshade-045.png",
+        "hillshade-135.png",
+        "hillshade-315.png",
+        "local-relief.png",
+        "support.png"
+      ],
+      "visibleGeometry": "Several narrow linear cuts converge in a V-like junction near the lower centre. Fine parallel ridges cover the intervening ground, with broader shallow swales on the right.",
+      "alternatives": "Tracks, field drains, erosion channels, and cultivation could produce the convergence and regular texture.",
+      "supportLimits": "Measured cells dominate, though many isolated interpolated cells are scattered throughout. The narrow cuts are visible across lighting directions but require raw profiles to characterize.",
+      "followUp": "none",
+      "candidates": []
+    },
+    {
+      "case": "B049",
+      "imagesInspected": [
+        "hillshade-045.png",
+        "hillshade-135.png",
+        "hillshade-315.png",
+        "local-relief.png",
+        "support.png"
+      ],
+      "visibleGeometry": "A smooth central swath is bordered by a diagonal break on the left. Scattered isolated rounded highs and rough patches occur mainly on the right; several roughly align near the lower right but form no clear enclosure.",
+      "alternatives": "Natural boulders or outcrops, vegetation/classification effects, and a track or erosion margin can explain the visible forms.",
+      "supportLimits": "Central ground is mostly measured. The left break follows an interpolated strip, while some rough patches have additional interpolation; its exact shape is uncertain.",
+      "followUp": "none",
+      "candidates": []
+    },
+    {
+      "case": "B050",
+      "imagesInspected": [
+        "hillshade-045.png",
+        "hillshade-135.png",
+        "hillshade-315.png",
+        "local-relief.png",
+        "support.png"
+      ],
+      "visibleGeometry": "A broad smooth surface with shallow swales occupies the available terrain. The lower-left diagonal and upper-left irregular margins abut missing areas. Small rough patches and faint parallel lines occur near the right edge.",
+      "alternatives": "Natural slope and drainage, cultivation, and vegetation/classification artifacts explain the subtle texture; the straight diagonal margin is a data boundary.",
+      "supportLimits": "Large black areas are missing terrain. Several rough patches coincide with interpolated clusters; no localized form is reliable enough for a candidate.",
+      "followUp": "none",
+      "candidates": []
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "cases": [
+    {
+      "case": "R05",
+      "imagesInspected": [
+        "hillshade-045",
+        "hillshade-135",
+        "hillshade-315",
+        "local-relief",
+        "support",
+        "hillshade-225",
+        "slope",
+        "sky-view-factor",
+        "terrain-context",
+        "aerial-patch",
+        "aerial-context",
+        "point-classes"
+      ],
+      "visibleGeometry": "Several isolated and clustered angular high spots occupy open ground. The largest cluster lies right of centre; a curved track crosses the lower half. Context shows similar outcrops across the surrounding pasture and a pond to the west.",
+      "alternatives": "Exposed bedrock and loose boulders explain the irregular edges and their aerial appearance. The curved lines are visible tracks.",
+      "supportLimits": "Some crest cells are interpolated, so fine outlines are uncertain. The class overlay adds no coherent structure evidence.",
+      "followUp": "none",
+      "candidates": []
+    },
+    {
+      "case": "R06",
+      "imagesInspected": [
+        "hillshade-045",
+        "hillshade-135",
+        "hillshade-315",
+        "local-relief",
+        "support",
+        "hillshade-225",
+        "slope",
+        "sky-view-factor",
+        "terrain-context",
+        "aerial-patch",
+        "aerial-context",
+        "point-classes"
+      ],
+      "visibleGeometry": "A narrow branching channel runs north to south through the patch. Rounded slopes flank it, with short parallel lines on the eastern slope and scattered small bumps. Aerial imagery shows a vegetated drainage strip; context shows it continuing far beyond the patch.",
+      "alternatives": "Natural erosion, a stream course and land-management terracing explain the lines and flanking slopes. Isolated bumps may be rocks or vegetation-related ground artifacts.",
+      "supportLimits": "The channel has substantial interpolation and a dark missing patch near its southern end. Its jagged fine structure is unreliable. No independent class pattern defines a structure.",
+      "followUp": "none",
+      "candidates": []
+    },
+    {
+      "case": "R07",
+      "imagesInspected": [
+        "hillshade-045",
+        "hillshade-135",
+        "hillshade-315",
+        "local-relief",
+        "support",
+        "hillshade-225",
+        "slope",
+        "sky-view-factor",
+        "terrain-context",
+        "aerial-patch",
+        "aerial-context",
+        "point-classes"
+      ],
+      "visibleGeometry": "Mostly smooth open ground with a broad low rise in the lower centre, a few small rocky bumps along the top edge, and a faint diagonal track. The rise lacks a crisp perimeter or level summit.",
+      "alternatives": "A natural undulation or bedrock swell fits the broad rise; the line is consistent with a field track and is visible in the aerial photograph.",
+      "supportLimits": "Ground support is predominantly measured. The relief is weak and does not form an enclosed or angular feature; sparse fine bumps offer little independent evidence.",
+      "followUp": "none",
+      "candidates": []
+    },
+    {
+      "case": "R08",
+      "imagesInspected": [
+        "hillshade-045",
+        "hillshade-135",
+        "hillshade-315",
+        "local-relief",
+        "support",
+        "hillshade-225",
+        "slope",
+        "sky-view-factor",
+        "terrain-context",
+        "aerial-patch",
+        "aerial-context",
+        "point-classes"
+      ],
+      "visibleGeometry": "A sinuous east-west bank crosses the lower middle, separating rougher northern ground from smoother southern pasture. Small scattered bumps occur north of it; the boundary continues outside the patch. Aerial imagery places a dirt track along the bank.",
+      "alternatives": "A field boundary and track, with natural slope change and scattered trees or rocks, explain the visible pattern. It lacks an enclosed or discrete arrangement.",
+      "supportLimits": "Most ground is measured, but interpolation clusters along the bank and at trees. Its exact edge shape is less certain; the aerial track supplies a direct modern explanation.",
+      "followUp": "none",
+      "candidates": []
+    }
+  ]
+}

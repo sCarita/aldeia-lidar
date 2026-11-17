@@ -1,0 +1,44 @@
+{
+  "model": "gpt-6-sol",
+  "reasoningEffort": "low",
+  "additionalPatches": 50,
+  "totalImageInspections": 250,
+  "workers": 3,
+  "assignedCases": [
+    17,
+    17,
+    16
+  ],
+  "maxConcurrentWorkers": 3,
+  "workersStartedAt": "2026-11-16T21:00:03.797Z",
+  "usageBefore": {
+    "checkedAt": "2026-11-16T20:58:18.904Z",
+    "usedPercent": 53,
+    "remainingPercent": 47,
+    "windowDurationMins": 10080,
+    "resetsAt": 1794926671,
+    "ordinaryUsageAllowed": true
+  },
+  "usageAfterWorkersCompleted": {
+    "checkedAt": "2026-11-16T21:03:37.729Z",
+    "usedPercent": 54,
+    "remainingPercent": 46,
+    "windowDurationMins": 10080,
+    "resetsAt": 1794926671,
+    "ordinaryUsageAllowed": true
+  },
+  "usageAtReportCompletion": {
+    "checkedAt": "2026-11-16T21:08:33.087Z",
+    "usedPercent": 54,
+    "remainingPercent": 46,
+    "windowDurationMins": 10080,
+    "resetsAt": 1794926671,
+    "ordinaryUsageAllowed": true
+  },
+  "displayedUsedPercentChange": 1,
+  "caveats": [
+    "Shared, rounded account meter; this is an interval change including coordinator activity, not a precise charge attributable only to subagents.",
+    "The meter may update with delay. No per-agent token totals were exposed.",
+    "No reset credits consumed or additional credits purchased."
+  ]
+}

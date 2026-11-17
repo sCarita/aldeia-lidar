@@ -1,0 +1,31 @@
+{
+  "source": "vegetation-village.js",
+  "sourceCount": 3412337,
+  "canopyCells": 355175,
+  "displayPoints": 151770,
+  "bounds": [
+    34250,
+    -40750,
+    35250,
+    -39750
+  ],
+  "crs": "EPSG:3763",
+  "resolution": 1,
+  "settings": {
+    "minimumHeight": 2,
+    "minimumPeak": 3,
+    "minimumCells": 4,
+    "smoothingRadius": 1,
+    "peakRadius": 2,
+    "minimumSeparation": 3,
+    "maximumSeparation": 6,
+    "maximumRadius": 12
+  },
+  "candidateCount": 6364,
+  "assignedCanopyCells": 176822,
+  "assignedDisplayPoints": 83101,
+  "method": "Deterministic height-aware seeded crown growing on the full measured 1 m canopy layer. Weighted 3×3 smoothing only at observed cells above 2 m. Local maxima within 2 m, peak height >=3 m, height-dependent 3–6 m seed separation. Eight-neighbour priority flooding penalizes height changes and path length, limits crown radius to min(12 m, 2+0.45×peak height), and rejects large height jumps. At least four occupied cells per crown. Display points inherit the horizontal crown label only if their normalized height is >=2 m and within the crown height. Crown area is occupied 1 m cells, not a fitted outline or trunk area. Labels are deterministic for this dataset and settings.",
+  "limitations": "Estimated crowns, not a verified tree inventory. Touching crowns can merge or split. Lower trees hidden beneath taller crowns cannot be recovered by the canopy surface. Sparse returns, classification errors and coverage edges affect results. Unassigned vegetation remains grey. Height uses the highest accepted measured return in the cluster.",
+  "reference": "https://r-lidar.github.io/lidRbook/itd.html",
+  "implementation": "scripts/tree-clustering.cjs"
+}

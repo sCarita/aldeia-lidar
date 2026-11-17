@@ -1,0 +1,40 @@
+{
+  "model": "gpt-6-sol",
+  "reasoningEffort": "low",
+  "workerCount": 3,
+  "maxConcurrentWorkers": 3,
+  "additionalPatches": 50,
+  "previousPilotPatchesExcluded": 10,
+  "imageInspections": 250,
+  "referencePointCrops": 8,
+  "mappedInventoryRecordsRepresented": 5,
+  "referenceAppearances": 9,
+  "otherCrops": 42,
+  "followUpCounts": {
+    "low": 21,
+    "medium": 6,
+    "none": 22,
+    "high": 1
+  },
+  "casesWithCandidateFlags": 18,
+  "candidateCount": 20,
+  "referenceCropsWithAnyCentreNear25m": 0,
+  "referenceCropsWithLocalizedCentreNear25m": 0,
+  "recordsWithAnyCentreNear25m": 0,
+  "recordsWithLocalizedCentreNear25m": 0,
+  "rawOutputSha256": {
+    "worker-a.json": "35fc22e0aa1e3111b5d63352b207298f4077875006462832f996a820ee73d927",
+    "worker-b.json": "9f5cca82301e9aff4d4bf81dcb7320b3ff76551ca3dc3fb196d69686a348ccd6",
+    "worker-c.json": "8e844c4cf9c1e34dc66b23ffdea6653765d46422998ebcb83558319dd3cfa67d"
+  },
+  "keyCommitmentSha256": "e6e32930c6fc11a1e8cc37641772da7c2d02a764ba81dd1129ba8770710a1b95",
+  "namedPlaceLeakageInOutputs": [],
+  "caveats": [
+    "Reference-point crop is not a verified visible-positive image.",
+    "Reference-free crop is not a verified archaeological negative.",
+    "Multiple crops can share the same record/terrain; results are not independent site detections.",
+    "Pixel annotations and the 25 m threshold are exploratory, not a surveyed accuracy tolerance.",
+    "Compare visible descriptions; proximity alone does not demonstrate recognition of an archaeological structure."
+  ],
+  "blindingNote": "Fresh worker contexts and anonymous PNG-only inputs; procedural file-access instructions, not a separate operating-system security boundary. Control key was not provided to reviewers."
+}

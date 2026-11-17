@@ -1,0 +1,133 @@
+{
+  "cases": [
+    {
+      "case": "R01",
+      "imagesInspected": [
+        "hillshade-045",
+        "hillshade-135",
+        "hillshade-315",
+        "local-relief",
+        "support"
+      ],
+      "visibleGeometry": "A broad smooth slope occupies the centre, crossed by diffuse shallow linear traces. Broken gullies fringe the left and right edges. A sharply bounded, roughly quadrilateral raised patch with a flatter top lies in the southeast; several small irregular knobs lie near the west and south edges.",
+      "alternatives": "The angular patch could be a modern building platform, spoil or water infrastructure. Gullies and linear traces may be erosion, tracks or terrain processing effects.",
+      "supportLimits": "Most of the patch is measured, with scattered interpolated cells. The angular patch has measured support, but shape and age cannot be established from the model alone.",
+      "followUp": "low",
+      "candidates": [
+        {
+          "feature": "Angular raised patch with relatively flat top",
+          "pixelCentre": [
+            337,
+            338
+          ],
+          "pixelBox": [
+            307,
+            304,
+            368,
+            371
+          ],
+          "confidence": "low",
+          "nextCheck": "Compare with current and historical imagery, mapped structures, and original ground returns to identify construction or processing effects.",
+          "evidenceLayers": [
+            "hillshade-045",
+            "hillshade-135",
+            "hillshade-315",
+            "local-relief",
+            "support"
+          ]
+        }
+      ]
+    },
+    {
+      "case": "R02",
+      "imagesInspected": [
+        "hillshade-045",
+        "hillshade-135",
+        "hillshade-315",
+        "local-relief",
+        "support"
+      ],
+      "visibleGeometry": "Several narrow branching incisions converge near the lower centre, forming a rough Y-shaped drainage pattern. Broad smooth flanks and a few irregular small bumps lie beside the channels. A short straight segment at the west edge meets one incision, but no coherent enclosure or platform is apparent.",
+      "alternatives": "The incisions fit runoff erosion or drainage modification. The straight segment may be a field boundary, track or model artefact; the small bumps may be rock, vegetation remnants or spoil.",
+      "supportLimits": "The main channel junction contains a band of interpolated cells, limiting confidence in its detailed shape. Broad surrounding ground is mostly measured.",
+      "followUp": "none",
+      "candidates": []
+    },
+    {
+      "case": "R03",
+      "imagesInspected": [
+        "hillshade-045",
+        "hillshade-135",
+        "hillshade-315",
+        "local-relief",
+        "support"
+      ],
+      "visibleGeometry": "Dense, evenly spaced curved ridges wrap a broad rise on the west; shallower parallel ridges cover the east. A sharp north-south break divides them, meeting an east-west line near the lower third. A compact rounded rise interrupts the eastern ridges near the upper centre-right.",
+      "alternatives": "Repeated ridges suggest agricultural cultivation or terracing. The straight breaks could be a track, boundary or drainage. The compact rise could be exposed rock, field clearance, soil accumulation or a natural knoll.",
+      "supportLimits": "The broad surfaces are mostly measured; intermittent interpolation follows the central break and lower line. The compact rise is in largely measured terrain, but the imagery alone cannot resolve its origin.",
+      "followUp": "low",
+      "candidates": [
+        {
+          "feature": "Compact rounded rise amid parallel ridges",
+          "pixelCentre": [
+            285,
+            91
+          ],
+          "pixelBox": [
+            261,
+            66,
+            309,
+            115
+          ],
+          "confidence": "low",
+          "nextCheck": "Inspect original ground returns and aerial imagery for rock, agricultural clearance or recent disturbance.",
+          "evidenceLayers": [
+            "hillshade-045",
+            "hillshade-135",
+            "hillshade-315",
+            "local-relief",
+            "support"
+          ]
+        }
+      ]
+    },
+    {
+      "case": "R04",
+      "imagesInspected": [
+        "hillshade-045",
+        "hillshade-135",
+        "hillshade-315",
+        "local-relief",
+        "support"
+      ],
+      "visibleGeometry": "A largely smooth surface contains several isolated small rises and shallow depressions. One compact irregular cluster lies just east of the patch centre; a more prominent small rise lies in the northwest. Very faint straight traces run between some of the bumps, without a clear enclosure or platform.",
+      "alternatives": "The bumps may be stones, clearance heaps, vegetation remnants, small natural knolls or modern disturbance. The faint traces may be tracks, cultivation lines or processing artefacts.",
+      "supportLimits": "The central cluster and most surrounding ground have measured model support, with only sparse isolated interpolation. Their small size still makes interpretation uncertain without raw returns and independent imagery.",
+      "followUp": "low",
+      "candidates": [
+        {
+          "feature": "Small irregular cluster of rises east of centre",
+          "pixelCentre": [
+            241,
+            207
+          ],
+          "pixelBox": [
+            221,
+            177,
+            268,
+            232
+          ],
+          "confidence": "low",
+          "nextCheck": "Compare original ground returns, aerial imagery and mapped surface features to distinguish stones or clearance from terrain-processing effects.",
+          "evidenceLayers": [
+            "hillshade-045",
+            "hillshade-135",
+            "hillshade-315",
+            "local-relief",
+            "support"
+          ]
+        }
+      ]
+    }
+  ]
+}

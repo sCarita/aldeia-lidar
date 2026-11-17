@@ -1,0 +1,37 @@
+{
+  "model": "gpt-6-sol",
+  "reasoningEffort": "high",
+  "images": "Byte-identical to screening-rich-12 packages; 204 image inspections, no new rasters.",
+  "sourceExperiment": "../screening-rich-12/",
+  "keyCommitment": "b4ff021a029c91426ef42ed2399d6153881ba6d7a8d8f9e84ffb67c2a614e8d4",
+  "sameProtocolSha256": "b3a1ba0433608eb69e8e975c131abd6ab9ba29ef9c3935c6ad9597f0c8e74214",
+  "sameEvaluationSha256": "d93fdff69b7e3763c4e94abadd074ac304904086c14ce0a6df913a2deea21ad7",
+  "blinding": "Six fresh reviewer contexts; anonymous arm folders only; previous outputs, identities and key withheld. Procedural file-access restriction, not OS sandbox.",
+  "assignments": {
+    "a": [
+      "R01",
+      "R02",
+      "R03",
+      "R04"
+    ],
+    "b": [
+      "R05",
+      "R06",
+      "R07",
+      "R08"
+    ],
+    "c": [
+      "R09",
+      "R10",
+      "R11",
+      "R12"
+    ]
+  },
+  "concurrency": "Two waves, at most three reviewers; separate fresh worker for every arm/group.",
+  "limitations": "Same repeated overlapping reference-point crops; no new independently verified visible features or negatives. Historical low run is a one-shot comparison, not a randomized replicated effort experiment.",
+  "scriptFingerprints": {
+    "scripts/prepare-rich-screening-12-high.py": "3b3d03f1f159d8504beacd57aaa4af5bef507fe45232581272baa3aa7b6fc40a",
+    "scripts/evaluate-rich-screening-12-high.py": "82511e95c707a1a700059acbc06664270169d67b25b42513445d40ff48a39a4f",
+    "scripts/report-rich-screening-12-high.py": "61f7a42c789eb7e8b7deaf0059127aa7a97cfc3679b947af2ee9cd3f8eea57aa"
+  }
+}

@@ -1,0 +1,327 @@
+{
+  "checked": "2026-11-16",
+  "patches": [
+    {
+      "patchId": "parish-r044-c079",
+      "agent": "patch_pilot",
+      "model": "gpt-6-sol",
+      "reasoningEffort": "low",
+      "imagesVisuallyInspected": [
+        "hillshade-045",
+        "hillshade-135",
+        "hillshade-315",
+        "local-relief",
+        "support"
+      ],
+      "visibleGeometry": "Irregular sharp raised forms in the upper-right, smaller rough forms to the left, a faint curved trace at the right edge and a low rise toward the lower-right.",
+      "plausibleAlternatives": "Exposed rock, clearance piles, tracks and natural relief.",
+      "supportAndInventoryLimits": "Interpolation concentrates around some rough forms. The prominent cluster is offset from the CNS 761 reference point, whose extent is not established.",
+      "followUpPriority": "Raw-return check suggested",
+      "supportStats": {
+        "validCells": 160000,
+        "measuredCells": 154388,
+        "interpolatedCells": 5612,
+        "noDataCells": 0,
+        "groundReturns": 477203,
+        "elevationMinMetres": 261.1,
+        "elevationMaxMetres": 275.87,
+        "localReliefClippedCells": 1277,
+        "slopeClippedCells": 1436
+      },
+      "inventoryPointCns": [
+        761
+      ],
+      "status": "preliminary AI visual screening; not a verified archaeological finding",
+      "liveInventoryAndPublicationCheck": "not performed in this pilot"
+    },
+    {
+      "patchId": "parish-r045-c080",
+      "agent": "patch_pilot",
+      "model": "gpt-6-sol",
+      "reasoningEffort": "low",
+      "imagesVisuallyInspected": [
+        "hillshade-045",
+        "hillshade-135",
+        "hillshade-315",
+        "local-relief",
+        "support"
+      ],
+      "visibleGeometry": "Small rises across smoother ground and a faint straight trace near the upper rise.",
+      "plausibleAlternatives": "Rock, clearance piles, tracks or modern disturbance.",
+      "supportAndInventoryLimits": "Predominantly measured support with scattered interpolation. Both CNS 761 and 12478 reference points are present; check their records and original returns.",
+      "followUpPriority": "Medium",
+      "supportStats": {
+        "validCells": 160000,
+        "measuredCells": 158969,
+        "interpolatedCells": 1031,
+        "noDataCells": 0,
+        "groundReturns": 506234,
+        "elevationMinMetres": 260.86,
+        "elevationMaxMetres": 273.83,
+        "localReliefClippedCells": 0,
+        "slopeClippedCells": 76
+      },
+      "inventoryPointCns": [
+        761,
+        12478
+      ],
+      "status": "preliminary AI visual screening; not a verified archaeological finding",
+      "liveInventoryAndPublicationCheck": "not performed in this pilot"
+    },
+    {
+      "patchId": "parish-r053-c088",
+      "agent": "patch_pilot",
+      "model": "gpt-6-sol",
+      "reasoningEffort": "low",
+      "imagesVisuallyInspected": [
+        "hillshade-045",
+        "hillshade-135",
+        "hillshade-315",
+        "local-relief",
+        "support"
+      ],
+      "visibleGeometry": "A broad sinuous break separates rough upper ground from smoother lower ground.",
+      "plausibleAlternatives": "Natural slope edge, drainage, field boundary or track.",
+      "supportAndInventoryLimits": "Interpolation affects parts of the break and rough area. CNS 39925 reference point is present; no independent candidate established.",
+      "followUpPriority": "Low",
+      "supportStats": {
+        "validCells": 160000,
+        "measuredCells": 151253,
+        "interpolatedCells": 8747,
+        "noDataCells": 0,
+        "groundReturns": 438349,
+        "elevationMinMetres": 233.63,
+        "elevationMaxMetres": 250.63,
+        "localReliefClippedCells": 0,
+        "slopeClippedCells": 8
+      },
+      "inventoryPointCns": [
+        39925
+      ],
+      "status": "preliminary AI visual screening; not a verified archaeological finding",
+      "liveInventoryAndPublicationCheck": "not performed in this pilot"
+    },
+    {
+      "patchId": "parish-r021-c083",
+      "agent": "patch_pilot",
+      "model": "gpt-6-sol",
+      "reasoningEffort": "low",
+      "imagesVisuallyInspected": [
+        "hillshade-045",
+        "hillshade-135",
+        "hillshade-315",
+        "local-relief",
+        "support"
+      ],
+      "visibleGeometry": "Dense near-parallel bands in a bounded area, a strong lower linear edge and isolated bumps.",
+      "plausibleAlternatives": "Cultivation or other land management.",
+      "supportAndInventoryLimits": "Mostly measured ground, with interpolation at parts of the lower edge. CNS 1064 reference point is present; extent and independent features remain unresolved.",
+      "followUpPriority": "Low",
+      "supportStats": {
+        "validCells": 160000,
+        "measuredCells": 155237,
+        "interpolatedCells": 4763,
+        "noDataCells": 0,
+        "groundReturns": 1017700,
+        "elevationMinMetres": 265.97,
+        "elevationMaxMetres": 278.82,
+        "localReliefClippedCells": 0,
+        "slopeClippedCells": 23
+      },
+      "inventoryPointCns": [
+        1064
+      ],
+      "status": "preliminary AI visual screening; not a verified archaeological finding",
+      "liveInventoryAndPublicationCheck": "not performed in this pilot"
+    },
+    {
+      "patchId": "parish-r029-c039",
+      "agent": "screening_b",
+      "model": "gpt-6-sol",
+      "reasoningEffort": "low",
+      "imagesVisuallyInspected": [
+        "hillshade-045",
+        "hillshade-135",
+        "hillshade-315",
+        "local-relief",
+        "support"
+      ],
+      "visibleGeometry": "Branching incised channel and small bumps, emphasized in local relief.",
+      "plausibleAlternatives": "Drainage erosion, tracks and interpolation.",
+      "supportAndInventoryLimits": "Amber cells concentrate along parts of the channel/bumps. CNS 8491 reference point is present; live record and published-map comparison remains outstanding.",
+      "followUpPriority": "Medium",
+      "supportStats": {
+        "validCells": 160000,
+        "measuredCells": 143158,
+        "interpolatedCells": 16842,
+        "noDataCells": 0,
+        "groundReturns": 403428,
+        "elevationMinMetres": 229.44,
+        "elevationMaxMetres": 246.35,
+        "localReliefClippedCells": 25,
+        "slopeClippedCells": 484
+      },
+      "inventoryPointCns": [
+        8491
+      ],
+      "status": "preliminary AI visual screening; not a verified archaeological finding",
+      "liveInventoryAndPublicationCheck": "not performed in this pilot"
+    },
+    {
+      "patchId": "parish-r029-c030",
+      "agent": "screening_b",
+      "model": "gpt-6-sol",
+      "reasoningEffort": "low",
+      "imagesVisuallyInspected": [
+        "hillshade-045",
+        "hillshade-135",
+        "hillshade-315",
+        "local-relief",
+        "support"
+      ],
+      "visibleGeometry": "Repeated curving parallel ridges across the square.",
+      "plausibleAlternatives": "Cultivation, terracing, drainage or natural slope contours.",
+      "supportAndInventoryLimits": "Scattered interpolation and missing parish-edge cells. No mapped reference point in the square; novelty is not established.",
+      "followUpPriority": "Low",
+      "supportStats": {
+        "validCells": 147967,
+        "measuredCells": 142264,
+        "interpolatedCells": 5703,
+        "noDataCells": 12033,
+        "groundReturns": 627431,
+        "elevationMinMetres": 234.28,
+        "elevationMaxMetres": 252.08,
+        "localReliefClippedCells": 0,
+        "slopeClippedCells": 11
+      },
+      "inventoryPointCns": [],
+      "status": "preliminary AI visual screening; not a verified archaeological finding",
+      "liveInventoryAndPublicationCheck": "not performed in this pilot"
+    },
+    {
+      "patchId": "parish-r017-c026",
+      "agent": "screening_b",
+      "model": "gpt-6-sol",
+      "reasoningEffort": "low",
+      "imagesVisuallyInspected": [
+        "hillshade-045",
+        "hillshade-135",
+        "hillshade-315",
+        "local-relief",
+        "support"
+      ],
+      "visibleGeometry": "Fine parallel lines crossing broader soft relief bands.",
+      "plausibleAlternatives": "Cultivation, forestry activity or processing effects.",
+      "supportAndInventoryLimits": "Scattered interpolated cells affect confidence in fine lines. No mapped point in the square; nearby/unlocated records and publications remain unchecked.",
+      "followUpPriority": "Low",
+      "supportStats": {
+        "validCells": 160000,
+        "measuredCells": 147924,
+        "interpolatedCells": 12076,
+        "noDataCells": 0,
+        "groundReturns": 402066,
+        "elevationMinMetres": 240.17000000000002,
+        "elevationMaxMetres": 251.45,
+        "localReliefClippedCells": 0,
+        "slopeClippedCells": 0
+      },
+      "inventoryPointCns": [],
+      "status": "preliminary AI visual screening; not a verified archaeological finding",
+      "liveInventoryAndPublicationCheck": "not performed in this pilot"
+    },
+    {
+      "patchId": "parish-r056-c068",
+      "agent": "screening_c",
+      "model": "gpt-6-sol",
+      "reasoningEffort": "low",
+      "imagesVisuallyInspected": [
+        "hillshade-045",
+        "hillshade-135",
+        "hillshade-315",
+        "local-relief",
+        "support"
+      ],
+      "visibleGeometry": "Two long gently curving lines cross smooth ground and approach near the lower edge.",
+      "plausibleAlternatives": "Drainage, field boundaries, tracks or natural slope breaks.",
+      "supportAndInventoryLimits": "Lines appear mainly measured; sparse interpolation and missing parish-edge data. Check imagery and original sections. No mapped reference point inside the square.",
+      "followUpPriority": "Medium",
+      "supportStats": {
+        "validCells": 146475,
+        "measuredCells": 145420,
+        "interpolatedCells": 1055,
+        "noDataCells": 13525,
+        "groundReturns": 686511,
+        "elevationMinMetres": 214.74,
+        "elevationMaxMetres": 225.72,
+        "localReliefClippedCells": 0,
+        "slopeClippedCells": 0
+      },
+      "inventoryPointCns": [],
+      "status": "preliminary AI visual screening; not a verified archaeological finding",
+      "liveInventoryAndPublicationCheck": "not performed in this pilot"
+    },
+    {
+      "patchId": "parish-r067-c095",
+      "agent": "screening_c",
+      "model": "gpt-6-sol",
+      "reasoningEffort": "low",
+      "imagesVisuallyInspected": [
+        "hillshade-045",
+        "hillshade-135",
+        "hillshade-315",
+        "local-relief",
+        "support"
+      ],
+      "visibleGeometry": "Dense parallel rows flank a diagonal straight boundary, with rounded bumps to the right.",
+      "plausibleAlternatives": "Cultivation, soil piles or natural microrelief.",
+      "supportAndInventoryLimits": "Some interpolated cells affect the row pattern. No mapped reference point inside the square; no novelty inference.",
+      "followUpPriority": "Low",
+      "supportStats": {
+        "validCells": 160000,
+        "measuredCells": 152607,
+        "interpolatedCells": 7393,
+        "noDataCells": 0,
+        "groundReturns": 686060,
+        "elevationMinMetres": 196.26,
+        "elevationMaxMetres": 208.77,
+        "localReliefClippedCells": 70,
+        "slopeClippedCells": 144
+      },
+      "inventoryPointCns": [],
+      "status": "preliminary AI visual screening; not a verified archaeological finding",
+      "liveInventoryAndPublicationCheck": "not performed in this pilot"
+    },
+    {
+      "patchId": "parish-r013-c085",
+      "agent": "screening_c",
+      "model": "gpt-6-sol",
+      "reasoningEffort": "low",
+      "imagesVisuallyInspected": [
+        "hillshade-045",
+        "hillshade-135",
+        "hillshade-315",
+        "local-relief",
+        "support"
+      ],
+      "visibleGeometry": "Narrow kinked line crosses a field with parallel rows toward a road.",
+      "plausibleAlternatives": "Drain, field boundary, track or erosion.",
+      "supportAndInventoryLimits": "Line is mainly measured, with scattered interpolation and a missing parish edge. No mapped reference point in the square; live records/publications remain unchecked.",
+      "followUpPriority": "Low",
+      "supportStats": {
+        "validCells": 148235,
+        "measuredCells": 144888,
+        "interpolatedCells": 3347,
+        "noDataCells": 11765,
+        "groundReturns": 694032,
+        "elevationMinMetres": 273.17,
+        "elevationMaxMetres": 283.17,
+        "localReliefClippedCells": 0,
+        "slopeClippedCells": 24
+      },
+      "inventoryPointCns": [],
+      "status": "preliminary AI visual screening; not a verified archaeological finding",
+      "liveInventoryAndPublicationCheck": "not performed in this pilot"
+    }
+  ],
+  "note": "Ten distinct patch IDs; selected controls and high-support samples, not a random survey. First two patches overlap. Review sheet and immutable scientific dataset were not modified."
+}

@@ -1,0 +1,1113 @@
+{
+  "name": "Aldeia da Mata \u00b7 village ground-image review dataset",
+  "version": 1,
+  "created": "2026-11-12",
+  "crs": "EPSG:3763",
+  "verticalDatum": "Cascais",
+  "boundsEPSG3763": [
+    34445,
+    -40461,
+    35045,
+    -39861
+  ],
+  "areaSquareMetres": 360000,
+  "resolutionMetres": 0.5,
+  "northUp": true,
+  "patchSizeMetres": 200,
+  "strideMetres": 100,
+  "overlapPercent": 50,
+  "imagePixels": [
+    400,
+    400
+  ],
+  "rowOrder": "north to south",
+  "columnOrder": "west to east",
+  "noDataRGB": [
+    13,
+    17,
+    23
+  ],
+  "stats": {
+    "validCells": 1416352,
+    "measuredCells": 1051688,
+    "interpolatedCells": 364664,
+    "noDataCells": 23648,
+    "groundReturns": 2850760,
+    "elevationMinMetres": 216.03,
+    "elevationMaxMetres": 252.92000000000002
+  },
+  "layers": [
+    {
+      "id": "hillshade-045",
+      "label": "Hillshade \u00b7 light 45\u00b0",
+      "azimuthDegrees": 45,
+      "altitudeDegrees": 35,
+      "ambient": 0.15,
+      "heightExaggeration": 1
+    },
+    {
+      "id": "hillshade-135",
+      "label": "Hillshade \u00b7 light 135\u00b0",
+      "azimuthDegrees": 135,
+      "altitudeDegrees": 35,
+      "ambient": 0.15,
+      "heightExaggeration": 1
+    },
+    {
+      "id": "hillshade-225",
+      "label": "Hillshade \u00b7 light 225\u00b0",
+      "azimuthDegrees": 225,
+      "altitudeDegrees": 35,
+      "ambient": 0.15,
+      "heightExaggeration": 1
+    },
+    {
+      "id": "hillshade-315",
+      "label": "Hillshade \u00b7 light 315\u00b0",
+      "azimuthDegrees": 315,
+      "altitudeDegrees": 35,
+      "ambient": 0.15,
+      "heightExaggeration": 1
+    },
+    {
+      "id": "elevation",
+      "label": "Elevation",
+      "rangeMetres": [
+        216.03,
+        252.92000000000002
+      ],
+      "palette": [
+        "#1d333f",
+        "#336d75",
+        "#85a780",
+        "#e0cc8e",
+        "#faedce"
+      ]
+    },
+    {
+      "id": "slope",
+      "label": "Slope",
+      "rangeDegrees": [
+        0,
+        45
+      ],
+      "palette": [
+        "#132336",
+        "#347799",
+        "#efc369",
+        "#e05e4c"
+      ]
+    },
+    {
+      "id": "local-relief",
+      "label": "Local relief",
+      "rangeMetres": [
+        -2,
+        2
+      ],
+      "baselineGaussianSigmaMetres": 10,
+      "baselineRadiusMetres": 30,
+      "palette": [
+        "#2f68b1",
+        "#dce2e1",
+        "#b94d37"
+      ]
+    },
+    {
+      "id": "support",
+      "label": "Ground support",
+      "categories": {
+        "0": "NoData \u00b7 dark",
+        "1": "Measured cell \u00b7 green",
+        "2": "Interpolated cell \u00b7 amber"
+      }
+    }
+  ],
+  "patches": [
+    {
+      "id": "village-r01-c01",
+      "row": 1,
+      "column": 1,
+      "boundsEPSG3763": [
+        34445,
+        -40061,
+        34645,
+        -39861
+      ],
+      "pixelWindow": [
+        0,
+        0,
+        400,
+        400
+      ],
+      "stats": {
+        "validCells": 159983,
+        "measuredCells": 136422,
+        "interpolatedCells": 23561,
+        "noDataCells": 17,
+        "groundReturns": 475316,
+        "elevationMinMetres": 222.5,
+        "elevationMaxMetres": 241.53,
+        "localReliefClippedCells": 14,
+        "slopeClippedCells": 1137
+      },
+      "images": {
+        "hillshade-045": "patches/village-r01-c01/hillshade-045.png",
+        "hillshade-135": "patches/village-r01-c01/hillshade-135.png",
+        "hillshade-225": "patches/village-r01-c01/hillshade-225.png",
+        "hillshade-315": "patches/village-r01-c01/hillshade-315.png",
+        "elevation": "patches/village-r01-c01/elevation.png",
+        "slope": "patches/village-r01-c01/slope.png",
+        "local-relief": "patches/village-r01-c01/local-relief.png",
+        "support": "patches/village-r01-c01/support.png"
+      },
+      "terrain": "patches/village-r01-c01/terrain.tif"
+    },
+    {
+      "id": "village-r01-c02",
+      "row": 1,
+      "column": 2,
+      "boundsEPSG3763": [
+        34545,
+        -40061,
+        34745,
+        -39861
+      ],
+      "pixelWindow": [
+        200,
+        0,
+        400,
+        400
+      ],
+      "stats": {
+        "validCells": 158793,
+        "measuredCells": 124454,
+        "interpolatedCells": 34339,
+        "noDataCells": 1207,
+        "groundReturns": 324249,
+        "elevationMinMetres": 229.5,
+        "elevationMaxMetres": 245.02,
+        "localReliefClippedCells": 0,
+        "slopeClippedCells": 1702
+      },
+      "images": {
+        "hillshade-045": "patches/village-r01-c02/hillshade-045.png",
+        "hillshade-135": "patches/village-r01-c02/hillshade-135.png",
+        "hillshade-225": "patches/village-r01-c02/hillshade-225.png",
+        "hillshade-315": "patches/village-r01-c02/hillshade-315.png",
+        "elevation": "patches/village-r01-c02/elevation.png",
+        "slope": "patches/village-r01-c02/slope.png",
+        "local-relief": "patches/village-r01-c02/local-relief.png",
+        "support": "patches/village-r01-c02/support.png"
+      },
+      "terrain": "patches/village-r01-c02/terrain.tif"
+    },
+    {
+      "id": "village-r01-c03",
+      "row": 1,
+      "column": 3,
+      "boundsEPSG3763": [
+        34645,
+        -40061,
+        34845,
+        -39861
+      ],
+      "pixelWindow": [
+        400,
+        0,
+        400,
+        400
+      ],
+      "stats": {
+        "validCells": 157500,
+        "measuredCells": 112979,
+        "interpolatedCells": 44521,
+        "noDataCells": 2500,
+        "groundReturns": 297167,
+        "elevationMinMetres": 226.29,
+        "elevationMaxMetres": 245.74,
+        "localReliefClippedCells": 247,
+        "slopeClippedCells": 3156
+      },
+      "images": {
+        "hillshade-045": "patches/village-r01-c03/hillshade-045.png",
+        "hillshade-135": "patches/village-r01-c03/hillshade-135.png",
+        "hillshade-225": "patches/village-r01-c03/hillshade-225.png",
+        "hillshade-315": "patches/village-r01-c03/hillshade-315.png",
+        "elevation": "patches/village-r01-c03/elevation.png",
+        "slope": "patches/village-r01-c03/slope.png",
+        "local-relief": "patches/village-r01-c03/local-relief.png",
+        "support": "patches/village-r01-c03/support.png"
+      },
+      "terrain": "patches/village-r01-c03/terrain.tif"
+    },
+    {
+      "id": "village-r01-c04",
+      "row": 1,
+      "column": 4,
+      "boundsEPSG3763": [
+        34745,
+        -40061,
+        34945,
+        -39861
+      ],
+      "pixelWindow": [
+        600,
+        0,
+        400,
+        400
+      ],
+      "stats": {
+        "validCells": 158525,
+        "measuredCells": 123427,
+        "interpolatedCells": 35098,
+        "noDataCells": 1475,
+        "groundReturns": 334172,
+        "elevationMinMetres": 216.03,
+        "elevationMaxMetres": 245.74,
+        "localReliefClippedCells": 247,
+        "slopeClippedCells": 3952
+      },
+      "images": {
+        "hillshade-045": "patches/village-r01-c04/hillshade-045.png",
+        "hillshade-135": "patches/village-r01-c04/hillshade-135.png",
+        "hillshade-225": "patches/village-r01-c04/hillshade-225.png",
+        "hillshade-315": "patches/village-r01-c04/hillshade-315.png",
+        "elevation": "patches/village-r01-c04/elevation.png",
+        "slope": "patches/village-r01-c04/slope.png",
+        "local-relief": "patches/village-r01-c04/local-relief.png",
+        "support": "patches/village-r01-c04/support.png"
+      },
+      "terrain": "patches/village-r01-c04/terrain.tif"
+    },
+    {
+      "id": "village-r01-c05",
+      "row": 1,
+      "column": 5,
+      "boundsEPSG3763": [
+        34845,
+        -40061,
+        35045,
+        -39861
+      ],
+      "pixelWindow": [
+        800,
+        0,
+        400,
+        400
+      ],
+      "stats": {
+        "validCells": 159829,
+        "measuredCells": 134006,
+        "interpolatedCells": 25823,
+        "noDataCells": 171,
+        "groundReturns": 361430,
+        "elevationMinMetres": 216.03,
+        "elevationMaxMetres": 233.72,
+        "localReliefClippedCells": 0,
+        "slopeClippedCells": 2355
+      },
+      "images": {
+        "hillshade-045": "patches/village-r01-c05/hillshade-045.png",
+        "hillshade-135": "patches/village-r01-c05/hillshade-135.png",
+        "hillshade-225": "patches/village-r01-c05/hillshade-225.png",
+        "hillshade-315": "patches/village-r01-c05/hillshade-315.png",
+        "elevation": "patches/village-r01-c05/elevation.png",
+        "slope": "patches/village-r01-c05/slope.png",
+        "local-relief": "patches/village-r01-c05/local-relief.png",
+        "support": "patches/village-r01-c05/support.png"
+      },
+      "terrain": "patches/village-r01-c05/terrain.tif"
+    },
+    {
+      "id": "village-r02-c01",
+      "row": 2,
+      "column": 1,
+      "boundsEPSG3763": [
+        34445,
+        -40161,
+        34645,
+        -39961
+      ],
+      "pixelWindow": [
+        0,
+        200,
+        400,
+        400
+      ],
+      "stats": {
+        "validCells": 159983,
+        "measuredCells": 133632,
+        "interpolatedCells": 26351,
+        "noDataCells": 17,
+        "groundReturns": 386133,
+        "elevationMinMetres": 227.55,
+        "elevationMaxMetres": 245.63,
+        "localReliefClippedCells": 4,
+        "slopeClippedCells": 1518
+      },
+      "images": {
+        "hillshade-045": "patches/village-r02-c01/hillshade-045.png",
+        "hillshade-135": "patches/village-r02-c01/hillshade-135.png",
+        "hillshade-225": "patches/village-r02-c01/hillshade-225.png",
+        "hillshade-315": "patches/village-r02-c01/hillshade-315.png",
+        "elevation": "patches/village-r02-c01/elevation.png",
+        "slope": "patches/village-r02-c01/slope.png",
+        "local-relief": "patches/village-r02-c01/local-relief.png",
+        "support": "patches/village-r02-c01/support.png"
+      },
+      "terrain": "patches/village-r02-c01/terrain.tif"
+    },
+    {
+      "id": "village-r02-c02",
+      "row": 2,
+      "column": 2,
+      "boundsEPSG3763": [
+        34545,
+        -40161,
+        34745,
+        -39961
+      ],
+      "pixelWindow": [
+        200,
+        200,
+        400,
+        400
+      ],
+      "stats": {
+        "validCells": 154506,
+        "measuredCells": 105184,
+        "interpolatedCells": 49322,
+        "noDataCells": 5494,
+        "groundReturns": 259649,
+        "elevationMinMetres": 231.78,
+        "elevationMaxMetres": 247.54,
+        "localReliefClippedCells": 0,
+        "slopeClippedCells": 2411
+      },
+      "images": {
+        "hillshade-045": "patches/village-r02-c02/hillshade-045.png",
+        "hillshade-135": "patches/village-r02-c02/hillshade-135.png",
+        "hillshade-225": "patches/village-r02-c02/hillshade-225.png",
+        "hillshade-315": "patches/village-r02-c02/hillshade-315.png",
+        "elevation": "patches/village-r02-c02/elevation.png",
+        "slope": "patches/village-r02-c02/slope.png",
+        "local-relief": "patches/village-r02-c02/local-relief.png",
+        "support": "patches/village-r02-c02/support.png"
+      },
+      "terrain": "patches/village-r02-c02/terrain.tif"
+    },
+    {
+      "id": "village-r02-c03",
+      "row": 2,
+      "column": 3,
+      "boundsEPSG3763": [
+        34645,
+        -40161,
+        34845,
+        -39961
+      ],
+      "pixelWindow": [
+        400,
+        200,
+        400,
+        400
+      ],
+      "stats": {
+        "validCells": 151357,
+        "measuredCells": 88331,
+        "interpolatedCells": 63026,
+        "noDataCells": 8643,
+        "groundReturns": 225188,
+        "elevationMinMetres": 230.6,
+        "elevationMaxMetres": 247.54,
+        "localReliefClippedCells": 32,
+        "slopeClippedCells": 3315
+      },
+      "images": {
+        "hillshade-045": "patches/village-r02-c03/hillshade-045.png",
+        "hillshade-135": "patches/village-r02-c03/hillshade-135.png",
+        "hillshade-225": "patches/village-r02-c03/hillshade-225.png",
+        "hillshade-315": "patches/village-r02-c03/hillshade-315.png",
+        "elevation": "patches/village-r02-c03/elevation.png",
+        "slope": "patches/village-r02-c03/slope.png",
+        "local-relief": "patches/village-r02-c03/local-relief.png",
+        "support": "patches/village-r02-c03/support.png"
+      },
+      "terrain": "patches/village-r02-c03/terrain.tif"
+    },
+    {
+      "id": "village-r02-c04",
+      "row": 2,
+      "column": 4,
+      "boundsEPSG3763": [
+        34745,
+        -40161,
+        34945,
+        -39961
+      ],
+      "pixelWindow": [
+        600,
+        200,
+        400,
+        400
+      ],
+      "stats": {
+        "validCells": 156446,
+        "measuredCells": 113617,
+        "interpolatedCells": 42829,
+        "noDataCells": 3554,
+        "groundReturns": 301874,
+        "elevationMinMetres": 221.09,
+        "elevationMaxMetres": 245.74,
+        "localReliefClippedCells": 32,
+        "slopeClippedCells": 3124
+      },
+      "images": {
+        "hillshade-045": "patches/village-r02-c04/hillshade-045.png",
+        "hillshade-135": "patches/village-r02-c04/hillshade-135.png",
+        "hillshade-225": "patches/village-r02-c04/hillshade-225.png",
+        "hillshade-315": "patches/village-r02-c04/hillshade-315.png",
+        "elevation": "patches/village-r02-c04/elevation.png",
+        "slope": "patches/village-r02-c04/slope.png",
+        "local-relief": "patches/village-r02-c04/local-relief.png",
+        "support": "patches/village-r02-c04/support.png"
+      },
+      "terrain": "patches/village-r02-c04/terrain.tif"
+    },
+    {
+      "id": "village-r02-c05",
+      "row": 2,
+      "column": 5,
+      "boundsEPSG3763": [
+        34845,
+        -40161,
+        35045,
+        -39961
+      ],
+      "pixelWindow": [
+        800,
+        200,
+        400,
+        400
+      ],
+      "stats": {
+        "validCells": 159606,
+        "measuredCells": 135417,
+        "interpolatedCells": 24189,
+        "noDataCells": 394,
+        "groundReturns": 363527,
+        "elevationMinMetres": 221.09,
+        "elevationMaxMetres": 236.16,
+        "localReliefClippedCells": 0,
+        "slopeClippedCells": 1629
+      },
+      "images": {
+        "hillshade-045": "patches/village-r02-c05/hillshade-045.png",
+        "hillshade-135": "patches/village-r02-c05/hillshade-135.png",
+        "hillshade-225": "patches/village-r02-c05/hillshade-225.png",
+        "hillshade-315": "patches/village-r02-c05/hillshade-315.png",
+        "elevation": "patches/village-r02-c05/elevation.png",
+        "slope": "patches/village-r02-c05/slope.png",
+        "local-relief": "patches/village-r02-c05/local-relief.png",
+        "support": "patches/village-r02-c05/support.png"
+      },
+      "terrain": "patches/village-r02-c05/terrain.tif"
+    },
+    {
+      "id": "village-r03-c01",
+      "row": 3,
+      "column": 1,
+      "boundsEPSG3763": [
+        34445,
+        -40261,
+        34645,
+        -40061
+      ],
+      "pixelWindow": [
+        0,
+        400,
+        400,
+        400
+      ],
+      "stats": {
+        "validCells": 159566,
+        "measuredCells": 124827,
+        "interpolatedCells": 34739,
+        "noDataCells": 434,
+        "groundReturns": 312711,
+        "elevationMinMetres": 231.51,
+        "elevationMaxMetres": 245.63,
+        "localReliefClippedCells": 43,
+        "slopeClippedCells": 1788
+      },
+      "images": {
+        "hillshade-045": "patches/village-r03-c01/hillshade-045.png",
+        "hillshade-135": "patches/village-r03-c01/hillshade-135.png",
+        "hillshade-225": "patches/village-r03-c01/hillshade-225.png",
+        "hillshade-315": "patches/village-r03-c01/hillshade-315.png",
+        "elevation": "patches/village-r03-c01/elevation.png",
+        "slope": "patches/village-r03-c01/slope.png",
+        "local-relief": "patches/village-r03-c01/local-relief.png",
+        "support": "patches/village-r03-c01/support.png"
+      },
+      "terrain": "patches/village-r03-c01/terrain.tif"
+    },
+    {
+      "id": "village-r03-c02",
+      "row": 3,
+      "column": 2,
+      "boundsEPSG3763": [
+        34545,
+        -40261,
+        34745,
+        -40061
+      ],
+      "pixelWindow": [
+        200,
+        400,
+        400,
+        400
+      ],
+      "stats": {
+        "validCells": 152076,
+        "measuredCells": 92751,
+        "interpolatedCells": 59325,
+        "noDataCells": 7924,
+        "groundReturns": 226923,
+        "elevationMinMetres": 233.68,
+        "elevationMaxMetres": 247.54,
+        "localReliefClippedCells": 31,
+        "slopeClippedCells": 2452
+      },
+      "images": {
+        "hillshade-045": "patches/village-r03-c02/hillshade-045.png",
+        "hillshade-135": "patches/village-r03-c02/hillshade-135.png",
+        "hillshade-225": "patches/village-r03-c02/hillshade-225.png",
+        "hillshade-315": "patches/village-r03-c02/hillshade-315.png",
+        "elevation": "patches/village-r03-c02/elevation.png",
+        "slope": "patches/village-r03-c02/slope.png",
+        "local-relief": "patches/village-r03-c02/local-relief.png",
+        "support": "patches/village-r03-c02/support.png"
+      },
+      "terrain": "patches/village-r03-c02/terrain.tif"
+    },
+    {
+      "id": "village-r03-c03",
+      "row": 3,
+      "column": 3,
+      "boundsEPSG3763": [
+        34645,
+        -40261,
+        34845,
+        -40061
+      ],
+      "pixelWindow": [
+        400,
+        400,
+        400,
+        400
+      ],
+      "stats": {
+        "validCells": 149717,
+        "measuredCells": 84443,
+        "interpolatedCells": 65274,
+        "noDataCells": 10283,
+        "groundReturns": 213771,
+        "elevationMinMetres": 230.88,
+        "elevationMaxMetres": 247.54,
+        "localReliefClippedCells": 55,
+        "slopeClippedCells": 3059
+      },
+      "images": {
+        "hillshade-045": "patches/village-r03-c03/hillshade-045.png",
+        "hillshade-135": "patches/village-r03-c03/hillshade-135.png",
+        "hillshade-225": "patches/village-r03-c03/hillshade-225.png",
+        "hillshade-315": "patches/village-r03-c03/hillshade-315.png",
+        "elevation": "patches/village-r03-c03/elevation.png",
+        "slope": "patches/village-r03-c03/slope.png",
+        "local-relief": "patches/village-r03-c03/local-relief.png",
+        "support": "patches/village-r03-c03/support.png"
+      },
+      "terrain": "patches/village-r03-c03/terrain.tif"
+    },
+    {
+      "id": "village-r03-c04",
+      "row": 3,
+      "column": 4,
+      "boundsEPSG3763": [
+        34745,
+        -40261,
+        34945,
+        -40061
+      ],
+      "pixelWindow": [
+        600,
+        400,
+        400,
+        400
+      ],
+      "stats": {
+        "validCells": 156468,
+        "measuredCells": 105787,
+        "interpolatedCells": 50681,
+        "noDataCells": 3532,
+        "groundReturns": 272051,
+        "elevationMinMetres": 223.97,
+        "elevationMaxMetres": 245.37,
+        "localReliefClippedCells": 55,
+        "slopeClippedCells": 2868
+      },
+      "images": {
+        "hillshade-045": "patches/village-r03-c04/hillshade-045.png",
+        "hillshade-135": "patches/village-r03-c04/hillshade-135.png",
+        "hillshade-225": "patches/village-r03-c04/hillshade-225.png",
+        "hillshade-315": "patches/village-r03-c04/hillshade-315.png",
+        "elevation": "patches/village-r03-c04/elevation.png",
+        "slope": "patches/village-r03-c04/slope.png",
+        "local-relief": "patches/village-r03-c04/local-relief.png",
+        "support": "patches/village-r03-c04/support.png"
+      },
+      "terrain": "patches/village-r03-c04/terrain.tif"
+    },
+    {
+      "id": "village-r03-c05",
+      "row": 3,
+      "column": 5,
+      "boundsEPSG3763": [
+        34845,
+        -40261,
+        35045,
+        -40061
+      ],
+      "pixelWindow": [
+        800,
+        400,
+        400,
+        400
+      ],
+      "stats": {
+        "validCells": 159261,
+        "measuredCells": 122751,
+        "interpolatedCells": 36510,
+        "noDataCells": 739,
+        "groundReturns": 320648,
+        "elevationMinMetres": 223.97,
+        "elevationMaxMetres": 237.5,
+        "localReliefClippedCells": 0,
+        "slopeClippedCells": 1197
+      },
+      "images": {
+        "hillshade-045": "patches/village-r03-c05/hillshade-045.png",
+        "hillshade-135": "patches/village-r03-c05/hillshade-135.png",
+        "hillshade-225": "patches/village-r03-c05/hillshade-225.png",
+        "hillshade-315": "patches/village-r03-c05/hillshade-315.png",
+        "elevation": "patches/village-r03-c05/elevation.png",
+        "slope": "patches/village-r03-c05/slope.png",
+        "local-relief": "patches/village-r03-c05/local-relief.png",
+        "support": "patches/village-r03-c05/support.png"
+      },
+      "terrain": "patches/village-r03-c05/terrain.tif"
+    },
+    {
+      "id": "village-r04-c01",
+      "row": 4,
+      "column": 1,
+      "boundsEPSG3763": [
+        34445,
+        -40361,
+        34645,
+        -40161
+      ],
+      "pixelWindow": [
+        0,
+        600,
+        400,
+        400
+      ],
+      "stats": {
+        "validCells": 159525,
+        "measuredCells": 122074,
+        "interpolatedCells": 37451,
+        "noDataCells": 475,
+        "groundReturns": 303336,
+        "elevationMinMetres": 234.93,
+        "elevationMaxMetres": 252.91,
+        "localReliefClippedCells": 39,
+        "slopeClippedCells": 1182
+      },
+      "images": {
+        "hillshade-045": "patches/village-r04-c01/hillshade-045.png",
+        "hillshade-135": "patches/village-r04-c01/hillshade-135.png",
+        "hillshade-225": "patches/village-r04-c01/hillshade-225.png",
+        "hillshade-315": "patches/village-r04-c01/hillshade-315.png",
+        "elevation": "patches/village-r04-c01/elevation.png",
+        "slope": "patches/village-r04-c01/slope.png",
+        "local-relief": "patches/village-r04-c01/local-relief.png",
+        "support": "patches/village-r04-c01/support.png"
+      },
+      "terrain": "patches/village-r04-c01/terrain.tif"
+    },
+    {
+      "id": "village-r04-c02",
+      "row": 4,
+      "column": 2,
+      "boundsEPSG3763": [
+        34545,
+        -40361,
+        34745,
+        -40161
+      ],
+      "pixelWindow": [
+        200,
+        600,
+        400,
+        400
+      ],
+      "stats": {
+        "validCells": 154435,
+        "measuredCells": 95883,
+        "interpolatedCells": 58552,
+        "noDataCells": 5565,
+        "groundReturns": 240975,
+        "elevationMinMetres": 235.87,
+        "elevationMaxMetres": 252.91,
+        "localReliefClippedCells": 31,
+        "slopeClippedCells": 1150
+      },
+      "images": {
+        "hillshade-045": "patches/village-r04-c02/hillshade-045.png",
+        "hillshade-135": "patches/village-r04-c02/hillshade-135.png",
+        "hillshade-225": "patches/village-r04-c02/hillshade-225.png",
+        "hillshade-315": "patches/village-r04-c02/hillshade-315.png",
+        "elevation": "patches/village-r04-c02/elevation.png",
+        "slope": "patches/village-r04-c02/slope.png",
+        "local-relief": "patches/village-r04-c02/local-relief.png",
+        "support": "patches/village-r04-c02/support.png"
+      },
+      "terrain": "patches/village-r04-c02/terrain.tif"
+    },
+    {
+      "id": "village-r04-c03",
+      "row": 4,
+      "column": 3,
+      "boundsEPSG3763": [
+        34645,
+        -40361,
+        34845,
+        -40161
+      ],
+      "pixelWindow": [
+        400,
+        600,
+        400,
+        400
+      ],
+      "stats": {
+        "validCells": 153760,
+        "measuredCells": 87852,
+        "interpolatedCells": 65908,
+        "noDataCells": 6240,
+        "groundReturns": 223045,
+        "elevationMinMetres": 233.22,
+        "elevationMaxMetres": 252.65,
+        "localReliefClippedCells": 26,
+        "slopeClippedCells": 1816
+      },
+      "images": {
+        "hillshade-045": "patches/village-r04-c03/hillshade-045.png",
+        "hillshade-135": "patches/village-r04-c03/hillshade-135.png",
+        "hillshade-225": "patches/village-r04-c03/hillshade-225.png",
+        "hillshade-315": "patches/village-r04-c03/hillshade-315.png",
+        "elevation": "patches/village-r04-c03/elevation.png",
+        "slope": "patches/village-r04-c03/slope.png",
+        "local-relief": "patches/village-r04-c03/local-relief.png",
+        "support": "patches/village-r04-c03/support.png"
+      },
+      "terrain": "patches/village-r04-c03/terrain.tif"
+    },
+    {
+      "id": "village-r04-c04",
+      "row": 4,
+      "column": 4,
+      "boundsEPSG3763": [
+        34745,
+        -40361,
+        34945,
+        -40161
+      ],
+      "pixelWindow": [
+        600,
+        600,
+        400,
+        400
+      ],
+      "stats": {
+        "validCells": 157630,
+        "measuredCells": 99086,
+        "interpolatedCells": 58544,
+        "noDataCells": 2370,
+        "groundReturns": 252365,
+        "elevationMinMetres": 227.95,
+        "elevationMaxMetres": 245.75,
+        "localReliefClippedCells": 26,
+        "slopeClippedCells": 2133
+      },
+      "images": {
+        "hillshade-045": "patches/village-r04-c04/hillshade-045.png",
+        "hillshade-135": "patches/village-r04-c04/hillshade-135.png",
+        "hillshade-225": "patches/village-r04-c04/hillshade-225.png",
+        "hillshade-315": "patches/village-r04-c04/hillshade-315.png",
+        "elevation": "patches/village-r04-c04/elevation.png",
+        "slope": "patches/village-r04-c04/slope.png",
+        "local-relief": "patches/village-r04-c04/local-relief.png",
+        "support": "patches/village-r04-c04/support.png"
+      },
+      "terrain": "patches/village-r04-c04/terrain.tif"
+    },
+    {
+      "id": "village-r04-c05",
+      "row": 4,
+      "column": 5,
+      "boundsEPSG3763": [
+        34845,
+        -40361,
+        35045,
+        -40161
+      ],
+      "pixelWindow": [
+        800,
+        600,
+        400,
+        400
+      ],
+      "stats": {
+        "validCells": 157667,
+        "measuredCells": 103736,
+        "interpolatedCells": 53931,
+        "noDataCells": 2333,
+        "groundReturns": 264912,
+        "elevationMinMetres": 227.95,
+        "elevationMaxMetres": 244.74,
+        "localReliefClippedCells": 73,
+        "slopeClippedCells": 1865
+      },
+      "images": {
+        "hillshade-045": "patches/village-r04-c05/hillshade-045.png",
+        "hillshade-135": "patches/village-r04-c05/hillshade-135.png",
+        "hillshade-225": "patches/village-r04-c05/hillshade-225.png",
+        "hillshade-315": "patches/village-r04-c05/hillshade-315.png",
+        "elevation": "patches/village-r04-c05/elevation.png",
+        "slope": "patches/village-r04-c05/slope.png",
+        "local-relief": "patches/village-r04-c05/local-relief.png",
+        "support": "patches/village-r04-c05/support.png"
+      },
+      "terrain": "patches/village-r04-c05/terrain.tif"
+    },
+    {
+      "id": "village-r05-c01",
+      "row": 5,
+      "column": 1,
+      "boundsEPSG3763": [
+        34445,
+        -40461,
+        34645,
+        -40261
+      ],
+      "pixelWindow": [
+        0,
+        800,
+        400,
+        400
+      ],
+      "stats": {
+        "validCells": 159959,
+        "measuredCells": 133769,
+        "interpolatedCells": 26190,
+        "noDataCells": 41,
+        "groundReturns": 339564,
+        "elevationMinMetres": 233.57,
+        "elevationMaxMetres": 252.92000000000002,
+        "localReliefClippedCells": 0,
+        "slopeClippedCells": 964
+      },
+      "images": {
+        "hillshade-045": "patches/village-r05-c01/hillshade-045.png",
+        "hillshade-135": "patches/village-r05-c01/hillshade-135.png",
+        "hillshade-225": "patches/village-r05-c01/hillshade-225.png",
+        "hillshade-315": "patches/village-r05-c01/hillshade-315.png",
+        "elevation": "patches/village-r05-c01/elevation.png",
+        "slope": "patches/village-r05-c01/slope.png",
+        "local-relief": "patches/village-r05-c01/local-relief.png",
+        "support": "patches/village-r05-c01/support.png"
+      },
+      "terrain": "patches/village-r05-c01/terrain.tif"
+    },
+    {
+      "id": "village-r05-c02",
+      "row": 5,
+      "column": 2,
+      "boundsEPSG3763": [
+        34545,
+        -40461,
+        34745,
+        -40261
+      ],
+      "pixelWindow": [
+        200,
+        800,
+        400,
+        400
+      ],
+      "stats": {
+        "validCells": 156581,
+        "measuredCells": 114317,
+        "interpolatedCells": 42264,
+        "noDataCells": 3419,
+        "groundReturns": 297269,
+        "elevationMinMetres": 238.71,
+        "elevationMaxMetres": 252.92000000000002,
+        "localReliefClippedCells": 0,
+        "slopeClippedCells": 523
+      },
+      "images": {
+        "hillshade-045": "patches/village-r05-c02/hillshade-045.png",
+        "hillshade-135": "patches/village-r05-c02/hillshade-135.png",
+        "hillshade-225": "patches/village-r05-c02/hillshade-225.png",
+        "hillshade-315": "patches/village-r05-c02/hillshade-315.png",
+        "elevation": "patches/village-r05-c02/elevation.png",
+        "slope": "patches/village-r05-c02/slope.png",
+        "local-relief": "patches/village-r05-c02/local-relief.png",
+        "support": "patches/village-r05-c02/support.png"
+      },
+      "terrain": "patches/village-r05-c02/terrain.tif"
+    },
+    {
+      "id": "village-r05-c03",
+      "row": 5,
+      "column": 3,
+      "boundsEPSG3763": [
+        34645,
+        -40461,
+        34845,
+        -40261
+      ],
+      "pixelWindow": [
+        400,
+        800,
+        400,
+        400
+      ],
+      "stats": {
+        "validCells": 153851,
+        "measuredCells": 93247,
+        "interpolatedCells": 60604,
+        "noDataCells": 6149,
+        "groundReturns": 239304,
+        "elevationMinMetres": 235.77,
+        "elevationMaxMetres": 252.65,
+        "localReliefClippedCells": 235,
+        "slopeClippedCells": 1143
+      },
+      "images": {
+        "hillshade-045": "patches/village-r05-c03/hillshade-045.png",
+        "hillshade-135": "patches/village-r05-c03/hillshade-135.png",
+        "hillshade-225": "patches/village-r05-c03/hillshade-225.png",
+        "hillshade-315": "patches/village-r05-c03/hillshade-315.png",
+        "elevation": "patches/village-r05-c03/elevation.png",
+        "slope": "patches/village-r05-c03/slope.png",
+        "local-relief": "patches/village-r05-c03/local-relief.png",
+        "support": "patches/village-r05-c03/support.png"
+      },
+      "terrain": "patches/village-r05-c03/terrain.tif"
+    },
+    {
+      "id": "village-r05-c04",
+      "row": 5,
+      "column": 4,
+      "boundsEPSG3763": [
+        34745,
+        -40461,
+        34945,
+        -40261
+      ],
+      "pixelWindow": [
+        600,
+        800,
+        400,
+        400
+      ],
+      "stats": {
+        "validCells": 155028,
+        "measuredCells": 101328,
+        "interpolatedCells": 53700,
+        "noDataCells": 4972,
+        "groundReturns": 265751,
+        "elevationMinMetres": 232.09,
+        "elevationMaxMetres": 246.39,
+        "localReliefClippedCells": 235,
+        "slopeClippedCells": 1746
+      },
+      "images": {
+        "hillshade-045": "patches/village-r05-c04/hillshade-045.png",
+        "hillshade-135": "patches/village-r05-c04/hillshade-135.png",
+        "hillshade-225": "patches/village-r05-c04/hillshade-225.png",
+        "hillshade-315": "patches/village-r05-c04/hillshade-315.png",
+        "elevation": "patches/village-r05-c04/elevation.png",
+        "slope": "patches/village-r05-c04/slope.png",
+        "local-relief": "patches/village-r05-c04/local-relief.png",
+        "support": "patches/village-r05-c04/support.png"
+      },
+      "terrain": "patches/village-r05-c04/terrain.tif"
+    },
+    {
+      "id": "village-r05-c05",
+      "row": 5,
+      "column": 5,
+      "boundsEPSG3763": [
+        34845,
+        -40461,
+        35045,
+        -40261
+      ],
+      "pixelWindow": [
+        800,
+        800,
+        400,
+        400
+      ],
+      "stats": {
+        "validCells": 156686,
+        "measuredCells": 109244,
+        "interpolatedCells": 47442,
+        "noDataCells": 3314,
+        "groundReturns": 290849,
+        "elevationMinMetres": 232.09,
+        "elevationMaxMetres": 249.69,
+        "localReliefClippedCells": 73,
+        "slopeClippedCells": 2055
+      },
+      "images": {
+        "hillshade-045": "patches/village-r05-c05/hillshade-045.png",
+        "hillshade-135": "patches/village-r05-c05/hillshade-135.png",
+        "hillshade-225": "patches/village-r05-c05/hillshade-225.png",
+        "hillshade-315": "patches/village-r05-c05/hillshade-315.png",
+        "elevation": "patches/village-r05-c05/elevation.png",
+        "slope": "patches/village-r05-c05/slope.png",
+        "local-relief": "patches/village-r05-c05/local-relief.png",
+        "support": "patches/village-r05-c05/support.png"
+      },
+      "terrain": "patches/village-r05-c05/terrain.tif"
+    }
+  ],
+  "context": {
+    "hillshade-045": "context/hillshade-045.png",
+    "hillshade-135": "context/hillshade-135.png",
+    "hillshade-225": "context/hillshade-225.png",
+    "hillshade-315": "context/hillshade-315.png",
+    "elevation": "context/elevation.png",
+    "slope": "context/slope.png",
+    "local-relief": "context/local-relief.png",
+    "support": "context/support.png"
+  }
+}

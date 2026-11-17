@@ -1,0 +1,41 @@
+{
+  "checked": "2026-11-16T19:20:59Z",
+  "removed": [
+    {
+      "path": "/Users/solid/Library/Caches/Homebrew/downloads",
+      "fileBytesRemoved": 514970560,
+      "reason": "Regenerable download/build cache; installed software and prepared site assets retained."
+    },
+    {
+      "path": "/Users/solid/.npm/_cacache",
+      "fileBytesRemoved": 390359314,
+      "reason": "Regenerable download/build cache; installed software and prepared site assets retained."
+    },
+    {
+      "path": "/Users/solid/Library/Caches/pip",
+      "fileBytesRemoved": 39476056,
+      "reason": "Regenerable download/build cache; installed software and prepared site assets retained."
+    },
+    {
+      "path": "/private/tmp/aldeia-aerial-2025-source",
+      "fileBytesRemoved": 205834907,
+      "reason": "Regenerable download/build cache; installed software and prepared site assets retained."
+    },
+    {
+      "path": "/Users/solid/Library/Caches/com.openai.codex/org.sparkle-project.Sparkle/Installation/VceueF8z2",
+      "fileBytesRemoved": 2129963585,
+      "reason": "Unused staged updater copy dated 12 November; no open files found; installed application retained."
+    }
+  ],
+  "preserved": [
+    "Installed codex Python runtime",
+    "Browser/application state and active updaters",
+    "Current viewer, terrain, imagery, vegetation and archaeological datasets",
+    "Raw decoder/census metadata needed for ground-support extraction"
+  ],
+  "uvCleanup": "uv cache prune and uv cache clean; normal in-use checks, no --force",
+  "freeAfterCleanupBytes": 14020763648,
+  "note": "Filesystem free-space gains can be smaller than logical file sizes due to APFS sharing/clones.",
+  "completedWorkingDirectoryRemoved": "/private/tmp/aldeia-parish-analysis-work",
+  "finalFreeDiskBytes": 7152517120
+}

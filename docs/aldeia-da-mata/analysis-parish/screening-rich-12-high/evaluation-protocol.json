@@ -1,0 +1,14 @@
+{
+  "primary": "Per crop, any candidate centre within 25 m (50 patch pixels) of any inventory reference point. Same rule in both arms.",
+  "localizedSecondary": "Primary, plus box area <=16000 patch pixels and maximum side <=200 patch pixels.",
+  "interpretation": "Proximity diagnostic only; reference point accuracy, visible remains and feature boundaries are unverified. No accuracy/recall or confirmed discovery claim.",
+  "pairedCounts": [
+    "baseline-only",
+    "enriched-only",
+    "both",
+    "neither"
+  ],
+  "reviewBudget": "12 baseline x5 images +12 enriched x12 images =204 image inspections; fresh workers, at most three concurrent.",
+  "blinding": "Fresh contexts; private key outside anonymous folders. File access restriction is procedural, not an OS sandbox. Reviewers not told sample composition.",
+  "freeze": "Raw worker outputs must be hashed before key is joined; no reprompting based on control outcomes."
+}

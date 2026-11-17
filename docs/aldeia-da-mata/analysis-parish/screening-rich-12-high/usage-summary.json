@@ -1,0 +1,30 @@
+{
+  "before": {
+    "time": "2026-11-16T23:41:21.241Z",
+    "ordinaryUsageAllowed": true,
+    "rateLimitsByLimitId": {
+      "codex": {
+        "limitId": "codex",
+        "limitName": null,
+        "normalModelSlug": null,
+        "primary": {
+          "usedPercent": 57,
+          "windowDurationMins": 10080,
+          "resetsAt": 1794926671
+        },
+        "secondary": null,
+        "credits": {
+          "hasCredits": false,
+          "unlimited": false,
+          "balance": "0"
+        },
+        "individualLimit": null,
+        "spendControlReached": false,
+        "planType": "prolite",
+        "rateLimitReachedType": null
+      }
+    }
+  },
+  "after": {"time":"2026-11-16T23:46:20.021Z","ordinaryUsageAllowed":true,"rateLimitsByLimitId":{"codex":{"limitId":"codex","limitName":null,"normalModelSlug":null,"primary":{"usedPercent":57,"windowDurationMins":10080,"resetsAt":1794926671},"secondary":null,"credits":{"hasCredits":false,"unlimited":false,"balance":"0"},"individualLimit":null,"spendControlReached":false,"planType":"prolite","rateLimitReachedType":null}}},
+  "note": "Shared rounded account meter, not exact per-model/token cost. No reset or purchase used."
+}

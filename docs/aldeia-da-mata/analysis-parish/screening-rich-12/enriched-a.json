@@ -1,0 +1,92 @@
+{
+  "cases": [
+    {
+      "case": "R01",
+      "imagesInspected": [
+        "hillshade-045",
+        "hillshade-135",
+        "hillshade-315",
+        "local-relief",
+        "support",
+        "hillshade-225",
+        "slope",
+        "sky-view-factor",
+        "terrain-context",
+        "aerial-patch",
+        "aerial-context",
+        "point-classes"
+      ],
+      "visibleGeometry": "Broad rounded slope between irregular drainage lines, with scattered small knolls and a prominent angular exposed rock in the southeast. A diagonal narrow trace crosses the northwest.",
+      "alternatives": "Rock outcrops, erosion channels, vegetation effects and a footpath or vehicle track account for the visible forms.",
+      "supportLimits": "Patch has scattered interpolated cells, especially at rough edges. No coherent enclosure or platform is clear across terrain views.",
+      "followUp": "none",
+      "candidates": []
+    },
+    {
+      "case": "R02",
+      "imagesInspected": [
+        "hillshade-045",
+        "hillshade-135",
+        "hillshade-315",
+        "local-relief",
+        "support",
+        "hillshade-225",
+        "slope",
+        "sky-view-factor",
+        "terrain-context",
+        "aerial-patch",
+        "aerial-context",
+        "point-classes"
+      ],
+      "visibleGeometry": "Several branching incised lines converge near the lower centre. A sloping rocky shoulder on the east bears small irregular knolls; western ground is smoother. Aerial vegetation follows the drainage.",
+      "alternatives": "Seasonal drainage and erosion, exposed bedrock, stock trails, and vegetation or ground-classification gaps explain these traces.",
+      "supportLimits": "The channel and rocky shoulder contain many interpolated cells. Their jagged edges should not be read as walls without original-return checks.",
+      "followUp": "none",
+      "candidates": []
+    },
+    {
+      "case": "R03",
+      "imagesInspected": [
+        "hillshade-045",
+        "hillshade-135",
+        "hillshade-315",
+        "local-relief",
+        "support",
+        "hillshade-225",
+        "slope",
+        "sky-view-factor",
+        "terrain-context",
+        "aerial-patch",
+        "aerial-context",
+        "point-classes"
+      ],
+      "visibleGeometry": "Regular closely spaced curved ridges cover the western field; parallel rows cover the eastern field. A nearly north-south boundary divides them, and an east-west track crosses the south.",
+      "alternatives": "Ploughing or plantation furrows, field terraces and modern access or drainage boundaries match the aerial pattern and wider field network.",
+      "supportLimits": "The north-south division has interpolated cells. Fine ridges are measured broadly, but their regular agricultural context limits interpretation.",
+      "followUp": "none",
+      "candidates": []
+    },
+    {
+      "case": "R04",
+      "imagesInspected": [
+        "hillshade-045",
+        "hillshade-135",
+        "hillshade-315",
+        "local-relief",
+        "support",
+        "hillshade-225",
+        "slope",
+        "sky-view-factor",
+        "terrain-context",
+        "aerial-patch",
+        "aerial-context",
+        "point-classes"
+      ],
+      "visibleGeometry": "Mostly smooth open ground crossed by a narrow north-south track. Several small, irregular raised spots lie beside it, notably a cluster near the centre-right and isolated bumps toward the northwest and south.",
+      "alternatives": "Exposed boulders or bedrock, small shrubs, and track-related disturbance fit the aerial patches and surrounding rocky terrain.",
+      "supportLimits": "Ground is predominantly measured, but the bumps lack a coherent boundary or level surface. Imagery and model dates differ.",
+      "followUp": "none",
+      "candidates": []
+    }
+  ]
+}

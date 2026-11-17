@@ -1,0 +1,382 @@
+.mobile-dock,
+.mobile-places,
+.mobile-sheet-heading,
+.mobile-only,
+#mobile-gesture-hint,
+#mobile-detail-status,
+#return-to-map,
+#sheet-backdrop {
+  display: none;
+}
+
+@media (max-width: 800px), (pointer: coarse) {
+  body:not(.reading-docs) {
+    overflow: hidden;
+    overscroll-behavior: none;
+  }
+
+  body:not(.reading-docs) > header,
+  body:not(.reading-docs) main > :not(#explore-section),
+  body:not(.reading-docs) #explore-section > :not(#viewer) {
+    display: none;
+  }
+
+  body:not(.reading-docs) main,
+  body:not(.reading-docs) #explore-section {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    max-width: none;
+  }
+
+  body:not(.reading-docs) #viewer {
+    position: fixed;
+    inset: 0;
+    height: 100vh;
+    height: 100dvh;
+    border: 0;
+    border-radius: 0;
+    display: grid;
+    grid-template-rows: calc(54px + env(safe-area-inset-top)) minmax(0, 1fr) calc(76px + env(safe-area-inset-bottom));
+    overflow: hidden;
+  }
+
+  body:not(.reading-docs) #viewer > .bar {
+    flex-wrap: nowrap;
+    gap: 8px;
+    padding: calc(7px + env(safe-area-inset-top)) 10px 7px;
+    min-width: 0;
+    z-index: 3;
+  }
+
+  #viewer > .bar #patch-title {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font-size: 12px;
+    min-width: 0;
+  }
+
+  body:not(.reading-docs) #coverage-label {
+    display: none;
+  }
+
+  #viewer > .bar .btnrow {
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    gap: 4px;
+  }
+
+  #viewer > .bar button {
+    min-height: 40px;
+    padding: 6px 10px;
+    font: 13px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  }
+
+  body:not(.reading-docs) .surface-panel {
+    display: block;
+    position: relative;
+    min-height: 0;
+    overflow: hidden;
+  }
+
+  body:not(.reading-docs) .scene {
+    position: absolute;
+    inset: 0;
+    min-height: 0;
+    height: 100%;
+  }
+
+  #terrain {
+    touch-action: none;
+    -webkit-user-select: none;
+    user-select: none;
+    -webkit-touch-callout: none;
+  }
+
+  .location-marker {
+    min-height: 44px;
+    min-width: 54px;
+    display: grid;
+    place-items: center;
+    font-size: 12px;
+    padding: 4px 9px;
+  }
+
+  .compass,
+  #fit-overlay {
+    min-height: 44px;
+    min-width: 44px;
+    top: 12px;
+  }
+
+  .compass {
+    padding: 4px 12px;
+  }
+
+  #fit-overlay {
+    right: 12px;
+    padding: 7px 12px;
+    font-size: 13px;
+  }
+
+  body:not(.reading-docs) #viewer > .controls {
+    z-index: 4;
+    padding: 8px 10px calc(10px + env(safe-area-inset-bottom));
+    background: #151b23;
+    border-top: 1px solid #30363d;
+    display: block;
+  }
+
+  body:not(.reading-docs) #height-range {
+    display: none;
+  }
+
+  .mobile-dock {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 6px;
+  }
+
+  .mobile-dock button {
+    min-height: 52px;
+    padding: 8px 4px;
+    border: 1px solid #484f58;
+    border-radius: 8px;
+    font-size: 13px;
+    font-weight: 600;
+  }
+
+  .mobile-dock button[aria-expanded="true"],
+  .mobile-dock button[aria-pressed="true"] {
+    border-color: #58a6ff;
+    color: #cae8ff;
+    background: #234466;
+  }
+
+  #viewer > .controls > .btnrow {
+    position: absolute;
+    right: 12px;
+    bottom: calc(99px + env(safe-area-inset-bottom));
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    border: 1px solid #484f58;
+    border-radius: 9px;
+    overflow: hidden;
+    box-shadow: 0 2px 12px #0006;
+  }
+
+  #viewer > .controls > .btnrow button {
+    width: 48px;
+    height: 48px;
+    border: 0;
+    border-radius: 0;
+    background: #151b23ed;
+    font-size: 25px;
+  }
+
+  .scene-info {
+    left: 12px;
+    right: 72px;
+    bottom: 10px;
+    font-size: 10px;
+    line-height: 1.5;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+
+  .scale {
+    left: 12px;
+    bottom: 30px;
+  }
+
+  #mobile-gesture-hint {
+    display: block;
+    position: absolute;
+    top: 13px;
+    left: 50%;
+    transform: translateX(-50%);
+    max-width: calc(100% - 180px);
+    text-align: center;
+    font-size: 11px;
+    color: #b1bac4;
+    pointer-events: none;
+    text-shadow: 0 1px 3px #000;
+  }
+
+  #mobile-detail-status {
+    display: block;
+    position: absolute;
+    top: 64px;
+    left: 12px;
+    pointer-events: none;
+    background: #0d1117b3;
+    padding: 4px 7px;
+    border-radius: 4px;
+    color: #b1bac4;
+    font-size: 11px;
+    max-width: calc(100% - 24px);
+  }
+
+  #viewer .settings,
+  #viewer .mobile-places {
+    display: none;
+    position: fixed;
+    z-index: 12;
+    left: max(8px, env(safe-area-inset-left));
+    right: max(8px, env(safe-area-inset-right));
+    bottom: calc(84px + env(safe-area-inset-bottom));
+    max-height: calc(100dvh - 160px - env(safe-area-inset-top) - env(safe-area-inset-bottom));
+    overflow-y: auto;
+    overscroll-behavior: contain;
+    -webkit-overflow-scrolling: touch;
+    padding: 16px;
+    gap: 18px;
+    border: 1px solid #484f58;
+    border-radius: 14px;
+    background: #151b23;
+    box-shadow: 0 -8px 40px #0008;
+  }
+
+  #viewer[data-sheet="settings"] .settings,
+  #viewer[data-sheet="places"] .mobile-places {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #viewer .mobile-sheet-heading {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+  }
+
+  #viewer .mobile-sheet-heading {
+    position: sticky;
+    top: -16px;
+    z-index: 2;
+    padding: 4px 0 8px;
+    background: #151b23;
+  }
+
+  .settings #fullscreen { display: none; }
+
+  .mobile-sheet-heading h3 {
+    margin: 0;
+    font-size: 17px;
+  }
+
+  .mobile-sheet-heading button {
+    min-height: 44px;
+    padding: 8px 16px;
+    border: 1px solid #484f58;
+    border-radius: 7px;
+    font-size: 14px;
+  }
+
+  .settings label,
+  .settings .footnote {
+    font-size: 14px;
+  }
+
+  .settings select {
+    min-height: 46px;
+    padding: 8px;
+    font-size: 16px;
+  }
+
+  .settings input[type="range"] {
+    min-height: 38px;
+  }
+
+  .settings input[type="checkbox"] {
+    width: 22px;
+    height: 22px;
+  }
+
+  .settings button {
+    min-height: 44px;
+  }
+
+  .settings .mobile-only {
+    display: block;
+    border: 1px solid #484f58;
+    border-radius: 6px;
+  }
+
+  .mobile-presets {
+    display: grid;
+    gap: 8px;
+  }
+
+  .mobile-presets button {
+    min-height: 48px;
+    text-align: left;
+    border: 1px solid #484f58;
+    border-radius: 7px;
+    font-size: 15px;
+  }
+
+  #places-sheet #location-controls h3,
+  #places-sheet #parish-home {
+    display: none;
+  }
+
+  #places-sheet #navigation-map {
+    height: 190px;
+    margin-bottom: 8px;
+  }
+
+  #viewer[data-sheet] #sheet-backdrop {
+    display: block;
+    position: fixed;
+    inset: 0;
+    z-index: 10;
+    width: 100%;
+    height: 100%;
+    background: #01040988;
+    border: 0;
+    border-radius: 0;
+  }
+
+  body.reading-docs {
+    overflow: auto;
+    padding-bottom: 90px;
+  }
+
+  body.reading-docs #explore-section {
+    display: none;
+  }
+
+  body.reading-docs #return-to-map {
+    display: block;
+    position: fixed;
+    bottom: calc(16px + env(safe-area-inset-bottom));
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 20;
+    min-height: 48px;
+    padding: 10px 24px;
+    background: #1f6feb;
+    border: 1px solid #58a6ff;
+    border-radius: 9px;
+    box-shadow: 0 4px 20px #0008;
+    font-size: 15px;
+  }
+
+  @media (max-height: 500px) {
+    #viewer > .bar #patch-title {
+      max-width: 40vw;
+    }
+
+    .scene-info {
+      display: none;
+    }
+
+    .scale {
+      bottom: 12px;
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "cases": [
+    {
+      "case": "R05",
+      "imagesInspected": ["hillshade-045", "hillshade-135", "hillshade-315", "local-relief", "support"],
+      "visibleGeometry": "Several irregular clusters of sharp, small rises occupy the northern half, largest near the east centre; isolated bumps and a faint curving track appear elsewhere. No continuous enclosure, level platform, or regular plan is clear across illumination directions.",
+      "alternatives": "Natural exposed rock and field clearance could account for the clusters; the eastern curve may be a modern track.",
+      "supportLimits": "Many sharp rises coincide with interpolated cells, particularly in the eastern cluster, so their edges and separations require measured-return checks.",
+      "followUp": "none",
+      "candidates": []
+    },
+    {
+      "case": "R06",
+      "imagesInspected": ["hillshade-045", "hillshade-135", "hillshade-315", "local-relief", "support"],
+      "visibleGeometry": "A sinuous north–south incised line branches near the top, with broad smooth lobes on either side and a shorter east–west break across the middle. Its irregular width and branching continue across the patch. Small isolated knolls lie to the northeast.",
+      "alternatives": "Drainage or erosion and adjacent natural slope changes explain the pattern; a track or field boundary might contribute to the east–west break.",
+      "supportLimits": "The channel-like line and its junctions contain many interpolated cells, with a small missing area near the bottom. Their fine edges are uncertain.",
+      "followUp": "none",
+      "candidates": []
+    },
+    {
+      "case": "R07",
+      "imagesInspected": ["hillshade-045", "hillshade-135", "hillshade-315", "local-relief", "support"],
+      "visibleGeometry": "Most of the patch is smooth. A broad, faint, elongated rise lies southwest of centre, with a softer low strip along its western and southern sides; its perimeter is incomplete. Small isolated bumps and a narrow north–south line occur near the northeast edge.",
+      "alternatives": "The elongated rise could be a natural slope lobe or shallow drainage divide. The northeast line may be a track or field edge.",
+      "supportLimits": "The broad rise is predominantly measured, but its relief is subtle and the images alone do not resolve its origin.",
+      "followUp": "low",
+      "candidates": [
+        {
+          "feature": "Broad elongated rise with incomplete low margin",
+          "pixelCentre": [150, 275],
+          "pixelBox": [105, 210, 205, 340],
+          "confidence": "low",
+          "nextCheck": "Examine ground-return profiles across and along the rise, then compare the surrounding terrain and dated imagery for a natural slope or recent disturbance.",
+          "evidenceLayers": ["hillshade-045", "hillshade-135", "hillshade-315", "local-relief", "support"]
+        }
+      ]
+    },
+    {
+      "case": "R08",
+      "imagesInspected": ["hillshade-045", "hillshade-135", "hillshade-315", "local-relief", "support"],
+      "visibleGeometry": "A long irregular break runs west–east across the lower middle, bending upward to the east. Several broad shallow lobes meet it from north and south. The northern surface is rougher and the southern surface smoother; no closed or regular outline is clear.",
+      "alternatives": "A natural drainage or terrace edge, field boundary, or track could produce the break. The lobes may reflect local slope and runoff.",
+      "supportLimits": "Interpolated cells concentrate along the break and scattered rough spots, weakening interpretation of its fine shape; most broad surfaces are measured.",
+      "followUp": "none",
+      "candidates": []
+    }
+  ]
+}

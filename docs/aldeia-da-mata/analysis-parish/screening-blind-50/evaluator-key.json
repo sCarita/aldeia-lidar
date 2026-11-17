@@ -1,0 +1,1565 @@
+{
+  "seed": 2026111650,
+  "workDirectory": "/private/tmp/aldeia-blind50-20261116",
+  "cases": [
+    {
+      "case": "B001",
+      "patchId": "parish-r014-c062",
+      "boundsEPSG3763": [
+        34545,
+        -37761,
+        34745,
+        -37561
+      ],
+      "stratum": "high_support",
+      "referencePointCrop": false,
+      "references": [],
+      "supportStats": {
+        "validCells": 159994,
+        "measuredCells": 152082,
+        "interpolatedCells": 7912,
+        "noDataCells": 6,
+        "groundReturns": 516545,
+        "elevationMinMetres": 250.93,
+        "elevationMaxMetres": 266.74,
+        "localReliefClippedCells": 0,
+        "slopeClippedCells": 10
+      }
+    },
+    {
+      "case": "B002",
+      "patchId": "parish-r014-c050",
+      "boundsEPSG3763": [
+        33345,
+        -37761,
+        33545,
+        -37561
+      ],
+      "stratum": "high_support",
+      "referencePointCrop": false,
+      "references": [],
+      "supportStats": {
+        "validCells": 160000,
+        "measuredCells": 154070,
+        "interpolatedCells": 5930,
+        "noDataCells": 0,
+        "groundReturns": 426020,
+        "elevationMinMetres": 261.62,
+        "elevationMaxMetres": 268.25,
+        "localReliefClippedCells": 0,
+        "slopeClippedCells": 1
+      }
+    },
+    {
+      "case": "B003",
+      "patchId": "parish-r052-c088",
+      "boundsEPSG3763": [
+        37145,
+        -41561,
+        37345,
+        -41361
+      ],
+      "stratum": "reference_point_crop",
+      "referencePointCrop": true,
+      "references": [
+        {
+          "cns": 39925,
+          "name": "Clara Domingas",
+          "type": "Anta/D\u00f3lmen",
+          "pixelXY": [
+            312.00479999929667,
+            334.2925999984145
+          ],
+          "url": "https://arqueologia.patrimoniocultural.pt/index.php?sid=sitios&subsid=3623847"
+        }
+      ],
+      "supportStats": {
+        "validCells": 160000,
+        "measuredCells": 147439,
+        "interpolatedCells": 12561,
+        "noDataCells": 0,
+        "groundReturns": 489421,
+        "elevationMinMetres": 233.63,
+        "elevationMaxMetres": 250.63,
+        "localReliefClippedCells": 0,
+        "slopeClippedCells": 99
+      }
+    },
+    {
+      "case": "B004",
+      "patchId": "parish-r022-c083",
+      "boundsEPSG3763": [
+        36645,
+        -38561,
+        36845,
+        -38361
+      ],
+      "stratum": "reference_point_crop",
+      "referencePointCrop": true,
+      "references": [
+        {
+          "cns": 1064,
+          "name": "Lage do Ouro",
+          "type": "Necr\u00f3pole",
+          "pixelXY": [
+            158.10999999940395,
+            196.93820000067353
+          ],
+          "url": "https://arqueologia.patrimoniocultural.pt/index.php?sid=sitios&subsid=47577"
+        }
+      ],
+      "supportStats": {
+        "validCells": 160000,
+        "measuredCells": 153437,
+        "interpolatedCells": 6563,
+        "noDataCells": 0,
+        "groundReturns": 1112900,
+        "elevationMinMetres": 270.17,
+        "elevationMaxMetres": 278.82,
+        "localReliefClippedCells": 1,
+        "slopeClippedCells": 45
+      }
+    },
+    {
+      "case": "B005",
+      "patchId": "parish-r029-c104",
+      "boundsEPSG3763": [
+        38745,
+        -39261,
+        38945,
+        -39061
+      ],
+      "stratum": "intermediate_support",
+      "referencePointCrop": false,
+      "references": [],
+      "supportStats": {
+        "validCells": 114075,
+        "measuredCells": 86634,
+        "interpolatedCells": 27441,
+        "noDataCells": 45925,
+        "groundReturns": 241039,
+        "elevationMinMetres": 262.22,
+        "elevationMaxMetres": 278.69,
+        "localReliefClippedCells": 832,
+        "slopeClippedCells": 1700
+      }
+    },
+    {
+      "case": "B006",
+      "patchId": "parish-r024-c031",
+      "boundsEPSG3763": [
+        31445,
+        -38761,
+        31645,
+        -38561
+      ],
+      "stratum": "high_support",
+      "referencePointCrop": false,
+      "references": [],
+      "supportStats": {
+        "validCells": 159997,
+        "measuredCells": 148523,
+        "interpolatedCells": 11474,
+        "noDataCells": 3,
+        "groundReturns": 619536,
+        "elevationMinMetres": 237.61,
+        "elevationMaxMetres": 251.76,
+        "localReliefClippedCells": 0,
+        "slopeClippedCells": 40
+      }
+    },
+    {
+      "case": "B007",
+      "patchId": "parish-r008-c032",
+      "boundsEPSG3763": [
+        31545,
+        -37161,
+        31745,
+        -36961
+      ],
+      "stratum": "high_support",
+      "referencePointCrop": false,
+      "references": [],
+      "supportStats": {
+        "validCells": 160000,
+        "measuredCells": 140519,
+        "interpolatedCells": 19481,
+        "noDataCells": 0,
+        "groundReturns": 363492,
+        "elevationMinMetres": 245.89,
+        "elevationMaxMetres": 254.02,
+        "localReliefClippedCells": 0,
+        "slopeClippedCells": 0
+      }
+    },
+    {
+      "case": "B008",
+      "patchId": "parish-r052-c089",
+      "boundsEPSG3763": [
+        37245,
+        -41561,
+        37445,
+        -41361
+      ],
+      "stratum": "reference_point_crop",
+      "referencePointCrop": true,
+      "references": [
+        {
+          "cns": 39925,
+          "name": "Clara Domingas",
+          "type": "Anta/D\u00f3lmen",
+          "pixelXY": [
+            112.00479999929667,
+            334.2925999984145
+          ],
+          "url": "https://arqueologia.patrimoniocultural.pt/index.php?sid=sitios&subsid=3623847"
+        }
+      ],
+      "supportStats": {
+        "validCells": 160000,
+        "measuredCells": 143813,
+        "interpolatedCells": 16187,
+        "noDataCells": 0,
+        "groundReturns": 391872,
+        "elevationMinMetres": 237.79,
+        "elevationMaxMetres": 253.9,
+        "localReliefClippedCells": 0,
+        "slopeClippedCells": 84
+      }
+    },
+    {
+      "case": "B009",
+      "patchId": "parish-r045-c059",
+      "boundsEPSG3763": [
+        34245,
+        -40861,
+        34445,
+        -40661
+      ],
+      "stratum": "intermediate_support",
+      "referencePointCrop": false,
+      "references": [],
+      "supportStats": {
+        "validCells": 130535,
+        "measuredCells": 121140,
+        "interpolatedCells": 9395,
+        "noDataCells": 29465,
+        "groundReturns": 323747,
+        "elevationMinMetres": 220.64,
+        "elevationMaxMetres": 234.73,
+        "localReliefClippedCells": 0,
+        "slopeClippedCells": 229
+      }
+    },
+    {
+      "case": "B010",
+      "patchId": "parish-r023-c098",
+      "boundsEPSG3763": [
+        38145,
+        -38661,
+        38345,
+        -38461
+      ],
+      "stratum": "high_support",
+      "referencePointCrop": false,
+      "references": [],
+      "supportStats": {
+        "validCells": 160000,
+        "measuredCells": 145453,
+        "interpolatedCells": 14547,
+        "noDataCells": 0,
+        "groundReturns": 539215,
+        "elevationMinMetres": 287.09,
+        "elevationMaxMetres": 296.99,
+        "localReliefClippedCells": 0,
+        "slopeClippedCells": 1
+      }
+    },
+    {
+      "case": "B011",
+      "patchId": "parish-r016-c078",
+      "boundsEPSG3763": [
+        36145,
+        -37961,
+        36345,
+        -37761
+      ],
+      "stratum": "high_support",
+      "referencePointCrop": false,
+      "references": [],
+      "supportStats": {
+        "validCells": 160000,
+        "measuredCells": 155570,
+        "interpolatedCells": 4430,
+        "noDataCells": 0,
+        "groundReturns": 852299,
+        "elevationMinMetres": 262.84,
+        "elevationMaxMetres": 275.18,
+        "localReliefClippedCells": 80,
+        "slopeClippedCells": 967
+      }
+    },
+    {
+      "case": "B012",
+      "patchId": "parish-r070-c095",
+      "boundsEPSG3763": [
+        37845,
+        -43361,
+        38045,
+        -43161
+      ],
+      "stratum": "high_support",
+      "referencePointCrop": false,
+      "references": [],
+      "supportStats": {
+        "validCells": 160000,
+        "measuredCells": 152500,
+        "interpolatedCells": 7500,
+        "noDataCells": 0,
+        "groundReturns": 609032,
+        "elevationMinMetres": 199.22,
+        "elevationMaxMetres": 214.0,
+        "localReliefClippedCells": 3,
+        "slopeClippedCells": 18
+      }
+    },
+    {
+      "case": "B013",
+      "patchId": "parish-r074-c097",
+      "boundsEPSG3763": [
+        38045,
+        -43761,
+        38245,
+        -43561
+      ],
+      "stratum": "intermediate_support",
+      "referencePointCrop": false,
+      "references": [],
+      "supportStats": {
+        "validCells": 123934,
+        "measuredCells": 96909,
+        "interpolatedCells": 27025,
+        "noDataCells": 36066,
+        "groundReturns": 265160,
+        "elevationMinMetres": 176.73,
+        "elevationMaxMetres": 204.19,
+        "localReliefClippedCells": 20611,
+        "slopeClippedCells": 6622
+      }
+    },
+    {
+      "case": "B014",
+      "patchId": "parish-r029-c040",
+      "boundsEPSG3763": [
+        32345,
+        -39261,
+        32545,
+        -39061
+      ],
+      "stratum": "reference_point_crop",
+      "referencePointCrop": true,
+      "references": [
+        {
+          "cns": 8491,
+          "name": "Coito da Ola",
+          "type": "Vest\u00edgios Diversos",
+          "pixelXY": [
+            150.2269999999553,
+            236.9814000017941
+          ],
+          "url": "https://arqueologia.patrimoniocultural.pt/index.php?sid=sitios&subsid=53266"
+        }
+      ],
+      "supportStats": {
+        "validCells": 160000,
+        "measuredCells": 137845,
+        "interpolatedCells": 22155,
+        "noDataCells": 0,
+        "groundReturns": 376455,
+        "elevationMinMetres": 229.44,
+        "elevationMaxMetres": 247.04,
+        "localReliefClippedCells": 953,
+        "slopeClippedCells": 871
+      }
+    },
+    {
+      "case": "B015",
+      "patchId": "parish-r053-c089",
+      "boundsEPSG3763": [
+        37245,
+        -41661,
+        37445,
+        -41461
+      ],
+      "stratum": "reference_point_crop",
+      "referencePointCrop": true,
+      "references": [
+        {
+          "cns": 39925,
+          "name": "Clara Domingas",
+          "type": "Anta/D\u00f3lmen",
+          "pixelXY": [
+            112.00479999929667,
+            134.29259999841452
+          ],
+          "url": "https://arqueologia.patrimoniocultural.pt/index.php?sid=sitios&subsid=3623847"
+        }
+      ],
+      "supportStats": {
+        "validCells": 160000,
+        "measuredCells": 148573,
+        "interpolatedCells": 11427,
+        "noDataCells": 0,
+        "groundReturns": 412571,
+        "elevationMinMetres": 238.4,
+        "elevationMaxMetres": 253.4,
+        "localReliefClippedCells": 0,
+        "slopeClippedCells": 26
+      }
+    },
+    {
+      "case": "B016",
+      "patchId": "parish-r012-c035",
+      "boundsEPSG3763": [
+        31845,
+        -37561,
+        32045,
+        -37361
+      ],
+      "stratum": "high_support",
+      "referencePointCrop": false,
+      "references": [],
+      "supportStats": {
+        "validCells": 160000,
+        "measuredCells": 148232,
+        "interpolatedCells": 11768,
+        "noDataCells": 0,
+        "groundReturns": 399817,
+        "elevationMinMetres": 246.15,
+        "elevationMaxMetres": 255.14,
+        "localReliefClippedCells": 0,
+        "slopeClippedCells": 0
+      }
+    },
+    {
+      "case": "B017",
+      "patchId": "parish-r019-c004",
+      "boundsEPSG3763": [
+        28745,
+        -38261,
+        28945,
+        -38061
+      ],
+      "stratum": "high_support",
+      "referencePointCrop": false,
+      "references": [],
+      "supportStats": {
+        "validCells": 159841,
+        "measuredCells": 143481,
+        "interpolatedCells": 16360,
+        "noDataCells": 159,
+        "groundReturns": 416988,
+        "elevationMinMetres": 221.13,
+        "elevationMaxMetres": 233.53,
+        "localReliefClippedCells": 0,
+        "slopeClippedCells": 285
+      }
+    },
+    {
+      "case": "B018",
+      "patchId": "parish-r037-c102",
+      "boundsEPSG3763": [
+        38545,
+        -40061,
+        38745,
+        -39861
+      ],
+      "stratum": "high_support",
+      "referencePointCrop": false,
+      "references": [],
+      "supportStats": {
+        "validCells": 160000,
+        "measuredCells": 155648,
+        "interpolatedCells": 4352,
+        "noDataCells": 0,
+        "groundReturns": 868136,
+        "elevationMinMetres": 264.09,
+        "elevationMaxMetres": 276.74,
+        "localReliefClippedCells": 0,
+        "slopeClippedCells": 0
+      }
+    },
+    {
+      "case": "B019",
+      "patchId": "parish-r074-c084",
+      "boundsEPSG3763": [
+        36745,
+        -43761,
+        36945,
+        -43561
+      ],
+      "stratum": "high_support",
+      "referencePointCrop": false,
+      "references": [],
+      "supportStats": {
+        "validCells": 160000,
+        "measuredCells": 156557,
+        "interpolatedCells": 3443,
+        "noDataCells": 0,
+        "groundReturns": 455862,
+        "elevationMinMetres": 209.62,
+        "elevationMaxMetres": 217.22,
+        "localReliefClippedCells": 0,
+        "slopeClippedCells": 0
+      }
+    },
+    {
+      "case": "B020",
+      "patchId": "parish-r027-c083",
+      "boundsEPSG3763": [
+        36645,
+        -39061,
+        36845,
+        -38861
+      ],
+      "stratum": "high_support",
+      "referencePointCrop": false,
+      "references": [],
+      "supportStats": {
+        "validCells": 160000,
+        "measuredCells": 147956,
+        "interpolatedCells": 12044,
+        "noDataCells": 0,
+        "groundReturns": 817574,
+        "elevationMinMetres": 252.84,
+        "elevationMaxMetres": 266.88,
+        "localReliefClippedCells": 231,
+        "slopeClippedCells": 288
+      }
+    },
+    {
+      "case": "B021",
+      "patchId": "parish-r067-c093",
+      "boundsEPSG3763": [
+        37645,
+        -43061,
+        37845,
+        -42861
+      ],
+      "stratum": "high_support",
+      "referencePointCrop": false,
+      "references": [],
+      "supportStats": {
+        "validCells": 160000,
+        "measuredCells": 151570,
+        "interpolatedCells": 8430,
+        "noDataCells": 0,
+        "groundReturns": 479234,
+        "elevationMinMetres": 201.39,
+        "elevationMaxMetres": 214.66,
+        "localReliefClippedCells": 0,
+        "slopeClippedCells": 0
+      }
+    },
+    {
+      "case": "B022",
+      "patchId": "parish-r077-c087",
+      "boundsEPSG3763": [
+        37045,
+        -44061,
+        37245,
+        -43861
+      ],
+      "stratum": "high_support",
+      "referencePointCrop": false,
+      "references": [],
+      "supportStats": {
+        "validCells": 159334,
+        "measuredCells": 151752,
+        "interpolatedCells": 7582,
+        "noDataCells": 666,
+        "groundReturns": 422188,
+        "elevationMinMetres": 195.18,
+        "elevationMaxMetres": 209.34,
+        "localReliefClippedCells": 531,
+        "slopeClippedCells": 954
+      }
+    },
+    {
+      "case": "B023",
+      "patchId": "parish-r011-c077",
+      "boundsEPSG3763": [
+        36045,
+        -37461,
+        36245,
+        -37261
+      ],
+      "stratum": "boundary_support",
+      "referencePointCrop": false,
+      "references": [],
+      "supportStats": {
+        "validCells": 29473,
+        "measuredCells": 28265,
+        "interpolatedCells": 1208,
+        "noDataCells": 130527,
+        "groundReturns": 142211,
+        "elevationMinMetres": 273.29,
+        "elevationMaxMetres": 280.03,
+        "localReliefClippedCells": 0,
+        "slopeClippedCells": 75
+      }
+    },
+    {
+      "case": "B024",
+      "patchId": "parish-r010-c048",
+      "boundsEPSG3763": [
+        33145,
+        -37361,
+        33345,
+        -37161
+      ],
+      "stratum": "boundary_support",
+      "referencePointCrop": false,
+      "references": [],
+      "supportStats": {
+        "validCells": 35176,
+        "measuredCells": 33120,
+        "interpolatedCells": 2056,
+        "noDataCells": 124824,
+        "groundReturns": 97690,
+        "elevationMinMetres": 255.05,
+        "elevationMaxMetres": 258.42,
+        "localReliefClippedCells": 0,
+        "slopeClippedCells": 0
+      }
+    },
+    {
+      "case": "B025",
+      "patchId": "parish-r049-c064",
+      "boundsEPSG3763": [
+        34745,
+        -41261,
+        34945,
+        -41061
+      ],
+      "stratum": "intermediate_support",
+      "referencePointCrop": false,
+      "references": [],
+      "supportStats": {
+        "validCells": 140998,
+        "measuredCells": 122613,
+        "interpolatedCells": 18385,
+        "noDataCells": 19002,
+        "groundReturns": 325255,
+        "elevationMinMetres": 215.58,
+        "elevationMaxMetres": 233.7,
+        "localReliefClippedCells": 23,
+        "slopeClippedCells": 483
+      }
+    },
+    {
+      "case": "B026",
+      "patchId": "parish-r047-c094",
+      "boundsEPSG3763": [
+        37745,
+        -41061,
+        37945,
+        -40861
+      ],
+      "stratum": "high_support",
+      "referencePointCrop": false,
+      "references": [],
+      "supportStats": {
+        "validCells": 158376,
+        "measuredCells": 154038,
+        "interpolatedCells": 4338,
+        "noDataCells": 1624,
+        "groundReturns": 836164,
+        "elevationMinMetres": 256.82,
+        "elevationMaxMetres": 274.76,
+        "localReliefClippedCells": 270,
+        "slopeClippedCells": 516
+      }
+    },
+    {
+      "case": "B027",
+      "patchId": "parish-r023-c072",
+      "boundsEPSG3763": [
+        35545,
+        -38661,
+        35745,
+        -38461
+      ],
+      "stratum": "high_support",
+      "referencePointCrop": false,
+      "references": [],
+      "supportStats": {
+        "validCells": 160000,
+        "measuredCells": 133369,
+        "interpolatedCells": 26631,
+        "noDataCells": 0,
+        "groundReturns": 343466,
+        "elevationMinMetres": 241.54,
+        "elevationMaxMetres": 260.19,
+        "localReliefClippedCells": 873,
+        "slopeClippedCells": 986
+      }
+    },
+    {
+      "case": "B028",
+      "patchId": "parish-r041-c079",
+      "boundsEPSG3763": [
+        36245,
+        -40461,
+        36445,
+        -40261
+      ],
+      "stratum": "high_support",
+      "referencePointCrop": false,
+      "references": [],
+      "supportStats": {
+        "validCells": 160000,
+        "measuredCells": 151910,
+        "interpolatedCells": 8090,
+        "noDataCells": 0,
+        "groundReturns": 462589,
+        "elevationMinMetres": 264.42,
+        "elevationMaxMetres": 274.77,
+        "localReliefClippedCells": 476,
+        "slopeClippedCells": 706
+      }
+    },
+    {
+      "case": "B029",
+      "patchId": "parish-r044-c102",
+      "boundsEPSG3763": [
+        38545,
+        -40761,
+        38745,
+        -40561
+      ],
+      "stratum": "intermediate_support",
+      "referencePointCrop": false,
+      "references": [],
+      "supportStats": {
+        "validCells": 126537,
+        "measuredCells": 119056,
+        "interpolatedCells": 7481,
+        "noDataCells": 33463,
+        "groundReturns": 615459,
+        "elevationMinMetres": 244.44,
+        "elevationMaxMetres": 264.44,
+        "localReliefClippedCells": 337,
+        "slopeClippedCells": 1304
+      }
+    },
+    {
+      "case": "B030",
+      "patchId": "parish-r045-c079",
+      "boundsEPSG3763": [
+        36245,
+        -40861,
+        36445,
+        -40661
+      ],
+      "stratum": "reference_point_crop",
+      "referencePointCrop": true,
+      "references": [
+        {
+          "cns": 761,
+          "name": "Anta da Aldeia da Mata/ Tapad\u00e3o 1/Couto dos Pucarinhos",
+          "type": "Anta/D\u00f3lmen",
+          "pixelXY": [
+            338.0813999995589,
+            67.65419999882579
+          ],
+          "url": "https://arqueologia.patrimoniocultural.pt/index.php?sid=sitios&subsid=54036"
+        },
+        {
+          "cns": 12478,
+          "name": "Tapad\u00e3o 2",
+          "type": "Anta/D\u00f3lmen",
+          "pixelXY": [
+            310.70099999941885,
+            276.1992000006139
+          ],
+          "url": "https://arqueologia.patrimoniocultural.pt/index.php?sid=sitios&subsid=55561"
+        }
+      ],
+      "supportStats": {
+        "validCells": 160000,
+        "measuredCells": 157885,
+        "interpolatedCells": 2115,
+        "noDataCells": 0,
+        "groundReturns": 502930,
+        "elevationMinMetres": 260.56,
+        "elevationMaxMetres": 273.83,
+        "localReliefClippedCells": 252,
+        "slopeClippedCells": 174
+      }
+    },
+    {
+      "case": "B031",
+      "patchId": "parish-r081-c093",
+      "boundsEPSG3763": [
+        37645,
+        -44461,
+        37845,
+        -44261
+      ],
+      "stratum": "high_support",
+      "referencePointCrop": false,
+      "references": [],
+      "supportStats": {
+        "validCells": 160000,
+        "measuredCells": 144035,
+        "interpolatedCells": 15965,
+        "noDataCells": 0,
+        "groundReturns": 422647,
+        "elevationMinMetres": 177.96,
+        "elevationMaxMetres": 204.51,
+        "localReliefClippedCells": 113,
+        "slopeClippedCells": 363
+      }
+    },
+    {
+      "case": "B032",
+      "patchId": "parish-r030-c040",
+      "boundsEPSG3763": [
+        32345,
+        -39361,
+        32545,
+        -39161
+      ],
+      "stratum": "reference_point_crop",
+      "referencePointCrop": true,
+      "references": [
+        {
+          "cns": 8491,
+          "name": "Coito da Ola",
+          "type": "Vest\u00edgios Diversos",
+          "pixelXY": [
+            150.2269999999553,
+            36.9814000017941
+          ],
+          "url": "https://arqueologia.patrimoniocultural.pt/index.php?sid=sitios&subsid=53266"
+        }
+      ],
+      "supportStats": {
+        "validCells": 159873,
+        "measuredCells": 133464,
+        "interpolatedCells": 26409,
+        "noDataCells": 127,
+        "groundReturns": 360926,
+        "elevationMinMetres": 227.09,
+        "elevationMaxMetres": 244.25,
+        "localReliefClippedCells": 953,
+        "slopeClippedCells": 1010
+      }
+    },
+    {
+      "case": "B033",
+      "patchId": "parish-r022-c023",
+      "boundsEPSG3763": [
+        30645,
+        -38561,
+        30845,
+        -38361
+      ],
+      "stratum": "boundary_support",
+      "referencePointCrop": false,
+      "references": [],
+      "supportStats": {
+        "validCells": 53511,
+        "measuredCells": 48006,
+        "interpolatedCells": 5505,
+        "noDataCells": 106489,
+        "groundReturns": 131959,
+        "elevationMinMetres": 229.01,
+        "elevationMaxMetres": 237.46,
+        "localReliefClippedCells": 0,
+        "slopeClippedCells": 0
+      }
+    },
+    {
+      "case": "B034",
+      "patchId": "parish-r079-c090",
+      "boundsEPSG3763": [
+        37345,
+        -44261,
+        37545,
+        -44061
+      ],
+      "stratum": "high_support",
+      "referencePointCrop": false,
+      "references": [],
+      "supportStats": {
+        "validCells": 160000,
+        "measuredCells": 147121,
+        "interpolatedCells": 12879,
+        "noDataCells": 0,
+        "groundReturns": 689559,
+        "elevationMinMetres": 182.08,
+        "elevationMaxMetres": 201.65,
+        "localReliefClippedCells": 517,
+        "slopeClippedCells": 905
+      }
+    },
+    {
+      "case": "B035",
+      "patchId": "parish-r059-c093",
+      "boundsEPSG3763": [
+        37645,
+        -42261,
+        37845,
+        -42061
+      ],
+      "stratum": "high_support",
+      "referencePointCrop": false,
+      "references": [],
+      "supportStats": {
+        "validCells": 159992,
+        "measuredCells": 141516,
+        "interpolatedCells": 18476,
+        "noDataCells": 8,
+        "groundReturns": 398712,
+        "elevationMinMetres": 213.72,
+        "elevationMaxMetres": 242.18,
+        "localReliefClippedCells": 45,
+        "slopeClippedCells": 609
+      }
+    },
+    {
+      "case": "B036",
+      "patchId": "parish-r017-c083",
+      "boundsEPSG3763": [
+        36645,
+        -38061,
+        36845,
+        -37861
+      ],
+      "stratum": "high_support",
+      "referencePointCrop": false,
+      "references": [],
+      "supportStats": {
+        "validCells": 160000,
+        "measuredCells": 155717,
+        "interpolatedCells": 4283,
+        "noDataCells": 0,
+        "groundReturns": 768186,
+        "elevationMinMetres": 270.33,
+        "elevationMaxMetres": 282.73,
+        "localReliefClippedCells": 9,
+        "slopeClippedCells": 34
+      }
+    },
+    {
+      "case": "B037",
+      "patchId": "parish-r021-c056",
+      "boundsEPSG3763": [
+        33945,
+        -38461,
+        34145,
+        -38261
+      ],
+      "stratum": "high_support",
+      "referencePointCrop": false,
+      "references": [],
+      "supportStats": {
+        "validCells": 160000,
+        "measuredCells": 151093,
+        "interpolatedCells": 8907,
+        "noDataCells": 0,
+        "groundReturns": 506114,
+        "elevationMinMetres": 253.29,
+        "elevationMaxMetres": 264.82,
+        "localReliefClippedCells": 44,
+        "slopeClippedCells": 135
+      }
+    },
+    {
+      "case": "B038",
+      "patchId": "parish-r045-c088",
+      "boundsEPSG3763": [
+        37145,
+        -40861,
+        37345,
+        -40661
+      ],
+      "stratum": "high_support",
+      "referencePointCrop": false,
+      "references": [],
+      "supportStats": {
+        "validCells": 160000,
+        "measuredCells": 151664,
+        "interpolatedCells": 8336,
+        "noDataCells": 0,
+        "groundReturns": 714454,
+        "elevationMinMetres": 256.76,
+        "elevationMaxMetres": 272.47,
+        "localReliefClippedCells": 128,
+        "slopeClippedCells": 138
+      }
+    },
+    {
+      "case": "B039",
+      "patchId": "parish-r010-c026",
+      "boundsEPSG3763": [
+        30945,
+        -37361,
+        31145,
+        -37161
+      ],
+      "stratum": "high_support",
+      "referencePointCrop": false,
+      "references": [],
+      "supportStats": {
+        "validCells": 160000,
+        "measuredCells": 138527,
+        "interpolatedCells": 21473,
+        "noDataCells": 0,
+        "groundReturns": 341322,
+        "elevationMinMetres": 237.17000000000002,
+        "elevationMaxMetres": 247.85,
+        "localReliefClippedCells": 0,
+        "slopeClippedCells": 1
+      }
+    },
+    {
+      "case": "B040",
+      "patchId": "parish-r012-c071",
+      "boundsEPSG3763": [
+        35445,
+        -37561,
+        35645,
+        -37361
+      ],
+      "stratum": "high_support",
+      "referencePointCrop": false,
+      "references": [],
+      "supportStats": {
+        "validCells": 160000,
+        "measuredCells": 158305,
+        "interpolatedCells": 1695,
+        "noDataCells": 0,
+        "groundReturns": 1222768,
+        "elevationMinMetres": 260.59,
+        "elevationMaxMetres": 271.3,
+        "localReliefClippedCells": 0,
+        "slopeClippedCells": 5
+      }
+    },
+    {
+      "case": "B041",
+      "patchId": "parish-r031-c035",
+      "boundsEPSG3763": [
+        31845,
+        -39461,
+        32045,
+        -39261
+      ],
+      "stratum": "high_support",
+      "referencePointCrop": false,
+      "references": [],
+      "supportStats": {
+        "validCells": 160000,
+        "measuredCells": 151710,
+        "interpolatedCells": 8290,
+        "noDataCells": 0,
+        "groundReturns": 440731,
+        "elevationMinMetres": 236.22,
+        "elevationMaxMetres": 250.55,
+        "localReliefClippedCells": 0,
+        "slopeClippedCells": 58
+      }
+    },
+    {
+      "case": "B042",
+      "patchId": "parish-r060-c098",
+      "boundsEPSG3763": [
+        38145,
+        -42361,
+        38345,
+        -42161
+      ],
+      "stratum": "boundary_support",
+      "referencePointCrop": false,
+      "references": [],
+      "supportStats": {
+        "validCells": 60874,
+        "measuredCells": 44994,
+        "interpolatedCells": 15880,
+        "noDataCells": 99126,
+        "groundReturns": 182639,
+        "elevationMinMetres": 201.07,
+        "elevationMaxMetres": 214.43,
+        "localReliefClippedCells": 38,
+        "slopeClippedCells": 1247
+      }
+    },
+    {
+      "case": "B043",
+      "patchId": "parish-r017-c050",
+      "boundsEPSG3763": [
+        33345,
+        -38061,
+        33545,
+        -37861
+      ],
+      "stratum": "high_support",
+      "referencePointCrop": false,
+      "references": [],
+      "supportStats": {
+        "validCells": 160000,
+        "measuredCells": 157314,
+        "interpolatedCells": 2686,
+        "noDataCells": 0,
+        "groundReturns": 556204,
+        "elevationMinMetres": 258.79,
+        "elevationMaxMetres": 265.6,
+        "localReliefClippedCells": 0,
+        "slopeClippedCells": 51
+      }
+    },
+    {
+      "case": "B044",
+      "patchId": "parish-r018-c086",
+      "boundsEPSG3763": [
+        36945,
+        -38161,
+        37145,
+        -37961
+      ],
+      "stratum": "high_support",
+      "referencePointCrop": false,
+      "references": [],
+      "supportStats": {
+        "validCells": 160000,
+        "measuredCells": 158361,
+        "interpolatedCells": 1639,
+        "noDataCells": 0,
+        "groundReturns": 1057882,
+        "elevationMinMetres": 274.21,
+        "elevationMaxMetres": 283.19,
+        "localReliefClippedCells": 0,
+        "slopeClippedCells": 0
+      }
+    },
+    {
+      "case": "B045",
+      "patchId": "parish-r036-c068",
+      "boundsEPSG3763": [
+        35145,
+        -39961,
+        35345,
+        -39761
+      ],
+      "stratum": "high_support",
+      "referencePointCrop": false,
+      "references": [],
+      "supportStats": {
+        "validCells": 160000,
+        "measuredCells": 134651,
+        "interpolatedCells": 25349,
+        "noDataCells": 0,
+        "groundReturns": 362729,
+        "elevationMinMetres": 229.31,
+        "elevationMaxMetres": 249.75,
+        "localReliefClippedCells": 370,
+        "slopeClippedCells": 1263
+      }
+    },
+    {
+      "case": "B046",
+      "patchId": "parish-r035-c076",
+      "boundsEPSG3763": [
+        35945,
+        -39861,
+        36145,
+        -39661
+      ],
+      "stratum": "high_support",
+      "referencePointCrop": false,
+      "references": [],
+      "supportStats": {
+        "validCells": 160000,
+        "measuredCells": 149123,
+        "interpolatedCells": 10877,
+        "noDataCells": 0,
+        "groundReturns": 647056,
+        "elevationMinMetres": 256.51,
+        "elevationMaxMetres": 268.43,
+        "localReliefClippedCells": 0,
+        "slopeClippedCells": 112
+      }
+    },
+    {
+      "case": "B047",
+      "patchId": "parish-r044-c080",
+      "boundsEPSG3763": [
+        36345,
+        -40761,
+        36545,
+        -40561
+      ],
+      "stratum": "reference_point_crop",
+      "referencePointCrop": true,
+      "references": [
+        {
+          "cns": 761,
+          "name": "Anta da Aldeia da Mata/ Tapad\u00e3o 1/Couto dos Pucarinhos",
+          "type": "Anta/D\u00f3lmen",
+          "pixelXY": [
+            138.08139999955893,
+            267.6541999988258
+          ],
+          "url": "https://arqueologia.patrimoniocultural.pt/index.php?sid=sitios&subsid=54036"
+        }
+      ],
+      "supportStats": {
+        "validCells": 160000,
+        "measuredCells": 157688,
+        "interpolatedCells": 2312,
+        "noDataCells": 0,
+        "groundReturns": 505744,
+        "elevationMinMetres": 263.74,
+        "elevationMaxMetres": 275.87,
+        "localReliefClippedCells": 724,
+        "slopeClippedCells": 864
+      }
+    },
+    {
+      "case": "B048",
+      "patchId": "parish-r006-c022",
+      "boundsEPSG3763": [
+        30545,
+        -36961,
+        30745,
+        -36761
+      ],
+      "stratum": "high_support",
+      "referencePointCrop": false,
+      "references": [],
+      "supportStats": {
+        "validCells": 160000,
+        "measuredCells": 146578,
+        "interpolatedCells": 13422,
+        "noDataCells": 0,
+        "groundReturns": 505331,
+        "elevationMinMetres": 234.78,
+        "elevationMaxMetres": 245.12,
+        "localReliefClippedCells": 0,
+        "slopeClippedCells": 0
+      }
+    },
+    {
+      "case": "B049",
+      "patchId": "parish-r038-c091",
+      "boundsEPSG3763": [
+        37445,
+        -40161,
+        37645,
+        -39961
+      ],
+      "stratum": "high_support",
+      "referencePointCrop": false,
+      "references": [],
+      "supportStats": {
+        "validCells": 160000,
+        "measuredCells": 153692,
+        "interpolatedCells": 6308,
+        "noDataCells": 0,
+        "groundReturns": 1029730,
+        "elevationMinMetres": 259.28,
+        "elevationMaxMetres": 273.93,
+        "localReliefClippedCells": 228,
+        "slopeClippedCells": 667
+      }
+    },
+    {
+      "case": "B050",
+      "patchId": "parish-r060-c070",
+      "boundsEPSG3763": [
+        35345,
+        -42361,
+        35545,
+        -42161
+      ],
+      "stratum": "intermediate_support",
+      "referencePointCrop": false,
+      "references": [],
+      "supportStats": {
+        "validCells": 116759,
+        "measuredCells": 108771,
+        "interpolatedCells": 7988,
+        "noDataCells": 43241,
+        "groundReturns": 341089,
+        "elevationMinMetres": 213.06,
+        "elevationMaxMetres": 224.56,
+        "localReliefClippedCells": 0,
+        "slopeClippedCells": 0
+      }
+    }
+  ],
+  "imagesPerCase": [
+    "hillshade-045",
+    "hillshade-135",
+    "hillshade-315",
+    "local-relief",
+    "support"
+  ],
+  "inputHashes": {
+    "B001/hillshade-045.png": "8b498560210f621bc69ce4bd0c16847e8e85bba9150ef366d83c71726d8b5b6e",
+    "B001/hillshade-135.png": "8957794bf52ef32204cd82250ec0b22f261bbea524822f04bd234f1d6da665a7",
+    "B001/hillshade-315.png": "07cfde3b7236d8869e002a2301f1781a2d83c40434f924b6d225f5b7c462ff35",
+    "B001/local-relief.png": "acc2eaaf557436bf5e3ef247f64d6ca0d916d60aa845731f37fc6a1be3fa0249",
+    "B001/support.png": "09fb0c376edd0a58c2a7f41f4f5765c7666267374f156fa423684ce384ba3881",
+    "B002/hillshade-045.png": "dcc5fdb2c196ee9dc817a5e0d66c8e747f2c99060b4090580b5d93d6c664a58f",
+    "B002/hillshade-135.png": "b4be2ee685766b89eafa3d0ae1d1674f2d5004a11e39f9ded81d6ca49543f38e",
+    "B002/hillshade-315.png": "911302f366ad193746f2159352b947b8ff124278273b9b5d7a356371bb9bc4d2",
+    "B002/local-relief.png": "0d6a0f9d6331cb139cc617fa00ac607e8e5f89b44627da0e76a70f352cbe71b5",
+    "B002/support.png": "99c2c5ec60cc6a3bacc029e6ace190455a64a6efd68fffdc8a56f79635f1ae79",
+    "B003/hillshade-045.png": "e1e9e7cad3b1cf8849e0984e48f6238432ff3e01a7c763ec2284af01d8082cb9",
+    "B003/hillshade-135.png": "8788f854ea23c706b15fb436e241dade13bbc200aae82fcbc7d6ba9968f15fb0",
+    "B003/hillshade-315.png": "81538fe48e81bf481fc858e8ce2062692cec41151195ba3ddb876c582ce83cb4",
+    "B003/local-relief.png": "4ffef61927df5c37c7ff4cbda538228a49c1d557d6237153842536490a7fe0aa",
+    "B003/support.png": "44e59ffc1d6b91cb698292f5c075631c874312e59439f3161c93d3b3fea9fc24",
+    "B004/hillshade-045.png": "a341cc255100b897089403098f4be9f5246ab60020b49dc9a581106fdd3b43b7",
+    "B004/hillshade-135.png": "5380c4c307c7f38a76cac86f8358b8a9a48a561f0a7b7226a52fd08c8cc0390a",
+    "B004/hillshade-315.png": "90852518b681d002b63c7da38946b56aeadb8f1b2576bcc7e97c0c76c70acdbc",
+    "B004/local-relief.png": "7a2f5ab58dec8d87d020c770354317ace4bc0fccf07f6dfd5a1ca16960144029",
+    "B004/support.png": "a6855660d5a691c85bb350b49ab79406ae6168a64cee729e7bbeb650a9170199",
+    "B005/hillshade-045.png": "b2d0a805d25de08e47f1167dea50dbb891e786acabeb97e43d649a1f4d5518be",
+    "B005/hillshade-135.png": "bc4b7b58ca6a800c6c91799a3abd682535afbf2fec3ee17d0a19f859b9125fe3",
+    "B005/hillshade-315.png": "38ef30f91943d630dccf28f6c51ed790474db8dd7d3ed6e175f6ec1a4effbd90",
+    "B005/local-relief.png": "8c9653343f70a7eb200fdf9b3e8f4ee6538c420e61112c9cec34c905b0ed795e",
+    "B005/support.png": "26271da3b1a8ed4ccace2a126b54426c1c0147900905ab38db7fe776b6ea0984",
+    "B006/hillshade-045.png": "a544329d0bfed631ee74ba3d4d0ed6887318dfb3e4b76d33173765d34153e9b2",
+    "B006/hillshade-135.png": "2f7cbbe94b91e1bc02697a99775b087913ff3b9152492294004c2c418ff30ece",
+    "B006/hillshade-315.png": "6f84606bae0b83f6346361e0a077c274bef7521c79904d1fb5cfd9820811acc4",
+    "B006/local-relief.png": "e3e504ae2a2452c2bcc6eb29faeb75e0c0cf07523345ff6ba3b3023b742abd86",
+    "B006/support.png": "cb57f03c1bbd4b1b9aa4223f1991c44ac76cb6addd3904a9665156fc89f01669",
+    "B007/hillshade-045.png": "eb4eff11a5dfce7c6339ce3126ea3cd3b4ffaf7cdf89f445fc65df5a85399c5c",
+    "B007/hillshade-135.png": "947736d65d530a9db5c8fe77c8eb29e27db57e8e8ec644c9c07eb02a3cf53d13",
+    "B007/hillshade-315.png": "2209359e66fe4e06c4e7a14afb62d9d1b7cf48eb1e4858e6bb86e2852b3d9e2a",
+    "B007/local-relief.png": "e7693d336402d1b78349cb3d4100f4c083fe4029d958df493491392e058ebc91",
+    "B007/support.png": "de541997e170a13482a0ac23c236514a8bcf70414436ef8ebe22899c5fc2dcce",
+    "B008/hillshade-045.png": "8e1c2c4ee99b5274c12595942c5135d36575de2f1300eac71bdbc0cbdcfbcaa3",
+    "B008/hillshade-135.png": "4a9018cafa7cb4a14bb4e2bbb776c80ba04b2bf3adb241b0e191d002970b4f14",
+    "B008/hillshade-315.png": "28c2337ee5ae8bdf9ce75da048abb72491b8092c00bc8461f7f3825ea10be852",
+    "B008/local-relief.png": "5e00ffc4371308bc19c2ed96b34248f1f55686829a7d475eac5c42e78c653a1f",
+    "B008/support.png": "4ffae0542390706e40a0aeb3556b43050d25cbf70cb3e6bca0f573ad540f50fb",
+    "B009/hillshade-045.png": "681d86493de3aa616c46904d016173358f466780bdb382f916f6568e77d4cc69",
+    "B009/hillshade-135.png": "3f5071ed4e496739446b87c830dae16d4caf6e1d7737c0937ac8690f1f66b345",
+    "B009/hillshade-315.png": "c06f49ba7d9368a2dc424c0bfb0e8f0ef8c859ea97d87eecfe8c2192125bd82a",
+    "B009/local-relief.png": "3591100f74dae0f50f18f39e2bc084529f259d39ca6b5b3541f66a1f0d4c219a",
+    "B009/support.png": "21a3ee2765df4c2f5af6d65dba6986e2a01114c1e93c5c90f84b7572085bf2b0",
+    "B010/hillshade-045.png": "ac1e71347586094e1caef84f52abaa7674becef46856853146978a0f435f555f",
+    "B010/hillshade-135.png": "5f1b13e6a2ed7ffcafe91952ea9518f60edf87a6a54915c4a36bdbe619682dce",
+    "B010/hillshade-315.png": "cedaffc2574a6f105f59ce86bffa4f9426b2f1821ccfe0066c98706b2ce8ae69",
+    "B010/local-relief.png": "27d602a093998580e6940ed62c68c884f6ab061142ff1936b49cac95a616c9e9",
+    "B010/support.png": "2b84219f06032e7c0c3070c64f0155c11e044f039d375f7587f6cb5282d3a2ae",
+    "B011/hillshade-045.png": "1dda47e088c178ef137561387df6eb158280a89f53ba9219c2c1ee325d7909e8",
+    "B011/hillshade-135.png": "e766a14b0443f234da26c864b7ddc8ce7f81081d24618dc13f828458b21a5525",
+    "B011/hillshade-315.png": "76c78570f51139e3ed6e88e83745311bc8b7b90101f6ab52598f099ccb62e138",
+    "B011/local-relief.png": "cbb022665dce171d95300e7b44ef65c069b0264fd8405b32193b9094f66eaa67",
+    "B011/support.png": "1ad846a25e19b1fbe792f2d4e20e53c2bf1b74dbf8296f8289b66ea98c9623d4",
+    "B012/hillshade-045.png": "13f160dbbf37e7c16d29aeb9c3febc5ca2a8ff5e11d20f547286235ca2f605cc",
+    "B012/hillshade-135.png": "baad4595cb97c96a925560096a3624ab0bdb2755999f7f4a6b57d70df3ec5b71",
+    "B012/hillshade-315.png": "99dfc8cd1f3513702bd7f13ac30a424d7855c7b263c57e2e7b898e7c83cc994a",
+    "B012/local-relief.png": "cc237cd67fc561d8ca50ef27cd9450a09fb6337e1166f00b287138fe4da737e7",
+    "B012/support.png": "26a6c0901d68efb2384b07682d0f7ec2cd537e40b294121e6b3ef7b6030ab495",
+    "B013/hillshade-045.png": "ea0eaa4b4a31c9e2f629bed0eb271507dec2b58d93bb869d0d69490f78916bb1",
+    "B013/hillshade-135.png": "acc606f8f35c351721b661ce99dc42e61f0b243dcee85ce57ce97263274ac6e6",
+    "B013/hillshade-315.png": "a7aff0ea142db006eb23631038c6aa1b5b33861a4d13ecac6e973f174542d289",
+    "B013/local-relief.png": "41804b512755e267002868ce820a397d6ae534b5cf4e7016183b3996c74a8710",
+    "B013/support.png": "6078b431dd17ecee718b644d5f2f0db3d16866c4b9ff821583bc799469fc4bb0",
+    "B014/hillshade-045.png": "c3bc6c97ad4a2e8e0fd6247bc855d884483097bad4c4a7e220b5d179da704802",
+    "B014/hillshade-135.png": "ec7d705fafc39c9dad11b55c15dd9d120bb1679175fc7d0674f99f6e9ca8e345",
+    "B014/hillshade-315.png": "1855eb7c33815bbafc478b9d7b904db9e8fba19364464ef608dff36ea900d877",
+    "B014/local-relief.png": "94b8020b1008e81688bc8b0c686446d23a466400d63dfc2e68c539b336813405",
+    "B014/support.png": "b0d9e97c30083a6fd2458d158f166d2ee985fae236d5b89c6eda74a6e1b698bd",
+    "B015/hillshade-045.png": "4b518239c36f0ce57c83e214800f3def5fe171b8fbac427bf39fc863f3169a8e",
+    "B015/hillshade-135.png": "22911f61522e98b86f9bc8eb09365589b529f321ed463c50b1493e268ebd8c2a",
+    "B015/hillshade-315.png": "10ca0810676ecc10c76f7a38fa663839af4fc0e450223640fafd876db1176838",
+    "B015/local-relief.png": "1689648c6aeb6247f095d69b15529dbadc9a7b3646c720a6844a0385f3ece92c",
+    "B015/support.png": "3cf89c0019c7a259e58d4f69628f56815e952d8f07c49c85b5b307a1fa2a02de",
+    "B016/hillshade-045.png": "ce73ccd0c758357f7d18cde9baf42bc1d663f50bb4510723f34f886acd89a6b8",
+    "B016/hillshade-135.png": "2e3679250dd092f20867637c114b4e363cf9de5778314e7170baf6e8ef5d5ee2",
+    "B016/hillshade-315.png": "688ad43d70c338f0b8e8ae682cf870b10727dbf7d2b2b830520a28df36060ea5",
+    "B016/local-relief.png": "52ab881582337f1a8d16e90c6ea191be15085152ef7334d552df18fad655945a",
+    "B016/support.png": "e310f265c6d1e2e2f971a70fb7f1f90a075942936317e73605ef974bbb24eebb",
+    "B017/hillshade-045.png": "53092ef682d8d744a79b96e9dd1d986872f79dfaff0fd5cfb7290e69cfb1803b",
+    "B017/hillshade-135.png": "ba1557465afabd6e8f53eb52bc535939edc6df89d1aef0ed755c794341ab84d1",
+    "B017/hillshade-315.png": "241bc063ea022ac67c4bf822b85a2e69abaea5ea204215dbd086ad5beeaae56a",
+    "B017/local-relief.png": "38101791409ab5b594ddb205f821a1c39748199c0fdc0d83533d0e411bab1fef",
+    "B017/support.png": "c5275d1944acbbe68bf9730e70d5508af544d4558ee0770387b5eef5853b1306",
+    "B018/hillshade-045.png": "748c1bbe1ff68c1a8f3f09e7b11710663234ab9eab75d6afb1670e9f8c7fb443",
+    "B018/hillshade-135.png": "c8682ce4b113b52705ec01bd1f95ffffe15d24910daf78d5678f6befd449df88",
+    "B018/hillshade-315.png": "f13866fca5e88ee96469f412f877b938cfc1a9d6f90b2b5594f39cadb226df4d",
+    "B018/local-relief.png": "821a62496477adf5b643ce91e8b02782ad200e5d13dbd67b2dbb2fbb80ee1905",
+    "B018/support.png": "8e7d179d350865010ed7fd959069203b84ec5114500e46122ae7732729b953d4",
+    "B019/hillshade-045.png": "73ef601b401c28adeeb09b86835df8897747ab71e85b1f5c57f3adc5d5e8025d",
+    "B019/hillshade-135.png": "b18e13c9322507705e7e406b1e925847b18f09cc2bd847cb54cc486a7739ea75",
+    "B019/hillshade-315.png": "564a7f4b8bbaa4f464d5b194505753f05044d0a562b512ce2bf3788ea01c8681",
+    "B019/local-relief.png": "4763e49d39d5c24e3e37ca380486fd5b127d6453b03af3dc49b96f2e557e6fd0",
+    "B019/support.png": "959571ea3686c7899fc3aba5ab5a29b914640986b289eac20a09945c7ae86c76",
+    "B020/hillshade-045.png": "bbb4ca0eac70d00f98d341e61c6d09b1a5fea502949145d5ee95375dd5198578",
+    "B020/hillshade-135.png": "afeb4a77d79d529415b515bc87f658ee872c40dcb102c80c9471446a57df6309",
+    "B020/hillshade-315.png": "6b3edc823b71c6c6de6823956544d76270db759ea45b2ec7bb28ccfbbc7f6de5",
+    "B020/local-relief.png": "e4fabcd7667a8a90ff21c49815564d00ce7495b76dddaa07fc6fc408993ff8ca",
+    "B020/support.png": "4e37ffd5f6d50fd12787b154b4c0b030053d13f32cc08d5eedbf4f24d6c0a963",
+    "B021/hillshade-045.png": "04874e6b807dcf1420955bd8d993678cd92297a704513913fa4d292152a446ec",
+    "B021/hillshade-135.png": "5625d0d61bc28d5b987946403a4ca60a0bca4d8d58e111b454a09b4514a58e3e",
+    "B021/hillshade-315.png": "7beda093e91fcf50260a297e5c8b93fadaa12e9e28bbc0ce3e0eb61d87afbb0a",
+    "B021/local-relief.png": "38a9a1e73c826de454eca8391c5029d955e16742817ee963c6e52d4e452474cf",
+    "B021/support.png": "f7d18977551fce428f2ce508b9553e50f1d7df31c33ad95da8c2ad618376f90c",
+    "B022/hillshade-045.png": "5a0c14d719d924b58eb776207bbc198e9c33d2b57b5824fc938169373ac40da4",
+    "B022/hillshade-135.png": "20ed33d478d52b2d5f761a49389396d84bc2f0b2bf24ee0d2017ae4878d6bf4a",
+    "B022/hillshade-315.png": "ade717779095366f7222833bd6b2121072b8328c026e3ef2f0cbe674d205e4a8",
+    "B022/local-relief.png": "255e248aa736b4587c1e951385f480300c3e6065b0bb4c4b116399da3f44e7cb",
+    "B022/support.png": "875c6c0af31f60eb49826689f27c47bb8d2115c1effd9794e7c1d703cc2b078c",
+    "B023/hillshade-045.png": "d29677590c3ad84fcc3a2e99e1ccd561ba3cd310310de259bde1ab3e434c9850",
+    "B023/hillshade-135.png": "ef79ffe2ef574ea22bedec0d7a8689ae3874221e5811208db9bb30cd6bccb6cd",
+    "B023/hillshade-315.png": "530ea98dc29027ce22ba3f0705f2d88142abbed2fc837b98fab8332ff17e2f17",
+    "B023/local-relief.png": "64694d3cd432f4acedf186942a34ab82e72860617bc73065176f06ec41cea567",
+    "B023/support.png": "78d3eafbbb91e4c21e538abe06dca6c42602c244e1a914fffc981effa90ea888",
+    "B024/hillshade-045.png": "10435a300da0cafa0c644f1d9afe6ab316ed6af27e28cff186956efcc0379569",
+    "B024/hillshade-135.png": "8ccd5ed5f804c22793cca078cc0deb36460d502b697d99f3fc9ac48ea778ed5f",
+    "B024/hillshade-315.png": "ca690d1631b6b68f956eb5d40c10ee281bd99d1613829567b00aed8acc3c5a87",
+    "B024/local-relief.png": "629cd894694ea23eeda4eeb295b24025d0cbd07c39cab7e0563fb75fcdc68b3b",
+    "B024/support.png": "9f5aead9c9970fc217bb259beccf17dae84afbffbccebfadd8318a511cb8e061",
+    "B025/hillshade-045.png": "cb31f739f771e8dc34a805e3c3c401e63b6da718ba4014a813596544f2ced577",
+    "B025/hillshade-135.png": "5c2fb159c6b7fc76e236432f2c41d383ac64e494e174840a6d694609d8a1c560",
+    "B025/hillshade-315.png": "ca85aa7322b5c43e8972107a4687c85dd90f2a2bbacbbefb973e99f03f5c6b77",
+    "B025/local-relief.png": "a447bf7cb780f128fca0f24491826fc3f71f43173f522c28b93145d3a83173e7",
+    "B025/support.png": "c1503824c44571b3b89012efdfdc5c21298b8cc1bdabcef65cfd89e684a8c1e6",
+    "B026/hillshade-045.png": "cb6385bcf4d23d9da706c8841f19a5d193239cabe5eddb4291479fcd6ebf6ef4",
+    "B026/hillshade-135.png": "c023ec72943eff904625c1969b21c5ef38268bb5a864054f1e2c8461a97c57c0",
+    "B026/hillshade-315.png": "857d7b42a9a0d1fd0afb8f9aed4a443958c68525fec20d7c0a478bb886cb8166",
+    "B026/local-relief.png": "c4e19b9f8985167c5bb1e1938b31168146583c6989aea03ae40bb5fd588d2362",
+    "B026/support.png": "6924fb2de13ee0b8b4d05461401c514cf3944fe85d9b1be39b7813d0a357a019",
+    "B027/hillshade-045.png": "46ee8af715e9e10be55355b9f7e1f1d17e307d25759000ea5fc67f8bd264056e",
+    "B027/hillshade-135.png": "73a6aa18be32b28d0116c1825f807daa07a07137b48dfad7241f28e06150d0c9",
+    "B027/hillshade-315.png": "40d3bdf1d8641ae99d3af3e449d994351874c3304e90b1ad4e87b19257a9c8e3",
+    "B027/local-relief.png": "cbba116b265912a08562169d8814cb4a600b55159dd9c802ca6fad5e2bdfb07d",
+    "B027/support.png": "92beaccad62293f2809e9f8b90a797a6216f4bde8f145ed59ea173728e5c8902",
+    "B028/hillshade-045.png": "443021978db8ead9aacd5ccbda37f6013ef2bc58413bc9fef0c969b6910e40b2",
+    "B028/hillshade-135.png": "a429b57e756309e1973cc6fc01558f15107e5ff63c1ae85427432b5f2b4bb9e0",
+    "B028/hillshade-315.png": "194c83f61216d640440eb06e50d711b3f2055472c980b927a43854bcfe476c47",
+    "B028/local-relief.png": "12b59b3e465f97054daa15c5c7a54047ce7ffcc87069e5e9ffa1f31c65334be8",
+    "B028/support.png": "17395c77ef4a56208f0df75faf99f3d88d14c64b2c1f0e89e4411f74d0a276e8",
+    "B029/hillshade-045.png": "7bc694c16298591840094632afcedef234bed22d3be8035a8e8de5d72509f2b9",
+    "B029/hillshade-135.png": "ce2a0c058f7722f9c4b6fe52bda4af0bf48e5aa3777647ecfd8cc5a1506f82c7",
+    "B029/hillshade-315.png": "d0030366cd8aa51e0139e0e8b55934e6dfb59f1ad7ae20422a5ed605f793353e",
+    "B029/local-relief.png": "8c52fd5a2c5da40e4fa2fc69339871fa4a573adc137aa66ec9d04d720645eb15",
+    "B029/support.png": "11dc52c92c9736165c36361afc0f4bce054b423a9437d27cbfdf290771400819",
+    "B030/hillshade-045.png": "8f40204ea634e0d680aedf8b176ad28da086e20fbb7e6caed90306732c8a3994",
+    "B030/hillshade-135.png": "c5a5ce9281102c4719830a2551e45a11dbb304f1e2c683380c81be21f8ce47a8",
+    "B030/hillshade-315.png": "07c1c9836cd7e5101b19cbc3af7145584eb367e2f03d89a1f09dde2ae5ebcdf5",
+    "B030/local-relief.png": "12ca8dc8ef27be632558b887b128cbd4d85747d5acd16723edd0183a47b994a2",
+    "B030/support.png": "7e111c39b605ac306c088b5425b426e296e1a079e67eb4b7ff6a8b9410e737e1",
+    "B031/hillshade-045.png": "e2def3de3bf84b4af22a19acbb6cd5f469c379cf100abbcb5a0954a44d56b5d9",
+    "B031/hillshade-135.png": "6e5872408fc085d0e0ae9272bdec366f21c8cdd28dc7a1eaafa496148412f6c5",
+    "B031/hillshade-315.png": "7e9dd0dd0a41089def780083e753a436e97ab51ed8ba9d691dd51b5aa2004a19",
+    "B031/local-relief.png": "6de3ae4df7d396c90ef369204efe27a3814852bee4768589b4bb7c1af3f6b8fb",
+    "B031/support.png": "0a49c3243a92ff09bdc6cf09351bfe4faf481193a3a9e4f941d24ef37fc82ea1",
+    "B032/hillshade-045.png": "17b69dcd1f30407ccdb71ce16c0ba50e14ab34b90e36ca15bfc4d8571d86e522",
+    "B032/hillshade-135.png": "a52096333c1a2e31591cbf6aa826a7a134d33f781f9defa659031d6a4d3d52ce",
+    "B032/hillshade-315.png": "982594321ae38ee6813a8e13c885aa349c7df474f17b1e10195fca7888791ffa",
+    "B032/local-relief.png": "b753ecf79a06e85c9e008dc3443ab5640f935df88ac2ab218fd66b119b109053",
+    "B032/support.png": "8d885a0c9c91b91e7811ce7f20d4d7e44b4b8148de570174d7f676c04c1f24f6",
+    "B033/hillshade-045.png": "b1310e469d3a3b2733fdcde7ef7a47edbdb98295b5d31505b2ca84dcb6e04102",
+    "B033/hillshade-135.png": "1d239e163226be757a9b2fdf8ff91b9836418887ffc34c0a1600efc9f7ca425b",
+    "B033/hillshade-315.png": "041b2cabf2db0c3757f981afd54483c4c521400edf5987859b8bf79f552a696c",
+    "B033/local-relief.png": "c8bc14fac175c06ea3057d38f3b04430bb040c73b68de34197827932435a6696",
+    "B033/support.png": "fd7bdfd051ad18d0fcdf6d65a557fd06ca1fed0706a1b3697002203dcd4359cf",
+    "B034/hillshade-045.png": "182ab82eee853e0533ee51f60257355126a72911bfadb8e113e3fa36ad8d8980",
+    "B034/hillshade-135.png": "ccdc90f8ba6b2f66e95dea90c53f7187267799be7796d1ee0c7cae5f815fd1f5",
+    "B034/hillshade-315.png": "6cad4c0257972229c39dbf1af1f370422e23ade8e854d0f199e1e31e23950882",
+    "B034/local-relief.png": "637fc16089f2a5c1c4cfd161c4c76103d56cfdcc10e416c09ee7e521f417e623",
+    "B034/support.png": "5250280c1662cb5c1c41be3eba3d77e62da9154a82460b7272e5abe04b2dc55d",
+    "B035/hillshade-045.png": "16cc1d08efe323023cbf08861930b3959b15defa9630cee181e158feaf8ef5d3",
+    "B035/hillshade-135.png": "a547e697c3b0acf3b5379de5cd96550fd19dc327131b60d7ebaf0e7f77faafda",
+    "B035/hillshade-315.png": "3d979f13f563ce17e4e12d6372eda5636fcdd442300ca3ae0717a25f47fe239d",
+    "B035/local-relief.png": "e2a14f2a4e3750b3dcbe1a1f996f0f6a1b7ea2ff8b1cef7c91c4f63dca1f47bc",
+    "B035/support.png": "8f3b2db6649e221363ac7b674c9b6a6bd5a0518305b8c33293ac7d5d6cd803f4",
+    "B036/hillshade-045.png": "41920cfd3b4cf6715431d77cdf443cd4d72c481615791aa4a7c0c088f89a2e75",
+    "B036/hillshade-135.png": "503610cf2244ff48aaf9206ca53c3a71cb0126f739793fb70c136cf1fbf6046b",
+    "B036/hillshade-315.png": "a0c78edd4df721c8c8ad3dac6df7858c752b6f6d052bbdb5f1c4b2761b453aef",
+    "B036/local-relief.png": "3c58081489f7349f0a2c328a22939e1023ab7fcf593af42f3a4a9d992770daff",
+    "B036/support.png": "fa73af1899ad7653d832b4fa4c690590fc776641712167e9ec0e258050ae6637",
+    "B037/hillshade-045.png": "11001ba65eeab9173365ce96b19f0562d513693843bfcc5d40b057be4cdc9a74",
+    "B037/hillshade-135.png": "34171b2ef985a39d065f723a8e525f81f99aa744a39301bb1cf3280ee917c5a9",
+    "B037/hillshade-315.png": "0acbe392fed2a34a7d0f6e88575d04f31e097c3bd7dfae050042efb45994a03f",
+    "B037/local-relief.png": "ea4e49508acabc149e3d342b3fc068a72de3594a98bad80684eff2f596e1f58b",
+    "B037/support.png": "a6cff231ecdc94eb00568903944e9b637c0dd4d31822b267a301fdb3eb811ba3",
+    "B038/hillshade-045.png": "6fe12f5dd27691b9cc9b553148a400a5b409ae9b4897667382f34f2e2622de32",
+    "B038/hillshade-135.png": "21632336c723b8d345c63640efa452939758832b7f5de79c03b36071d840f11d",
+    "B038/hillshade-315.png": "b32050eb1f348244dc5fbc366a2b7a90138e1e06a8cd2b9270e3a533993f3423",
+    "B038/local-relief.png": "48a122280042dea3a0bcf45846aacdf5f72435ae1f5611027985698421e33356",
+    "B038/support.png": "9a3c15798442e8beb7e93e694bedf995568071d1ed24e187ca06fb462408edc5",
+    "B039/hillshade-045.png": "090cf0c9264281e2cec87c8f893ef5394f9949a6e5b01271cfdbfa19f7424c7c",
+    "B039/hillshade-135.png": "bfe8520856317f294a71f60cda7a5c3634a688d18d746a7c313879dbe9805799",
+    "B039/hillshade-315.png": "22aba57e0552b2fef7519123c92b9fd3ba97d68aaa2e8dda11acc0d2e4b83725",
+    "B039/local-relief.png": "c5143596e67722dd04eb536dcd10231b2eb8fff67dbde613699c03b9a263072a",
+    "B039/support.png": "735eba741acc94789b39feed29627edec7ae13b2e6ca0e0184cb8a40a07b4031",
+    "B040/hillshade-045.png": "ecdbbc39bb25ad7a0c6d66f37232b99a360fa3717281123cc56b3c3f498a5508",
+    "B040/hillshade-135.png": "4965bccad7901d03c1a363982212c12e455844df7fa57aa25116bef0b72cebc5",
+    "B040/hillshade-315.png": "00d8f9c4974f2b7311cbea322aed824e2afacb955616e0b11d311726a932c010",
+    "B040/local-relief.png": "27c6f675be14a068ad454ba9ea15ae20565ab5af376e349229e7bd835c802a8f",
+    "B040/support.png": "205544c7683a3580a74fd74b51c802fb17de630deac6dfa0aa2ab0918c90cacd",
+    "B041/hillshade-045.png": "e69e47da389663063d546a4ef878ae3aada3a25c0cf96481540d5661d18b88b1",
+    "B041/hillshade-135.png": "83ec8894e58dc8df68bd6bbc57d1dec36c3564c9520bfe556f9abc826652d247",
+    "B041/hillshade-315.png": "f9aedd2652efc07fe426cdb9632db371545158e976abb6f029590db0a1660152",
+    "B041/local-relief.png": "18e3102c55c8517fc93089cda907f6d45dcc95bf41c36ae728912e02959a6f5a",
+    "B041/support.png": "89a6874e5ddbda7dccdb93b0d0260e87f6c9c2d3ad5fd60279a8172ef93aa39e",
+    "B042/hillshade-045.png": "62b4fe48d2af28fa283c77f4ec98fdba33abbcbd6167c394372fb515173feedf",
+    "B042/hillshade-135.png": "d04440560966b11be90f178bd4884a92770446a01179aaa03d2d6219c66e7778",
+    "B042/hillshade-315.png": "9374a7399907d3c97f502e90cd5ef04e7f1e8b2706b3774acdb04466c897e993",
+    "B042/local-relief.png": "b80f9b411a8562da10ec10397ef4d53dd3ebc9c48b8cd8220c78e664940892f0",
+    "B042/support.png": "b1ec642e995edc3d147e33007210e0d69e769f27ee00084926b6ffa2cb646b0a",
+    "B043/hillshade-045.png": "758105ae28dbf452be514dcd178a20ac583d5daea52b9c25fd56bde4de5b4910",
+    "B043/hillshade-135.png": "eaffe9bc6b02fb0db4032cd0f672b349b2623a40a153daa20de611c77ade064d",
+    "B043/hillshade-315.png": "c2d2b6eb10808e25818a471538f9b26da9e75b6c9e8d1a7fdfdd3a4e731802dd",
+    "B043/local-relief.png": "259901b79773ca6dd345a9432ebfaf6a027915fe2658d29c1ca4e17b67b5259d",
+    "B043/support.png": "8bb9bac2c32e0169626dc5ad7a691e27b85c6a6e96f7cb60fe1a3528f51e2d72",
+    "B044/hillshade-045.png": "0de54125fa85e2d9c886f5e70dc22cf0bbcdbba6dbfe952cead46699d8bccfa2",
+    "B044/hillshade-135.png": "c2bf2e88cdb2729a5f9282064fdfcb4cc3554802af1c844de20e8ce28a5d57fe",
+    "B044/hillshade-315.png": "fe06926dae720945d27e15293f93ac4fff26cc956d36a44f0d9796401ec2aa46",
+    "B044/local-relief.png": "c78a1912a0389fc1a08cfb96c88006faac0f55cc2709c5831d2944fa68914acf",
+    "B044/support.png": "886e88be9185bf850143436d743b91256f746b890bec2ebaebe1b214e7a9421d",
+    "B045/hillshade-045.png": "0134c974ce2a09d003ce1022b6359f07f700c1d4eb528d1422b569c1b99127ef",
+    "B045/hillshade-135.png": "09e393543ab7b4a0144811153dafb27c190517944c8d88a143934e1c25895e0e",
+    "B045/hillshade-315.png": "d9c4b38f847740413cb9261a7597f9b65330b06432274df949067e4a77973a85",
+    "B045/local-relief.png": "ee2e78407282820a86b52db08c9f68c6b0a740298f76a6b2402a0a0049d468fc",
+    "B045/support.png": "ce21990ebf2aa81a1e30916956485b59b41d6147ab625f2ddc6fe5e583a9233e",
+    "B046/hillshade-045.png": "16bd982eb0cb0c35b91e985ce22cd4e898b25a40732bba97aa0f4a8e975716da",
+    "B046/hillshade-135.png": "b9bc26ac7575fd5e40e1441192068425762f391c3a31fd7228d3220c82ca40e7",
+    "B046/hillshade-315.png": "01fa7844efb0ae86178359d5d593791fccd6da0505bafdb3076d1657b6189286",
+    "B046/local-relief.png": "7d149b6809799e312ceed0ef2a8612f26b23d5945ca1dae6aff4608abfed5b49",
+    "B046/support.png": "4d3f06e8e3e76abfe89965815af56aeef2cad4fb48923ad9ac419bc1a1e5b868",
+    "B047/hillshade-045.png": "8be5523beffd56699a1372d0688ef6f7dc2481fd5bd496fd204e057aeb91dac1",
+    "B047/hillshade-135.png": "04baa28c20a109df826febdd708c7cc4937b46e4a42237c01e3b2e5eed60e57c",
+    "B047/hillshade-315.png": "8ad8ed4f0267bafd1f1bbe87cc4b0c6c8e81a6538f260aaac8d17d8cf45612f1",
+    "B047/local-relief.png": "f932481b41203af401861c8b0a3210b50fcc1d919e95cf72f1c48b82888c8ff4",
+    "B047/support.png": "cf9bf634a5af854444951adc4a9e9558ae9b19e7816accb76c2115fb7231be77",
+    "B048/hillshade-045.png": "471997c114d358ec14cd4cf94725bad6c6de9f6b1d989346d3dee8c83aaeb84a",
+    "B048/hillshade-135.png": "bacee0e293be7e09e468bd125e5967de77241bd5f773442bf533ba87413277d3",
+    "B048/hillshade-315.png": "ab7b67a20c2e42869760ce2af82fbb1f404a1eb3f0c9637988549347f1c5af76",
+    "B048/local-relief.png": "3606719c0fbd9a4157a4846eaf2689897603d64ec4e71ea291497cedd8e402bc",
+    "B048/support.png": "325b9f20051d4d6577b6389d599cac7639371e1ea1551342fb1aed86a9618df9",
+    "B049/hillshade-045.png": "f50db2fda348ba38202b32ea2061fb0f4a03913514f0a58e4557d686209f77b8",
+    "B049/hillshade-135.png": "63984ad29fe15c154f970389cdee3f369c636cd6dd2fe0a2a367557984f90510",
+    "B049/hillshade-315.png": "a79510541a4ecb0b0c37abd7ba5b412523f1d95a72f02af4b953359d6bc2f193",
+    "B049/local-relief.png": "9c2526caf00f940473c4ad7f458adbaed961fee7ae298a3e3748c1344500ec90",
+    "B049/support.png": "585ccb59641bd4e13b106f6e9c85523a02d9f2a26324c76ebc2b253496d5cccd",
+    "B050/hillshade-045.png": "fd50f0f891d660e07eb734fc0672ec8e0cf9ea7de3d271a7a3409d84f0d34e30",
+    "B050/hillshade-135.png": "1826f5313cfc9468906b9069532e94b29afb405a7650f463f61211ed7fa8b514",
+    "B050/hillshade-315.png": "93f804c1c28dae1845c99671e9c99f7bcb3ef08e6d8c5414664ea63e4ed13281",
+    "B050/local-relief.png": "893f621d38ad1b345438f2e363688774a2d3e2295760d16fde87c89110300842",
+    "B050/support.png": "d841154fa2387a91ebad1fd37922df9dbcaca08937286e7db9adbf18445e4af2"
+  },
+  "selectionNotes": "50 additional IDs excluding the prior ten; 8 reference-point crops across 5 mapped inventory records; 32 high-support, 6 intermediate-support, 4 boundary crops without points in crop. Reference-free crops are not verified negatives. Other crops are separated >=300 m from selected crop centres. Controls may overlap each other and earlier pilot terrain.",
+  "archaeologySnapshot": "2026-11-16T18:36:28.785Z"
+}

@@ -1,0 +1,40 @@
+{
+  "checked": "2026-11-16T18:36:28.785Z",
+  "attribution": "Património Cultural, I.P. · Endovélico / Portal do Arqueólogo / official GeoPortal",
+  "officialInformation": "https://www.patrimoniocultural.gov.pt/profissionais/arqueologia/endovelico-sistema-de-informacao-e-gestao-arqueologica/",
+  "geoportal": "https://pcip.maps.arcgis.com/apps/webappviewer/index.html?id=5cb4735d7d7743a39a16d7269a753a4a",
+  "webMapItem": "f2d34274060847778630641145a7ffff",
+  "layerItem": "b58036247d8849b59b45144135662d86",
+  "layer": "https://services8.arcgis.com/ITVSIrZ4rxt6SbBo/arcgis/rest/services/Sitios_20190207_visualiza%C3%A7%C3%A3o/FeatureServer/0",
+  "queryURL": "https://services8.arcgis.com/ITVSIrZ4rxt6SbBo/arcgis/rest/services/Sitios_20190207_visualiza%C3%A7%C3%A3o/FeatureServer/0/query?where=1%3D1&geometry=28573.7945%2C-44800.8802%2C39122.2892%2C-36421.9559&geometryType=esriGeometryEnvelope&inSR=3763&spatialRel=esriSpatialRelIntersects&outFields=OBJECTID%2CCNS%2CDESIGNACAO%2CTipo_Principal%2COutros_Tipos%2CPERIODOS%2CFREGUESIA%2CCONCELHO%2CDISTRITO%2CURL&returnGeometry=true&outSR=3763&f=pjson",
+  "responseSha256": "5719806928527bbe10a8b1e0a7521e8524595a58a59ae0ba8d0e0f7ab724e9e7",
+  "parishSearch": {
+    "url": "https://arqueologia.patrimoniocultural.pt/index.php?sid=sitios",
+    "method": "POST",
+    "parameters": {
+      "isnewsearch": "1",
+      "isclearsearch": "0",
+      "concelho": "1796",
+      "freguesia": "5444",
+      "s": ""
+    },
+    "count": 6,
+    "sha256": "97653c5ad3ce2e543b6802f74a72ce510f7c0f2e1a633aebaf05c4f3df97a468"
+  },
+  "unlocatedRecord": {
+    "url": "https://arqueologia.patrimoniocultural.pt/index.php?sid=sitios&subsid=51630",
+    "sha256": "58091abae8496e1689db76b5879ff4b9f94f6b51b61a300aa4b85fba26e9a3da"
+  },
+  "boundarySha256": "c5485cabd3eed4b6ea0d8cd9e0c89c88b2a8fdeb85c4486d38d746c794a230dc",
+  "crs": "EPSG:3763",
+  "envelopeRecords": 10,
+  "mappedRecords": 5,
+  "unlocatedRecords": 1,
+  "method": "Exact parish polygon clipping of the official public map points, joined by CNS to the complete single-page public parish search. Coordinates are the published map geometry; no independent location accuracy is claimed.",
+  "limitations": [
+    "A dated public snapshot, not a complete archaeological survey or a novelty verdict. Public portal and map can differ; unlocated records are retained without invented markers.",
+    "A record point is a reference location, not a site boundary, an exclusion zone or a precise archaeological feature outline. Nearby or overlapping evidence can belong to an existing record.",
+    "Check the live Endovélico record, bibliography, published maps and reports before considering novelty. Absence from this snapshot does not prove a candidate is new.",
+    "Only public anonymous map/search facts are used. No authenticated coordinates, reports, photographs or descriptive texts are republished. No explicit reuse licence was stated in the ArcGIS item metadata at retrieval; credit is retained and no open licence is asserted."
+  ]
+}

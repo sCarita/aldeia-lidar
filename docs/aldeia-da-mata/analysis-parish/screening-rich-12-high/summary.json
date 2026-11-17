@@ -1,0 +1,54 @@
+{
+  "patches": 12,
+  "uniqueMappedRecords": 5,
+  "reviews": 24,
+  "imageInspections": 204,
+  "model": "gpt-6-sol",
+  "reasoningEffort": "high",
+  "maxConcurrentReviewers": 3,
+  "freshReviewerContexts": 6,
+  "pairing": {
+    "baseline-only": 0,
+    "enriched-only": 0,
+    "both": 0,
+    "neither": 12
+  },
+  "localizedPairing": {
+    "baseline-only": 0,
+    "enriched-only": 0,
+    "both": 0,
+    "neither": 12
+  },
+  "priorities": {
+    "baseline": {
+      "low": 6,
+      "none": 6
+    },
+    "enriched": {
+      "none": 11,
+      "low": 1
+    }
+  },
+  "arms": {
+    "baseline": {
+      "nearReferenceCrops": 0,
+      "localizedNearReferenceCrops": 0,
+      "candidateAnnotations": 6,
+      "casesWithCandidates": 6
+    },
+    "enriched": {
+      "nearReferenceCrops": 0,
+      "localizedNearReferenceCrops": 0,
+      "candidateAnnotations": 1,
+      "casesWithCandidates": 1
+    }
+  },
+  "limitations": [
+    "All 12 crops contain reference points; repeated/overlapping crops across five records are not independent.",
+    "Record points do not define feature extents or establish visible surviving remains; proximity is not identification, precision or recall.",
+    "No verified negative controls or independently annotated visible landmark boundaries; no general survey accuracy estimate.",
+    "Different fresh workers and one run per arm: reviewer variation and richer image budget are confounded with input changes. No attribution to a single added layer.",
+    "Procedural blinding, not technical filesystem isolation; outputs checked for obvious place/record strings.",
+    "No live inventory, publication, field or original full-resolution point-cloud verification performed by reviewers."
+  ]
+}

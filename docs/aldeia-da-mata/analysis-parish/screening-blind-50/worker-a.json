@@ -1,0 +1,354 @@
+{
+  "cases": [
+    {
+      "case": "B001",
+      "imagesInspected": [
+        "hillshade-045.png",
+        "hillshade-135.png",
+        "hillshade-315.png",
+        "local-relief.png",
+        "support.png"
+      ],
+      "visibleGeometry": "Broad undulating bands cross the square. A narrow north-south incised line runs near the east edge, with small breaks and rough patches near its upper half.",
+      "alternatives": "Drainage or track erosion; irregular roughness may be vegetation or ground-model artefacts.",
+      "supportLimits": "Mostly measured, with interpolation concentrated along the line and scattered rough patches; its sharpest breaks are uncertain.",
+      "followUp": "low",
+      "candidates": []
+    },
+    {
+      "case": "B002",
+      "imagesInspected": [
+        "hillshade-045.png",
+        "hillshade-135.png",
+        "hillshade-315.png",
+        "local-relief.png",
+        "support.png"
+      ],
+      "visibleGeometry": "Closely spaced curved parallel ridges occupy the northwest corner, bounded by a diagonal linear break. The remaining ground is smooth with a few small rough spots.",
+      "alternatives": "Cultivation or terracing beside a track or field boundary; small spots may be vegetation effects.",
+      "supportLimits": "The diagonal break has substantial interpolation, so its detailed profile is uncertain; most open ground is measured.",
+      "followUp": "low",
+      "candidates": []
+    },
+    {
+      "case": "B003",
+      "imagesInspected": [
+        "hillshade-045.png",
+        "hillshade-135.png",
+        "hillshade-315.png",
+        "local-relief.png",
+        "support.png"
+      ],
+      "visibleGeometry": "Two narrow lines meet near the northwest quadrant; one runs north-south and one trends northeast. Numerous isolated small rough circular patches occur across otherwise gently rolling ground.",
+      "alternatives": "Field boundaries, drainage or tracks; circular patches may mark vegetation or surface disturbance.",
+      "supportLimits": "The lines and many spots coincide with interpolation, limiting confidence in their shape. Most intervening ground is measured.",
+      "followUp": "low",
+      "candidates": []
+    },
+    {
+      "case": "B004",
+      "imagesInspected": [
+        "hillshade-045.png",
+        "hillshade-135.png",
+        "hillshade-315.png",
+        "local-relief.png",
+        "support.png"
+      ],
+      "visibleGeometry": "Two near-parallel east-west linear breaks bound a broad strip. Regular fine ridges cover ground north and south; a small isolated bump lies on the northern line near x310,y100.",
+      "alternatives": "Field divisions, cultivation, tracks and a tree or rock bump.",
+      "supportLimits": "Interpolation follows both breaks and occurs at the bump, reducing profile certainty; broad fields are largely measured.",
+      "followUp": "low",
+      "candidates": []
+    },
+    {
+      "case": "B005",
+      "imagesInspected": [
+        "hillshade-045.png",
+        "hillshade-135.png",
+        "hillshade-315.png",
+        "local-relief.png",
+        "support.png"
+      ],
+      "visibleGeometry": "Broken rough elevated forms occupy the northwest. One compact, roughly rectangular high patch around x110-175,y95-175 stands out. A large irregular missing area cuts through the southwest, and terrain drops toward the southeast.",
+      "alternatives": "Exposed rock, erosion, vegetation or ground-model artefacts could explain the rough patch.",
+      "supportLimits": "Large missing area and broad interpolated margins; the compact patch mixes measured and interpolated cells, so its outline is unreliable.",
+      "followUp": "medium",
+      "candidates": [
+        {
+          "feature": "Compact roughly rectangular raised rough patch",
+          "pixelCentre": [
+            140,
+            130
+          ],
+          "pixelBox": [
+            100,
+            90,
+            180,
+            180
+          ],
+          "confidence": "low",
+          "nextCheck": "Inspect raw ground returns and nearby imagery for rock, vegetation and model gaps."
+        }
+      ]
+    },
+    {
+      "case": "B006",
+      "imagesInspected": [
+        "hillshade-045.png",
+        "hillshade-135.png",
+        "hillshade-315.png",
+        "local-relief.png",
+        "support.png"
+      ],
+      "visibleGeometry": "Dense, curved parallel ridges sweep across the upper and right ground. A few irregular bumps and breaks lie near the lower centre; no isolated coherent enclosure or platform is clear.",
+      "alternatives": "Cultivation or terracing on slopes, with rock or vegetation affecting the lower bumps.",
+      "supportLimits": "Most terrain is measured; a band of interpolation overlaps the lower bumps, limiting their form.",
+      "followUp": "low",
+      "candidates": []
+    },
+    {
+      "case": "B007",
+      "imagesInspected": [
+        "hillshade-045.png",
+        "hillshade-135.png",
+        "hillshade-315.png",
+        "local-relief.png",
+        "support.png"
+      ],
+      "visibleGeometry": "Nearly uniform fine parallel ridges cover the square, crossed by subtle broader undulations and a faint linear change near the west side. No distinct localized form stands out.",
+      "alternatives": "Regular cultivation furrows and a field boundary or access line.",
+      "supportLimits": "Measured cells dominate but fine interpolation is widespread; low-amplitude details are weak.",
+      "followUp": "none",
+      "candidates": []
+    },
+    {
+      "case": "B008",
+      "imagesInspected": [
+        "hillshade-045.png",
+        "hillshade-135.png",
+        "hillshade-315.png",
+        "local-relief.png",
+        "support.png"
+      ],
+      "visibleGeometry": "Broad subdued slope with scattered small circular rough spots. A faint roughly horizontal line crosses the lower part, ending among rough irregular patches. No clear enclosed or stepped form.",
+      "alternatives": "Field boundary or track, vegetation or rocks at the spots, and slope erosion.",
+      "supportLimits": "Circular spots and lower rough band contain many interpolated cells; central ground is mostly measured.",
+      "followUp": "low",
+      "candidates": []
+    },
+    {
+      "case": "B009",
+      "imagesInspected": [
+        "hillshade-045.png",
+        "hillshade-135.png",
+        "hillshade-315.png",
+        "local-relief.png",
+        "support.png"
+      ],
+      "visibleGeometry": "A large smooth oval hollow with a pronounced rim is clipped by the northeast edge. Thin straight or branching lines cross the centre and southwest; rough vertical gullies lie to the northwest. Southern edge is outside the model.",
+      "alternatives": "The oval could be an engineered pond or excavation; lines may be tracks, drains or field divisions.",
+      "supportLimits": "Most central terrain is measured. Interpolation follows rough gullies and the model boundary; the oval is clipped by the image edge.",
+      "followUp": "low",
+      "candidates": []
+    },
+    {
+      "case": "B010",
+      "imagesInspected": [
+        "hillshade-045.png",
+        "hillshade-135.png",
+        "hillshade-315.png",
+        "local-relief.png",
+        "support.png"
+      ],
+      "visibleGeometry": "A broad diagonal route bends toward the southeast and meets a narrower branch. A separate curving low linear bank or ditch runs from west toward the junction. Small isolated bump lies in the southwest.",
+      "alternatives": "Road or track intersection with field boundary or drainage line; the bump could be a rock or vegetation remnant.",
+      "supportLimits": "Lines are mainly measured but interpolation follows the curving line; rough patches near the junction contain mixed support.",
+      "followUp": "low",
+      "candidates": []
+    },
+    {
+      "case": "B011",
+      "imagesInspected": [
+        "hillshade-045.png",
+        "hillshade-135.png",
+        "hillshade-315.png",
+        "local-relief.png",
+        "support.png"
+      ],
+      "visibleGeometry": "Several compact raised, block-like forms cluster across the southern half, including an elongated north-south form at x120-170,y260-350 and an east-west chain at x255-395,y190-230. A curving shallow line runs between them.",
+      "alternatives": "Exposed bedrock, rubble, modern structures or clearance piles; the line may be a track.",
+      "supportLimits": "The forms are mostly on measured ground with small scattered interpolation; imagery alone cannot distinguish natural rock from constructed material.",
+      "followUp": "high",
+      "candidates": [
+        {
+          "feature": "Elongated block-like raised form",
+          "pixelCentre": [
+            145,
+            298
+          ],
+          "pixelBox": [
+            112,
+            255,
+            180,
+            352
+          ],
+          "confidence": "medium",
+          "nextCheck": "Inspect raw ground returns and aerial imagery for rock or standing structures."
+        },
+        {
+          "feature": "East-west chain of block-like relief",
+          "pixelCentre": [
+            325,
+            207
+          ],
+          "pixelBox": [
+            253,
+            177,
+            399,
+            236
+          ],
+          "confidence": "medium",
+          "nextCheck": "Inspect raw returns and aerial imagery; check whether forms are connected or separate."
+        }
+      ]
+    },
+    {
+      "case": "B012",
+      "imagesInspected": [
+        "hillshade-045.png",
+        "hillshade-135.png",
+        "hillshade-315.png",
+        "local-relief.png",
+        "support.png"
+      ],
+      "visibleGeometry": "Dense continuous curved parallel ridges fill nearly the entire square. A narrow disturbed strip appears at the far east edge; no distinct isolated geometry emerges.",
+      "alternatives": "Cultivation or terracing and an edge track or boundary.",
+      "supportLimits": "Most cells are measured with fine scattered interpolation; the east-edge disturbance has more mixed support.",
+      "followUp": "none",
+      "candidates": []
+    },
+    {
+      "case": "B013",
+      "imagesInspected": [
+        "hillshade-045.png",
+        "hillshade-135.png",
+        "hillshade-315.png",
+        "local-relief.png",
+        "support.png"
+      ],
+      "visibleGeometry": "A straight diagonal raised route spans the upper edge. South of it lie irregular high patches, including a clipped rectangular-looking block on the west edge and rounded knobs near x110,y110. A large area outside the model truncates the east.",
+      "alternatives": "Road works, exposed bedrock, clearance piles or surviving structures; smooth southern ridges resemble cultivation.",
+      "supportLimits": "Mixed measured and interpolated cells cover rough patches. The west form and eastern terrain are clipped, preventing full outlines.",
+      "followUp": "medium",
+      "candidates": [
+        {
+          "feature": "Clipped rectangular-looking high block",
+          "pixelCentre": [
+            25,
+            175
+          ],
+          "pixelBox": [
+            0,
+            125,
+            60,
+            225
+          ],
+          "confidence": "low",
+          "nextCheck": "Inspect adjacent terrain, raw returns and aerial imagery for rock or structures."
+        }
+      ]
+    },
+    {
+      "case": "B014",
+      "imagesInspected": [
+        "hillshade-045.png",
+        "hillshade-135.png",
+        "hillshade-315.png",
+        "local-relief.png",
+        "support.png"
+      ],
+      "visibleGeometry": "A broad smooth central surface is flanked by rough incised margins. In the southeast, a sharply bounded triangular or trapezoidal raised form stands apart from smaller knobs.",
+      "alternatives": "Large rock outcrop or boulder, modern embankment or structure; margin lines could be drainage or tracks.",
+      "supportLimits": "The prominent form is mainly measured, but its adjacent margin and rough edges include interpolation. Shape alone does not establish origin.",
+      "followUp": "medium",
+      "candidates": [
+        {
+          "feature": "Angular isolated raised form",
+          "pixelCentre": [
+            335,
+            340
+          ],
+          "pixelBox": [
+            302,
+            308,
+            369,
+            376
+          ],
+          "confidence": "medium",
+          "nextCheck": "Check raw point returns and aerial imagery to distinguish rock from constructed or modern material."
+        }
+      ]
+    },
+    {
+      "case": "B015",
+      "imagesInspected": [
+        "hillshade-045.png",
+        "hillshade-135.png",
+        "hillshade-315.png",
+        "local-relief.png",
+        "support.png"
+      ],
+      "visibleGeometry": "A gently curving boundary separates rough upper ground from smoother lower ground. Scattered small bumps and a short thin line occur south of it; no coherent localized feature is evident.",
+      "alternatives": "Slope break, field margin, erosion and vegetation or rock patches.",
+      "supportLimits": "Interpolation is concentrated along the boundary and at most bumps; smooth lower ground is mostly measured.",
+      "followUp": "low",
+      "candidates": []
+    },
+    {
+      "case": "B016",
+      "imagesInspected": [
+        "hillshade-045.png",
+        "hillshade-135.png",
+        "hillshade-315.png",
+        "local-relief.png",
+        "support.png"
+      ],
+      "visibleGeometry": "Regular narrow ridges run across most of the square and change orientation around a subtle curved middle line. A straight diagonal strip lies near the west edge. No compact feature stands out.",
+      "alternatives": "Cultivation patterns separated by a field margin and access strip.",
+      "supportLimits": "Measured terrain predominates with scattered fine interpolation; subtle crossing marks are low contrast.",
+      "followUp": "none",
+      "candidates": []
+    },
+    {
+      "case": "B017",
+      "imagesInspected": [
+        "hillshade-045.png",
+        "hillshade-135.png",
+        "hillshade-315.png",
+        "local-relief.png",
+        "support.png"
+      ],
+      "visibleGeometry": "Several angular enclosures or levelled plots occur in the northern half, separated by a straight east-west route. A large rectangular plot with dense parallel ridges fills the south centre; more parallel rows lie at the east edge.",
+      "alternatives": "Active fields, orchard rows, property boundaries and modern building or yard remains may account for the geometry.",
+      "supportLimits": "Most plot interiors are measured; northern edges and the route have substantial mixed interpolation. One tiny missing patch lies west.",
+      "followUp": "medium",
+      "candidates": [
+        {
+          "feature": "Angular bounded plot with internal rectilinear relief",
+          "pixelCentre": [
+            242,
+            57
+          ],
+          "pixelBox": [
+            170,
+            17,
+            307,
+            100
+          ],
+          "confidence": "low",
+          "nextCheck": "Compare raw returns and aerial imagery to identify current field or building features."
+        }
+      ]
+    }
+  ]
+}

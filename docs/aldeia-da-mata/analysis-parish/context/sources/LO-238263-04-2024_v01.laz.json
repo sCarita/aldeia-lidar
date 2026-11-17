@@ -1,0 +1,3503 @@
+{
+  "filename": "LO-238263-04-2024_v01.laz",
+  "bounds": [
+    38000,
+    -38000,
+    39000,
+    -37000
+  ],
+  "decoded": 16110301,
+  "ground": 11379888,
+  "accepted": 519606,
+  "codeHash": "1c5d10e8dcd579cce8f5b00d74e5832d847068cf800261e690ef622b19ad61f1",
+  "censusSha256": "8e837d3fb0f3ab89cd61a9dcf8050881f04ef6bf1b7e6ce15f3f14324797ceec",
+  "source": {
+    "filename": "LO-238263-04-2024_v01.laz",
+    "checked": "2026-11-16T16:35:14.420Z",
+    "boundaryHash": "c5485cabd3eed4b6ea0d8cd9e0c89c88b2a8fdeb85c4486d38d746c794a230dc",
+    "codeHash": "ae7a96a26817c3228e61cb2f01fccd6b9e4e59568568a5cba39bfde6dbb6799f",
+    "bounds": [
+      38000,
+      -38000,
+      39000,
+      -37000
+    ],
+    "metaUrl": "https://portugal3d.dgterritorio.gov.pt/laz/meta/LO-238263-04-2024_v01.laz?location=portugal",
+    "metadataSha256": "cf93cde4d7f960fb5e2c458bf87a233afd0d73efcb4303916f05f94ae25883f9",
+    "sourceUrl": "https://portugal3d.dgterritorio.gov.pt/laz/LO-238263-04-2024_v01.laz?location=portugal",
+    "payloadRange": [
+      34745,
+      104981464
+    ],
+    "payloadBytes": 104946719,
+    "payloadSha256": "2bd9d459f4f84e20ac2db894dda4edf8043ebb06bfe807b624bec52eb07ffbaa",
+    "workerSha256": "77d8f5238c166e407af38c3de6b34bde4b778d1f7df54f1ec884cec26d94f072",
+    "wasmSha256": "4de0b3576eafac1369dfc07bd75f11a084456d424774e25b1e34a8f1981bc884",
+    "hierarchyLevels": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "chunks": [
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 420,
+        "level": 1,
+        "start": 104476238,
+        "end": 104981464,
+        "points": 52214
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 417,
+        "level": 2,
+        "start": 103314158,
+        "end": 103739774,
+        "points": 46665
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 419,
+        "level": 2,
+        "start": 104004156,
+        "end": 104476238,
+        "points": 52330
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 416,
+        "level": 2,
+        "start": 102831758,
+        "end": 103314158,
+        "points": 52385
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 418,
+        "level": 2,
+        "start": 103739774,
+        "end": 104004156,
+        "points": 28898
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 410,
+        "level": 3,
+        "start": 100810112,
+        "end": 101087831,
+        "points": 31989
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 400,
+        "level": 3,
+        "start": 97366486,
+        "end": 97733498,
+        "points": 42721
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 415,
+        "level": 3,
+        "start": 102502343,
+        "end": 102831758,
+        "points": 38353
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 404,
+        "level": 3,
+        "start": 98561647,
+        "end": 98951809,
+        "points": 45862
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 405,
+        "level": 3,
+        "start": 98951809,
+        "end": 99336983,
+        "points": 45065
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 402,
+        "level": 3,
+        "start": 97936214,
+        "end": 98361918,
+        "points": 49922
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 407,
+        "level": 3,
+        "start": 99693053,
+        "end": 100079563,
+        "points": 45262
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 409,
+        "level": 3,
+        "start": 100521670,
+        "end": 100810112,
+        "points": 34350
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 399,
+        "level": 3,
+        "start": 96995686,
+        "end": 97366486,
+        "points": 42608
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 408,
+        "level": 3,
+        "start": 100079563,
+        "end": 100521670,
+        "points": 52577
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 414,
+        "level": 3,
+        "start": 102059583,
+        "end": 102502343,
+        "points": 51563
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 413,
+        "level": 3,
+        "start": 101640304,
+        "end": 102059583,
+        "points": 48106
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 411,
+        "level": 3,
+        "start": 101087831,
+        "end": 101428433,
+        "points": 40205
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 412,
+        "level": 3,
+        "start": 101428433,
+        "end": 101640304,
+        "points": 25259
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 401,
+        "level": 3,
+        "start": 97733498,
+        "end": 97936214,
+        "points": 24184
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 403,
+        "level": 3,
+        "start": 98361918,
+        "end": 98561647,
+        "points": 24120
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 345,
+        "level": 4,
+        "start": 83144418,
+        "end": 83295484,
+        "points": 19475
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 395,
+        "level": 4,
+        "start": 95687229,
+        "end": 95939036,
+        "points": 31833
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 364,
+        "level": 4,
+        "start": 87968718,
+        "end": 88132067,
+        "points": 20527
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 365,
+        "level": 4,
+        "start": 88132067,
+        "end": 88393317,
+        "points": 33184
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 322,
+        "level": 4,
+        "start": 77575643,
+        "end": 77827174,
+        "points": 31853
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 336,
+        "level": 4,
+        "start": 80974656,
+        "end": 81263775,
+        "points": 36393
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 355,
+        "level": 4,
+        "start": 85462993,
+        "end": 85734222,
+        "points": 34069
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 327,
+        "level": 4,
+        "start": 78724199,
+        "end": 79000571,
+        "points": 34879
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 375,
+        "level": 4,
+        "start": 90593926,
+        "end": 90863053,
+        "points": 34624
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 368,
+        "level": 4,
+        "start": 88888553,
+        "end": 89156993,
+        "points": 34138
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 381,
+        "level": 4,
+        "start": 91962746,
+        "end": 92164259,
+        "points": 26693
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 385,
+        "level": 4,
+        "start": 92892672,
+        "end": 93170329,
+        "points": 35037
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 357,
+        "level": 4,
+        "start": 86102608,
+        "end": 86362939,
+        "points": 32989
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 391,
+        "level": 4,
+        "start": 94596502,
+        "end": 94876136,
+        "points": 35365
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 362,
+        "level": 4,
+        "start": 87387299,
+        "end": 87678840,
+        "points": 36888
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 332,
+        "level": 4,
+        "start": 79885167,
+        "end": 80184619,
+        "points": 37912
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 335,
+        "level": 4,
+        "start": 80709977,
+        "end": 80974656,
+        "points": 33594
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 333,
+        "level": 4,
+        "start": 80184619,
+        "end": 80472386,
+        "points": 36488
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 349,
+        "level": 4,
+        "start": 84072380,
+        "end": 84356017,
+        "points": 35945
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 366,
+        "level": 4,
+        "start": 88393317,
+        "end": 88681689,
+        "points": 36630
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 358,
+        "level": 4,
+        "start": 86362939,
+        "end": 86653371,
+        "points": 36620
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 325,
+        "level": 4,
+        "start": 78247253,
+        "end": 78553066,
+        "points": 38353
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 346,
+        "level": 4,
+        "start": 83295484,
+        "end": 83606290,
+        "points": 39145
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 330,
+        "level": 4,
+        "start": 79357040,
+        "end": 79663805,
+        "points": 38569
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 390,
+        "level": 4,
+        "start": 94315213,
+        "end": 94596502,
+        "points": 35590
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 370,
+        "level": 4,
+        "start": 89506284,
+        "end": 89771329,
+        "points": 33884
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 341,
+        "level": 4,
+        "start": 82121855,
+        "end": 82413939,
+        "points": 36996
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 378,
+        "level": 4,
+        "start": 91297307,
+        "end": 91588639,
+        "points": 36782
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 388,
+        "level": 4,
+        "start": 93707090,
+        "end": 94002115,
+        "points": 37285
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 347,
+        "level": 4,
+        "start": 83606290,
+        "end": 83796461,
+        "points": 26880
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 353,
+        "level": 4,
+        "start": 85048630,
+        "end": 85263719,
+        "points": 29183
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 344,
+        "level": 4,
+        "start": 82968664,
+        "end": 83144418,
+        "points": 25257
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 373,
+        "level": 4,
+        "start": 90141914,
+        "end": 90357758,
+        "points": 27526
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 383,
+        "level": 4,
+        "start": 92341628,
+        "end": 92626135,
+        "points": 35676
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 397,
+        "level": 4,
+        "start": 96268357,
+        "end": 96609415,
+        "points": 41820
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 320,
+        "level": 4,
+        "start": 77042060,
+        "end": 77370626,
+        "points": 40348
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 387,
+        "level": 4,
+        "start": 93412070,
+        "end": 93707090,
+        "points": 37568
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 350,
+        "level": 4,
+        "start": 84356017,
+        "end": 84658326,
+        "points": 38591
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 343,
+        "level": 4,
+        "start": 82629039,
+        "end": 82968664,
+        "points": 42421
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 389,
+        "level": 4,
+        "start": 94002115,
+        "end": 94315213,
+        "points": 39922
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 394,
+        "level": 4,
+        "start": 95313740,
+        "end": 95687229,
+        "points": 45770
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 406,
+        "level": 4,
+        "start": 99336983,
+        "end": 99693053,
+        "points": 44037
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 363,
+        "level": 4,
+        "start": 87678840,
+        "end": 87968718,
+        "points": 36576
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 369,
+        "level": 4,
+        "start": 89156993,
+        "end": 89506284,
+        "points": 43413
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 398,
+        "level": 4,
+        "start": 96609415,
+        "end": 96995686,
+        "points": 47585
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 396,
+        "level": 4,
+        "start": 95939036,
+        "end": 96268357,
+        "points": 40730
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 356,
+        "level": 4,
+        "start": 85734222,
+        "end": 86102608,
+        "points": 45142
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 392,
+        "level": 4,
+        "start": 94876136,
+        "end": 95129746,
+        "points": 31489
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 360,
+        "level": 4,
+        "start": 86867275,
+        "end": 87157103,
+        "points": 36980
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 348,
+        "level": 4,
+        "start": 83796461,
+        "end": 84072380,
+        "points": 34864
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 384,
+        "level": 4,
+        "start": 92626135,
+        "end": 92892672,
+        "points": 34068
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 382,
+        "level": 4,
+        "start": 92164259,
+        "end": 92341628,
+        "points": 23974
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 393,
+        "level": 4,
+        "start": 95129746,
+        "end": 95313740,
+        "points": 24573
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 376,
+        "level": 4,
+        "start": 90863053,
+        "end": 91064896,
+        "points": 27198
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 379,
+        "level": 4,
+        "start": 91588639,
+        "end": 91763359,
+        "points": 23535
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 352,
+        "level": 4,
+        "start": 84871158,
+        "end": 85048630,
+        "points": 23970
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 372,
+        "level": 4,
+        "start": 89954381,
+        "end": 90141914,
+        "points": 24763
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 326,
+        "level": 4,
+        "start": 78553066,
+        "end": 78724199,
+        "points": 23217
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 324,
+        "level": 4,
+        "start": 78046022,
+        "end": 78247253,
+        "points": 26197
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 354,
+        "level": 4,
+        "start": 85263719,
+        "end": 85462993,
+        "points": 25831
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 328,
+        "level": 4,
+        "start": 79000571,
+        "end": 79176128,
+        "points": 23690
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 329,
+        "level": 4,
+        "start": 79176128,
+        "end": 79357040,
+        "points": 24296
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 371,
+        "level": 4,
+        "start": 89771329,
+        "end": 89954381,
+        "points": 24107
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 337,
+        "level": 4,
+        "start": 81263775,
+        "end": 81443947,
+        "points": 24203
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 0,
+        "level": 5,
+        "start": 34745,
+        "end": 91874,
+        "points": 10435
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 1,
+        "level": 5,
+        "start": 91874,
+        "end": 338248,
+        "points": 38333
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 2,
+        "level": 5,
+        "start": 338248,
+        "end": 395358,
+        "points": 9213
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 3,
+        "level": 5,
+        "start": 395358,
+        "end": 616977,
+        "points": 35009
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 4,
+        "level": 5,
+        "start": 616977,
+        "end": 892650,
+        "points": 45983
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 5,
+        "level": 5,
+        "start": 892650,
+        "end": 1165354,
+        "points": 45388
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 6,
+        "level": 5,
+        "start": 1165354,
+        "end": 1447417,
+        "points": 45699
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 7,
+        "level": 5,
+        "start": 1447417,
+        "end": 1710462,
+        "points": 44760
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 8,
+        "level": 5,
+        "start": 1710462,
+        "end": 1826099,
+        "points": 18619
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 9,
+        "level": 5,
+        "start": 1826099,
+        "end": 1998545,
+        "points": 26875
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 10,
+        "level": 5,
+        "start": 1998545,
+        "end": 2272240,
+        "points": 44266
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 11,
+        "level": 5,
+        "start": 2272240,
+        "end": 2423851,
+        "points": 24586
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 12,
+        "level": 5,
+        "start": 2423851,
+        "end": 2702919,
+        "points": 46126
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 13,
+        "level": 5,
+        "start": 2702919,
+        "end": 2967764,
+        "points": 44916
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 14,
+        "level": 5,
+        "start": 2967764,
+        "end": 3265988,
+        "points": 46438
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 15,
+        "level": 5,
+        "start": 3265988,
+        "end": 3538937,
+        "points": 44575
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 16,
+        "level": 5,
+        "start": 3538937,
+        "end": 3809918,
+        "points": 45184
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 17,
+        "level": 5,
+        "start": 3809918,
+        "end": 4091536,
+        "points": 46278
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 18,
+        "level": 5,
+        "start": 4091536,
+        "end": 4357139,
+        "points": 45347
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 19,
+        "level": 5,
+        "start": 4357139,
+        "end": 4634892,
+        "points": 46333
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 20,
+        "level": 5,
+        "start": 4634892,
+        "end": 4932885,
+        "points": 47038
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 21,
+        "level": 5,
+        "start": 4932885,
+        "end": 5225038,
+        "points": 46327
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 22,
+        "level": 5,
+        "start": 5225038,
+        "end": 5519644,
+        "points": 46949
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 23,
+        "level": 5,
+        "start": 5519644,
+        "end": 5812998,
+        "points": 47002
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 24,
+        "level": 5,
+        "start": 5812998,
+        "end": 6100374,
+        "points": 46834
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 25,
+        "level": 5,
+        "start": 6100374,
+        "end": 6395787,
+        "points": 47702
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 26,
+        "level": 5,
+        "start": 6395787,
+        "end": 6688998,
+        "points": 46816
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 27,
+        "level": 5,
+        "start": 6688998,
+        "end": 6983540,
+        "points": 46938
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 28,
+        "level": 5,
+        "start": 6983540,
+        "end": 7286350,
+        "points": 47951
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 29,
+        "level": 5,
+        "start": 7286350,
+        "end": 7580082,
+        "points": 47106
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 30,
+        "level": 5,
+        "start": 7580082,
+        "end": 7875165,
+        "points": 47358
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 31,
+        "level": 5,
+        "start": 7875165,
+        "end": 8178197,
+        "points": 48389
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 32,
+        "level": 5,
+        "start": 8178197,
+        "end": 8488509,
+        "points": 48437
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 33,
+        "level": 5,
+        "start": 8488509,
+        "end": 8787683,
+        "points": 47415
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 34,
+        "level": 5,
+        "start": 8787683,
+        "end": 9044539,
+        "points": 41863
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 35,
+        "level": 5,
+        "start": 9044539,
+        "end": 9324365,
+        "points": 45295
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 36,
+        "level": 5,
+        "start": 9324365,
+        "end": 9622543,
+        "points": 48264
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 37,
+        "level": 5,
+        "start": 9622543,
+        "end": 9885895,
+        "points": 44021
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 38,
+        "level": 5,
+        "start": 9885895,
+        "end": 10177268,
+        "points": 45864
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 39,
+        "level": 5,
+        "start": 10177268,
+        "end": 10468951,
+        "points": 45900
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 40,
+        "level": 5,
+        "start": 10468951,
+        "end": 10697039,
+        "points": 41313
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 41,
+        "level": 5,
+        "start": 10697039,
+        "end": 10969773,
+        "points": 44126
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 42,
+        "level": 5,
+        "start": 10969773,
+        "end": 11190881,
+        "points": 40924
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 43,
+        "level": 5,
+        "start": 11190881,
+        "end": 11422875,
+        "points": 41190
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 44,
+        "level": 5,
+        "start": 11422875,
+        "end": 11691117,
+        "points": 43639
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 45,
+        "level": 5,
+        "start": 11691117,
+        "end": 11970505,
+        "points": 44600
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 46,
+        "level": 5,
+        "start": 11970505,
+        "end": 12249878,
+        "points": 43839
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 47,
+        "level": 5,
+        "start": 12249878,
+        "end": 12535071,
+        "points": 44054
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 48,
+        "level": 5,
+        "start": 12535071,
+        "end": 12806307,
+        "points": 44117
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 49,
+        "level": 5,
+        "start": 12806307,
+        "end": 13097192,
+        "points": 46367
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 50,
+        "level": 5,
+        "start": 13097192,
+        "end": 13367345,
+        "points": 44569
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 51,
+        "level": 5,
+        "start": 13367345,
+        "end": 13648520,
+        "points": 44758
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 52,
+        "level": 5,
+        "start": 13648520,
+        "end": 13943605,
+        "points": 47046
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 53,
+        "level": 5,
+        "start": 13943605,
+        "end": 14247304,
+        "points": 48218
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 54,
+        "level": 5,
+        "start": 14247304,
+        "end": 14532266,
+        "points": 46099
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 55,
+        "level": 5,
+        "start": 14532266,
+        "end": 14827644,
+        "points": 46836
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 56,
+        "level": 5,
+        "start": 14827644,
+        "end": 15112266,
+        "points": 44854
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 57,
+        "level": 5,
+        "start": 15112266,
+        "end": 15398857,
+        "points": 45067
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 58,
+        "level": 5,
+        "start": 15398857,
+        "end": 15687502,
+        "points": 44303
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 59,
+        "level": 5,
+        "start": 15687502,
+        "end": 15970376,
+        "points": 44525
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 60,
+        "level": 5,
+        "start": 15970376,
+        "end": 16264776,
+        "points": 46677
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 61,
+        "level": 5,
+        "start": 16264776,
+        "end": 16563650,
+        "points": 46810
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 62,
+        "level": 5,
+        "start": 16563650,
+        "end": 16843084,
+        "points": 43197
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 63,
+        "level": 5,
+        "start": 16843084,
+        "end": 17132600,
+        "points": 45447
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 64,
+        "level": 5,
+        "start": 17132600,
+        "end": 17421157,
+        "points": 46052
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 65,
+        "level": 5,
+        "start": 17421157,
+        "end": 17704162,
+        "points": 46133
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 66,
+        "level": 5,
+        "start": 17704162,
+        "end": 17988711,
+        "points": 46166
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 67,
+        "level": 5,
+        "start": 17988711,
+        "end": 18260885,
+        "points": 46087
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 68,
+        "level": 5,
+        "start": 18260885,
+        "end": 18538357,
+        "points": 45730
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 69,
+        "level": 5,
+        "start": 18538357,
+        "end": 18835759,
+        "points": 46993
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 70,
+        "level": 5,
+        "start": 18835759,
+        "end": 19133784,
+        "points": 46982
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 71,
+        "level": 5,
+        "start": 19133784,
+        "end": 19432834,
+        "points": 47075
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 72,
+        "level": 5,
+        "start": 19432834,
+        "end": 19730445,
+        "points": 47429
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 73,
+        "level": 5,
+        "start": 19730445,
+        "end": 20016575,
+        "points": 46169
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 74,
+        "level": 5,
+        "start": 20016575,
+        "end": 20311552,
+        "points": 47401
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 75,
+        "level": 5,
+        "start": 20311552,
+        "end": 20602216,
+        "points": 46617
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 76,
+        "level": 5,
+        "start": 20602216,
+        "end": 20893751,
+        "points": 46958
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 77,
+        "level": 5,
+        "start": 20893751,
+        "end": 21192537,
+        "points": 46895
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 78,
+        "level": 5,
+        "start": 21192537,
+        "end": 21470873,
+        "points": 45839
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 79,
+        "level": 5,
+        "start": 21470873,
+        "end": 21765027,
+        "points": 46917
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 80,
+        "level": 5,
+        "start": 21765027,
+        "end": 22053824,
+        "points": 46173
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 81,
+        "level": 5,
+        "start": 22053824,
+        "end": 22349149,
+        "points": 46936
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 82,
+        "level": 5,
+        "start": 22349149,
+        "end": 22651397,
+        "points": 47539
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 83,
+        "level": 5,
+        "start": 22651397,
+        "end": 22950728,
+        "points": 47251
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 84,
+        "level": 5,
+        "start": 22950728,
+        "end": 23244968,
+        "points": 46081
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 85,
+        "level": 5,
+        "start": 23244968,
+        "end": 23547006,
+        "points": 46232
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 86,
+        "level": 5,
+        "start": 23547006,
+        "end": 23860561,
+        "points": 48071
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 87,
+        "level": 5,
+        "start": 23860561,
+        "end": 24166832,
+        "points": 47360
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 88,
+        "level": 5,
+        "start": 24166832,
+        "end": 24473712,
+        "points": 47579
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 89,
+        "level": 5,
+        "start": 24473712,
+        "end": 24783553,
+        "points": 47604
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 90,
+        "level": 5,
+        "start": 24783553,
+        "end": 25089998,
+        "points": 47936
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 91,
+        "level": 5,
+        "start": 25089998,
+        "end": 25403703,
+        "points": 48139
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 92,
+        "level": 5,
+        "start": 25403703,
+        "end": 25713797,
+        "points": 47675
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 93,
+        "level": 5,
+        "start": 25713797,
+        "end": 26023999,
+        "points": 47628
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 94,
+        "level": 5,
+        "start": 26023999,
+        "end": 26338368,
+        "points": 48156
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 95,
+        "level": 5,
+        "start": 26338368,
+        "end": 26623208,
+        "points": 46529
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 96,
+        "level": 5,
+        "start": 26623208,
+        "end": 26920132,
+        "points": 47137
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 97,
+        "level": 5,
+        "start": 26920132,
+        "end": 27199434,
+        "points": 46157
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 98,
+        "level": 5,
+        "start": 27199434,
+        "end": 27496928,
+        "points": 47237
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 99,
+        "level": 5,
+        "start": 27496928,
+        "end": 27786970,
+        "points": 46440
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 100,
+        "level": 5,
+        "start": 27786970,
+        "end": 28053762,
+        "points": 45358
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 101,
+        "level": 5,
+        "start": 28053762,
+        "end": 28331767,
+        "points": 46026
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 102,
+        "level": 5,
+        "start": 28331767,
+        "end": 28621949,
+        "points": 46690
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 103,
+        "level": 5,
+        "start": 28621949,
+        "end": 28909195,
+        "points": 46388
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 104,
+        "level": 5,
+        "start": 28909195,
+        "end": 29206263,
+        "points": 46882
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 105,
+        "level": 5,
+        "start": 29206263,
+        "end": 29495866,
+        "points": 46823
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 106,
+        "level": 5,
+        "start": 29495866,
+        "end": 29791571,
+        "points": 46764
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 107,
+        "level": 5,
+        "start": 29791571,
+        "end": 30091874,
+        "points": 47259
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 108,
+        "level": 5,
+        "start": 30091874,
+        "end": 30392253,
+        "points": 47155
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 109,
+        "level": 5,
+        "start": 30392253,
+        "end": 30701616,
+        "points": 48047
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 110,
+        "level": 5,
+        "start": 30701616,
+        "end": 30993357,
+        "points": 46593
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 111,
+        "level": 5,
+        "start": 30993357,
+        "end": 31292965,
+        "points": 47395
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 112,
+        "level": 5,
+        "start": 31292965,
+        "end": 31586955,
+        "points": 46966
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 113,
+        "level": 5,
+        "start": 31586955,
+        "end": 31896630,
+        "points": 47640
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 114,
+        "level": 5,
+        "start": 31896630,
+        "end": 32195473,
+        "points": 47483
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 115,
+        "level": 5,
+        "start": 32195473,
+        "end": 32486209,
+        "points": 47130
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 116,
+        "level": 5,
+        "start": 32486209,
+        "end": 32783369,
+        "points": 47499
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 117,
+        "level": 5,
+        "start": 32783369,
+        "end": 32982109,
+        "points": 44041
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 118,
+        "level": 5,
+        "start": 32982109,
+        "end": 33179861,
+        "points": 43829
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 119,
+        "level": 5,
+        "start": 33179861,
+        "end": 33374267,
+        "points": 43508
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 120,
+        "level": 5,
+        "start": 33374267,
+        "end": 33679689,
+        "points": 48135
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 121,
+        "level": 5,
+        "start": 33679689,
+        "end": 33897758,
+        "points": 44721
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 122,
+        "level": 5,
+        "start": 33897758,
+        "end": 34157447,
+        "points": 46309
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 123,
+        "level": 5,
+        "start": 34157447,
+        "end": 34356453,
+        "points": 43828
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 124,
+        "level": 5,
+        "start": 34356453,
+        "end": 34556525,
+        "points": 43667
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 125,
+        "level": 5,
+        "start": 34556525,
+        "end": 34754566,
+        "points": 43909
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 126,
+        "level": 5,
+        "start": 34754566,
+        "end": 35007104,
+        "points": 46627
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 127,
+        "level": 5,
+        "start": 35007104,
+        "end": 35250499,
+        "points": 46063
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 128,
+        "level": 5,
+        "start": 35250499,
+        "end": 35482978,
+        "points": 41801
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 129,
+        "level": 5,
+        "start": 35482978,
+        "end": 35705801,
+        "points": 40903
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 130,
+        "level": 5,
+        "start": 35705801,
+        "end": 36196287,
+        "points": 80346
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 131,
+        "level": 5,
+        "start": 36196287,
+        "end": 36542328,
+        "points": 58371
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 132,
+        "level": 5,
+        "start": 36542328,
+        "end": 36816337,
+        "points": 42910
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 133,
+        "level": 5,
+        "start": 36816337,
+        "end": 37099189,
+        "points": 43985
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 134,
+        "level": 5,
+        "start": 37099189,
+        "end": 37382040,
+        "points": 43629
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 135,
+        "level": 5,
+        "start": 37382040,
+        "end": 37673514,
+        "points": 44426
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 374,
+        "level": 5,
+        "start": 90357758,
+        "end": 90593926,
+        "points": 31170
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 316,
+        "level": 5,
+        "start": 76137389,
+        "end": 76349700,
+        "points": 28020
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 321,
+        "level": 5,
+        "start": 77370626,
+        "end": 77575643,
+        "points": 27398
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 323,
+        "level": 5,
+        "start": 77827174,
+        "end": 78046022,
+        "points": 29042
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 136,
+        "level": 5,
+        "start": 37673514,
+        "end": 38215650,
+        "points": 82598
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 137,
+        "level": 5,
+        "start": 38215650,
+        "end": 38602645,
+        "points": 60452
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 380,
+        "level": 5,
+        "start": 91763359,
+        "end": 91962746,
+        "points": 26801
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 138,
+        "level": 5,
+        "start": 38602645,
+        "end": 39115007,
+        "points": 85571
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 139,
+        "level": 5,
+        "start": 39115007,
+        "end": 39379213,
+        "points": 42597
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 140,
+        "level": 5,
+        "start": 39379213,
+        "end": 39665059,
+        "points": 44253
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 141,
+        "level": 5,
+        "start": 39665059,
+        "end": 39950439,
+        "points": 44761
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 142,
+        "level": 5,
+        "start": 39950439,
+        "end": 40226268,
+        "points": 42471
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 143,
+        "level": 5,
+        "start": 40226268,
+        "end": 40499356,
+        "points": 42650
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 144,
+        "level": 5,
+        "start": 40499356,
+        "end": 40770321,
+        "points": 43455
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 145,
+        "level": 5,
+        "start": 40770321,
+        "end": 41054173,
+        "points": 44145
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 146,
+        "level": 5,
+        "start": 41054173,
+        "end": 41329525,
+        "points": 43099
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 147,
+        "level": 5,
+        "start": 41329525,
+        "end": 41622352,
+        "points": 44633
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 148,
+        "level": 5,
+        "start": 41622352,
+        "end": 41907058,
+        "points": 43742
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 149,
+        "level": 5,
+        "start": 41907058,
+        "end": 42403307,
+        "points": 78300
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 150,
+        "level": 5,
+        "start": 42403307,
+        "end": 42791696,
+        "points": 58930
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 151,
+        "level": 5,
+        "start": 42791696,
+        "end": 43048722,
+        "points": 41873
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 152,
+        "level": 5,
+        "start": 43048722,
+        "end": 43335746,
+        "points": 44209
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 153,
+        "level": 5,
+        "start": 43335746,
+        "end": 43624001,
+        "points": 44127
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 154,
+        "level": 5,
+        "start": 43624001,
+        "end": 43926378,
+        "points": 45589
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 155,
+        "level": 5,
+        "start": 43926378,
+        "end": 44446437,
+        "points": 83809
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 361,
+        "level": 5,
+        "start": 87157103,
+        "end": 87387299,
+        "points": 30520
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 156,
+        "level": 5,
+        "start": 44446437,
+        "end": 44943295,
+        "points": 75909
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 317,
+        "level": 5,
+        "start": 76349700,
+        "end": 76601580,
+        "points": 32753
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 342,
+        "level": 5,
+        "start": 82413939,
+        "end": 82629039,
+        "points": 28597
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 351,
+        "level": 5,
+        "start": 84658326,
+        "end": 84871158,
+        "points": 28529
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 338,
+        "level": 5,
+        "start": 81443947,
+        "end": 81658876,
+        "points": 28689
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 339,
+        "level": 5,
+        "start": 81658876,
+        "end": 81892538,
+        "points": 31426
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 157,
+        "level": 5,
+        "start": 44943295,
+        "end": 45203063,
+        "points": 40591
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 158,
+        "level": 5,
+        "start": 45203063,
+        "end": 45569049,
+        "points": 54693
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 159,
+        "level": 5,
+        "start": 45569049,
+        "end": 45827587,
+        "points": 41110
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 160,
+        "level": 5,
+        "start": 45827587,
+        "end": 46091049,
+        "points": 41802
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 161,
+        "level": 5,
+        "start": 46091049,
+        "end": 46614605,
+        "points": 78548
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 331,
+        "level": 5,
+        "start": 79663805,
+        "end": 79885167,
+        "points": 29490
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 162,
+        "level": 5,
+        "start": 46614605,
+        "end": 46878150,
+        "points": 40978
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 163,
+        "level": 5,
+        "start": 46878150,
+        "end": 47238091,
+        "points": 54781
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 340,
+        "level": 5,
+        "start": 81892538,
+        "end": 82121855,
+        "points": 30709
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 319,
+        "level": 5,
+        "start": 76810590,
+        "end": 77042060,
+        "points": 30888
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 359,
+        "level": 5,
+        "start": 86653371,
+        "end": 86867275,
+        "points": 28574
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 386,
+        "level": 5,
+        "start": 93170329,
+        "end": 93412070,
+        "points": 31903
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 164,
+        "level": 5,
+        "start": 47238091,
+        "end": 47755039,
+        "points": 78963
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 165,
+        "level": 5,
+        "start": 47755039,
+        "end": 48143144,
+        "points": 59833
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 166,
+        "level": 5,
+        "start": 48143144,
+        "end": 48622785,
+        "points": 81455
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 167,
+        "level": 5,
+        "start": 48622785,
+        "end": 49061902,
+        "points": 79911
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 334,
+        "level": 5,
+        "start": 80472386,
+        "end": 80709977,
+        "points": 31415
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 377,
+        "level": 5,
+        "start": 91064896,
+        "end": 91297307,
+        "points": 30573
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 168,
+        "level": 5,
+        "start": 49061902,
+        "end": 49575255,
+        "points": 77266
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 318,
+        "level": 5,
+        "start": 76601580,
+        "end": 76810590,
+        "points": 27755
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 169,
+        "level": 5,
+        "start": 49575255,
+        "end": 50081480,
+        "points": 84196
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 170,
+        "level": 5,
+        "start": 50081480,
+        "end": 50508921,
+        "points": 77918
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 367,
+        "level": 5,
+        "start": 88681689,
+        "end": 88888553,
+        "points": 27407
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 171,
+        "level": 5,
+        "start": 50508921,
+        "end": 50938237,
+        "points": 79205
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 172,
+        "level": 5,
+        "start": 50938237,
+        "end": 51219604,
+        "points": 44380
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 173,
+        "level": 5,
+        "start": 51219604,
+        "end": 51524438,
+        "points": 46684
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 174,
+        "level": 5,
+        "start": 51524438,
+        "end": 51792780,
+        "points": 43531
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 175,
+        "level": 5,
+        "start": 51792780,
+        "end": 52061036,
+        "points": 43478
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 176,
+        "level": 5,
+        "start": 52061036,
+        "end": 52367374,
+        "points": 47278
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 177,
+        "level": 5,
+        "start": 52367374,
+        "end": 52663125,
+        "points": 47013
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 178,
+        "level": 5,
+        "start": 52663125,
+        "end": 52955027,
+        "points": 45807
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 179,
+        "level": 5,
+        "start": 52955027,
+        "end": 53208254,
+        "points": 43506
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 180,
+        "level": 5,
+        "start": 53208254,
+        "end": 53474477,
+        "points": 42466
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 181,
+        "level": 5,
+        "start": 53474477,
+        "end": 53745003,
+        "points": 43908
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 182,
+        "level": 5,
+        "start": 53745003,
+        "end": 54033436,
+        "points": 44069
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 183,
+        "level": 5,
+        "start": 54033436,
+        "end": 54271348,
+        "points": 41404
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 184,
+        "level": 5,
+        "start": 54271348,
+        "end": 54511325,
+        "points": 42739
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 185,
+        "level": 5,
+        "start": 54511325,
+        "end": 54741894,
+        "points": 41975
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 186,
+        "level": 5,
+        "start": 54741894,
+        "end": 54965063,
+        "points": 41128
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 187,
+        "level": 5,
+        "start": 54965063,
+        "end": 55186933,
+        "points": 40430
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 188,
+        "level": 5,
+        "start": 55186933,
+        "end": 55427677,
+        "points": 42948
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 189,
+        "level": 5,
+        "start": 55427677,
+        "end": 55663039,
+        "points": 44196
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 190,
+        "level": 5,
+        "start": 55663039,
+        "end": 55899598,
+        "points": 42024
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 191,
+        "level": 5,
+        "start": 55899598,
+        "end": 56136676,
+        "points": 42402
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 192,
+        "level": 5,
+        "start": 56136676,
+        "end": 56390159,
+        "points": 46859
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 193,
+        "level": 5,
+        "start": 56390159,
+        "end": 56642139,
+        "points": 47043
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 194,
+        "level": 5,
+        "start": 56642139,
+        "end": 56901215,
+        "points": 45040
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 195,
+        "level": 5,
+        "start": 56901215,
+        "end": 57142953,
+        "points": 45147
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 196,
+        "level": 5,
+        "start": 57142953,
+        "end": 57367845,
+        "points": 40273
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 197,
+        "level": 5,
+        "start": 57367845,
+        "end": 57605894,
+        "points": 42743
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 198,
+        "level": 5,
+        "start": 57605894,
+        "end": 57827473,
+        "points": 39747
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 199,
+        "level": 5,
+        "start": 57827473,
+        "end": 58057719,
+        "points": 41653
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 200,
+        "level": 5,
+        "start": 58057719,
+        "end": 58297725,
+        "points": 42639
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 201,
+        "level": 5,
+        "start": 58297725,
+        "end": 58534524,
+        "points": 42480
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 202,
+        "level": 5,
+        "start": 58534524,
+        "end": 58765359,
+        "points": 42187
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 203,
+        "level": 5,
+        "start": 58765359,
+        "end": 58990783,
+        "points": 41867
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 204,
+        "level": 5,
+        "start": 58990783,
+        "end": 59223503,
+        "points": 41492
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 205,
+        "level": 5,
+        "start": 59223503,
+        "end": 59440261,
+        "points": 40366
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 206,
+        "level": 5,
+        "start": 59440261,
+        "end": 59868797,
+        "points": 76795
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 207,
+        "level": 5,
+        "start": 59868797,
+        "end": 60192518,
+        "points": 58417
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 208,
+        "level": 5,
+        "start": 60192518,
+        "end": 60409753,
+        "points": 39052
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 209,
+        "level": 5,
+        "start": 60409753,
+        "end": 60630770,
+        "points": 40349
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 210,
+        "level": 5,
+        "start": 60630770,
+        "end": 60858264,
+        "points": 40435
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 211,
+        "level": 5,
+        "start": 60858264,
+        "end": 61081687,
+        "points": 39761
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 212,
+        "level": 5,
+        "start": 61081687,
+        "end": 61517535,
+        "points": 80457
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 213,
+        "level": 5,
+        "start": 61517535,
+        "end": 61954071,
+        "points": 79211
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 214,
+        "level": 5,
+        "start": 61954071,
+        "end": 62377116,
+        "points": 79983
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 215,
+        "level": 5,
+        "start": 62377116,
+        "end": 62803823,
+        "points": 79557
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 216,
+        "level": 5,
+        "start": 62803823,
+        "end": 63221497,
+        "points": 76558
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 217,
+        "level": 5,
+        "start": 63221497,
+        "end": 63556757,
+        "points": 60087
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 218,
+        "level": 5,
+        "start": 63556757,
+        "end": 63988503,
+        "points": 79168
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 219,
+        "level": 5,
+        "start": 63988503,
+        "end": 64418947,
+        "points": 78687
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 220,
+        "level": 5,
+        "start": 64418947,
+        "end": 64644816,
+        "points": 40865
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 221,
+        "level": 5,
+        "start": 64644816,
+        "end": 64872782,
+        "points": 40573
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 222,
+        "level": 5,
+        "start": 64872782,
+        "end": 65092956,
+        "points": 40195
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 223,
+        "level": 5,
+        "start": 65092956,
+        "end": 65319996,
+        "points": 40217
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 224,
+        "level": 5,
+        "start": 65319996,
+        "end": 65550890,
+        "points": 41186
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 225,
+        "level": 5,
+        "start": 65550890,
+        "end": 65780926,
+        "points": 41448
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 226,
+        "level": 5,
+        "start": 65780926,
+        "end": 66000746,
+        "points": 39595
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 227,
+        "level": 5,
+        "start": 66000746,
+        "end": 66236006,
+        "points": 41679
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 228,
+        "level": 5,
+        "start": 66236006,
+        "end": 66470831,
+        "points": 43023
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 229,
+        "level": 5,
+        "start": 66470831,
+        "end": 66687004,
+        "points": 38790
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 230,
+        "level": 5,
+        "start": 66687004,
+        "end": 67108965,
+        "points": 77285
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 231,
+        "level": 5,
+        "start": 67108965,
+        "end": 67449210,
+        "points": 61767
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 232,
+        "level": 5,
+        "start": 67449210,
+        "end": 67664864,
+        "points": 39775
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 233,
+        "level": 5,
+        "start": 67664864,
+        "end": 67882201,
+        "points": 39974
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 234,
+        "level": 5,
+        "start": 67882201,
+        "end": 68127049,
+        "points": 44271
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 235,
+        "level": 5,
+        "start": 68127049,
+        "end": 68375601,
+        "points": 41854
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 236,
+        "level": 6,
+        "start": 68375601,
+        "end": 68479645,
+        "points": 15425
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 237,
+        "level": 6,
+        "start": 68479645,
+        "end": 68586099,
+        "points": 15904
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 238,
+        "level": 6,
+        "start": 68586099,
+        "end": 68696660,
+        "points": 16369
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 239,
+        "level": 6,
+        "start": 68696660,
+        "end": 68799859,
+        "points": 15403
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 240,
+        "level": 6,
+        "start": 68799859,
+        "end": 68898387,
+        "points": 15320
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 241,
+        "level": 6,
+        "start": 68898387,
+        "end": 68995336,
+        "points": 14909
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 242,
+        "level": 6,
+        "start": 68995336,
+        "end": 69103238,
+        "points": 16030
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 243,
+        "level": 6,
+        "start": 69103238,
+        "end": 69204973,
+        "points": 15282
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 244,
+        "level": 6,
+        "start": 69204973,
+        "end": 69307134,
+        "points": 15152
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 245,
+        "level": 6,
+        "start": 69307134,
+        "end": 69409603,
+        "points": 15083
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 246,
+        "level": 6,
+        "start": 69409603,
+        "end": 69501937,
+        "points": 14989
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 247,
+        "level": 6,
+        "start": 69501937,
+        "end": 69592814,
+        "points": 14565
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 248,
+        "level": 6,
+        "start": 69592814,
+        "end": 69695799,
+        "points": 15367
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 249,
+        "level": 6,
+        "start": 69695799,
+        "end": 69800816,
+        "points": 15507
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 250,
+        "level": 6,
+        "start": 69800816,
+        "end": 69895403,
+        "points": 14425
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 251,
+        "level": 6,
+        "start": 69895403,
+        "end": 69989153,
+        "points": 13726
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 252,
+        "level": 6,
+        "start": 69989153,
+        "end": 70089040,
+        "points": 14923
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 253,
+        "level": 6,
+        "start": 70089040,
+        "end": 70185298,
+        "points": 15475
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 254,
+        "level": 6,
+        "start": 70185298,
+        "end": 70281860,
+        "points": 14900
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 255,
+        "level": 6,
+        "start": 70281860,
+        "end": 70379638,
+        "points": 15233
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 256,
+        "level": 6,
+        "start": 70379638,
+        "end": 70475090,
+        "points": 13627
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 257,
+        "level": 6,
+        "start": 70475090,
+        "end": 70569044,
+        "points": 13286
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 258,
+        "level": 6,
+        "start": 70569044,
+        "end": 70668747,
+        "points": 14836
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 259,
+        "level": 6,
+        "start": 70668747,
+        "end": 70764819,
+        "points": 14373
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 260,
+        "level": 6,
+        "start": 70764819,
+        "end": 70866935,
+        "points": 14519
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 261,
+        "level": 6,
+        "start": 70866935,
+        "end": 70970967,
+        "points": 15245
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 262,
+        "level": 6,
+        "start": 70970967,
+        "end": 71068292,
+        "points": 13642
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 263,
+        "level": 6,
+        "start": 71068292,
+        "end": 71178239,
+        "points": 15633
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 264,
+        "level": 6,
+        "start": 71178239,
+        "end": 71277105,
+        "points": 14771
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 265,
+        "level": 6,
+        "start": 71277105,
+        "end": 71373570,
+        "points": 14691
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 266,
+        "level": 6,
+        "start": 71373570,
+        "end": 71470826,
+        "points": 14930
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 267,
+        "level": 6,
+        "start": 71470826,
+        "end": 71566214,
+        "points": 14681
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 268,
+        "level": 6,
+        "start": 71566214,
+        "end": 71668063,
+        "points": 15077
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 269,
+        "level": 6,
+        "start": 71668063,
+        "end": 71766588,
+        "points": 15367
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 270,
+        "level": 6,
+        "start": 71766588,
+        "end": 71861428,
+        "points": 14443
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 271,
+        "level": 6,
+        "start": 71861428,
+        "end": 71953026,
+        "points": 14109
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 272,
+        "level": 6,
+        "start": 71953026,
+        "end": 72050069,
+        "points": 14677
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 273,
+        "level": 6,
+        "start": 72050069,
+        "end": 72147543,
+        "points": 14804
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 274,
+        "level": 6,
+        "start": 72147543,
+        "end": 72251399,
+        "points": 15689
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 275,
+        "level": 6,
+        "start": 72251399,
+        "end": 72344617,
+        "points": 14147
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 276,
+        "level": 6,
+        "start": 72344617,
+        "end": 72434587,
+        "points": 13784
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 277,
+        "level": 6,
+        "start": 72434587,
+        "end": 72523327,
+        "points": 13677
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 278,
+        "level": 6,
+        "start": 72523327,
+        "end": 72615405,
+        "points": 13511
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 279,
+        "level": 6,
+        "start": 72615405,
+        "end": 72703489,
+        "points": 13155
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 280,
+        "level": 6,
+        "start": 72703489,
+        "end": 72791780,
+        "points": 13742
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 281,
+        "level": 6,
+        "start": 72791780,
+        "end": 72880338,
+        "points": 13023
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 282,
+        "level": 6,
+        "start": 72880338,
+        "end": 72975429,
+        "points": 14304
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 283,
+        "level": 6,
+        "start": 72975429,
+        "end": 73068967,
+        "points": 14242
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 284,
+        "level": 6,
+        "start": 73068967,
+        "end": 73158947,
+        "points": 13280
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 285,
+        "level": 6,
+        "start": 73158947,
+        "end": 73247506,
+        "points": 13117
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 286,
+        "level": 6,
+        "start": 73247506,
+        "end": 73335959,
+        "points": 13978
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 287,
+        "level": 6,
+        "start": 73335959,
+        "end": 73424237,
+        "points": 12827
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 288,
+        "level": 6,
+        "start": 73424237,
+        "end": 73514514,
+        "points": 13883
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 289,
+        "level": 6,
+        "start": 73514514,
+        "end": 73601576,
+        "points": 12739
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 290,
+        "level": 6,
+        "start": 73601576,
+        "end": 73691775,
+        "points": 13446
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 291,
+        "level": 6,
+        "start": 73691775,
+        "end": 73782535,
+        "points": 13367
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 292,
+        "level": 6,
+        "start": 73782535,
+        "end": 73874097,
+        "points": 14826
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 293,
+        "level": 6,
+        "start": 73874097,
+        "end": 73966309,
+        "points": 13796
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 294,
+        "level": 6,
+        "start": 73966309,
+        "end": 74068562,
+        "points": 15720
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 295,
+        "level": 6,
+        "start": 74068562,
+        "end": 74165240,
+        "points": 14863
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 296,
+        "level": 6,
+        "start": 74165240,
+        "end": 74256322,
+        "points": 13210
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 297,
+        "level": 6,
+        "start": 74256322,
+        "end": 74350571,
+        "points": 14500
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 298,
+        "level": 6,
+        "start": 74350571,
+        "end": 74443740,
+        "points": 13426
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 299,
+        "level": 6,
+        "start": 74443740,
+        "end": 74540763,
+        "points": 13928
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 300,
+        "level": 6,
+        "start": 74540763,
+        "end": 74640233,
+        "points": 14980
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 301,
+        "level": 6,
+        "start": 74640233,
+        "end": 74741639,
+        "points": 15576
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 302,
+        "level": 6,
+        "start": 74741639,
+        "end": 74839330,
+        "points": 14582
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 303,
+        "level": 6,
+        "start": 74839330,
+        "end": 74940847,
+        "points": 15202
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 304,
+        "level": 6,
+        "start": 74940847,
+        "end": 75036554,
+        "points": 14214
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 305,
+        "level": 6,
+        "start": 75036554,
+        "end": 75136120,
+        "points": 14811
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 306,
+        "level": 6,
+        "start": 75136120,
+        "end": 75237380,
+        "points": 15071
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 307,
+        "level": 6,
+        "start": 75237380,
+        "end": 75340171,
+        "points": 15196
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 308,
+        "level": 6,
+        "start": 75340171,
+        "end": 75444301,
+        "points": 15038
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 309,
+        "level": 6,
+        "start": 75444301,
+        "end": 75544019,
+        "points": 15336
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 310,
+        "level": 6,
+        "start": 75544019,
+        "end": 75647365,
+        "points": 15093
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 311,
+        "level": 6,
+        "start": 75647365,
+        "end": 75739470,
+        "points": 15000
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 312,
+        "level": 6,
+        "start": 75739470,
+        "end": 75840129,
+        "points": 14634
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 313,
+        "level": 6,
+        "start": 75840129,
+        "end": 75941025,
+        "points": 15647
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 314,
+        "level": 6,
+        "start": 75941025,
+        "end": 76039432,
+        "points": 15064
+      },
+      {
+        "filename": "LO-238263-04-2024_v01.laz",
+        "index": 315,
+        "level": 6,
+        "start": 76039432,
+        "end": 76137389,
+        "points": 15387
+      }
+    ],
+    "headerPoints": 16110301,
+    "decoded": 16110301,
+    "invalidCoordinates": 0,
+    "sourceClassCounts": {
+      "1": 589,
+      "2": 11379888,
+      "3": 768003,
+      "4": 613698,
+      "5": 3327372,
+      "9": 20751
+    },
+    "ownedClassCounts": {
+      "1": 589,
+      "2": 11379878,
+      "3": 768003,
+      "4": 613698,
+      "5": 3327359,
+      "9": 20749
+    },
+    "parishClassCounts": {
+      "1": 589,
+      "2": 519629,
+      "3": 67552,
+      "4": 70317,
+      "5": 176717,
+      "9": 19101
+    }
+  },
+  "method": "All census hierarchy chunks; class 2; half-open 1 km source ownership; CAOP mask at 0.5 m cell centres, matching prepared maximum-detail terrain.",
+  "tiles": [
+    {
+      "id": "t38000_-38000",
+      "bounds": [
+        38000.0,
+        -38000.0,
+        38250.0,
+        -37750.0
+      ],
+      "groundReturns": 68650,
+      "measuredCells": 25618,
+      "validCells": 43587,
+      "interpolatedCells": 17969,
+      "files": {
+        "context/tiles/t38000_-38000/ground-return-count.tif": "385934f3cc9b61b88dfeae827e9fd4d24d119935fa34625520b555f98788c374",
+        "context/tiles/t38000_-38000/support-codes.png": "bff119e9a3ec037635b169e09aedf6cce9998ea5560fa11c1b699a4c77d65aa7",
+        "context/tiles/t38000_-38000/terrain.tif": "ae80de27f0209fb894842a89414b4c3fe48217e3979049383ed1c36faf8f60f7",
+        "context/tiles/t38000_-38000/raw-ground-mean.tif": "8e27afdca7d738508ac29aed47762990b4f8d47ed78b3d81a9b6cc3544d73967"
+      }
+    },
+    {
+      "id": "t38250_-38000",
+      "bounds": [
+        38250.0,
+        -38000.0,
+        38500.0,
+        -37750.0
+      ],
+      "groundReturns": 308075,
+      "measuredCells": 113964,
+      "validCells": 149759,
+      "interpolatedCells": 35795,
+      "files": {
+        "context/tiles/t38250_-38000/ground-return-count.tif": "6ecdbdc5cfab41afea7ac2efd307ffb3c41966fabeea35a5d0acac4b3d5bfb24",
+        "context/tiles/t38250_-38000/support-codes.png": "5cada5dacef3d4609b7e2290ef94204c29c76c3ead2297d0434cd0546db2fbc6",
+        "context/tiles/t38250_-38000/terrain.tif": "867a299e4ba74c5765015110c72c371d71678a69d55ac2ee73644b1a986aa0c3",
+        "context/tiles/t38250_-38000/raw-ground-mean.tif": "3ed76a716b0acba6449373912fa7ddd4558a240de76ffe13a8f2f50b39409da9"
+      }
+    },
+    {
+      "id": "t38500_-38000",
+      "bounds": [
+        38500.0,
+        -38000.0,
+        38750.0,
+        -37750.0
+      ],
+      "groundReturns": 142881,
+      "measuredCells": 42898,
+      "validCells": 46654,
+      "interpolatedCells": 3756,
+      "files": {
+        "context/tiles/t38500_-38000/ground-return-count.tif": "0813b8e41682d35c4aef38a44ca35948a01cafaa359b05efaee1cda125c95cf6",
+        "context/tiles/t38500_-38000/support-codes.png": "e1738de9b47e00ad9851f50b0318708f8d42a6316ce0b62e70965a825e992c5e",
+        "context/tiles/t38500_-38000/terrain.tif": "4c0fb3f1149bbbc06a33c9673bf6e873c803a0371ad8256b3ee4cea4514bcfcb",
+        "context/tiles/t38500_-38000/raw-ground-mean.tif": "297c985692ca68e33270707a951048a751d6f286c9b40affb27e1a9e196cc429"
+      }
+    }
+  ],
+  "complete": true
+}

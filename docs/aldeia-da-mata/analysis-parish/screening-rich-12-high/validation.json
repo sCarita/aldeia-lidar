@@ -1,0 +1,24 @@
+{
+  "passed": true,
+  "caseCountPerArm": 12,
+  "freshWorkerContexts": 6,
+  "reportedImages": 204,
+  "checks": [
+    "204 source/anonymous image SHA-256 hashes match prior low run",
+    "reviewer and evaluation protocol bytes match",
+    "frozen high raw outputs match hashes",
+    "original low raw outputs still match their frozen hashes",
+    "complete assignments/image layers, candidate bounds and evidence names",
+    "obvious record/name leakage scan",
+    "identical committed evaluator key",
+    "high/low case and reference equality",
+    "gallery inline JavaScript syntax",
+    "browser high results table and R04 aerial/terrain overlays",
+    "git diff --check"
+  ],
+  "limits": [
+    "Procedural reviewer blinding, not OS isolation",
+    "No independently verified visible landmark boundaries or negative controls",
+    "No exact per-model usage measurement"
+  ]
+}

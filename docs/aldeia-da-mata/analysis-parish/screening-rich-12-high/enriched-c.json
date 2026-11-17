@@ -1,0 +1,92 @@
+{
+  "cases": [
+    {
+      "case": "R09",
+      "imagesInspected": [
+        "hillshade-045",
+        "hillshade-135",
+        "hillshade-315",
+        "local-relief",
+        "support",
+        "hillshade-225",
+        "slope",
+        "sky-view-factor",
+        "terrain-context",
+        "aerial-patch",
+        "aerial-context",
+        "point-classes"
+      ],
+      "visibleGeometry": "An irregular cluster of high, angular ridges and blocks occupies the northwest quarter; a curved track passes its east side. A smaller isolated rise lies farther south. Similar rough outcrops occur across the surrounding terrain. The aerial view shows exposed grey rock, scattered shrubs and the track.",
+      "alternatives": "Natural bedrock outcrop and loose stone are the strongest explanation. The southern rise may be another rock exposure. Some apparent straight segments could be chance joints or low walls; the nearby route is modern access.",
+      "supportLimits": "The main rough cluster contains many interpolated cells. Its exact relief and apparent internal edges need original return checks. Aerial detail does not establish construction or age.",
+      "followUp": "none",
+      "candidates": []
+    },
+    {
+      "case": "R10",
+      "imagesInspected": [
+        "hillshade-045",
+        "hillshade-135",
+        "hillshade-315",
+        "local-relief",
+        "support",
+        "hillshade-225",
+        "slope",
+        "sky-view-factor",
+        "terrain-context",
+        "aerial-patch",
+        "aerial-context",
+        "point-classes"
+      ],
+      "visibleGeometry": "A broad smooth slope meets a rougher, tree-covered surface along a curving east-west break near the patch middle. Several small knolls and angular rough spots lie on both sides. The aerial view places a dirt route along the break; rough areas coincide with trees and exposed stone.",
+      "alternatives": "The break is plausibly a route cut or field edge following natural relief. Rough spots may be bedrock, vegetation effects or erosion. No coherent enclosed or platform-like form stands apart from these patterns.",
+      "supportLimits": "Scattered interpolated cells coincide with trees and the rough break. Fine shape and small protrusions cannot be trusted without source returns. Aerial imagery shows current surface cover only.",
+      "followUp": "none",
+      "candidates": []
+    },
+    {
+      "case": "R11",
+      "imagesInspected": [
+        "hillshade-045",
+        "hillshade-135",
+        "hillshade-315",
+        "local-relief",
+        "support",
+        "hillshade-225",
+        "slope",
+        "sky-view-factor",
+        "terrain-context",
+        "aerial-patch",
+        "aerial-context",
+        "point-classes"
+      ],
+      "visibleGeometry": "Regular, closely spaced cultivation ridges fill much of the west and south. Straight field boundaries meet a curving east-west track near the centre. A small narrow protrusion at that junction aligns with a tree or hedge in the aerial view. The northeast field is rougher with scattered trees.",
+      "alternatives": "The lines and ridges match agricultural plots, ploughing and access routes. The junction protrusion may be a tree base, boundary stone or drainage/track feature. No distinct older enclosure or mound is apparent.",
+      "supportLimits": "Interpolation is concentrated along hedges, tracks and trees, including the junction. Their small relief forms need source returns to distinguish ground from canopy or smoothing effects.",
+      "followUp": "none",
+      "candidates": []
+    },
+    {
+      "case": "R12",
+      "imagesInspected": [
+        "hillshade-045",
+        "hillshade-135",
+        "hillshade-315",
+        "local-relief",
+        "support",
+        "hillshade-225",
+        "slope",
+        "sky-view-factor",
+        "terrain-context",
+        "aerial-patch",
+        "aerial-context",
+        "point-classes"
+      ],
+      "visibleGeometry": "Two gently curving, nearly parallel field boundaries run across the patch, enclosing an area with scattered tree-related roughness. Fine cultivation ridges fill the ground above and below. A small raised angular spot near the north boundary corresponds to exposed rock in the aerial view; the lower boundary follows a dirt route.",
+      "alternatives": "Agricultural boundaries, cultivation and access paths explain the dominant lines. The isolated rise appears to be rock. Tree cover and occasional stones account for the irregular relief between boundaries.",
+      "supportLimits": "Interpolated cells cluster on both boundaries and around tree positions. The slight field roughness is sensitive to ground-return gaps; neither image set establishes construction or age.",
+      "followUp": "none",
+      "candidates": []
+    }
+  ]
+}

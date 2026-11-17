@@ -1,0 +1,37 @@
+{
+  "frozenBeforeReviewCompletion": true,
+  "caseCount": 50,
+  "reviewersReceive": [
+    "anonymous case IDs",
+    "five unlabeled terrain/support PNGs",
+    "generic image-review protocol"
+  ],
+  "withheld": [
+    "source patch IDs",
+    "coordinates/world files",
+    "inventory metadata",
+    "sample strata",
+    "prior reviews",
+    "evaluator key"
+  ],
+  "primaryDiagnostic": {
+    "name": "Localized candidate near published reference point",
+    "maximumCentreDistancePixels": 50,
+    "metresPerPixel": 0.5,
+    "maximumBoxAreaPixels": 16000,
+    "maximumBoxSidePixels": 200
+  },
+  "secondaryDiagnostic": {
+    "name": "Any candidate centre near published reference point",
+    "maximumCentreDistancePixels": 50
+  },
+  "caveats": [
+    "Reference-point crop is not a verified visible-positive image.",
+    "Reference-free crop is not a verified archaeological negative.",
+    "Multiple crops can share the same record/terrain; results are not independent site detections.",
+    "Pixel annotations and the 25 m threshold are exploratory, not a surveyed accuracy tolerance.",
+    "Compare visible descriptions; proximity alone does not demonstrate recognition of an archaeological structure."
+  ],
+  "keyCommitmentSha256": "e6e32930c6fc11a1e8cc37641772da7c2d02a764ba81dd1129ba8770710a1b95",
+  "frozenAt": "2026-11-16T21:01:09.310Z"
+}

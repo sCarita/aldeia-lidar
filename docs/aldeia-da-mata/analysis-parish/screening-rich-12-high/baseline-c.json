@@ -1,0 +1,58 @@
+{
+  "cases": [
+    {
+      "case": "R09",
+      "imagesInspected": ["hillshade-045", "hillshade-135", "hillshade-315", "local-relief", "support"],
+      "visibleGeometry": "A cluster of short, angular ridges and raised blocks occupies the northwest quadrant, with an isolated small raised block to its south. A narrow curving line runs just east of the cluster. A separate low rounded rise lies farther south near the line; the remaining ground is subdued.",
+      "alternatives": "Standing or collapsed modern structures, rock piles, vegetation artifacts, a track and ordinary ground disturbance could account for the shapes.",
+      "supportLimits": "The angular cluster overlaps a dense patch of interpolated cells, so its sharp shapes cannot be accepted without source-ground inspection. Most surrounding ground is measured.",
+      "followUp": "low",
+      "candidates": [
+        {
+          "feature": "Angular raised-block cluster",
+          "pixelCentre": [100, 162],
+          "pixelBox": [45, 108, 148, 225],
+          "confidence": "low",
+          "nextCheck": "Inspect original classified returns and current or historical imagery for buildings, rock piles and interpolation effects.",
+          "evidenceLayers": ["hillshade-045", "hillshade-135", "hillshade-315", "local-relief"]
+        }
+      ]
+    },
+    {
+      "case": "R10",
+      "imagesInspected": ["hillshade-045", "hillshade-135", "hillshade-315", "local-relief", "support"],
+      "visibleGeometry": "A broad, curving break in slope crosses the patch from the left edge toward the upper-right side. Its upper side is irregular and stippled with small bumps; the lower side is comparatively smooth with scattered low hummocks. A faint straight line crosses the upper-right area.",
+      "alternatives": "A natural drainage or slope margin, track or field edge and vegetation-related roughness fit the pattern. The isolated hummocks may be ordinary surface variation.",
+      "supportLimits": "Interpolation follows much of the curving break and several bump clusters. Those details require raw-return confirmation; the smooth lower area is mainly measured.",
+      "followUp": "none",
+      "candidates": []
+    },
+    {
+      "case": "R11",
+      "imagesInspected": ["hillshade-045", "hillshade-135", "hillshade-315", "local-relief", "support"],
+      "visibleGeometry": "Regular, close-spaced curved ridges occupy the upper-left field; parallel fine ridges also cross the upper-right and lower areas. Straight north-south and east-west linear breaks meet near the centre, separating differently textured ground. A small bright lump lies at the junction.",
+      "alternatives": "Cultivation rows, field boundaries, a track or drainage line and a small boundary feature explain the pattern.",
+      "supportLimits": "The boundary lines and central junction include interpolated cells. Most cultivated surfaces are measured, though small scattered gaps remain.",
+      "followUp": "none",
+      "candidates": []
+    },
+    {
+      "case": "R12",
+      "imagesInspected": ["hillshade-045", "hillshade-135", "hillshade-315", "local-relief", "support"],
+      "visibleGeometry": "Two nearly parallel linear boundaries frame a broad, gently textured strip across the patch. Regular cultivation ridges lie above and below it. A discrete small rounded rise sits near the upper boundary at about x310, y99; a few smaller bumps occur near the lower-right edge.",
+      "alternatives": "Field margins, track edges or drainage features explain the long lines. The isolated rise could be a tree base, soil or rock pile, or agricultural feature.",
+      "supportLimits": "Interpolation follows both long boundaries and scattered patches within the strip. The rise is beside an interpolated boundary, so its form needs raw-return verification.",
+      "followUp": "low",
+      "candidates": [
+        {
+          "feature": "Small isolated rounded rise beside field boundary",
+          "pixelCentre": [310, 99],
+          "pixelBox": [298, 84, 323, 113],
+          "confidence": "low",
+          "nextCheck": "Inspect original ground returns and imagery to distinguish a persistent mound from a tree base, pile or boundary disturbance.",
+          "evidenceLayers": ["hillshade-045", "hillshade-135", "hillshade-315", "local-relief"]
+        }
+      ]
+    }
+  ]
+}

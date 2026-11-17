@@ -1,0 +1,87 @@
+{
+  "cases": [
+    {
+      "case": "R09",
+      "imagesInspected": [
+        "hillshade-045",
+        "hillshade-135",
+        "hillshade-315",
+        "local-relief",
+        "support"
+      ],
+      "visibleGeometry": "A compact cluster of angular high spots and short straight edges occupies the northwest quadrant, with one detached small knob south of it. A faint curving track passes just east. Another low rise sits farther south. The sharp cluster is consistent across illumination directions.",
+      "alternatives": "Exposed bedrock, rubble, recent clearance or dumped material near a track; some sharp edges and gaps may reflect ground classification around objects.",
+      "supportLimits": "The angular cluster contains many interpolated cells, so its internal edges cannot be trusted as measured ground. The surrounding terrain is mostly supported.",
+      "followUp": "medium",
+      "candidates": [
+        {
+          "feature": "Angular clustered relief beside track",
+          "pixelCentre": [
+            96,
+            156
+          ],
+          "pixelBox": [
+            42,
+            112,
+            146,
+            200
+          ],
+          "confidence": "low",
+          "nextCheck": "Inspect original ground returns, imagery and nearby mapped features to separate rock, recent rubble and built geometry.",
+          "evidenceLayers": [
+            "hillshade-045",
+            "hillshade-135",
+            "hillshade-315",
+            "local-relief",
+            "support"
+          ]
+        }
+      ]
+    },
+    {
+      "case": "R10",
+      "imagesInspected": [
+        "hillshade-045",
+        "hillshade-135",
+        "hillshade-315",
+        "local-relief",
+        "support"
+      ],
+      "visibleGeometry": "A broad sinuous slope break runs west to east across the upper half, separating rougher northern ground from a smoother southern surface. Small isolated hummocks occur on both sides. No coherent enclosure or platform is apparent.",
+      "alternatives": "Natural slope or drainage edge, vegetation-related ground-model noise, erosion and field alteration; many northern speckles coincide with interpolation.",
+      "supportLimits": "Interpolation is dense along the break and around several hummocks. The broad form is visible, but fine outlines are uncertain.",
+      "followUp": "low",
+      "candidates": []
+    },
+    {
+      "case": "R11",
+      "imagesInspected": [
+        "hillshade-045",
+        "hillshade-135",
+        "hillshade-315",
+        "local-relief",
+        "support"
+      ],
+      "visibleGeometry": "Regular parallel cultivation bands fill the western and southern fields. A straight north-south boundary meets an east-west linear bank or ditch near the centre. A second east-west field edge crosses the northeast. The intersection has a small raised irregularity.",
+      "alternatives": "Field boundaries, track drainage and agricultural terracing explain the straight lines and repeated bands. The small junction rise may be a gate, vegetation or model interpolation.",
+      "supportLimits": "Most field surfaces are measured, but the boundaries and junction have narrow interpolated strips. Their fine cross-sections need source-return checks.",
+      "followUp": "low",
+      "candidates": []
+    },
+    {
+      "case": "R12",
+      "imagesInspected": [
+        "hillshade-045",
+        "hillshade-135",
+        "hillshade-315",
+        "local-relief",
+        "support"
+      ],
+      "visibleGeometry": "A long straight east-west depression or bank crosses the lower half, and a parallel field edge crosses the upper quarter. Repeated cultivation lines extend beyond them. A small isolated mound appears near the upper edge at roughly x310, y98.",
+      "alternatives": "Agricultural boundaries, drainage, track grading and vegetation or stone piles are plausible. The small mound may be an isolated rock or agricultural debris.",
+      "supportLimits": "The linear edges coincide with interpolated strips; the small mound is surrounded by measured terrain but its crest requires raw returns. No bounded arrangement is evident.",
+      "followUp": "low",
+      "candidates": []
+    }
+  ]
+}

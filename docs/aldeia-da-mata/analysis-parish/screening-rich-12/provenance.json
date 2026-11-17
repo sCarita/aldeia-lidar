@@ -1,0 +1,18 @@
+{
+  "fingerprints": {
+    "scripts/prepare-rich-screening-12.py": "da13b085759de949b6f06ef1939ee7ef8b1f75852df0448cfde3e776cf346a83",
+    "scripts/evaluate-rich-screening-12.py": "ea8e66ffbd09a6f8de0bf5c13b802a3f5ea05cd8166252cb14342e871f6c574b",
+    "scripts/parish_analysis_common.py": "2f43ae3fcce8c292e0745d418f3b1566387ab6ec44a79d93f79801f387ecb010",
+    "docs/aldeia-da-mata/data/max-detail-index.js": "735cee1c0610cdf824abc523bd2a437358f860b6cee1ed498a421835c472d8d8",
+    "docs/aldeia-da-mata/data/aerial-2025-index.js": "aa8d01081e4aa33fb657ecd0e1fa03c5f2f195394845395d7a4ffd8b0b995012",
+    "docs/aldeia-da-mata/analysis-parish/manifest.json": "a878248827e1d5b24dc7b05d688385da2fed6bc49fc5f9d6dcf668f6f6d595f5",
+    "docs/aldeia-da-mata/data/archaeology-parish.js": "5a3b9dc18f4565325b44ba7893cc1d3733fa749e2487a06628ef8f78f2bee0ac"
+  },
+  "terrain": "Existing 0.5 m smoothed model, with existing class-2 support. No new source decoding.",
+  "additionalTerrain": "16 direction cosine-squared sky-view approximation; radii 1..20 m sampled every 1 m; missing if any sampled horizon missing; fixed display .85..1. Terrain context 800 m, light315 altitude35, 0.5 m model reduced to800 pixels.",
+  "photography": "Existing DGT2025 RGB 0.25 m imagery; 200 m patch800px, 800 m context800px. North up; amber context square only marks patch. Informa\u00e7\u00e3o geogr\u00e1fica cedida pela Dire\u00e7\u00e3o-Geral do Territ\u00f3rio. CC BY 4.0.",
+  "pointOverlay": "Existing highest measured 0.5 m surface-cell representatives for classes1,6,9,26 on hillshade315; no source reclassification, full-cloud rendering or inferred walls. No vegetation in overlay.",
+  "packageBytes": 50737684,
+  "recordSnapshot": "2026-11-16 public Endov\u00e9lico/official GeoPortal snapshot, separate provenance and reuse limitations apply.",
+  "frozenBeforeReview": "evaluation-protocol.json and key-commitment.txt. No prior note used as ground truth."
+}

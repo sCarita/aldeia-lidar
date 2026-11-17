@@ -1,0 +1,449 @@
+{
+  "source": "Dire\u00e7\u00e3o-Geral do Territ\u00f3rio, public LiDAR viewer",
+  "sourcePage": "https://www.dgterritorio.gov.pt/levantamento-lidar-de-portugal-continental-0",
+  "attribution": "Source \u00a9 Dire\u00e7\u00e3o-Geral do Territ\u00f3rio, CC BY 4.0. Locally derived terrain images and ground support.",
+  "referenceArticle": "https://pietromiotti.com/latest/maya-site/",
+  "referenceScope": "Image-screening inspiration only; patch dimensions/overlap are local choices. No feature labels or discovery claims.",
+  "terrainMethod": "Existing maximum-detail 0.5 m class-2 ground means; inherited 0.25 m Gaussian smoothing, maximum 5 m gap support, CAOP2025 cell-centre mask and centimetre quantization. No extra terrain smoothing.",
+  "terrainIndexSha256": "735cee1c0610cdf824abc523bd2a437358f860b6cee1ed498a421835c472d8d8",
+  "terrainProvenanceSha256": "c01405b8848f99b3290b4efb1267f00a401e66e100a27b037bd6410230bbdc63",
+  "censusSha256": "8e837d3fb0f3ab89cd61a9dcf8050881f04ef6bf1b7e6ce15f3f14324797ceec",
+  "derivatives": "Common parish elevation range; central differences at 0.5 m; light azimuths 45/135/225/315, sun altitude 35 degrees, ambient 0.15/direct 0.85, no exaggeration. Spatial blocks have a 32 m halo before crop.",
+  "localRelief": "Terrain minus normalized Gaussian baseline, sigma 10 m, radius 30 m; valid/missing mask retained. Colour range +/-2 m.",
+  "support": "0 missing model, 1 valid model with raw class-2 return in cell, 2 valid model without raw return. Raw counts/sums independently reconstructed and matched to every terrain tile. Measured model cells remain smoothed.",
+  "losslessPngEncoding": "Hillshades use indexed grayscale colours with a reserved dark NoData palette entry; support uses three exact indexed colours. Decoded RGB pixels are unchanged; TIFF terrain retains Float32 values.",
+  "context": "685 standalone georeferenced tiles, each with model, raw measured mean, exact integer counts and support codes. No huge full-parish raster preview is allocated.",
+  "sourceSupport": [
+    {
+      "filename": "LO-228262-04-2024_v01.laz",
+      "accepted": 1726657,
+      "decoded": 16275677,
+      "report": "context/sources/LO-228262-04-2024_v01.laz.json"
+    },
+    {
+      "filename": "LO-228263-04-2024_v01.laz",
+      "accepted": 441694,
+      "decoded": 15986642,
+      "report": "context/sources/LO-228263-04-2024_v01.laz.json"
+    },
+    {
+      "filename": "LO-229262-04-2024_v01.laz",
+      "accepted": 7636659,
+      "decoded": 15190616,
+      "report": "context/sources/LO-229262-04-2024_v01.laz.json"
+    },
+    {
+      "filename": "LO-229263-04-2024_v01.laz",
+      "accepted": 9040917,
+      "decoded": 14008227,
+      "report": "context/sources/LO-229263-04-2024_v01.laz.json"
+    },
+    {
+      "filename": "LO-229264-04-2024_v01.laz",
+      "accepted": 1184276,
+      "decoded": 15600100,
+      "report": "context/sources/LO-229264-04-2024_v01.laz.json"
+    },
+    {
+      "filename": "LO-230261-04-2024_v01.laz",
+      "accepted": 16734,
+      "decoded": 14479017,
+      "report": "context/sources/LO-230261-04-2024_v01.laz.json"
+    },
+    {
+      "filename": "LO-230262-04-2024_v01.laz",
+      "accepted": 6058762,
+      "decoded": 14202329,
+      "report": "context/sources/LO-230262-04-2024_v01.laz.json"
+    },
+    {
+      "filename": "LO-230263-04-2024_v01.laz",
+      "accepted": 10894749,
+      "decoded": 16621347,
+      "report": "context/sources/LO-230263-04-2024_v01.laz.json"
+    },
+    {
+      "filename": "LO-230264-04-2024_v01.laz",
+      "accepted": 6027819,
+      "decoded": 15236572,
+      "report": "context/sources/LO-230264-04-2024_v01.laz.json"
+    },
+    {
+      "filename": "LO-231261-04-2024_v01.laz",
+      "accepted": 3504454,
+      "decoded": 17013771,
+      "report": "context/sources/LO-231261-04-2024_v01.laz.json"
+    },
+    {
+      "filename": "LO-231262-04-2024_v01.laz",
+      "accepted": 11293198,
+      "decoded": 16530944,
+      "report": "context/sources/LO-231262-04-2024_v01.laz.json"
+    },
+    {
+      "filename": "LO-231263-04-2024_v01.laz",
+      "accepted": 9688605,
+      "decoded": 14255095,
+      "report": "context/sources/LO-231263-04-2024_v01.laz.json"
+    },
+    {
+      "filename": "LO-231264-04-2024_v01.laz",
+      "accepted": 1771956,
+      "decoded": 14326447,
+      "report": "context/sources/LO-231264-04-2024_v01.laz.json"
+    },
+    {
+      "filename": "LO-232260-04-2024_v01.laz",
+      "accepted": 549359,
+      "decoded": 18869327,
+      "report": "context/sources/LO-232260-04-2024_v01.laz.json"
+    },
+    {
+      "filename": "LO-232261-04-2024_v01.laz",
+      "accepted": 10402709,
+      "decoded": 16686458,
+      "report": "context/sources/LO-232261-04-2024_v01.laz.json"
+    },
+    {
+      "filename": "LO-232262-04-2024_v01.laz",
+      "accepted": 10489119,
+      "decoded": 12790970,
+      "report": "context/sources/LO-232262-04-2024_v01.laz.json"
+    },
+    {
+      "filename": "LO-232263-04-2024_v01.laz",
+      "accepted": 9686410,
+      "decoded": 15343330,
+      "report": "context/sources/LO-232263-04-2024_v01.laz.json"
+    },
+    {
+      "filename": "LO-232264-04-2024_v01.laz",
+      "accepted": 4240,
+      "decoded": 15931216,
+      "report": "context/sources/LO-232264-04-2024_v01.laz.json"
+    },
+    {
+      "filename": "LO-233260-04-2024_v01.laz",
+      "accepted": 5279086,
+      "decoded": 17914060,
+      "report": "context/sources/LO-233260-04-2024_v01.laz.json"
+    },
+    {
+      "filename": "LO-233261-04-2024_v01.laz",
+      "accepted": 13301738,
+      "decoded": 16473175,
+      "report": "context/sources/LO-233261-04-2024_v01.laz.json"
+    },
+    {
+      "filename": "LO-233262-04-2024_v01.laz",
+      "accepted": 14754224,
+      "decoded": 17367592,
+      "report": "context/sources/LO-233262-04-2024_v01.laz.json"
+    },
+    {
+      "filename": "LO-233263-04-2024_v01.laz",
+      "accepted": 8438185,
+      "decoded": 15625933,
+      "report": "context/sources/LO-233263-04-2024_v01.laz.json"
+    },
+    {
+      "filename": "LO-234259-04-2024_v01.laz",
+      "accepted": 862742,
+      "decoded": 12090849,
+      "report": "context/sources/LO-234259-04-2024_v01.laz.json"
+    },
+    {
+      "filename": "LO-234260-04-2024_v01.laz",
+      "accepted": 9488849,
+      "decoded": 15292478,
+      "report": "context/sources/LO-234260-04-2024_v01.laz.json"
+    },
+    {
+      "filename": "LO-234261-04-2024_v01.laz",
+      "accepted": 12047748,
+      "decoded": 18463734,
+      "report": "context/sources/LO-234261-04-2024_v01.laz.json"
+    },
+    {
+      "filename": "LO-234262-04-2024_v01.laz",
+      "accepted": 13046728,
+      "decoded": 16965872,
+      "report": "context/sources/LO-234262-04-2024_v01.laz.json"
+    },
+    {
+      "filename": "LO-234263-04-2024_v01.laz",
+      "accepted": 10912787,
+      "decoded": 16994684,
+      "report": "context/sources/LO-234263-04-2024_v01.laz.json"
+    },
+    {
+      "filename": "LO-234264-04-2024_v01.laz",
+      "accepted": 361955,
+      "decoded": 24254946,
+      "report": "context/sources/LO-234264-04-2024_v01.laz.json"
+    },
+    {
+      "filename": "LO-235258-04-2024_v01.laz",
+      "accepted": 4149721,
+      "decoded": 14155914,
+      "report": "context/sources/LO-235258-04-2024_v01.laz.json"
+    },
+    {
+      "filename": "LO-235259-04-2024_v01.laz",
+      "accepted": 11924649,
+      "decoded": 16999497,
+      "report": "context/sources/LO-235259-04-2024_v01.laz.json"
+    },
+    {
+      "filename": "LO-235260-04-2024_v01.laz",
+      "accepted": 12468602,
+      "decoded": 15197410,
+      "report": "context/sources/LO-235260-04-2024_v01.laz.json"
+    },
+    {
+      "filename": "LO-235261-04-2024_v01.laz",
+      "accepted": 8360962,
+      "decoded": 13949621,
+      "report": "context/sources/LO-235261-04-2024_v01.laz.json"
+    },
+    {
+      "filename": "LO-235262-04-2024_v01.laz",
+      "accepted": 12540680,
+      "decoded": 17954565,
+      "report": "context/sources/LO-235262-04-2024_v01.laz.json"
+    },
+    {
+      "filename": "LO-235263-04-2024_v01.laz",
+      "accepted": 16625183,
+      "decoded": 27395241,
+      "report": "context/sources/LO-235263-04-2024_v01.laz.json"
+    },
+    {
+      "filename": "LO-235264-04-2024_v01.laz",
+      "accepted": 231528,
+      "decoded": 29188132,
+      "report": "context/sources/LO-235264-04-2024_v01.laz.json"
+    },
+    {
+      "filename": "LO-236256-04-2024_v01.laz",
+      "accepted": 1436134,
+      "decoded": 13000317,
+      "report": "context/sources/LO-236256-04-2024_v01.laz.json"
+    },
+    {
+      "filename": "LO-236257-04-2024_v01.laz",
+      "accepted": 7961361,
+      "decoded": 14568471,
+      "report": "context/sources/LO-236257-04-2024_v01.laz.json"
+    },
+    {
+      "filename": "LO-236258-04-2024_v01.laz",
+      "accepted": 13124059,
+      "decoded": 17589010,
+      "report": "context/sources/LO-236258-04-2024_v01.laz.json"
+    },
+    {
+      "filename": "LO-236259-04-2024_v01.laz",
+      "accepted": 11349351,
+      "decoded": 16378025,
+      "report": "context/sources/LO-236259-04-2024_v01.laz.json"
+    },
+    {
+      "filename": "LO-236260-04-2024_v01.laz",
+      "accepted": 11747438,
+      "decoded": 13666354,
+      "report": "context/sources/LO-236260-04-2024_v01.laz.json"
+    },
+    {
+      "filename": "LO-236261-04-2024_v01.laz",
+      "accepted": 14101341,
+      "decoded": 22036058,
+      "report": "context/sources/LO-236261-04-2024_v01.laz.json"
+    },
+    {
+      "filename": "LO-236262-04-2024_v01.laz",
+      "accepted": 21606307,
+      "decoded": 27753841,
+      "report": "context/sources/LO-236262-04-2024_v01.laz.json"
+    },
+    {
+      "filename": "LO-236263-04-2024_v01.laz",
+      "accepted": 11617643,
+      "decoded": 25357922,
+      "report": "context/sources/LO-236263-04-2024_v01.laz.json"
+    },
+    {
+      "filename": "LO-237256-04-2024_v01.laz",
+      "accepted": 7679867,
+      "decoded": 17320501,
+      "report": "context/sources/LO-237256-04-2024_v01.laz.json"
+    },
+    {
+      "filename": "LO-237257-04-2024_v01.laz",
+      "accepted": 13023660,
+      "decoded": 17060259,
+      "report": "context/sources/LO-237257-04-2024_v01.laz.json"
+    },
+    {
+      "filename": "LO-237258-04-2024_v01.laz",
+      "accepted": 10908252,
+      "decoded": 12902583,
+      "report": "context/sources/LO-237258-04-2024_v01.laz.json"
+    },
+    {
+      "filename": "LO-237259-04-2024_v01.laz",
+      "accepted": 12891268,
+      "decoded": 14348550,
+      "report": "context/sources/LO-237259-04-2024_v01.laz.json"
+    },
+    {
+      "filename": "LO-237260-04-2024_v01.laz",
+      "accepted": 19518831,
+      "decoded": 23753849,
+      "report": "context/sources/LO-237260-04-2024_v01.laz.json"
+    },
+    {
+      "filename": "LO-237261-04-2024_v01.laz",
+      "accepted": 19375082,
+      "decoded": 30852254,
+      "report": "context/sources/LO-237261-04-2024_v01.laz.json"
+    },
+    {
+      "filename": "LO-237262-04-2024_v01.laz",
+      "accepted": 18884867,
+      "decoded": 26365716,
+      "report": "context/sources/LO-237262-04-2024_v01.laz.json"
+    },
+    {
+      "filename": "LO-237263-04-2024_v01.laz",
+      "accepted": 1373874,
+      "decoded": 19803463,
+      "report": "context/sources/LO-237263-04-2024_v01.laz.json"
+    },
+    {
+      "filename": "LO-238256-04-2024_v01.laz",
+      "accepted": 65130,
+      "decoded": 16685247,
+      "report": "context/sources/LO-238256-04-2024_v01.laz.json"
+    },
+    {
+      "filename": "LO-238257-04-2024_v01.laz",
+      "accepted": 1744661,
+      "decoded": 14260988,
+      "report": "context/sources/LO-238257-04-2024_v01.laz.json"
+    },
+    {
+      "filename": "LO-238258-04-2024_v01.laz",
+      "accepted": 2196445,
+      "decoded": 19582352,
+      "report": "context/sources/LO-238258-04-2024_v01.laz.json"
+    },
+    {
+      "filename": "LO-238259-04-2024_v01.laz",
+      "accepted": 8791660,
+      "decoded": 27996539,
+      "report": "context/sources/LO-238259-04-2024_v01.laz.json"
+    },
+    {
+      "filename": "LO-238260-04-2024_v01.laz",
+      "accepted": 15928554,
+      "decoded": 26114294,
+      "report": "context/sources/LO-238260-04-2024_v01.laz.json"
+    },
+    {
+      "filename": "LO-238261-04-2024_v01.laz",
+      "accepted": 15968877,
+      "decoded": 26465551,
+      "report": "context/sources/LO-238261-04-2024_v01.laz.json"
+    },
+    {
+      "filename": "LO-238262-04-2024_v01.laz",
+      "accepted": 7235475,
+      "decoded": 19591470,
+      "report": "context/sources/LO-238262-04-2024_v01.laz.json"
+    },
+    {
+      "filename": "LO-238263-04-2024_v01.laz",
+      "accepted": 519606,
+      "decoded": 16110301,
+      "report": "context/sources/LO-238263-04-2024_v01.laz.json"
+    },
+    {
+      "filename": "LO-239261-04-2024_v01.laz",
+      "accepted": 147915,
+      "decoded": 18144085,
+      "report": "context/sources/LO-239261-04-2024_v01.laz.json"
+    }
+  ],
+  "overlapWarning": "Crops overlap; use separated spatial blocks for training/evaluation. Verify original returns and alternatives. Endov\u00e9lico point associations are references, not completed novelty checks or site footprints.",
+  "archaeologySnapshot": "2026-11-16T18:36:28.785Z",
+  "processingFingerprint": "01e3d2c1254a16d614a2d5346b9cb63e94bc899340f4835055de0fd8938d616b",
+  "contactSheets": [
+    "contact-sheets/page-001.jpg",
+    "contact-sheets/page-002.jpg",
+    "contact-sheets/page-003.jpg",
+    "contact-sheets/page-004.jpg",
+    "contact-sheets/page-005.jpg",
+    "contact-sheets/page-006.jpg",
+    "contact-sheets/page-007.jpg",
+    "contact-sheets/page-008.jpg",
+    "contact-sheets/page-009.jpg",
+    "contact-sheets/page-010.jpg",
+    "contact-sheets/page-011.jpg",
+    "contact-sheets/page-012.jpg",
+    "contact-sheets/page-013.jpg",
+    "contact-sheets/page-014.jpg",
+    "contact-sheets/page-015.jpg",
+    "contact-sheets/page-016.jpg",
+    "contact-sheets/page-017.jpg",
+    "contact-sheets/page-018.jpg",
+    "contact-sheets/page-019.jpg",
+    "contact-sheets/page-020.jpg",
+    "contact-sheets/page-021.jpg",
+    "contact-sheets/page-022.jpg",
+    "contact-sheets/page-023.jpg",
+    "contact-sheets/page-024.jpg",
+    "contact-sheets/page-025.jpg",
+    "contact-sheets/page-026.jpg",
+    "contact-sheets/page-027.jpg",
+    "contact-sheets/page-028.jpg",
+    "contact-sheets/page-029.jpg",
+    "contact-sheets/page-030.jpg",
+    "contact-sheets/page-031.jpg",
+    "contact-sheets/page-032.jpg",
+    "contact-sheets/page-033.jpg",
+    "contact-sheets/page-034.jpg",
+    "contact-sheets/page-035.jpg",
+    "contact-sheets/page-036.jpg",
+    "contact-sheets/page-037.jpg",
+    "contact-sheets/page-038.jpg",
+    "contact-sheets/page-039.jpg",
+    "contact-sheets/page-040.jpg",
+    "contact-sheets/page-041.jpg",
+    "contact-sheets/page-042.jpg",
+    "contact-sheets/page-043.jpg",
+    "contact-sheets/page-044.jpg",
+    "contact-sheets/page-045.jpg",
+    "contact-sheets/page-046.jpg",
+    "contact-sheets/page-047.jpg",
+    "contact-sheets/page-048.jpg",
+    "contact-sheets/page-049.jpg",
+    "contact-sheets/page-050.jpg",
+    "contact-sheets/page-051.jpg",
+    "contact-sheets/page-052.jpg",
+    "contact-sheets/page-053.jpg",
+    "contact-sheets/page-054.jpg",
+    "contact-sheets/page-055.jpg",
+    "contact-sheets/page-056.jpg",
+    "contact-sheets/page-057.jpg",
+    "contact-sheets/page-058.jpg",
+    "contact-sheets/page-059.jpg",
+    "contact-sheets/page-060.jpg",
+    "contact-sheets/page-061.jpg",
+    "contact-sheets/page-062.jpg",
+    "contact-sheets/page-063.jpg",
+    "contact-sheets/page-064.jpg",
+    "contact-sheets/page-065.jpg",
+    "contact-sheets/page-066.jpg"
+  ]
+}

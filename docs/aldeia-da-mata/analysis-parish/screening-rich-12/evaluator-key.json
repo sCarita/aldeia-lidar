@@ -1,0 +1,862 @@
+{
+  "seed": 2026111612,
+  "cases": [
+    {
+      "case": "R01",
+      "patchId": "parish-r029-c040",
+      "boundsEPSG3763": [
+        32345,
+        -39261,
+        32545,
+        -39061
+      ],
+      "references": [
+        {
+          "cns": 8491,
+          "name": "Coito da Ola",
+          "type": "Vest\u00edgios Diversos",
+          "pixelXY": [
+            150.2269999999553,
+            236.9814000017941
+          ]
+        }
+      ],
+      "supportStats": {
+        "validCells": 160000,
+        "measuredCells": 137845,
+        "interpolatedCells": 22155,
+        "noDataCells": 0,
+        "groundReturns": 376455,
+        "elevationMinMetres": 229.44,
+        "elevationMaxMetres": 247.04,
+        "localReliefClippedCells": 953,
+        "slopeClippedCells": 871
+      },
+      "svfSupportedCells": 160000,
+      "pointCounts": {
+        "buildings": 0,
+        "bridges": 0,
+        "water": 0,
+        "unclassified": 0
+      }
+    },
+    {
+      "case": "R02",
+      "patchId": "parish-r029-c039",
+      "boundsEPSG3763": [
+        32245,
+        -39261,
+        32445,
+        -39061
+      ],
+      "references": [
+        {
+          "cns": 8491,
+          "name": "Coito da Ola",
+          "type": "Vest\u00edgios Diversos",
+          "pixelXY": [
+            350.2269999999553,
+            236.9814000017941
+          ]
+        }
+      ],
+      "supportStats": {
+        "validCells": 160000,
+        "measuredCells": 143158,
+        "interpolatedCells": 16842,
+        "noDataCells": 0,
+        "groundReturns": 403428,
+        "elevationMinMetres": 229.44,
+        "elevationMaxMetres": 246.35,
+        "localReliefClippedCells": 25,
+        "slopeClippedCells": 484
+      },
+      "svfSupportedCells": 160000,
+      "pointCounts": {
+        "buildings": 0,
+        "bridges": 0,
+        "water": 0,
+        "unclassified": 0
+      }
+    },
+    {
+      "case": "R03",
+      "patchId": "parish-r021-c082",
+      "boundsEPSG3763": [
+        36545,
+        -38461,
+        36745,
+        -38261
+      ],
+      "references": [
+        {
+          "cns": 1064,
+          "name": "Lage do Ouro",
+          "type": "Necr\u00f3pole",
+          "pixelXY": [
+            358.10999999940395,
+            396.93820000067353
+          ]
+        }
+      ],
+      "supportStats": {
+        "validCells": 160000,
+        "measuredCells": 154785,
+        "interpolatedCells": 5215,
+        "noDataCells": 0,
+        "groundReturns": 906653,
+        "elevationMinMetres": 265.97,
+        "elevationMaxMetres": 278.64,
+        "localReliefClippedCells": 0,
+        "slopeClippedCells": 120
+      },
+      "svfSupportedCells": 160000,
+      "pointCounts": {
+        "buildings": 0,
+        "bridges": 0,
+        "water": 0,
+        "unclassified": 0
+      }
+    },
+    {
+      "case": "R04",
+      "patchId": "parish-r045-c080",
+      "boundsEPSG3763": [
+        36345,
+        -40861,
+        36545,
+        -40661
+      ],
+      "references": [
+        {
+          "cns": 761,
+          "name": "Anta da Aldeia da Mata/ Tapad\u00e3o 1/Couto dos Pucarinhos",
+          "type": "Anta/D\u00f3lmen",
+          "pixelXY": [
+            138.08139999955893,
+            67.65419999882579
+          ]
+        },
+        {
+          "cns": 12478,
+          "name": "Tapad\u00e3o 2",
+          "type": "Anta/D\u00f3lmen",
+          "pixelXY": [
+            110.70099999941885,
+            276.1992000006139
+          ]
+        }
+      ],
+      "supportStats": {
+        "validCells": 160000,
+        "measuredCells": 158969,
+        "interpolatedCells": 1031,
+        "noDataCells": 0,
+        "groundReturns": 506234,
+        "elevationMinMetres": 260.86,
+        "elevationMaxMetres": 273.83,
+        "localReliefClippedCells": 0,
+        "slopeClippedCells": 76
+      },
+      "svfSupportedCells": 160000,
+      "pointCounts": {
+        "buildings": 0,
+        "bridges": 0,
+        "water": 0,
+        "unclassified": 0
+      }
+    },
+    {
+      "case": "R05",
+      "patchId": "parish-r044-c079",
+      "boundsEPSG3763": [
+        36245,
+        -40761,
+        36445,
+        -40561
+      ],
+      "references": [
+        {
+          "cns": 761,
+          "name": "Anta da Aldeia da Mata/ Tapad\u00e3o 1/Couto dos Pucarinhos",
+          "type": "Anta/D\u00f3lmen",
+          "pixelXY": [
+            338.0813999995589,
+            267.6541999988258
+          ]
+        }
+      ],
+      "supportStats": {
+        "validCells": 160000,
+        "measuredCells": 154388,
+        "interpolatedCells": 5612,
+        "noDataCells": 0,
+        "groundReturns": 477203,
+        "elevationMinMetres": 261.1,
+        "elevationMaxMetres": 275.87,
+        "localReliefClippedCells": 1277,
+        "slopeClippedCells": 1436
+      },
+      "svfSupportedCells": 160000,
+      "pointCounts": {
+        "buildings": 0,
+        "bridges": 0,
+        "water": 0,
+        "unclassified": 11
+      }
+    },
+    {
+      "case": "R06",
+      "patchId": "parish-r030-c039",
+      "boundsEPSG3763": [
+        32245,
+        -39361,
+        32445,
+        -39161
+      ],
+      "references": [
+        {
+          "cns": 8491,
+          "name": "Coito da Ola",
+          "type": "Vest\u00edgios Diversos",
+          "pixelXY": [
+            350.2269999999553,
+            36.9814000017941
+          ]
+        }
+      ],
+      "supportStats": {
+        "validCells": 159873,
+        "measuredCells": 137764,
+        "interpolatedCells": 22109,
+        "noDataCells": 127,
+        "groundReturns": 380687,
+        "elevationMinMetres": 227.08,
+        "elevationMaxMetres": 244.6,
+        "localReliefClippedCells": 29,
+        "slopeClippedCells": 540
+      },
+      "svfSupportedCells": 154005,
+      "pointCounts": {
+        "buildings": 0,
+        "bridges": 0,
+        "water": 0,
+        "unclassified": 0
+      }
+    },
+    {
+      "case": "R07",
+      "patchId": "parish-r045-c079",
+      "boundsEPSG3763": [
+        36245,
+        -40861,
+        36445,
+        -40661
+      ],
+      "references": [
+        {
+          "cns": 761,
+          "name": "Anta da Aldeia da Mata/ Tapad\u00e3o 1/Couto dos Pucarinhos",
+          "type": "Anta/D\u00f3lmen",
+          "pixelXY": [
+            338.0813999995589,
+            67.65419999882579
+          ]
+        },
+        {
+          "cns": 12478,
+          "name": "Tapad\u00e3o 2",
+          "type": "Anta/D\u00f3lmen",
+          "pixelXY": [
+            310.70099999941885,
+            276.1992000006139
+          ]
+        }
+      ],
+      "supportStats": {
+        "validCells": 160000,
+        "measuredCells": 157885,
+        "interpolatedCells": 2115,
+        "noDataCells": 0,
+        "groundReturns": 502930,
+        "elevationMinMetres": 260.56,
+        "elevationMaxMetres": 273.83,
+        "localReliefClippedCells": 252,
+        "slopeClippedCells": 174
+      },
+      "svfSupportedCells": 160000,
+      "pointCounts": {
+        "buildings": 0,
+        "bridges": 0,
+        "water": 0,
+        "unclassified": 0
+      }
+    },
+    {
+      "case": "R08",
+      "patchId": "parish-r053-c088",
+      "boundsEPSG3763": [
+        37145,
+        -41661,
+        37345,
+        -41461
+      ],
+      "references": [
+        {
+          "cns": 39925,
+          "name": "Clara Domingas",
+          "type": "Anta/D\u00f3lmen",
+          "pixelXY": [
+            312.00479999929667,
+            134.29259999841452
+          ]
+        }
+      ],
+      "supportStats": {
+        "validCells": 160000,
+        "measuredCells": 151253,
+        "interpolatedCells": 8747,
+        "noDataCells": 0,
+        "groundReturns": 438349,
+        "elevationMinMetres": 233.63,
+        "elevationMaxMetres": 250.63,
+        "localReliefClippedCells": 0,
+        "slopeClippedCells": 8
+      },
+      "svfSupportedCells": 160000,
+      "pointCounts": {
+        "buildings": 0,
+        "bridges": 0,
+        "water": 0,
+        "unclassified": 0
+      }
+    },
+    {
+      "case": "R09",
+      "patchId": "parish-r044-c080",
+      "boundsEPSG3763": [
+        36345,
+        -40761,
+        36545,
+        -40561
+      ],
+      "references": [
+        {
+          "cns": 761,
+          "name": "Anta da Aldeia da Mata/ Tapad\u00e3o 1/Couto dos Pucarinhos",
+          "type": "Anta/D\u00f3lmen",
+          "pixelXY": [
+            138.08139999955893,
+            267.6541999988258
+          ]
+        }
+      ],
+      "supportStats": {
+        "validCells": 160000,
+        "measuredCells": 157688,
+        "interpolatedCells": 2312,
+        "noDataCells": 0,
+        "groundReturns": 505744,
+        "elevationMinMetres": 263.74,
+        "elevationMaxMetres": 275.87,
+        "localReliefClippedCells": 724,
+        "slopeClippedCells": 864
+      },
+      "svfSupportedCells": 160000,
+      "pointCounts": {
+        "buildings": 0,
+        "bridges": 0,
+        "water": 0,
+        "unclassified": 11
+      }
+    },
+    {
+      "case": "R10",
+      "patchId": "parish-r053-c089",
+      "boundsEPSG3763": [
+        37245,
+        -41661,
+        37445,
+        -41461
+      ],
+      "references": [
+        {
+          "cns": 39925,
+          "name": "Clara Domingas",
+          "type": "Anta/D\u00f3lmen",
+          "pixelXY": [
+            112.00479999929667,
+            134.29259999841452
+          ]
+        }
+      ],
+      "supportStats": {
+        "validCells": 160000,
+        "measuredCells": 148573,
+        "interpolatedCells": 11427,
+        "noDataCells": 0,
+        "groundReturns": 412571,
+        "elevationMinMetres": 238.4,
+        "elevationMaxMetres": 253.4,
+        "localReliefClippedCells": 0,
+        "slopeClippedCells": 26
+      },
+      "svfSupportedCells": 160000,
+      "pointCounts": {
+        "buildings": 0,
+        "bridges": 0,
+        "water": 0,
+        "unclassified": 0
+      }
+    },
+    {
+      "case": "R11",
+      "patchId": "parish-r022-c082",
+      "boundsEPSG3763": [
+        36545,
+        -38561,
+        36745,
+        -38361
+      ],
+      "references": [
+        {
+          "cns": 1064,
+          "name": "Lage do Ouro",
+          "type": "Necr\u00f3pole",
+          "pixelXY": [
+            358.10999999940395,
+            196.93820000067353
+          ]
+        }
+      ],
+      "supportStats": {
+        "validCells": 160000,
+        "measuredCells": 153709,
+        "interpolatedCells": 6291,
+        "noDataCells": 0,
+        "groundReturns": 999681,
+        "elevationMinMetres": 269.12,
+        "elevationMaxMetres": 278.64,
+        "localReliefClippedCells": 0,
+        "slopeClippedCells": 38
+      },
+      "svfSupportedCells": 160000,
+      "pointCounts": {
+        "buildings": 0,
+        "bridges": 0,
+        "water": 0,
+        "unclassified": 0
+      }
+    },
+    {
+      "case": "R12",
+      "patchId": "parish-r022-c083",
+      "boundsEPSG3763": [
+        36645,
+        -38561,
+        36845,
+        -38361
+      ],
+      "references": [
+        {
+          "cns": 1064,
+          "name": "Lage do Ouro",
+          "type": "Necr\u00f3pole",
+          "pixelXY": [
+            158.10999999940395,
+            196.93820000067353
+          ]
+        }
+      ],
+      "supportStats": {
+        "validCells": 160000,
+        "measuredCells": 153437,
+        "interpolatedCells": 6563,
+        "noDataCells": 0,
+        "groundReturns": 1112900,
+        "elevationMinMetres": 270.17,
+        "elevationMaxMetres": 278.82,
+        "localReliefClippedCells": 1,
+        "slopeClippedCells": 45
+      },
+      "svfSupportedCells": 160000,
+      "pointCounts": {
+        "buildings": 0,
+        "bridges": 0,
+        "water": 0,
+        "unclassified": 0
+      }
+    }
+  ],
+  "note": "All crops contain official reference points; three rounds of best interior margin per mapped record capped at 12. Overlap and repeated sites are intentional; not independent samples. Surface visibility is NOT independently established. Prior reviews were not used to label visibility.",
+  "inputHashes": {
+    "baseline/images/R01/hillshade-045.png": "c3bc6c97ad4a2e8e0fd6247bc855d884483097bad4c4a7e220b5d179da704802",
+    "baseline/images/R01/hillshade-135.png": "ec7d705fafc39c9dad11b55c15dd9d120bb1679175fc7d0674f99f6e9ca8e345",
+    "baseline/images/R01/hillshade-315.png": "1855eb7c33815bbafc478b9d7b904db9e8fba19364464ef608dff36ea900d877",
+    "baseline/images/R01/local-relief.png": "94b8020b1008e81688bc8b0c686446d23a466400d63dfc2e68c539b336813405",
+    "baseline/images/R01/support.png": "b0d9e97c30083a6fd2458d158f166d2ee985fae236d5b89c6eda74a6e1b698bd",
+    "enriched/images/R01/hillshade-045.png": "c3bc6c97ad4a2e8e0fd6247bc855d884483097bad4c4a7e220b5d179da704802",
+    "enriched/images/R01/hillshade-135.png": "ec7d705fafc39c9dad11b55c15dd9d120bb1679175fc7d0674f99f6e9ca8e345",
+    "enriched/images/R01/hillshade-315.png": "1855eb7c33815bbafc478b9d7b904db9e8fba19364464ef608dff36ea900d877",
+    "enriched/images/R01/local-relief.png": "94b8020b1008e81688bc8b0c686446d23a466400d63dfc2e68c539b336813405",
+    "enriched/images/R01/support.png": "b0d9e97c30083a6fd2458d158f166d2ee985fae236d5b89c6eda74a6e1b698bd",
+    "enriched/images/R01/hillshade-225.png": "134af25c321c55092ab41b367e6a4366cce14ec1887597c51987b05211b037cb",
+    "enriched/images/R01/slope.png": "235c0763e816d906c5cf07659c87214a3111e05eedc8ce17e15787e9b1708be8",
+    "enriched/images/R01/sky-view-factor.png": "b20e38bfe406e219e36a140eb5fd0571f11673820de23290e70ef1e80f8c5376",
+    "enriched/images/R01/terrain-context.png": "a29156c7035e8b2fac318411678059d74669a76f76625c6d38c8ad08989faef2",
+    "enriched/images/R01/aerial-patch.png": "c2b0ad9462f8b188534c7cbba441d908518b030c3ae1018cacbe628c66b429b6",
+    "enriched/images/R01/aerial-context.png": "fba1272c4b4eeb92d54af11bded2896e3eae4ff71a0f75994e153c539ede6b4b",
+    "enriched/images/R01/point-classes.png": "b1645ce73ef004477a0ba8b0ff2b4f4f57750a62007efce2f45aba3d5c8c9a35",
+    "baseline/images/R02/hillshade-045.png": "5edc3af744c23c384910d283d8ad42e94a00f225b01c2c437311cd4dc2553123",
+    "baseline/images/R02/hillshade-135.png": "faed0c23c63e76ecc032322ee510217b155a8b094f2ea47f4eb75fcf8c4c9f54",
+    "baseline/images/R02/hillshade-315.png": "6cf11d43772e4b23a84d7696a81e6b4a999d8a19a183b345a443ddf3cb78d672",
+    "baseline/images/R02/local-relief.png": "ee9136014f0d65ea8b94b5c9c1ae829043ce17945e39bf8e045b438b4717a82a",
+    "baseline/images/R02/support.png": "1fb6f5948dfea98123c4250ca802857822c678b73c1736f7ef3eefc982b4f65b",
+    "enriched/images/R02/hillshade-045.png": "5edc3af744c23c384910d283d8ad42e94a00f225b01c2c437311cd4dc2553123",
+    "enriched/images/R02/hillshade-135.png": "faed0c23c63e76ecc032322ee510217b155a8b094f2ea47f4eb75fcf8c4c9f54",
+    "enriched/images/R02/hillshade-315.png": "6cf11d43772e4b23a84d7696a81e6b4a999d8a19a183b345a443ddf3cb78d672",
+    "enriched/images/R02/local-relief.png": "ee9136014f0d65ea8b94b5c9c1ae829043ce17945e39bf8e045b438b4717a82a",
+    "enriched/images/R02/support.png": "1fb6f5948dfea98123c4250ca802857822c678b73c1736f7ef3eefc982b4f65b",
+    "enriched/images/R02/hillshade-225.png": "9bbd6abb1846282965eb23ad78038de65011b5ecb3cb2c78d05f2832afaae9a5",
+    "enriched/images/R02/slope.png": "796449a2450b5803730439ee25ac45af39d12ad5b582188395c5cf6bc7956e8b",
+    "enriched/images/R02/sky-view-factor.png": "52be795fd3d300189325055ee0112f228cff165b21f095ba0ced3eea76728f83",
+    "enriched/images/R02/terrain-context.png": "8aaff55f094c5c2762fcb202c289c122623a1fd196bf03261da7a93499138bcf",
+    "enriched/images/R02/aerial-patch.png": "2a0dce52b3ca5e7d103a7f733ea0360a8f5086f8acedc390c0bbba8904bfec39",
+    "enriched/images/R02/aerial-context.png": "613f2eeefb34e0117d22120b166509398d9148206f3ee88732bfe3e4231c0a14",
+    "enriched/images/R02/point-classes.png": "ba227d0888f7576b6000b4e172ba1d5785c52e9c285bbc4cdf6a513a8f8dcf92",
+    "baseline/images/R03/hillshade-045.png": "5e552a7d1801bb8575bdb664862e3ce2737fb83af4ae2994d91ce0fc0f8fe589",
+    "baseline/images/R03/hillshade-135.png": "3b28c3d5e06313ee672af06a30d232af71c4280782cff4b753b99c1837997adb",
+    "baseline/images/R03/hillshade-315.png": "e8e27ab4d5009b8a68434bf149cf90560f733b06764ea2901cc6731727585fa0",
+    "baseline/images/R03/local-relief.png": "dae7bb61692b00f64e175e554b2165aff7a7f705bdc509d587de2965c5dc2505",
+    "baseline/images/R03/support.png": "8de4e2be1ce291a8edafe7308c1405bafde3ae58a119a87c473e1e0169fddc18",
+    "enriched/images/R03/hillshade-045.png": "5e552a7d1801bb8575bdb664862e3ce2737fb83af4ae2994d91ce0fc0f8fe589",
+    "enriched/images/R03/hillshade-135.png": "3b28c3d5e06313ee672af06a30d232af71c4280782cff4b753b99c1837997adb",
+    "enriched/images/R03/hillshade-315.png": "e8e27ab4d5009b8a68434bf149cf90560f733b06764ea2901cc6731727585fa0",
+    "enriched/images/R03/local-relief.png": "dae7bb61692b00f64e175e554b2165aff7a7f705bdc509d587de2965c5dc2505",
+    "enriched/images/R03/support.png": "8de4e2be1ce291a8edafe7308c1405bafde3ae58a119a87c473e1e0169fddc18",
+    "enriched/images/R03/hillshade-225.png": "083caa2c33db6e6e247b297ff7fc4b1087a07a7d2689c8493ac803a9522d938b",
+    "enriched/images/R03/slope.png": "ae11b126fd6b31a6f986d18cc40878ca300f5e7388a74a15943c107021dc2426",
+    "enriched/images/R03/sky-view-factor.png": "da8497750ed4ec74dee55eeb9739e70cadeeece89a104ab3e54ae3bb39901ae0",
+    "enriched/images/R03/terrain-context.png": "433b1774b842e0cc632165111179027f452e1208b607ef917cbeab0d9431ee45",
+    "enriched/images/R03/aerial-patch.png": "a615220bdf06e1e16c30fec2f43ae76d099d8f2962864dbba764734bf4051f09",
+    "enriched/images/R03/aerial-context.png": "3bbe15c9d615fb54d93f36f1a751db3a48721500d7fe137c6348b5b44fc404b8",
+    "enriched/images/R03/point-classes.png": "fe1e4746fce2c2f78a6aca46623a93f6c03ff23579ca909ff13698c62641b9a8",
+    "baseline/images/R04/hillshade-045.png": "b84d1aefe6ba013074cff80a8058dc3b8af6780d7c6eb3acaad8424e1bf02cac",
+    "baseline/images/R04/hillshade-135.png": "80420030fe8d127d5b246848ca141db3a2600daa4e148d50e30e2430dd1f42ab",
+    "baseline/images/R04/hillshade-315.png": "01f8ff143a58efb4682edd7efdd8edf4868c75e75d160857972b343f616bdd79",
+    "baseline/images/R04/local-relief.png": "36ae4a09ef2ade216bb5e33d3d9bd3b40cb4a3c5ea752ebbafcff03a65bac020",
+    "baseline/images/R04/support.png": "3ac2676b969e6de948813f6b5bac2448df839c74668278346eb4c30968a4be25",
+    "enriched/images/R04/hillshade-045.png": "b84d1aefe6ba013074cff80a8058dc3b8af6780d7c6eb3acaad8424e1bf02cac",
+    "enriched/images/R04/hillshade-135.png": "80420030fe8d127d5b246848ca141db3a2600daa4e148d50e30e2430dd1f42ab",
+    "enriched/images/R04/hillshade-315.png": "01f8ff143a58efb4682edd7efdd8edf4868c75e75d160857972b343f616bdd79",
+    "enriched/images/R04/local-relief.png": "36ae4a09ef2ade216bb5e33d3d9bd3b40cb4a3c5ea752ebbafcff03a65bac020",
+    "enriched/images/R04/support.png": "3ac2676b969e6de948813f6b5bac2448df839c74668278346eb4c30968a4be25",
+    "enriched/images/R04/hillshade-225.png": "c0f57a7c378845838060c0d92dfdd8caa8b79f90a3d6041a41d650da7087e251",
+    "enriched/images/R04/slope.png": "e3c051119bc82c5964592e12910ea59f121b9bb91c63951c5a75724a3db31acf",
+    "enriched/images/R04/sky-view-factor.png": "bd5a8b8a94e8ebdc7e0f4a1078197f8084725cc84331ee0a103aabba19ae0d3e",
+    "enriched/images/R04/terrain-context.png": "5ee659a9035880ab1bce150d07eae25146b6f164a24c8b9044184b1ddd6c0406",
+    "enriched/images/R04/aerial-patch.png": "c6e8a1a72387770e605d48fbc2bf60cc3b7a9b392c9e73f96e96a641bc610bce",
+    "enriched/images/R04/aerial-context.png": "ae4485ab3525199b3d068d49a5d338ca37277f6ccc0436c440b21f31579a8414",
+    "enriched/images/R04/point-classes.png": "e52744015b358fecfc3fcdfd0e08e9ec5401a84b59dbbf4f38089126ed55d304",
+    "baseline/images/R05/hillshade-045.png": "873bf04d1b51d2b376288ba75f818bfc7721a6dd113b8e3d118cff25574451a3",
+    "baseline/images/R05/hillshade-135.png": "1e70ae4b8b72770cf81d737936e328b4a1f4a9e2b0c25b3551b83beede68e076",
+    "baseline/images/R05/hillshade-315.png": "628e46abcc96b396791fb210cbc2500c89cd043960b2c9ebc3e34717ddb3dea5",
+    "baseline/images/R05/local-relief.png": "0c6d0944bf1a7fdde264c575b3bae91fbfe187936aefb57dab114bb360113144",
+    "baseline/images/R05/support.png": "55bcd679992c6b2064ed6c6a11d7d143fda538edd43f7577e5cadee161ab74ba",
+    "enriched/images/R05/hillshade-045.png": "873bf04d1b51d2b376288ba75f818bfc7721a6dd113b8e3d118cff25574451a3",
+    "enriched/images/R05/hillshade-135.png": "1e70ae4b8b72770cf81d737936e328b4a1f4a9e2b0c25b3551b83beede68e076",
+    "enriched/images/R05/hillshade-315.png": "628e46abcc96b396791fb210cbc2500c89cd043960b2c9ebc3e34717ddb3dea5",
+    "enriched/images/R05/local-relief.png": "0c6d0944bf1a7fdde264c575b3bae91fbfe187936aefb57dab114bb360113144",
+    "enriched/images/R05/support.png": "55bcd679992c6b2064ed6c6a11d7d143fda538edd43f7577e5cadee161ab74ba",
+    "enriched/images/R05/hillshade-225.png": "b0a24a65653f057e84b150c50a3140a4c44405eba9bd1a843dfa5c0a2f77b80b",
+    "enriched/images/R05/slope.png": "9898c2ab86fdd47ec727edf881512ae9f36d30d1d4765212b322d7b76781fec7",
+    "enriched/images/R05/sky-view-factor.png": "5105021825c23c729695d80d8d55ec158c68641c22c886edc553ee519ac2ea26",
+    "enriched/images/R05/terrain-context.png": "6eef8c8ad36d3ea68ff523316e994223bf0f76316b00e5dc23fda5f7782e9b1b",
+    "enriched/images/R05/aerial-patch.png": "7f16d7502db896eb18716e4fc1260283a8c72991ccc1710d87ca3a780dbeb9e2",
+    "enriched/images/R05/aerial-context.png": "3d2e027b357db16faf9928060cbff680ca21df446f25e62a67c87609475ca20c",
+    "enriched/images/R05/point-classes.png": "634f9517bb13d876bdc0ba719de73f4da075028e3e0c9b2efc50ea523cd90e61",
+    "baseline/images/R06/hillshade-045.png": "2ae3c247939e3d7db742878f0812c837c7c1428f7d3adb879264371c1671ffd9",
+    "baseline/images/R06/hillshade-135.png": "6028e03f484fb407bc9460336141f643f90f617cd003c35c3829ed38f03117af",
+    "baseline/images/R06/hillshade-315.png": "645bebfaaa33968683f3651fde5480da5ca0eb8a92dd5712b9b1ed58fee418ab",
+    "baseline/images/R06/local-relief.png": "1b92c8d7092764ad480ee3d47ae4c33747ac33dd24c112dc216f9bcbdc8bed25",
+    "baseline/images/R06/support.png": "37f627fe38de87a1cc7a57cfdcefdebd5c5a170a32625c70916d2d28aa657866",
+    "enriched/images/R06/hillshade-045.png": "2ae3c247939e3d7db742878f0812c837c7c1428f7d3adb879264371c1671ffd9",
+    "enriched/images/R06/hillshade-135.png": "6028e03f484fb407bc9460336141f643f90f617cd003c35c3829ed38f03117af",
+    "enriched/images/R06/hillshade-315.png": "645bebfaaa33968683f3651fde5480da5ca0eb8a92dd5712b9b1ed58fee418ab",
+    "enriched/images/R06/local-relief.png": "1b92c8d7092764ad480ee3d47ae4c33747ac33dd24c112dc216f9bcbdc8bed25",
+    "enriched/images/R06/support.png": "37f627fe38de87a1cc7a57cfdcefdebd5c5a170a32625c70916d2d28aa657866",
+    "enriched/images/R06/hillshade-225.png": "85aed604df7fac2e6bb02732ae58f8995a621f898cb3b806c0ab349d0ee5a555",
+    "enriched/images/R06/slope.png": "6bc9e7dff5600cbe7713687668c979e3126ac22e881d28d91b600d642ce06f2e",
+    "enriched/images/R06/sky-view-factor.png": "198b19fcffb5b5eb3c045e52068ffa9e6b9918e7eb1ea4689cba6d50dceb82dd",
+    "enriched/images/R06/terrain-context.png": "5550d4400f052d3b394e4a22e249d06696a2e90252f589e2ba81fe71e260073f",
+    "enriched/images/R06/aerial-patch.png": "6613bb81ef95935fe7bdc60e409033eb997109b803db43151fb1eb77eb02a9a6",
+    "enriched/images/R06/aerial-context.png": "f3dd5ecd15addb07ec1bad2aedda58f0bf697ff43cc64d4b324e91e0915bf509",
+    "enriched/images/R06/point-classes.png": "13b33cb1f1819d554342121c87be58089224f8e8ed25a97eb4d3589010f39897",
+    "baseline/images/R07/hillshade-045.png": "8f40204ea634e0d680aedf8b176ad28da086e20fbb7e6caed90306732c8a3994",
+    "baseline/images/R07/hillshade-135.png": "c5a5ce9281102c4719830a2551e45a11dbb304f1e2c683380c81be21f8ce47a8",
+    "baseline/images/R07/hillshade-315.png": "07c1c9836cd7e5101b19cbc3af7145584eb367e2f03d89a1f09dde2ae5ebcdf5",
+    "baseline/images/R07/local-relief.png": "12ca8dc8ef27be632558b887b128cbd4d85747d5acd16723edd0183a47b994a2",
+    "baseline/images/R07/support.png": "7e111c39b605ac306c088b5425b426e296e1a079e67eb4b7ff6a8b9410e737e1",
+    "enriched/images/R07/hillshade-045.png": "8f40204ea634e0d680aedf8b176ad28da086e20fbb7e6caed90306732c8a3994",
+    "enriched/images/R07/hillshade-135.png": "c5a5ce9281102c4719830a2551e45a11dbb304f1e2c683380c81be21f8ce47a8",
+    "enriched/images/R07/hillshade-315.png": "07c1c9836cd7e5101b19cbc3af7145584eb367e2f03d89a1f09dde2ae5ebcdf5",
+    "enriched/images/R07/local-relief.png": "12ca8dc8ef27be632558b887b128cbd4d85747d5acd16723edd0183a47b994a2",
+    "enriched/images/R07/support.png": "7e111c39b605ac306c088b5425b426e296e1a079e67eb4b7ff6a8b9410e737e1",
+    "enriched/images/R07/hillshade-225.png": "c8a8bb41323f5d0e22d09af8606fcb9093dbd43b0289a83b70c77bb8c897babe",
+    "enriched/images/R07/slope.png": "2a884d8085ce8180bb329b71fe662a3e11d946ccf8f1af8f0138067be55bbf48",
+    "enriched/images/R07/sky-view-factor.png": "c7fa6e6e45fa1d0c57ab9a4457a1aface006ba76732fa1c718ad98adbbbcae9d",
+    "enriched/images/R07/terrain-context.png": "a1e1a3a5edcf5f5d4fe07d130d6d4261e25a7ab3b7ed1933b13cf97611f300f5",
+    "enriched/images/R07/aerial-patch.png": "0e0835fe372e27b1815b83ba661fb2a4fae231e3f9667977c335d603f33829e8",
+    "enriched/images/R07/aerial-context.png": "7472e447be9c675ebbb833f65b6022dc17a60908210a6eb60fd7388939714331",
+    "enriched/images/R07/point-classes.png": "b3ec76e5d7f395c246b50a2f978ac63bd0d35e0c70cf5d9fa2d3d730db6be7b7",
+    "baseline/images/R08/hillshade-045.png": "c592d7ee9b03deae68556a8e4f53f9c2bd5e19e17e230a532d48a26896ba2a7c",
+    "baseline/images/R08/hillshade-135.png": "75ef970751fd8a89d0be2937085d97e177576ad39147462a6e737b81d94e345d",
+    "baseline/images/R08/hillshade-315.png": "862c6077001a5d584e0a4a1aaedf2eb3a9ec330c3e916054dfaaabe1b0dc8c16",
+    "baseline/images/R08/local-relief.png": "815bfe5b3480b1ea85b70d076f467c328d5a123252a0667f027a920e3a1cb04f",
+    "baseline/images/R08/support.png": "7c5722c653ec23ec2cf716e231450c786c04d624232a53c4953dd526a0a3c301",
+    "enriched/images/R08/hillshade-045.png": "c592d7ee9b03deae68556a8e4f53f9c2bd5e19e17e230a532d48a26896ba2a7c",
+    "enriched/images/R08/hillshade-135.png": "75ef970751fd8a89d0be2937085d97e177576ad39147462a6e737b81d94e345d",
+    "enriched/images/R08/hillshade-315.png": "862c6077001a5d584e0a4a1aaedf2eb3a9ec330c3e916054dfaaabe1b0dc8c16",
+    "enriched/images/R08/local-relief.png": "815bfe5b3480b1ea85b70d076f467c328d5a123252a0667f027a920e3a1cb04f",
+    "enriched/images/R08/support.png": "7c5722c653ec23ec2cf716e231450c786c04d624232a53c4953dd526a0a3c301",
+    "enriched/images/R08/hillshade-225.png": "0c9dd8c6721ce009b5419786d85f9e37cf5e5f520e2238489cb19dcba8ecd64e",
+    "enriched/images/R08/slope.png": "fa4673f0f9ecd3736be4dc31ad428ba695467152b21f8b3765a827b8e8b6f72b",
+    "enriched/images/R08/sky-view-factor.png": "2b0f579143f2eb55f0fae6dde8fbb19bc9dae22bf617c8be686156e9ea1f5788",
+    "enriched/images/R08/terrain-context.png": "1ff4bb89b5900fad7f850064d1262db3d696fba7ceabfbca0607ffb040991359",
+    "enriched/images/R08/aerial-patch.png": "f0774cb72d2765d1a1bc73ad43a740d30ab7f45dc2c4a1dfada9b5262d559a84",
+    "enriched/images/R08/aerial-context.png": "5eb2b23e37157665dfce0a5f534be5c2f3ea3707a66971c65af185060258e535",
+    "enriched/images/R08/point-classes.png": "542eda0184cd97ee5596003eca7647227a1d1fded2dab87a919481002129cc6b",
+    "baseline/images/R09/hillshade-045.png": "8be5523beffd56699a1372d0688ef6f7dc2481fd5bd496fd204e057aeb91dac1",
+    "baseline/images/R09/hillshade-135.png": "04baa28c20a109df826febdd708c7cc4937b46e4a42237c01e3b2e5eed60e57c",
+    "baseline/images/R09/hillshade-315.png": "8ad8ed4f0267bafd1f1bbe87cc4b0c6c8e81a6538f260aaac8d17d8cf45612f1",
+    "baseline/images/R09/local-relief.png": "f932481b41203af401861c8b0a3210b50fcc1d919e95cf72f1c48b82888c8ff4",
+    "baseline/images/R09/support.png": "cf9bf634a5af854444951adc4a9e9558ae9b19e7816accb76c2115fb7231be77",
+    "enriched/images/R09/hillshade-045.png": "8be5523beffd56699a1372d0688ef6f7dc2481fd5bd496fd204e057aeb91dac1",
+    "enriched/images/R09/hillshade-135.png": "04baa28c20a109df826febdd708c7cc4937b46e4a42237c01e3b2e5eed60e57c",
+    "enriched/images/R09/hillshade-315.png": "8ad8ed4f0267bafd1f1bbe87cc4b0c6c8e81a6538f260aaac8d17d8cf45612f1",
+    "enriched/images/R09/local-relief.png": "f932481b41203af401861c8b0a3210b50fcc1d919e95cf72f1c48b82888c8ff4",
+    "enriched/images/R09/support.png": "cf9bf634a5af854444951adc4a9e9558ae9b19e7816accb76c2115fb7231be77",
+    "enriched/images/R09/hillshade-225.png": "47f6ba8bceec9b03833aa0c79a08301ef156ec8ef0cc51d4c5a5c4b21cf69630",
+    "enriched/images/R09/slope.png": "f5c4b1624479d8cb41d3544e075bd4c33dd11a9a924a744e2a9b2fb8146c922e",
+    "enriched/images/R09/sky-view-factor.png": "561d22640b8e6ee4cb1a311472dcbcec43996ada73a970d3db9cc1d7891a98de",
+    "enriched/images/R09/terrain-context.png": "14bf506e7124d994b0bd2943e0bfffa76ed145ad09f329d26f4cafeb321678fc",
+    "enriched/images/R09/aerial-patch.png": "563a5711acfbe21bf3dafc682b38bbe610cac3aa8cde3082b9d54c9cc83b5b2f",
+    "enriched/images/R09/aerial-context.png": "20f8014424951b8a91ec10feabad0886fde048a7dd5f783f84f22c00b06cbb02",
+    "enriched/images/R09/point-classes.png": "aea28c5165e10e60fb2f50445f7653b28d5a2e3389839df37c83604f27b5f35a",
+    "baseline/images/R10/hillshade-045.png": "4b518239c36f0ce57c83e214800f3def5fe171b8fbac427bf39fc863f3169a8e",
+    "baseline/images/R10/hillshade-135.png": "22911f61522e98b86f9bc8eb09365589b529f321ed463c50b1493e268ebd8c2a",
+    "baseline/images/R10/hillshade-315.png": "10ca0810676ecc10c76f7a38fa663839af4fc0e450223640fafd876db1176838",
+    "baseline/images/R10/local-relief.png": "1689648c6aeb6247f095d69b15529dbadc9a7b3646c720a6844a0385f3ece92c",
+    "baseline/images/R10/support.png": "3cf89c0019c7a259e58d4f69628f56815e952d8f07c49c85b5b307a1fa2a02de",
+    "enriched/images/R10/hillshade-045.png": "4b518239c36f0ce57c83e214800f3def5fe171b8fbac427bf39fc863f3169a8e",
+    "enriched/images/R10/hillshade-135.png": "22911f61522e98b86f9bc8eb09365589b529f321ed463c50b1493e268ebd8c2a",
+    "enriched/images/R10/hillshade-315.png": "10ca0810676ecc10c76f7a38fa663839af4fc0e450223640fafd876db1176838",
+    "enriched/images/R10/local-relief.png": "1689648c6aeb6247f095d69b15529dbadc9a7b3646c720a6844a0385f3ece92c",
+    "enriched/images/R10/support.png": "3cf89c0019c7a259e58d4f69628f56815e952d8f07c49c85b5b307a1fa2a02de",
+    "enriched/images/R10/hillshade-225.png": "f89ec7425d91c8a7040190e31278a48aa8421c986affee74f456c6182e5be5c4",
+    "enriched/images/R10/slope.png": "68c316e8dc8a958e4464cd4f08611122193fc6db09a89b66679a5258b62fed9b",
+    "enriched/images/R10/sky-view-factor.png": "de394ec9ff13b7b066fead5de77e6c20e8ac1a87f16efe879faf3d9cfae61de8",
+    "enriched/images/R10/terrain-context.png": "3448abbd13a27805485f478b246d6c3015725f3d4c98d2c91c23aee0ed822297",
+    "enriched/images/R10/aerial-patch.png": "b2246df0237dc9e8fae697db71ddb6f5bb68f8e2b3d05a19c6d3ef9c05a063ff",
+    "enriched/images/R10/aerial-context.png": "24f9caba556302bef82bb0095e1a019d207b3f449b0c407afcdf8a6f59e1c2ef",
+    "enriched/images/R10/point-classes.png": "fea5e7a5f2c928844bdc22a171ba60d0220226ddb508c37c7b0940736f46196e",
+    "baseline/images/R11/hillshade-045.png": "ab5cc0d9cb3f8a686b7db1471582306e2ce30675469e7d082e5555238a3109eb",
+    "baseline/images/R11/hillshade-135.png": "adad9bc6b0a85cfff3e8e0d727f9e8a3526463dc4ed3ce1d10bce33386e486ac",
+    "baseline/images/R11/hillshade-315.png": "76c37da45c216206bc76a6299520506e3072025f1c87781ef3d24e3a4e8997f1",
+    "baseline/images/R11/local-relief.png": "5e2c69c5b362556ff3334c2558f70445163ee2fe7d736dfc996a9bd99a34a94c",
+    "baseline/images/R11/support.png": "bcb191c3430187e913375ad96e63f9412418fdfa75b1c230785b76501ab7e60b",
+    "enriched/images/R11/hillshade-045.png": "ab5cc0d9cb3f8a686b7db1471582306e2ce30675469e7d082e5555238a3109eb",
+    "enriched/images/R11/hillshade-135.png": "adad9bc6b0a85cfff3e8e0d727f9e8a3526463dc4ed3ce1d10bce33386e486ac",
+    "enriched/images/R11/hillshade-315.png": "76c37da45c216206bc76a6299520506e3072025f1c87781ef3d24e3a4e8997f1",
+    "enriched/images/R11/local-relief.png": "5e2c69c5b362556ff3334c2558f70445163ee2fe7d736dfc996a9bd99a34a94c",
+    "enriched/images/R11/support.png": "bcb191c3430187e913375ad96e63f9412418fdfa75b1c230785b76501ab7e60b",
+    "enriched/images/R11/hillshade-225.png": "095ffd4f6687efdfe20986a8f39e591f5bf72e58073e6fa3805ea5d1bfd36f61",
+    "enriched/images/R11/slope.png": "db7eb0315575954c902efd5160ee051f54a7a033fca26792fe7a72d3290d3165",
+    "enriched/images/R11/sky-view-factor.png": "63de783fa0a24592b79bb0ee4ef9fa676d6a8c1319d4a2e8e5109047cd019524",
+    "enriched/images/R11/terrain-context.png": "7bf49c07651fd1c27d2b94e69463272ca5c6fbbe1e2ff81a8d786b0ee5e379fe",
+    "enriched/images/R11/aerial-patch.png": "d9e8a69b074c9396820acf02a39393bccf5577ba2791e6fa8ba4b65ed8854052",
+    "enriched/images/R11/aerial-context.png": "c5d7f9b7dbb6692349e489e4c9d95187d95220ec76447c297fdc3588b4f0a0f7",
+    "enriched/images/R11/point-classes.png": "f94d1a0b122aab772bc7673674422446bbffc5b463c825f8c8a35ab10eaa8558",
+    "baseline/images/R12/hillshade-045.png": "a341cc255100b897089403098f4be9f5246ab60020b49dc9a581106fdd3b43b7",
+    "baseline/images/R12/hillshade-135.png": "5380c4c307c7f38a76cac86f8358b8a9a48a561f0a7b7226a52fd08c8cc0390a",
+    "baseline/images/R12/hillshade-315.png": "90852518b681d002b63c7da38946b56aeadb8f1b2576bcc7e97c0c76c70acdbc",
+    "baseline/images/R12/local-relief.png": "7a2f5ab58dec8d87d020c770354317ace4bc0fccf07f6dfd5a1ca16960144029",
+    "baseline/images/R12/support.png": "a6855660d5a691c85bb350b49ab79406ae6168a64cee729e7bbeb650a9170199",
+    "enriched/images/R12/hillshade-045.png": "a341cc255100b897089403098f4be9f5246ab60020b49dc9a581106fdd3b43b7",
+    "enriched/images/R12/hillshade-135.png": "5380c4c307c7f38a76cac86f8358b8a9a48a561f0a7b7226a52fd08c8cc0390a",
+    "enriched/images/R12/hillshade-315.png": "90852518b681d002b63c7da38946b56aeadb8f1b2576bcc7e97c0c76c70acdbc",
+    "enriched/images/R12/local-relief.png": "7a2f5ab58dec8d87d020c770354317ace4bc0fccf07f6dfd5a1ca16960144029",
+    "enriched/images/R12/support.png": "a6855660d5a691c85bb350b49ab79406ae6168a64cee729e7bbeb650a9170199",
+    "enriched/images/R12/hillshade-225.png": "da2eb8275b968a7a7e6e74e361056b6ff752def0e09f4879facf64d2d8e3f17f",
+    "enriched/images/R12/slope.png": "8b297b2a02e28cccbd898ec53329f54b57d7e98fad43984a6bfa38a5de67faa1",
+    "enriched/images/R12/sky-view-factor.png": "94b2978bf7da593faabd1227ca03cd1eb785312b6055c7fb5b001ba11074e2e5",
+    "enriched/images/R12/terrain-context.png": "c68a682db7272c27284114305a80c7b6a7b001fbc4c6aebf74fc80532b80eefe",
+    "enriched/images/R12/aerial-patch.png": "324252bbe1389b79ee6aa68e6ce9708774ecf91b5c2e457b3f03774591a0e6c0",
+    "enriched/images/R12/aerial-context.png": "8c920c865f1c4f5a06a5efc3b992cb48e47dd16fb07cfc4701a33bd4b778dce1",
+    "enriched/images/R12/point-classes.png": "18cb61998553ceda9e313714786579aee6737c1e15262942de4d336b2a4400dc"
+  },
+  "sourceHashes": {
+    "docs/aldeia-da-mata/analysis-parish/patches/parish-r029-c040/hillshade-045.png": "c3bc6c97ad4a2e8e0fd6247bc855d884483097bad4c4a7e220b5d179da704802",
+    "docs/aldeia-da-mata/analysis-parish/patches/parish-r029-c040/hillshade-135.png": "ec7d705fafc39c9dad11b55c15dd9d120bb1679175fc7d0674f99f6e9ca8e345",
+    "docs/aldeia-da-mata/analysis-parish/patches/parish-r029-c040/hillshade-315.png": "1855eb7c33815bbafc478b9d7b904db9e8fba19364464ef608dff36ea900d877",
+    "docs/aldeia-da-mata/analysis-parish/patches/parish-r029-c040/local-relief.png": "94b8020b1008e81688bc8b0c686446d23a466400d63dfc2e68c539b336813405",
+    "docs/aldeia-da-mata/analysis-parish/patches/parish-r029-c040/support.png": "b0d9e97c30083a6fd2458d158f166d2ee985fae236d5b89c6eda74a6e1b698bd",
+    "docs/aldeia-da-mata/analysis-parish/patches/parish-r029-c040/hillshade-225.png": "134af25c321c55092ab41b367e6a4366cce14ec1887597c51987b05211b037cb",
+    "docs/aldeia-da-mata/analysis-parish/patches/parish-r029-c040/slope.png": "235c0763e816d906c5cf07659c87214a3111e05eedc8ce17e15787e9b1708be8",
+    "docs/aldeia-da-mata/data/aerial-2025/0/252_-307.jpg": "6655f49511030e2705b7e2d97981bc0c37ebae0b65143957d87fce38c07f06da",
+    "docs/aldeia-da-mata/data/aerial-2025/0/253_-307.jpg": "1993db2fab6beca3a97d072f7e59488a6ae40c5527aa50fdc84efa5461bc1c2b",
+    "docs/aldeia-da-mata/data/aerial-2025/0/254_-307.jpg": "a459a8a4804ccad16290bb7d8a35b77a08bbb70aaa163eac1a8ed43cd2345201",
+    "docs/aldeia-da-mata/data/aerial-2025/0/252_-306.jpg": "43760861022fa6c77331189d1a0cd5898297ce58dd2366e090692e5aa0286f66",
+    "docs/aldeia-da-mata/data/aerial-2025/0/253_-306.jpg": "66301f3f589fc1717b2d622e8cef376b69907c4b8f272d498a96d7486027b64a",
+    "docs/aldeia-da-mata/data/aerial-2025/0/254_-306.jpg": "877b996ba22292a5bbd0d69168f07ed54e5b008c774f3a08c6901f4e84328cee",
+    "docs/aldeia-da-mata/data/aerial-2025/2/62_-78.jpg": "0cd319406b303b84db4dfcc3e55c7b2ee032ac3c463bd46a479b16b22c461c11",
+    "docs/aldeia-da-mata/data/aerial-2025/2/63_-78.jpg": "9f2ed20c8ae8decea99cd5e63fbeb3853ee75571159f01ddd813c02a28b90140",
+    "docs/aldeia-da-mata/data/aerial-2025/2/64_-78.jpg": "5cd580d48f2fd2d27bca8618195434f572e3f5e5ef1cd159f899195fa92233d0",
+    "docs/aldeia-da-mata/data/aerial-2025/2/62_-77.jpg": "c0e7c7630257836bfc3e3498a2e1e3fb2b87954b2253af953814006e9061de8e",
+    "docs/aldeia-da-mata/data/aerial-2025/2/63_-77.jpg": "08d8f19f07d406b4ffc32603b59240a3f3216095f928a9c133b1991f4981d20d",
+    "docs/aldeia-da-mata/data/aerial-2025/2/64_-77.jpg": "89b57d11d362fcee359e52704c2403d6045248c186a285cee18b68c5fc901452",
+    "docs/aldeia-da-mata/data/aerial-2025/2/62_-76.jpg": "6356ba05ec0de08e99099012e213e1912a35cc435aa6920ef6d4966de0f9019b",
+    "docs/aldeia-da-mata/data/aerial-2025/2/63_-76.jpg": "b4f007e6d2fb3f6f14214a9565229e89e13575231cf8f924a6b965b54c18fec3",
+    "docs/aldeia-da-mata/data/aerial-2025/2/64_-76.jpg": "b8a33da7ce6c88cdfce18422fc71cd0d746cfc3e2fe38f788d0706d53ab34c28",
+    "docs/aldeia-da-mata/data/water-parish/v32500_-39500.js": "85dc4afa5d517b077808a96964f1311250adb0fdfd9d57d0c37adcfae3968106",
+    "docs/aldeia-da-mata/analysis-parish/patches/parish-r029-c039/hillshade-045.png": "5edc3af744c23c384910d283d8ad42e94a00f225b01c2c437311cd4dc2553123",
+    "docs/aldeia-da-mata/analysis-parish/patches/parish-r029-c039/hillshade-135.png": "faed0c23c63e76ecc032322ee510217b155a8b094f2ea47f4eb75fcf8c4c9f54",
+    "docs/aldeia-da-mata/analysis-parish/patches/parish-r029-c039/hillshade-315.png": "6cf11d43772e4b23a84d7696a81e6b4a999d8a19a183b345a443ddf3cb78d672",
+    "docs/aldeia-da-mata/analysis-parish/patches/parish-r029-c039/local-relief.png": "ee9136014f0d65ea8b94b5c9c1ae829043ce17945e39bf8e045b438b4717a82a",
+    "docs/aldeia-da-mata/analysis-parish/patches/parish-r029-c039/support.png": "1fb6f5948dfea98123c4250ca802857822c678b73c1736f7ef3eefc982b4f65b",
+    "docs/aldeia-da-mata/analysis-parish/patches/parish-r029-c039/hillshade-225.png": "9bbd6abb1846282965eb23ad78038de65011b5ecb3cb2c78d05f2832afaae9a5",
+    "docs/aldeia-da-mata/analysis-parish/patches/parish-r029-c039/slope.png": "796449a2450b5803730439ee25ac45af39d12ad5b582188395c5cf6bc7956e8b",
+    "docs/aldeia-da-mata/data/aerial-2025/0/251_-307.jpg": "fe45741f586f3924e1befe33060c082c3678aa188dea2f9b747d9c8febe1bf5b",
+    "docs/aldeia-da-mata/data/aerial-2025/0/251_-306.jpg": "5b87ebbaa3af88dd03e4949ced1c1ab6711b6912c40247de2aca9af42b96de85",
+    "docs/aldeia-da-mata/analysis-parish/patches/parish-r021-c082/hillshade-045.png": "5e552a7d1801bb8575bdb664862e3ce2737fb83af4ae2994d91ce0fc0f8fe589",
+    "docs/aldeia-da-mata/analysis-parish/patches/parish-r021-c082/hillshade-135.png": "3b28c3d5e06313ee672af06a30d232af71c4280782cff4b753b99c1837997adb",
+    "docs/aldeia-da-mata/analysis-parish/patches/parish-r021-c082/hillshade-315.png": "e8e27ab4d5009b8a68434bf149cf90560f733b06764ea2901cc6731727585fa0",
+    "docs/aldeia-da-mata/analysis-parish/patches/parish-r021-c082/local-relief.png": "dae7bb61692b00f64e175e554b2165aff7a7f705bdc509d587de2965c5dc2505",
+    "docs/aldeia-da-mata/analysis-parish/patches/parish-r021-c082/support.png": "8de4e2be1ce291a8edafe7308c1405bafde3ae58a119a87c473e1e0169fddc18",
+    "docs/aldeia-da-mata/analysis-parish/patches/parish-r021-c082/hillshade-225.png": "083caa2c33db6e6e247b297ff7fc4b1087a07a7d2689c8493ac803a9522d938b",
+    "docs/aldeia-da-mata/analysis-parish/patches/parish-r021-c082/slope.png": "ae11b126fd6b31a6f986d18cc40878ca300f5e7388a74a15943c107021dc2426",
+    "docs/aldeia-da-mata/data/aerial-2025/0/285_-301.jpg": "7f84cec6d40be19da79e73aa05b7ff84a5a555c3d3898a4735888c3e692da34b",
+    "docs/aldeia-da-mata/data/aerial-2025/0/286_-301.jpg": "774939c22a5b00f626bd7d7e4753c534efe9492ee6e89863c84de177b5d50886",
+    "docs/aldeia-da-mata/data/aerial-2025/0/287_-301.jpg": "a620cc4ee56a14ed4875f8b5e7cc7bb36912b3cb0aeb829e2235592a429db75a",
+    "docs/aldeia-da-mata/data/aerial-2025/0/285_-300.jpg": "08807188f4649414d69b5131b640e0f5b66d24ff5a540f080c3e535da2741162",
+    "docs/aldeia-da-mata/data/aerial-2025/0/286_-300.jpg": "5ae75c9ba5777ab1780b3512e82f0ae4f2f702878c8dd99fb871b5658505d89d",
+    "docs/aldeia-da-mata/data/aerial-2025/0/287_-300.jpg": "f854258d0887715d1caf4b85b45eaa2bbb6b7aa63ee45bc068844ab1540771af",
+    "docs/aldeia-da-mata/data/aerial-2025/0/285_-299.jpg": "79d017072fa67554d7dbf6335d25d610ada46a81870837256cc1835ba1c7b416",
+    "docs/aldeia-da-mata/data/aerial-2025/0/286_-299.jpg": "a648f4783ab5ebd696b4ab5b8bac7e615309a2f57cdd77f7c7d2cdb2ebe05ce2",
+    "docs/aldeia-da-mata/data/aerial-2025/0/287_-299.jpg": "df8aef652374e080bd23da751460520f6a0ebb5ab38041987c5ae95081459915",
+    "docs/aldeia-da-mata/data/aerial-2025/2/70_-76.jpg": "84a3fcbd587c478b56b6987e54063a40b1c2522385912d7e5090c1dac8a1ab43",
+    "docs/aldeia-da-mata/data/aerial-2025/2/71_-76.jpg": "baccd3a09153995c8df8ee3dba91f9a5fa2839913762cbe902f0a2d5e60c4efe",
+    "docs/aldeia-da-mata/data/aerial-2025/2/72_-76.jpg": "18813ee3b3635776d478b50172a9415467d755eb702da8bd0e1c6b6395cce2ab",
+    "docs/aldeia-da-mata/data/aerial-2025/2/70_-75.jpg": "5c145cfcd0a32f64d7e00b33b75f8f58bc80042a45f03d9516c3150026434160",
+    "docs/aldeia-da-mata/data/aerial-2025/2/71_-75.jpg": "7fb8a7d2669ecca71b44fea7b11a7d9bc834a62174bdd2f8b4b5a06c1c628697",
+    "docs/aldeia-da-mata/data/aerial-2025/2/72_-75.jpg": "218126890f98c6c0ce4dd857f7a0812828e02f28ddfcf8dec6c6e7187af19383",
+    "docs/aldeia-da-mata/data/unclassified-parish/v36500_-38500.js": "dcd256a150e9cfaaa53af484b676444757873dbeee370abc9e4b84509a7aeaf4",
+    "docs/aldeia-da-mata/analysis-parish/patches/parish-r045-c080/hillshade-045.png": "b84d1aefe6ba013074cff80a8058dc3b8af6780d7c6eb3acaad8424e1bf02cac",
+    "docs/aldeia-da-mata/analysis-parish/patches/parish-r045-c080/hillshade-135.png": "80420030fe8d127d5b246848ca141db3a2600daa4e148d50e30e2430dd1f42ab",
+    "docs/aldeia-da-mata/analysis-parish/patches/parish-r045-c080/hillshade-315.png": "01f8ff143a58efb4682edd7efdd8edf4868c75e75d160857972b343f616bdd79",
+    "docs/aldeia-da-mata/analysis-parish/patches/parish-r045-c080/local-relief.png": "36ae4a09ef2ade216bb5e33d3d9bd3b40cb4a3c5ea752ebbafcff03a65bac020",
+    "docs/aldeia-da-mata/analysis-parish/patches/parish-r045-c080/support.png": "3ac2676b969e6de948813f6b5bac2448df839c74668278346eb4c30968a4be25",
+    "docs/aldeia-da-mata/analysis-parish/patches/parish-r045-c080/hillshade-225.png": "c0f57a7c378845838060c0d92dfdd8caa8b79f90a3d6041a41d650da7087e251",
+    "docs/aldeia-da-mata/analysis-parish/patches/parish-r045-c080/slope.png": "e3c051119bc82c5964592e12910ea59f121b9bb91c63951c5a75724a3db31acf",
+    "docs/aldeia-da-mata/data/aerial-2025/0/283_-320.jpg": "78191e04f2a838b352de2c8809f79d6a76ccd3b374e4b6ee4e370f85f4f55599",
+    "docs/aldeia-da-mata/data/aerial-2025/0/284_-320.jpg": "da38e2561ff8eacfe4a39bc5d198aef12f8134e477b52d19bb0845b2ba383db4",
+    "docs/aldeia-da-mata/data/aerial-2025/0/285_-320.jpg": "f7deb5f5b30eaa3fb402bbf7f5ad7c98592fe578c6ea64a3f0cc7937fae1f590",
+    "docs/aldeia-da-mata/data/aerial-2025/0/283_-319.jpg": "c28920115ace284c183a7ba19dad8cbdf30c030c92b18f031114d4c9edd360fc",
+    "docs/aldeia-da-mata/data/aerial-2025/0/284_-319.jpg": "23a019e570db6ce53f39dd9a8fb7b43b46c774b984bbaae7cd8f548cbc3b09f1",
+    "docs/aldeia-da-mata/data/aerial-2025/0/285_-319.jpg": "b56384257771077bd61dd3708cc434ad6ff9ed6c8e5727552dee9674e603f3fe",
+    "docs/aldeia-da-mata/data/aerial-2025/0/283_-318.jpg": "17f190564a96d3df2ed3ba1909a8ddbdb35338e3160a20005f0a009caf7ab4a7",
+    "docs/aldeia-da-mata/data/aerial-2025/0/284_-318.jpg": "0932326da1566c3753fce227cf3c625eb110bf85f0cb6d4fab692356677bfe6d",
+    "docs/aldeia-da-mata/data/aerial-2025/0/285_-318.jpg": "74601fe3ec207f099045af59e90a41d0c6e5c93bc82b87f6d8b099a84203cc57",
+    "docs/aldeia-da-mata/data/aerial-2025/2/70_-81.jpg": "ab25458bbf7411b7655ace171c004d182e76f7bb566a5517622385cbccadb4a3",
+    "docs/aldeia-da-mata/data/aerial-2025/2/71_-81.jpg": "4c4c3b83a3d13a6ff896099b07e64b444b44290d37e26f313936833a2c685c53",
+    "docs/aldeia-da-mata/data/aerial-2025/2/70_-80.jpg": "8f15ccd865eeaf54b1b6c090811699a8830fd64fc1ccb9a28be25cec45864aef",
+    "docs/aldeia-da-mata/data/aerial-2025/2/71_-80.jpg": "28c478cf55d4c5120b9617d4cf6050a0d803a8b076f06999ebcc26fae3e57dca",
+    "docs/aldeia-da-mata/data/aerial-2025/2/70_-79.jpg": "b79c7246d2c745ca2f8e1fb2de954be46a18cfa422496479c23f50b7041ed77f",
+    "docs/aldeia-da-mata/data/aerial-2025/2/71_-79.jpg": "6416f6c7bfa18c659d5ed15aea9293fc63799b65151d2a09de1071515fbc9d2f",
+    "docs/aldeia-da-mata/data/unclassified-parish/v36500_-40750.js": "f7ebafcdf09de34e15b423768cbb3cf8b70bffadfc0158109b7654f7ebecf089",
+    "docs/aldeia-da-mata/data/unclassified-parish/v36250_-40750.js": "298e07365b70d8338020a23248ecb360f1e56e3f068fd708a225be6acdca96ef",
+    "docs/aldeia-da-mata/analysis-parish/patches/parish-r044-c079/hillshade-045.png": "873bf04d1b51d2b376288ba75f818bfc7721a6dd113b8e3d118cff25574451a3",
+    "docs/aldeia-da-mata/analysis-parish/patches/parish-r044-c079/hillshade-135.png": "1e70ae4b8b72770cf81d737936e328b4a1f4a9e2b0c25b3551b83beede68e076",
+    "docs/aldeia-da-mata/analysis-parish/patches/parish-r044-c079/hillshade-315.png": "628e46abcc96b396791fb210cbc2500c89cd043960b2c9ebc3e34717ddb3dea5",
+    "docs/aldeia-da-mata/analysis-parish/patches/parish-r044-c079/local-relief.png": "0c6d0944bf1a7fdde264c575b3bae91fbfe187936aefb57dab114bb360113144",
+    "docs/aldeia-da-mata/analysis-parish/patches/parish-r044-c079/support.png": "55bcd679992c6b2064ed6c6a11d7d143fda538edd43f7577e5cadee161ab74ba",
+    "docs/aldeia-da-mata/analysis-parish/patches/parish-r044-c079/hillshade-225.png": "b0a24a65653f057e84b150c50a3140a4c44405eba9bd1a843dfa5c0a2f77b80b",
+    "docs/aldeia-da-mata/analysis-parish/patches/parish-r044-c079/slope.png": "9898c2ab86fdd47ec727edf881512ae9f36d30d1d4765212b322d7b76781fec7",
+    "docs/aldeia-da-mata/data/aerial-2025/0/283_-317.jpg": "84658415f74e26c3d3120817df57f2414caae79f0007c8bc3eff43ca547aaca4",
+    "docs/aldeia-da-mata/data/aerial-2025/0/284_-317.jpg": "bbbb0e07d13b356b3429a3083558b07b868f156542f65a12f4e11700d6b3c60c",
+    "docs/aldeia-da-mata/data/water-parish/v36000_-40750.js": "132f6f019407cb539fc41ff10ed2cc78a2c78d4192a7e3c785b54957deb39c8c",
+    "docs/aldeia-da-mata/data/unclassified-parish/v36000_-40750.js": "1dc5ae0a9bfc593dd4f469c165c1ba7a5d189a1e8b263d25c23b13743c4db394",
+    "docs/aldeia-da-mata/analysis-parish/patches/parish-r030-c039/hillshade-045.png": "2ae3c247939e3d7db742878f0812c837c7c1428f7d3adb879264371c1671ffd9",
+    "docs/aldeia-da-mata/analysis-parish/patches/parish-r030-c039/hillshade-135.png": "6028e03f484fb407bc9460336141f643f90f617cd003c35c3829ed38f03117af",
+    "docs/aldeia-da-mata/analysis-parish/patches/parish-r030-c039/hillshade-315.png": "645bebfaaa33968683f3651fde5480da5ca0eb8a92dd5712b9b1ed58fee418ab",
+    "docs/aldeia-da-mata/analysis-parish/patches/parish-r030-c039/local-relief.png": "1b92c8d7092764ad480ee3d47ae4c33747ac33dd24c112dc216f9bcbdc8bed25",
+    "docs/aldeia-da-mata/analysis-parish/patches/parish-r030-c039/support.png": "37f627fe38de87a1cc7a57cfdcefdebd5c5a170a32625c70916d2d28aa657866",
+    "docs/aldeia-da-mata/analysis-parish/patches/parish-r030-c039/hillshade-225.png": "85aed604df7fac2e6bb02732ae58f8995a621f898cb3b806c0ab349d0ee5a555",
+    "docs/aldeia-da-mata/analysis-parish/patches/parish-r030-c039/slope.png": "6bc9e7dff5600cbe7713687668c979e3126ac22e881d28d91b600d642ce06f2e",
+    "docs/aldeia-da-mata/data/aerial-2025/0/251_-308.jpg": "9da08e4435195597fbd7695a0a872549c395c255889249b6cc8ffd3dc50b83ff",
+    "docs/aldeia-da-mata/data/aerial-2025/0/252_-308.jpg": "0ae8d8a35bfb65d09692837e25f225930febff892ef55218fb9fa5985a01fa6e",
+    "docs/aldeia-da-mata/data/aerial-2025/0/253_-308.jpg": "b0c4405a843c8b23545b525bb15dac8eb7995ab94df52e5910d4b1c0711b3aa0",
+    "docs/aldeia-da-mata/analysis-parish/patches/parish-r045-c079/hillshade-045.png": "8f40204ea634e0d680aedf8b176ad28da086e20fbb7e6caed90306732c8a3994",
+    "docs/aldeia-da-mata/analysis-parish/patches/parish-r045-c079/hillshade-135.png": "c5a5ce9281102c4719830a2551e45a11dbb304f1e2c683380c81be21f8ce47a8",
+    "docs/aldeia-da-mata/analysis-parish/patches/parish-r045-c079/hillshade-315.png": "07c1c9836cd7e5101b19cbc3af7145584eb367e2f03d89a1f09dde2ae5ebcdf5",
+    "docs/aldeia-da-mata/analysis-parish/patches/parish-r045-c079/local-relief.png": "12ca8dc8ef27be632558b887b128cbd4d85747d5acd16723edd0183a47b994a2",
+    "docs/aldeia-da-mata/analysis-parish/patches/parish-r045-c079/support.png": "7e111c39b605ac306c088b5425b426e296e1a079e67eb4b7ff6a8b9410e737e1",
+    "docs/aldeia-da-mata/analysis-parish/patches/parish-r045-c079/hillshade-225.png": "c8a8bb41323f5d0e22d09af8606fcb9093dbd43b0289a83b70c77bb8c897babe",
+    "docs/aldeia-da-mata/analysis-parish/patches/parish-r045-c079/slope.png": "2a884d8085ce8180bb329b71fe662a3e11d946ccf8f1af8f0138067be55bbf48",
+    "docs/aldeia-da-mata/analysis-parish/patches/parish-r053-c088/hillshade-045.png": "c592d7ee9b03deae68556a8e4f53f9c2bd5e19e17e230a532d48a26896ba2a7c",
+    "docs/aldeia-da-mata/analysis-parish/patches/parish-r053-c088/hillshade-135.png": "75ef970751fd8a89d0be2937085d97e177576ad39147462a6e737b81d94e345d",
+    "docs/aldeia-da-mata/analysis-parish/patches/parish-r053-c088/hillshade-315.png": "862c6077001a5d584e0a4a1aaedf2eb3a9ec330c3e916054dfaaabe1b0dc8c16",
+    "docs/aldeia-da-mata/analysis-parish/patches/parish-r053-c088/local-relief.png": "815bfe5b3480b1ea85b70d076f467c328d5a123252a0667f027a920e3a1cb04f",
+    "docs/aldeia-da-mata/analysis-parish/patches/parish-r053-c088/support.png": "7c5722c653ec23ec2cf716e231450c786c04d624232a53c4953dd526a0a3c301",
+    "docs/aldeia-da-mata/analysis-parish/patches/parish-r053-c088/hillshade-225.png": "0c9dd8c6721ce009b5419786d85f9e37cf5e5f520e2238489cb19dcba8ecd64e",
+    "docs/aldeia-da-mata/analysis-parish/patches/parish-r053-c088/slope.png": "fa4673f0f9ecd3736be4dc31ad428ba695467152b21f8b3765a827b8e8b6f72b",
+    "docs/aldeia-da-mata/data/aerial-2025/0/290_-326.jpg": "2f29d172bd035eeb34913aaf8c901525bf6e6451d75b2a3c24a5ee322a70bc07",
+    "docs/aldeia-da-mata/data/aerial-2025/0/291_-326.jpg": "8c5191fb164474e7a8676f9e552295a3d0df9e6e0f6dde036e62dfeb6b93fcd2",
+    "docs/aldeia-da-mata/data/aerial-2025/0/290_-325.jpg": "b10d9178441b3eb7a2f7795ea848d2d9f07f1b4a62cc8339adb3ceb7c2db27cf",
+    "docs/aldeia-da-mata/data/aerial-2025/0/291_-325.jpg": "ddf81702810647d7ac7b781d3cf4d2bd6627839b394efbc2d971b274cda02c86",
+    "docs/aldeia-da-mata/data/aerial-2025/0/290_-324.jpg": "2584acdedf7b13ac5984ba130ffea2386ac32820fb0a9f26a0d720d040160d59",
+    "docs/aldeia-da-mata/data/aerial-2025/0/291_-324.jpg": "6cafaef9ae0797772ae9a88a4fb9ed6b2ab46d4246779adb2312b72bb9dbefc4",
+    "docs/aldeia-da-mata/data/aerial-2025/2/71_-82.jpg": "9fd7510fcad15c25af7308d86abef0062ee2bb5709b04c2ff8784e514e8544ea",
+    "docs/aldeia-da-mata/data/aerial-2025/2/72_-82.jpg": "5c7ae7c8cd72d233d34524b5acafec620d4e8715f7b43c393bee6441ff10a00a",
+    "docs/aldeia-da-mata/data/aerial-2025/2/73_-82.jpg": "983b4882b38efb68df62551f5138afb74d3f8d1ece2e7a7a92a998bae8b72d72",
+    "docs/aldeia-da-mata/data/aerial-2025/2/72_-81.jpg": "36f49c75e8a0efc33ea52fac3a9de826ddbcd8d0ecfd2d059afbb6cd57748c26",
+    "docs/aldeia-da-mata/data/aerial-2025/2/73_-81.jpg": "b052d5d93ddd346d3c251fe815a9aa1655f6a96973e0a71905abc74ad74a524a",
+    "docs/aldeia-da-mata/data/water-parish/v37250_-41500.js": "751b37e3817fc760566a56d2b4437620bece3afcdb7b2741957ede033ac49311",
+    "docs/aldeia-da-mata/analysis-parish/patches/parish-r044-c080/hillshade-045.png": "8be5523beffd56699a1372d0688ef6f7dc2481fd5bd496fd204e057aeb91dac1",
+    "docs/aldeia-da-mata/analysis-parish/patches/parish-r044-c080/hillshade-135.png": "04baa28c20a109df826febdd708c7cc4937b46e4a42237c01e3b2e5eed60e57c",
+    "docs/aldeia-da-mata/analysis-parish/patches/parish-r044-c080/hillshade-315.png": "8ad8ed4f0267bafd1f1bbe87cc4b0c6c8e81a6538f260aaac8d17d8cf45612f1",
+    "docs/aldeia-da-mata/analysis-parish/patches/parish-r044-c080/local-relief.png": "f932481b41203af401861c8b0a3210b50fcc1d919e95cf72f1c48b82888c8ff4",
+    "docs/aldeia-da-mata/analysis-parish/patches/parish-r044-c080/support.png": "cf9bf634a5af854444951adc4a9e9558ae9b19e7816accb76c2115fb7231be77",
+    "docs/aldeia-da-mata/analysis-parish/patches/parish-r044-c080/hillshade-225.png": "47f6ba8bceec9b03833aa0c79a08301ef156ec8ef0cc51d4c5a5c4b21cf69630",
+    "docs/aldeia-da-mata/analysis-parish/patches/parish-r044-c080/slope.png": "f5c4b1624479d8cb41d3544e075bd4c33dd11a9a924a744e2a9b2fb8146c922e",
+    "docs/aldeia-da-mata/data/aerial-2025/0/285_-317.jpg": "4286d50fd3c3b37f321a6f69f557616e9d5d4ff57cb78c4d73d3e770c5ec5971",
+    "docs/aldeia-da-mata/analysis-parish/patches/parish-r053-c089/hillshade-045.png": "4b518239c36f0ce57c83e214800f3def5fe171b8fbac427bf39fc863f3169a8e",
+    "docs/aldeia-da-mata/analysis-parish/patches/parish-r053-c089/hillshade-135.png": "22911f61522e98b86f9bc8eb09365589b529f321ed463c50b1493e268ebd8c2a",
+    "docs/aldeia-da-mata/analysis-parish/patches/parish-r053-c089/hillshade-315.png": "10ca0810676ecc10c76f7a38fa663839af4fc0e450223640fafd876db1176838",
+    "docs/aldeia-da-mata/analysis-parish/patches/parish-r053-c089/local-relief.png": "1689648c6aeb6247f095d69b15529dbadc9a7b3646c720a6844a0385f3ece92c",
+    "docs/aldeia-da-mata/analysis-parish/patches/parish-r053-c089/support.png": "3cf89c0019c7a259e58d4f69628f56815e952d8f07c49c85b5b307a1fa2a02de",
+    "docs/aldeia-da-mata/analysis-parish/patches/parish-r053-c089/hillshade-225.png": "f89ec7425d91c8a7040190e31278a48aa8421c986affee74f456c6182e5be5c4",
+    "docs/aldeia-da-mata/analysis-parish/patches/parish-r053-c089/slope.png": "68c316e8dc8a958e4464cd4f08611122193fc6db09a89b66679a5258b62fed9b",
+    "docs/aldeia-da-mata/data/aerial-2025/0/292_-326.jpg": "2a8b3805b358ed235efa490adc6ba839913b968a1bbd26f9f741595976d169d6",
+    "docs/aldeia-da-mata/data/aerial-2025/0/292_-325.jpg": "bb4861eeac9f0100e6e2c67180b8042c67bfe2aeb6aa74ce2d29bfc1b3d1e535",
+    "docs/aldeia-da-mata/data/aerial-2025/0/292_-324.jpg": "4782f331dc145ffb9ccb695f9bdb65277d01677f5b475ac01dd5e02f88dc23f3",
+    "docs/aldeia-da-mata/analysis-parish/patches/parish-r022-c082/hillshade-045.png": "ab5cc0d9cb3f8a686b7db1471582306e2ce30675469e7d082e5555238a3109eb",
+    "docs/aldeia-da-mata/analysis-parish/patches/parish-r022-c082/hillshade-135.png": "adad9bc6b0a85cfff3e8e0d727f9e8a3526463dc4ed3ce1d10bce33386e486ac",
+    "docs/aldeia-da-mata/analysis-parish/patches/parish-r022-c082/hillshade-315.png": "76c37da45c216206bc76a6299520506e3072025f1c87781ef3d24e3a4e8997f1",
+    "docs/aldeia-da-mata/analysis-parish/patches/parish-r022-c082/local-relief.png": "5e2c69c5b362556ff3334c2558f70445163ee2fe7d736dfc996a9bd99a34a94c",
+    "docs/aldeia-da-mata/analysis-parish/patches/parish-r022-c082/support.png": "bcb191c3430187e913375ad96e63f9412418fdfa75b1c230785b76501ab7e60b",
+    "docs/aldeia-da-mata/analysis-parish/patches/parish-r022-c082/hillshade-225.png": "095ffd4f6687efdfe20986a8f39e591f5bf72e58073e6fa3805ea5d1bfd36f61",
+    "docs/aldeia-da-mata/analysis-parish/patches/parish-r022-c082/slope.png": "db7eb0315575954c902efd5160ee051f54a7a033fca26792fe7a72d3290d3165",
+    "docs/aldeia-da-mata/data/aerial-2025/0/285_-302.jpg": "53eec61989534948857f6b6ead1f78d1bd7adb37630b349bc5fb9db50c843315",
+    "docs/aldeia-da-mata/data/aerial-2025/0/286_-302.jpg": "6f6e612cab8b1195692c1311173c69250fadb02f84d7a342ef2ce37cd7946f71",
+    "docs/aldeia-da-mata/data/aerial-2025/0/287_-302.jpg": "fbfa3aedbb6dc4b30d14df778be6e48aa5358eb1980833a0c57f003a0f5a6992",
+    "docs/aldeia-da-mata/analysis-parish/patches/parish-r022-c083/hillshade-045.png": "a341cc255100b897089403098f4be9f5246ab60020b49dc9a581106fdd3b43b7",
+    "docs/aldeia-da-mata/analysis-parish/patches/parish-r022-c083/hillshade-135.png": "5380c4c307c7f38a76cac86f8358b8a9a48a561f0a7b7226a52fd08c8cc0390a",
+    "docs/aldeia-da-mata/analysis-parish/patches/parish-r022-c083/hillshade-315.png": "90852518b681d002b63c7da38946b56aeadb8f1b2576bcc7e97c0c76c70acdbc",
+    "docs/aldeia-da-mata/analysis-parish/patches/parish-r022-c083/local-relief.png": "7a2f5ab58dec8d87d020c770354317ace4bc0fccf07f6dfd5a1ca16960144029",
+    "docs/aldeia-da-mata/analysis-parish/patches/parish-r022-c083/support.png": "a6855660d5a691c85bb350b49ab79406ae6168a64cee729e7bbeb650a9170199",
+    "docs/aldeia-da-mata/analysis-parish/patches/parish-r022-c083/hillshade-225.png": "da2eb8275b968a7a7e6e74e361056b6ff752def0e09f4879facf64d2d8e3f17f",
+    "docs/aldeia-da-mata/analysis-parish/patches/parish-r022-c083/slope.png": "8b297b2a02e28cccbd898ec53329f54b57d7e98fad43984a6bfa38a5de67faa1",
+    "docs/aldeia-da-mata/data/unclassified-parish/v36750_-38500.js": "1dd6911e985874568128c8237a7d1b892c30503e392020b906dd721b74486a52"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "checkedAt": "2026-11-16T20:08:55.572Z",
+  "model": "gpt-6-sol",
+  "reasoningEffort": "low",
+  "patchesReviewed": 10,
+  "imagesPerPatch": 5,
+  "totalImageInspections": 50,
+  "workerAgents": 3,
+  "maxConcurrentWorkers": 3,
+  "sessionConcurrencySlotsIncludingCoordinator": 4,
+  "usageBefore": {
+    "usedPercent": 52,
+    "remainingPercent": 48,
+    "windowDurationMins": 10080,
+    "resetsAt": 1794926671
+  },
+  "usageAfter": {
+    "usedPercent": 52,
+    "remainingPercent": 48,
+    "windowDurationMins": 10080,
+    "resetsAt": 1794926671
+  },
+  "ordinaryUsageAllowed": true,
+  "limitations": [
+    "Displayed percentages are coarse, may update with delay and are shared with other account activity.",
+    "No per-subagent tokens, exact subscription charge or reliable total remaining patch count was exposed.",
+    "No reset credits were consumed or additional credits purchased.",
+    "Ten patch reviews succeeded; this does not establish that the entire 4,172-patch survey fits the remaining allowance."
+  ]
+}

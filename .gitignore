@@ -1,0 +1,25 @@
+# Local OS and Python caches
+.DS_Store
+__pycache__/
+*.py[cod]
+
+# Generated LiDAR and aerial payloads; retain manifests and provenance.
+/docs/aldeia-da-mata/data/aerial-2025/
+/docs/aldeia-da-mata/data/max-detail/
+/docs/aldeia-da-mata/data/vegetation-parish/
+/docs/aldeia-da-mata/data/buildings-parish/
+/docs/aldeia-da-mata/data/bridges-parish/
+/docs/aldeia-da-mata/data/water-parish/
+/docs/aldeia-da-mata/data/unclassified-parish/
+/docs/aldeia-da-mata/data/*-overview.js
+/docs/aldeia-da-mata/data/terrain-parish.js
+/docs/aldeia-da-mata/data/vegetation-village.js
+/docs/aldeia-da-mata/data/tree-clusters.js
+/docs/aldeia-da-mata/data/ndvi-village.js
+
+# Generated analysis rasters, imagery and georeferencing sidecars.
+# Guides, review records, manifests, checksums and processing reports stay tracked.
+/docs/aldeia-da-mata/analysis-*/**/*.png
+/docs/aldeia-da-mata/analysis-*/**/*.jpg
+/docs/aldeia-da-mata/analysis-*/**/*.tif
+/docs/aldeia-da-mata/analysis-*/**/*.pgw

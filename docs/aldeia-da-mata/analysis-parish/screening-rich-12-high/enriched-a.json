@@ -1,0 +1,49 @@
+{
+  "cases": [
+    {
+      "case": "R01",
+      "imagesInspected": ["hillshade-045", "hillshade-135", "hillshade-315", "local-relief", "support", "hillshade-225", "slope", "sky-view-factor", "terrain-context", "aerial-patch", "aerial-context", "point-classes"],
+      "visibleGeometry": "A broad, gently sloping central surface lies between two irregular drainage or erosion lines. Small rough patches and isolated knolls occur along the western edge. A sharply raised, angular mass sits near the southeast corner; aerial imagery shows exposed rock there. No coherent enclosure or platform is apparent.",
+      "alternatives": "The angular mass and scattered bumps are consistent with exposed bedrock and boulders. Edge lines resemble natural runoff channels; faint linear marks may be paths or land-use traces.",
+      "supportLimits": "Most central cells are measured, with scattered interpolation. Terrain smoothing and tree cover limit fine shape interpretation; the aerial view and point-class overlay do not establish a built feature.",
+      "followUp": "none",
+      "candidates": []
+    },
+    {
+      "case": "R02",
+      "imagesInspected": ["hillshade-045", "hillshade-135", "hillshade-315", "local-relief", "support", "hillshade-225", "slope", "sky-view-factor", "terrain-context", "aerial-patch", "aerial-context", "point-classes"],
+      "visibleGeometry": "Several narrow, branching incisions converge just below the patch centre and continue south. Small irregular protrusions occur beside the eastern branch and lower margins. The surrounding slopes are smooth to lightly rippled, without a clear bounded, level or symmetrical feature.",
+      "alternatives": "The branching form and vegetated aerial corridor support drainage and erosion. Small protrusions could be rocks, tree-root ground effects or erosion remnants; a pale path crosses the western part.",
+      "supportLimits": "The incisions coincide with substantial interpolation, so their sharpness and small adjoining forms need original-return checks before detailed interpretation. The point overlay adds no clear structure class evidence.",
+      "followUp": "none",
+      "candidates": []
+    },
+    {
+      "case": "R03",
+      "imagesInspected": ["hillshade-045", "hillshade-135", "hillshade-315", "local-relief", "support", "hillshade-225", "slope", "sky-view-factor", "terrain-context", "aerial-patch", "aerial-context", "point-classes"],
+      "visibleGeometry": "Closely spaced curved ridges cover the western field; finer parallel rows occupy the eastern planted plot. A boundary track runs north-south near the centre and another crosses east-west in the lower half. A small rounded rise interrupts the rows in the northeast quadrant.",
+      "alternatives": "The repeated ridges and straight plot edges indicate cultivation or earthworks tied to current land use. The isolated rise could be bedrock, a spoil pile, a tree-associated mound or grading disturbance.",
+      "supportLimits": "Most cells are measured; some boundary and rise-edge cells are interpolated. The aerial image shows active planting and vegetation around the rise, limiting ground interpretation. The point overlay does not resolve its origin.",
+      "followUp": "low",
+      "candidates": [
+        {
+          "feature": "Small rounded rise amid planted rows",
+          "pixelCentre": [280, 87],
+          "pixelBox": [251, 59, 309, 121],
+          "confidence": "low",
+          "nextCheck": "Inspect original ground returns and field imagery for a real bounded rise, then compare with cultivation and bedrock patterns.",
+          "evidenceLayers": ["hillshade-045", "hillshade-135", "hillshade-315", "hillshade-225", "local-relief", "slope", "sky-view-factor", "aerial-patch"]
+        }
+      ]
+    },
+    {
+      "case": "R04",
+      "imagesInspected": ["hillshade-045", "hillshade-135", "hillshade-315", "local-relief", "support", "hillshade-225", "slope", "sky-view-factor", "terrain-context", "aerial-patch", "aerial-context", "point-classes"],
+      "visibleGeometry": "A largely smooth open surface is crossed by a faint north-south track. Several small, separate rounded or jagged protrusions flank it, with a larger irregular rise in the northwest quadrant. The wider view shows many similar outcrops around the patch, rather than a coherent bounded arrangement.",
+      "alternatives": "Aerial imagery shows pale exposed stone at the protrusions, consistent with bedrock or boulders. The line is a visible track; small depressions and humps may reflect natural rock weathering or passage.",
+      "supportLimits": "Ground support is predominantly measured. The imagery and point-class overlay do not demonstrate structures, and small forms may be altered by terrain smoothing; original returns would be needed for any stronger reading.",
+      "followUp": "none",
+      "candidates": []
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "cases": [
+    {
+      "case": "R05",
+      "imagesInspected": ["hillshade-045", "hillshade-135", "hillshade-315", "local-relief", "support", "hillshade-225", "slope", "sky-view-factor", "terrain-context", "aerial-patch", "aerial-context", "point-classes"],
+      "visibleGeometry": "A group of sharp, irregular raised forms occupies the northeast quarter, with isolated smaller knobs to the west and south. Most of the patch is smooth, gently sloping ground. Tracks cross the southeast and run just outside the eastern edge. No continuous bank, enclosure or level platform is clear.",
+      "alternatives": "The raised forms coincide with exposed pale rocks in the aerial image and similar rocky groups nearby. Minor pits and streaks may reflect vegetation, grazing, tracks or terrain interpolation around rock edges.",
+      "supportLimits": "Measured support dominates, but interpolation clusters around the sharpest outcrops. The RGB image and class overlay show surface context, not age or purpose. The missing terrain beside the nearby water body lies outside the patch.",
+      "followUp": "none",
+      "candidates": []
+    },
+    {
+      "case": "R06",
+      "imagesInspected": ["hillshade-045", "hillshade-135", "hillshade-315", "local-relief", "support", "hillshade-225", "slope", "sky-view-factor", "terrain-context", "aerial-patch", "aerial-context", "point-classes"],
+      "visibleGeometry": "A branching, irregular north–south incision crosses the centre, with a small missing-data pocket near its lower end. The west side has rounded slopes and a few short ridges; the east side has rough ground and nearly horizontal narrow bands. The watercourse continues well beyond the patch.",
+      "alternatives": "The incision follows a vegetated drainage line in the aerial images. East-side bands could be cultivation, erosion or tracks. Isolated bumps coincide with rocky or vegetated ground; no closed or repeated structural arrangement is clear.",
+      "supportLimits": "Interpolation follows much of the narrow channel and rough patches, while the southern pocket is missing. Channel-edge shapes may therefore be smoothed or distorted. The aerial image helps identify drainage but does not date the bands.",
+      "followUp": "none",
+      "candidates": []
+    },
+    {
+      "case": "R07",
+      "imagesInspected": ["hillshade-045", "hillshade-135", "hillshade-315", "local-relief", "support", "hillshade-225", "slope", "sky-view-factor", "terrain-context", "aerial-patch", "aerial-context", "point-classes"],
+      "visibleGeometry": "The centre is smooth open ground with a broad, weakly raised lobe or shallow slope change in the southwest half. Small irregular knobs occur near the north edge and at the south edge. A faint track cuts diagonally across the northern part; another lies near the east edge. No sharp perimeter or regular internal divisions appear.",
+      "alternatives": "The broad relief may be an ordinary natural knoll or drainage-side undulation. Pale aerial patches correspond to scattered exposed stone; linear traces align with current tracks. The subtle lobe lacks a coherent constructed outline.",
+      "supportLimits": "Ground support is mostly measured, with scattered interpolation around stones and southern rough ground. The lobe is low contrast across derivatives and has no distinct boundary, so its precise extent is uncertain.",
+      "followUp": "none",
+      "candidates": []
+    },
+    {
+      "case": "R08",
+      "imagesInspected": ["hillshade-045", "hillshade-135", "hillshade-315", "local-relief", "support", "hillshade-225", "slope", "sky-view-factor", "terrain-context", "aerial-patch", "aerial-context", "point-classes"],
+      "visibleGeometry": "An irregular but continuous east–west break in slope arcs across the lower middle of the patch. The ground north of it is rougher and more finely textured, while the south is smoother with broad shallow undulations. Scattered small knobs lie mainly north of the break; no enclosed outline appears.",
+      "alternatives": "The break closely follows the present unpaved road and tree line in the aerial image. The adjacent relief could reflect road cutting, drainage and natural slope change. Small knobs may be rocks or tree-related terrain artefacts.",
+      "supportLimits": "Interpolation concentrates along the road and around several northern trees, limiting fine interpretation of the break. It continues beyond the patch in both directions. The point-class image adds no clear structural class pattern here.",
+      "followUp": "none",
+      "candidates": []
+    }
+  ]
+}

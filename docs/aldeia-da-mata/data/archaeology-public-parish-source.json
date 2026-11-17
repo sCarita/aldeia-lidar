@@ -1,0 +1,58 @@
+{
+  "checked": "2026-11-16T18:36:28.785Z",
+  "search": {
+    "url": "https://arqueologia.patrimoniocultural.pt/index.php?sid=sitios",
+    "method": "POST",
+    "parameters": {
+      "isnewsearch": "1",
+      "isclearsearch": "0",
+      "concelho": "1796",
+      "freguesia": "5444",
+      "s": ""
+    },
+    "count": 6,
+    "sha256": "97653c5ad3ce2e543b6802f74a72ce510f7c0f2e1a633aebaf05c4f3df97a468"
+  },
+  "results": [
+    {
+      "cns": 5817,
+      "name": "Aldeia da Mata",
+      "url": "https://arqueologia.patrimoniocultural.pt/index.php?sid=sitios&subsid=51630"
+    },
+    {
+      "cns": 761,
+      "name": "Anta da Aldeia da Mata/ Tapadão 1/Couto dos Pucarinhos",
+      "url": "https://arqueologia.patrimoniocultural.pt/index.php?sid=sitios&subsid=54036"
+    },
+    {
+      "cns": 39925,
+      "name": "Clara Domingas",
+      "url": "https://arqueologia.patrimoniocultural.pt/index.php?sid=sitios&subsid=3623847"
+    },
+    {
+      "cns": 8491,
+      "name": "Coito da Ola",
+      "url": "https://arqueologia.patrimoniocultural.pt/index.php?sid=sitios&subsid=53266"
+    },
+    {
+      "cns": 1064,
+      "name": "Lage do Ouro",
+      "url": "https://arqueologia.patrimoniocultural.pt/index.php?sid=sitios&subsid=47577"
+    },
+    {
+      "cns": 12478,
+      "name": "Tapadão 2",
+      "url": "https://arqueologia.patrimoniocultural.pt/index.php?sid=sitios&subsid=55561"
+    }
+  ],
+  "unlocated": {
+    "cns": 5817,
+    "name": "Aldeia da Mata",
+    "url": "https://arqueologia.patrimoniocultural.pt/index.php?sid=sitios&subsid=51630",
+    "parish": "Aldeia da Mata",
+    "position": null,
+    "type": "Achado(s) Isolado(s)",
+    "period": "Romano",
+    "positionNote": "The public record cannot be located on the map; no position is inferred from the village name."
+  }
+}

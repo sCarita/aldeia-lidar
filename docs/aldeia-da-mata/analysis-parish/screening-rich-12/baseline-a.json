@@ -1,0 +1,110 @@
+{
+  "cases": [
+    {
+      "case": "R01",
+      "imagesInspected": [
+        "hillshade-045",
+        "hillshade-135",
+        "hillshade-315",
+        "local-relief",
+        "support"
+      ],
+      "visibleGeometry": "Broad smooth central slope is flanked by irregular shallow drainage. A sharply bounded, roughly polygonal raised form lies at the lower right, with a fairly level top and steep edges. A faint diagonal track or break crosses the upper left.",
+      "alternatives": "The polygonal form could be a modern tank, stockpile, quarry remnant or engineered platform. Drainage and small bumps may be natural erosion or vegetation-related surface noise.",
+      "supportLimits": "Most of the form appears measured, with interpolated patches around its margins. Its sharp outline and flatness need source-return and present-day imagery checks.",
+      "followUp": "medium",
+      "candidates": [
+        {
+          "feature": "Angular flat-topped raised form",
+          "pixelCentre": [
+            336,
+            335
+          ],
+          "pixelBox": [
+            300,
+            302,
+            368,
+            374
+          ],
+          "confidence": "medium",
+          "nextCheck": "Inspect original ground returns, cross-sections and recent imagery for a modern engineered object.",
+          "evidenceLayers": [
+            "hillshade-045",
+            "hillshade-135",
+            "hillshade-315",
+            "local-relief",
+            "support"
+          ]
+        }
+      ]
+    },
+    {
+      "case": "R02",
+      "imagesInspected": [
+        "hillshade-045",
+        "hillshade-135",
+        "hillshade-315",
+        "local-relief",
+        "support"
+      ],
+      "visibleGeometry": "Several narrow incisions converge near the centre and continue toward the lower edge. Low rounded terrain occupies both sides; the right side has irregular small bumps and short parallel marks. The strongest linear forms follow the drainage network.",
+      "alternatives": "Natural runoff erosion, tracks or field drainage could explain the lines; small bumps may reflect vegetation, stones or processing noise.",
+      "supportLimits": "The central incision has substantial interpolated ground, especially near the convergence. Its apparent edges and depth are unreliable without original returns.",
+      "followUp": "none",
+      "candidates": []
+    },
+    {
+      "case": "R03",
+      "imagesInspected": [
+        "hillshade-045",
+        "hillshade-135",
+        "hillshade-315",
+        "local-relief",
+        "support"
+      ],
+      "visibleGeometry": "Dense, regularly spaced curved ridges cover the left field; finer nearly horizontal ridges cover the right. A strong north-south field edge separates them, and another straight edge crosses the lower right. A few isolated small rises lie in the right field.",
+      "alternatives": "Cultivation or terracing, field boundaries and agricultural disturbance explain the regular spacing and alignment. Isolated rises may be rocks, spoil or vegetation artifacts.",
+      "supportLimits": "Most field surfaces are measured. The north-south boundary and lower-right edge include interpolated cells, so small discontinuities there need source-return confirmation.",
+      "followUp": "none",
+      "candidates": []
+    },
+    {
+      "case": "R04",
+      "imagesInspected": [
+        "hillshade-045",
+        "hillshade-135",
+        "hillshade-315",
+        "local-relief",
+        "support"
+      ],
+      "visibleGeometry": "Mostly smooth ground contains scattered small rounded rises. The most pronounced is near the upper left, with a narrow line extending south. A loose cluster of smaller bumps lies near the centre-right, and another pair near the lower centre. No continuous enclosure or broad platform is clear.",
+      "alternatives": "Rocks, shrubs or tree-root mounds, spoil and modern ground disturbance could produce these rises. The narrow line could be a path or survey/processing artifact.",
+      "supportLimits": "The bumps are mostly on measured model cells, but their sizes are small and individual return patterns are unverified. Image relief alone cannot establish whether they are constructed.",
+      "followUp": "low",
+      "candidates": [
+        {
+          "feature": "Small isolated rise with adjacent linear mark",
+          "pixelCentre": [
+            143,
+            64
+          ],
+          "pixelBox": [
+            115,
+            43,
+            167,
+            94
+          ],
+          "confidence": "low",
+          "nextCheck": "Inspect original ground returns and current aerial imagery for rock, vegetation or recent disturbance.",
+          "evidenceLayers": [
+            "hillshade-045",
+            "hillshade-135",
+            "hillshade-315",
+            "local-relief",
+            "support"
+          ]
+        }
+      ]
+    }
+  ]
+}

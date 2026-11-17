@@ -1,0 +1,5 @@
+# Preserve checksummed CSV exports, including their standard CRLF line endings.
+*.csv -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+
+# Preserve the official response verbatim: its source hash includes whitespace.
+docs/aldeia-da-mata/data/archaeology-public-map-source.json -text -whitespace
