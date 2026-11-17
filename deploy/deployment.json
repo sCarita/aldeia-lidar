@@ -1,0 +1,51 @@
+{
+  "date": "2026-11-17",
+  "sshHost": "home.one",
+  "hostname": "saraivitas-00",
+  "deploymentDirectory": "/home/solid/services/lidar",
+  "url": "https://saraivitas-00.tailca6b6.ts.net/lidar/aldeia-da-mata/surface.html",
+  "container": "aldeia-lidar-web-1",
+  "image": "aldeia-lidar:local",
+  "remoteImageId": "sha256:18d43b22946f8f37b9e9367e9d4f35dec43f978aa302962f98181737ecf5ae2c",
+  "nginxVersion": "1.30.6",
+  "baseImage": "nginx@sha256:583b7f2fce1cdb8da5ad5c39ebd3c33b98b87d493190e548bdee1fa8c619c311",
+  "status": "deployed-and-validated",
+  "checks": {
+    "containerHealthy": true,
+    "loopbackBinding": "127.0.0.1:8766",
+    "nginxUser": true,
+    "readOnlyRoot": true,
+    "readOnlyDocsMount": true,
+    "restartPolicy": "unless-stopped",
+    "tailscaleHttps": true,
+    "existingRoutesPreserved": true,
+    "existingFunnelSettingsPreserved": true,
+    "byteIdenticalHttpResources": 61,
+    "range206": true,
+    "browserDetailedTerrain": true,
+    "browserVillageVegetationTiles": "9/9",
+    "browserBuildingsTiles": "8/8",
+    "browserNdviColours": true,
+    "browserAerial3dTiles": "14/14",
+    "browserConsoleErrors": 0,
+    "completeArchivePresent": true,
+    "allExpectedFilesSizeMatch": true,
+    "entryRedirectKeepsHttps": true,
+    "dockerEnabledAtBoot": true,
+    "tailscaleEnabledAtBoot": true
+  },
+  "configurationHashes": {
+    "Dockerfile": "531e60243c80f1cbf3e26dedd7013d38d556057f53f18670ed0966bad8c5224f",
+    "compose.yaml": "942ec68f21327b4d9ced307cc05003019f1726e7913294aaa0045700ba59c9f3",
+    ".dockerignore": "3f8cabe1d82e09c2d2d47d58d98ed000a35dd5aa12697e140b2de2a3e092b1ae",
+    "deploy/nginx.conf": "39c86637b72e1c6f0e413bc2241ae91837c6bdf07c98515e8ca8f4f2c6918a2e"
+  },
+  "sourceInventory": {
+    "files": 83910,
+    "bytes": 6349607934
+  },
+  "storageNote": "Initial bulk transfer coincided with kernel MMC waits above 240 seconds. Pausing drained the write queue; transfer resumed at 3 MiB/s. No reboot or host kernel/storage setting changes were performed.",
+  "memoryLimitNote": "Host kernel reported memory-limit support absent; Compose limit is not enforced on this host.",
+  "applicationRevision": "2bf5f1b83396b3e3fc5beebd47ee93b63a459cce",
+  "sourcePolicy": "Application code matches the committed revision at deployment start. Concurrent local land-report edits were not copied; original data inventory is fully present."
+}
